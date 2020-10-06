@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:breakfast_sub"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "# ",
+      "PX",
+      "YZ"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:butter"
+      },
+      "P": {
+        "item": "morefood:cooked_sausage"
+      },
+      "X": {
+        "item": "morefood:fried_egg"
+      },
+      "Y": {
+        "item": "morefood:sub_wrapping"
+      },
+      "Z": {
+        "item": "morefood:sub_bun"
+      }
+    },
+    "result": {
+      "item": "morefood:breakfast_sub"
+    }
+  }
+}

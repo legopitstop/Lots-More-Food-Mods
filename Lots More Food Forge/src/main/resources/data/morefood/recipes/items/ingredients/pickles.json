@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VW"
+  ],
+  "key": {
+    "V": {
+      "item": "morefood:bottled_white_wine"
+    },
+    "W": {
+      "item": "morefood:gherkin"
+    }
+  },
+  "result": {
+    "item": "morefood:pickles",
+    "count": 6
+  }
+}

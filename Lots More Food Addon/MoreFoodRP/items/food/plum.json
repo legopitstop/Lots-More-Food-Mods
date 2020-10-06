@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:plum",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "plum",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

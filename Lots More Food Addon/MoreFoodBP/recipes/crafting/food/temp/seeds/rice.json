@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:rice"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:seeds_rice"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:rice", "count": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "morefood:coffee_bush",
+    "morefood:strawberry_bush",
+    "morefood:vanilla_bush",
+    "morefood:tomato_bush",
+    "morefood:raspberry_bush",
+    "morefood:tea_bush",
+    "morefood:grape_bush",
+    "morefood:gherkin_bush",
+    "morefood:pepper_bush"
+  ]
+}

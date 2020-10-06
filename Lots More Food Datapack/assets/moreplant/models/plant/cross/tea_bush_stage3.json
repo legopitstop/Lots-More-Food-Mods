@@ -1,0 +1,6 @@
+{
+    "parent": "moreplant:block/mp_cross",
+    "textures": {
+        "cross": "moreplant:plant/cross/tea_bush/tea_bush_stage3"
+    }
+}

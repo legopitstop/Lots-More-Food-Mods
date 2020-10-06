@@ -1,0 +1,2 @@
+Normal player has '36' open slots any items that exced this limit
+will be dropped or will be deleted

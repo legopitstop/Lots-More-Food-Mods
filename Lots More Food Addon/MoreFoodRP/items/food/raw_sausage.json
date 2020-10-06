@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:raw_sausage",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "raw_sausage",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

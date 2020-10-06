@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/items/block_lemon"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:block_lemon"
+      }
+    },
+    "result": [
+      {"item": "morefood:lemon","count": 9}
+    ]
+  }
+}

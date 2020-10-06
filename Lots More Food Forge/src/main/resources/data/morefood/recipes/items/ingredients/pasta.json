@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "F",
+    "E"
+  ],
+  "key": {
+    "S": {
+      "item": "morefood:salt"
+    },
+    "F": {
+      "item": "morefood:flour"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "morefood:pasta"
+  }
+}

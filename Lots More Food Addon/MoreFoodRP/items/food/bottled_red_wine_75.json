@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:bottled_red_wine_75",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "bottled_red_wine",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

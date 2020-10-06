@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "moreplant:tree_lemon",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "scripts": {
+	    "animate": [ "walk" ]
+	  },
+	  "animations": {
+	    "walk": "controller.animation.tree_lemon"
+	  }
+    },
+	
+	"components": {
+	  "minecraft:type_family": {
+	    "family": [ "tree" ]
+	  },
+	  "minecraft:despawn": {
+	    "filters": {
+		  "all_of": [
+		    { "test": "is_family", "subject": "self", "value": "tree" }
+		  ]
+		}
+	  },
+	  "minecraft:health": {
+	    "value": 1
+	  },
+	  "minecraft:physics": {
+	  }
+	}
+  }
+}

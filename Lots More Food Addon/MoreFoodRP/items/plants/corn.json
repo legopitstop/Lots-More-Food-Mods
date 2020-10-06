@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:corn",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "corn"
+      
+    }
+  }
+}

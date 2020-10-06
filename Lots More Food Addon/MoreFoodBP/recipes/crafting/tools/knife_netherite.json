@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/knife_netherite"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#",
+      "P",
+      "P"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "P": {
+        "item": "minecraft:concrete",
+        "data": 15
+      }
+    },
+    "result": {
+      "item": "morefood:knife_netherite"
+    }
+  }
+}

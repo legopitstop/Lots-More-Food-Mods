@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "moreplant:tree_plum",
+      "materials": {
+        "default": "cow"
+      },
+      "textures": {
+        "default": "textures/plant/tree_plum"
+      },
+      "geometry": {
+        "default": "geometry.cross_plant"
+      },
+      "render_controllers": [ "controller.render.plant" ],
+      "spawn_egg": {
+        "texture": "sapling_plum"
+      }
+    }
+  }
+}

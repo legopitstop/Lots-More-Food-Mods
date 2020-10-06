@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:coffee_beans",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "coffee_beans"
+      
+    }
+  }
+}

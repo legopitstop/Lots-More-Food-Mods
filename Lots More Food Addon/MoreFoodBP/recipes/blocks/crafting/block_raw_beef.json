@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/blocks/block_raw_beef"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:beef"
+      }
+    },
+    "result": [
+      {"item": "morefood:block_raw_beef","count": 1}
+    ]
+  }
+}

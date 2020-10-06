@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:smoothie_raspberry"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:smoothie",
+    "pattern": [
+      "##",
+      "##",
+      "P "
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:raspberry"
+      },
+      "P": {
+        "item": "morefood:empty_tumbler_glass"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:smoothie_raspberry"
+      }
+    ]
+  }
+}

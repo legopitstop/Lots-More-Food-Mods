@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:apple"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:sapling_apple"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:apple", "count": 5
+      }
+    ]
+  }
+}

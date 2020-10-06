@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:jar",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "jar",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

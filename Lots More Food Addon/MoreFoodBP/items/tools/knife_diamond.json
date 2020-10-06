@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:knife_diamond"
+    },
+    "components": {
+			"minecraft:stacked_by_data": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:foil": false,
+			"minecraft:max_damage": 780,
+			"minecraft:use_duration": 1,
+			"minecraft:max_stack_size": 1
+    }
+  }
+}

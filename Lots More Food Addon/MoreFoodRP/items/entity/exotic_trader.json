@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:exotic_trader",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "exotic_trader"
+      
+    }
+  }
+}

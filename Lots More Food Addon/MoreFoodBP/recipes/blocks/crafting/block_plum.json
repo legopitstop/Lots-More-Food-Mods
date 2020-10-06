@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/blocks/block_plum"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:plum"
+      }
+    },
+    "result": [
+      {"item": "morefood:block_plum","count": 1}
+    ]
+  }
+}

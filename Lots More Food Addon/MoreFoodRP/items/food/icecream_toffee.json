@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:icecream_toffee",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "icecream_toffee",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morefood:white_chocolate"
+    }
+  },
+  "result": {
+    "item": "morefood:white_chocolate_block"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/blocks/block_hops"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:hops"
+      }
+    },
+    "result": [
+      {"item": "morefood:block_hops","count": 1}
+    ]
+  }
+}

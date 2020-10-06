@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:red_wine100"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:red_wine",
+    "pattern": [
+      "#",
+      "G"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:bottled_red_wine"
+      },
+      "G": {
+        "item": "morefood:wine_glass"
+      }
+    },
+    "result": [
+      {"item": "morefood:red_wine"},
+      {"item": "morefood:bottled_red_wine_75"}
+    ]
+  }
+}

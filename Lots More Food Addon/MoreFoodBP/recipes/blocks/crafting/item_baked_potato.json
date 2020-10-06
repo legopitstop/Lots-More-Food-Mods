@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/items/block_baked_potato"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:block_baked_potato"
+      }
+    },
+    "result": [
+      {"item": "minecraft:baked_potato","count": 9}
+    ]
+  }
+}

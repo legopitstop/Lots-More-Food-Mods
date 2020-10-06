@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:gherkin",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "gherkin",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

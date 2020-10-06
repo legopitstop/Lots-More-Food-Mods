@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/cod"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 50}, "model": "morefood:item/raw_squid"}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "morefood:chicken_frm_piece"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "morefood:cooked_chicken_piece",
+        "count": 4
+      }
+    ],
+    "result": [
+      {
+        "item": "minecraft:cooked_chicken",
+        "count": 2
+      }
+    ]
+  }
+}

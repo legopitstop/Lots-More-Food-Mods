@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "morefood:meats",
+  "ingredient": {
+    "item": "morefood:raw_sausage"
+  },
+  "result": "morefood:cooked_sausage",
+  "experience": 0.35,
+  "cookingtime": 200
+}

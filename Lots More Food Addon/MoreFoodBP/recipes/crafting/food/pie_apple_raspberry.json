@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:pie_apple_raspberry"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood:pie",
+    "pattern": [
+      "###",
+      "XPX",
+      "XXX"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:apple"
+      },
+      "P": {
+        "item": "morefood:pie_base"
+      },
+      "X": {
+        "item": "morefood:raspberry"
+      }
+    },
+    "result": {
+      "item": "morefood:pie_apple_raspberry"
+    }
+  }
+}

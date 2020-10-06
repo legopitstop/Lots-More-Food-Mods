@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "morefood:block/tomato_bush_stage3"
+    }
+}

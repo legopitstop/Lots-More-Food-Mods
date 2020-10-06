@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:raw_wedges"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " # ",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:potato"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:raw_wedges", "count": 3
+      }
+    ]
+  }
+}

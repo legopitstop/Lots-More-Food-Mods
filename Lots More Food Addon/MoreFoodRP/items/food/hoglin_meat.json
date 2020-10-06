@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:hoglin_meat",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "hoglin_meat",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

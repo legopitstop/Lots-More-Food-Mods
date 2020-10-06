@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:donut_chocolate",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "donut_chocolate",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

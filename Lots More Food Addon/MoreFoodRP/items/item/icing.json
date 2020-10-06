@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:icing",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "icing",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

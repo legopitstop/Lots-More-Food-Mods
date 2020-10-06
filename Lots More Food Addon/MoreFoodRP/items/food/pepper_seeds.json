@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:pepper_seeds",
+      "category": "equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "pepper_seeds",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

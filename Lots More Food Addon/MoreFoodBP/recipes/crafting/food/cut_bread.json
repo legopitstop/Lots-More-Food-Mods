@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:pizza_base"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:bread_loaf"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:cut_bread", "count": 8
+      }
+    ]
+  }
+}

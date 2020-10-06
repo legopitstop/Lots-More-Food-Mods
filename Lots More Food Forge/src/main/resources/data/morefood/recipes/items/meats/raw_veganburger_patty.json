@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morefood:meats",
+  "pattern": [
+    " P ",
+    "FMO",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "F": {
+      "item": "morefood:cornflour"
+    },
+    "M": {
+      "item": "minecraft:red_mushroom"
+    },
+    "O": {
+      "item": "morefood:onion"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "morefood:raw_veganburger_patty",
+    "count": 4
+  }
+}

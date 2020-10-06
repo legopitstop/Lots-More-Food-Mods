@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:tree_olive",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/tree_olive.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+       "minecraft:map_color": "#000000"
+      }
+    }
+}

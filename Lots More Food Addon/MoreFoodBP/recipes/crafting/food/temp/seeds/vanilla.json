@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:vanilla"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:seeds_vanilla"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:vanilla_pod", "count": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "moreplant:bush_raspberry",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:brightness_filter": {
+          "min": 5,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:difficulty_filter": {           
+          "min": "easy",           
+          "max": "hard"         
+        }, 
+        "minecraft:weight": {
+          "default": 10
+        },
+    
+        "minecraft:biome_filter": {
+          "any_of": [
+            { "test": "has_biome_tag", "operator":"==", "value": "forest" },
+            { "test": "has_biome_tag", "operator":"==", "value": "plains" }
+          ]
+        }
+      }
+    ]
+  }
+}

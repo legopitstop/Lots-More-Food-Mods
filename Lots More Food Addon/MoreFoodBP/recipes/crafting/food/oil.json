@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:oil"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      " P "
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:olives"
+      },
+      "P": {
+        "item": "morefood:bottle"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:oil"
+      }
+    ]
+  }
+}

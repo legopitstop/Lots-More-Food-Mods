@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "morefood:raw_rabbit_block"
+  },
+  "result": "morefood:cooked_rabbit_block",
+  "experience": 0.70,
+  "cookingtime": 400
+}

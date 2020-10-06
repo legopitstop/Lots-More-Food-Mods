@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:tomato"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "morefood",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:seeds_tomato"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:tomato", "count": 5
+      }
+    ]
+  }
+}

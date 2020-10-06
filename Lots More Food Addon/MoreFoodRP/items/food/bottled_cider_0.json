@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:bottled_cider_0",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "bottled_cider",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

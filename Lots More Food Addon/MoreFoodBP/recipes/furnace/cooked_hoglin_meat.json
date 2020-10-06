@@ -1,0 +1,12 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "morefood:furnace/cooked_hoglin_meat"
+    },
+
+  "tags": ["furnace", "smoker", "campfire"],
+  "input": "morefood:hoglin_meat",
+  "output": "morefood:cooked_hoglin_meat"
+  }
+}

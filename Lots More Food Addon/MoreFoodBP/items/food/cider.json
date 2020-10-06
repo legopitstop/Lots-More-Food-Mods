@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:cider"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:max_stack_size": 16,
+      
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "poor",
+        "using_converts_to": "morefood:empty_tumbler_glass",
+        "effects": [
+          {
+            "name": "speed",
+            "duration": 20,
+            "amplifier": 2
+          },
+          {
+            "name": "nausea",
+            "duration": 15,
+            "amplifier": 1
+          },
+          {
+            "name": "blindness",
+            "duration": 15,
+            "amplifier": 2
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,475 @@
+﻿#############################################################################
+#		MoreFood Addon by Legopitstop			                            #
+#############################################################################
+pack.name=More Food Resource Pack
+pack.description=Install On Global Packs For More Features! §8Pack by:§6 Lego§epit§rstop
+
+upd.ch=changelog
+upd.version= §ev0.1.3
+changelog.0=͸+ Fixed hamburger recipe
+changelog.1=͸+ Added 0%, 25%, 50%, and 75% Alcohol Bottles
+changelog.2=͸+ Changed up alcohol recipes
+changelog.3=͸+ New chicken nuggets!!! cooked & raw.
+changelog.4=͸+ Removed pizza box (useless)
+changelog.5=͸+ New Items!!
+
+entity.exotic_trader.name=Exotic Trader
+entity.wandering_trader.name=More Food Trader
+
+# compressed blocks
+tile.block_apple.name=Apple Block (#morefood)
+tile.block_banana.name=Banana Block (#morefood)
+tile.block_golden_apple.name=Golden Apple Block (#morefood)
+tile.block_grape.name=Grape Block (#morefood)
+tile.block_hops.name=Hops Block (#morefood)
+tile.block_lemon.name=Lemon Block (#morefood)
+tile.block_olives.name=Olives Block (#morefood)
+tile.block_orange.name=Orange Block (#morefood)
+tile.block_plum.name=Plum Block (#morefood)
+tile.block_raspberry.name=Raspberry Block (#morefood)
+tile.block_strawberry.name=Strawberry Block (#morefood)
+tile.block_baked_potato.name=Baked Potato Block (#morefood)
+tile.block_carrots.name=Carrots Block (#morefood)
+tile.block_potato.name=Potato Block (#morefood)
+tile.block_cookie.name=Cookie Block (#morefood)
+tile.block_dark_chocolate.name=Dark Chocolate Block (#morefood)
+tile.block_milk_chocolate.name=Milk Chocolate Block (#morefood)
+tile.block_white_chocolate.name=White Chocolate Block (#morefood)
+tile.block_cooked_beef.name=Cooked Beef Block (#morefood)
+tile.block_cooked_chicken.name=Cooked Chicken Block (#morefood)
+tile.block_cooked_mutton.name=Cooked Mutton Block (#morefood)
+tile.block_cooked_rabbit.name=Cooked Rabbit Block (#morefood)
+tile.block_cooked_squid.name=Cooked Squid Block (#morefood)
+tile.block_raw_beef.name=Raw Beef Block (#morefood)
+tile.block_raw_chicken.name=Raw Chicken Block (#morefood)
+tile.block_raw_mutton.name=Raw Mutton Block (#morefood)
+tile.block_raw_rabbit.name=Raw Rabbit Block (#morefood)
+tile.block_raw_squid.name=Raw Squid Block (#morefood)
+tile.bush_barley.name=Barley Bush (#morefood)
+tile.bush_coffee.name=Coffee Bush (#morefood)
+tile.bush_corn.name=Corn Bush (#morefood)
+tile.bush_gherkin.name=Gherkin Bush (#morefood)
+tile.bush_grape.name=Grape Bush (#morefood)
+tile.bush_hops.name=Hops Bush (#morefood)
+tile.bush_lettuce.name=Lettuce Bush (#morefood)
+tile.bush_onion.name=Onion Bush (#morefood)
+tile.bush_raspberry.name=Raspberry Bush (#morefood)
+tile.bush_rice.name=Rice Bush (#morefood)
+tile.bush_strawberry.name=Strawberry Bush (#morefood)
+tile.bush_tea.name=Tea Bush (#morefood)
+tile.bush_tomato.name=Tomato Bush (#morefood)
+tile.bush_vanilla.name=Vanilla Bush (#morefood)
+tile.bush_pepper.name=Pepper Bush (#morefood)
+tile.tree_apple.name=Apple Tree Leaves (#morefood)
+tile.tree_banana.name=Banana Tree Leaves (#morefood)
+tile.tree_coconut.name=Coconut Tree Leaves (#morefood)
+tile.tree_lemon.name=Lemon Tree Leaves (#morefood)
+tile.tree_olive.name=Olive Tree Leaves (#morefood)
+tile.tree_orange.name=Orange Tree Leaves (#morefood)
+tile.tree_plum.name=Plum Tree Leaves (#morefood)
+
+# Food
+item.cooked_chicken_piece.name=Cooked Chicken Piece (#morefood)
+item.cooked_wedges.name=Cooked Wedges (#morefood)
+item.pepper.name=Pepper (#morefood)
+item.sparkling_water_bottle.name=Sparkling Water Bottle (#morefood)
+item.chicken_nugget.name=Chicken Nugget (#morefood)
+item.cooked_chicken_nugget.name=Cooked Chicken Nugget (#morefood)
+item.netherite_apple.name=Netherite Apple (#morefood)
+item.cooked_hoglin_meat.name=Cooked Hoglin Meat (#morefood)
+item.hoglin_meat.name=Hoglin Meat (#morefood)
+item.fungus_stew.name=Fungus Stew (#morefood)
+item.nether_cookie.name=Nether Cookie (#morefood)
+item.netherwart_chicken_soup.name=Netherwart Chicken Soup (#morefood)
+item.netherwart_mushroom_soup.name=Netherwart Mushroom Soup (#morefood)
+item.shroomlight_slices.name=Shroomlight Slices (#morefood)
+item.warped_berries.name=Warped Berries (#morefood)
+item.wart_pie.name=Wart Pie (#morefood)
+item.rotten_porkchop.name=Rotten Porkchop (#morefood)
+item.redwhiteblue_cake.name=Red White Blue Cake (#morefood)
+item.rainbow_cake.name=Rainbow Cake (#morefood)
+item.chocolate_cake.name=Chocolate Cake (#morefood)
+item.ketchup.name=Tomato Ketchup (#morefood)
+item.spaghetti.name=Spaghetti (#morefood)
+item.sashimi.name=Sashimi (#morefood)
+item.onigiri.name=Onigiri (#morefood)
+item.americano.name=Americano (#morefood)
+item.bacon.name=Bacon (#morefood)
+item.bacon_egg_muffin.name=Bacon Egg Muffin (#morefood)
+item.bacon_egg_sandwich.name=Bacon Egg Sandwich (#morefood)
+item.bat_meat.name=Bat Meat (#morefood)
+item.beef_sub.name=Beef Sub (#morefood)
+item.blue_cupcake.name=Blue Cupcake (#morefood)
+item.bread_loaf.name=Bread Loaf (#morefood)
+item.breakfast_sub.name=Breakfast Sub (#morefood)
+item.burger_bun.name=Burger Bun (#morefood)
+item.burrito.name=Burrito (#morefood)
+item.butter.name=Butter (#morefood)
+item.cappuccino.name=Cappuccino (#morefood)
+item.cereal.name=Cereal (#morefood)
+item.cheese_bucket.name=Cheese Bucket (#morefood)
+item.cheese_toastie.name=Cheese Toastie (#morefood)
+item.cheese_wedge.name=Cheese Wedge (#morefood)
+item.chicken_fajita.name=Chicken Fajita (#morefood)
+item.chicken_select.name=Chicken Select (#morefood)
+item.chicken_sub.name=Chicken Sub (#morefood)
+item.coconut_meat.name=Coconut Meat (#morefood)
+item.coconut_milk.name=Coconut Milk (#morefood)
+item.cooked_bacon.name=Cooked Bacon (#morefood)
+item.cooked_bat_meat.name=Cooked Bat Meat (#morefood)
+item.cooked_hotdog_sausage.name=Cooked Hotdog Sausage (#morefood)
+item.cooked_sausage.name=Cooked Sausage (#morefood)
+item.cornflour.name=Cornflour (#morefood)
+item.cream_carton.name=Cream Carton (#morefood)
+item.custard.name=Custard (#morefood)
+item.cut_bread.name=Cut Bread (#morefood)
+item.cut_fries.name=Cut Fries (#morefood)
+item.dark_chocolate.name=Dark Chocolate (#morefood)
+item.dough.name=Dough (#morefood)
+item.flour.name=Flour (#morefood)
+item.fried_egg.name=Fried Egg (#morefood)
+item.fried_squid.name=Fried Squid (#morefood)
+item.fries.name=Fries (#morefood)
+item.gelatin.name=Gelatin (#morefood)
+item.hamburger.name=Hamburger (#morefood)
+item.hamburger_patty.name=Hamburger Patty (#morefood)
+item.hops.name=Hops (#morefood)
+item.hot_cocoa.name=Hot Cocoa (#morefood)
+item.hot_coffee.name=Hot Coffee (#morefood)
+item.hot_tea.name=Hot Tea (#morefood)
+item.hotdog.name=Hotdog (#morefood)
+item.hotdog_bun.name=Hotdog Bun (#morefood)
+item.hotdog_sausage.name=Hotdog Sausage (#morefood)
+item.ice_bowl.name=Ice Bowl (#morefood)
+item.jam.name=Jam (#morefood)
+item.jelly_sandwich.name=Jelly Sandwich (#morefood)
+item.kebab.name=Kebab (#morefood)
+item.macchiato.name=Macchiato (#morefood)
+item.milk_carton.name=Milk Carton (#morefood)
+item.milk_chocolate.name=Milk Chocolate (#morefood)
+item.mocha.name=Mocha (#morefood)
+item.muffin_bun.name=Muffin Bun (#morefood)
+item.noodles.name=Noodles (#morefood)
+item.oil.name=Oil (#morefood)
+item.orange_jelly.name=Orange_jelly (#morefood)
+item.pancakes.name=Pancakes (#morefood)
+item.pasta.name=Pasta (#morefood)
+item.pink_cupcake.name=Pink Cupcake (#morefood)
+item.pitta_bread.name=Pitta Bread (#morefood)
+item.pizza.name=Pizza (#morefood)
+item.pizza_base.name=Pizza Base (#morefood)
+item.pizza_slice.name=Pizza Slice (#morefood)
+item.popcorn.name=Popcorn (#morefood)
+item.popcorn_bucket.name=Popcorn Bucket (#morefood)
+item.ramen_noodles.name=Ramen Noodles (#morefood)
+item.raw_hamburger_patty.name=Raw Hamburger Patty (#morefood)
+item.raw_sausage.name=Raw Sausage (#morefood)
+item.raw_squid.name=Raw Squid (#morefood)
+item.raw_veganburger_patty.name=Raw Veganburger Patty (#morefood)
+item.raw_wedges.name=Raw Wedges (#morefood)
+item.rice.name=Rice (#morefood)
+item.rice_pudding.name=Rice Pudding (#morefood)
+item.round_cheese.name=Round Cheese (#morefood)
+item.salt.name=Salt (#morefood)
+item.sausage_egg_muffin.name=Sausage Egg Muffin (#morefood)
+item.sausage_egg_sandwich.name=Sausage Egg Sandwich (#morefood)
+item.sparkling_water_bucket.name=Sparkling Water Bucket (#morefood)
+item.strawberry_jelly.name=Strawberry Jelly (#morefood)
+item.sub_bun.name=Sub Bun (#morefood)
+item.sushi.name=Sushi (#morefood)
+item.taco.name=Taco (#morefood)
+item.tea_leaves.name=Tea Leaves (#morefood)
+item.toast.name=Toast (#morefood)
+item.toffee.name=Toffee (#morefood)
+item.toffee_latte.name=Toffee Latte (#morefood)
+item.tomato_puree.name=Tomato Puree (#morefood)
+item.tortilla.name=Tortilla (#morefood)
+item.turkish_delight.name=Turkish Delight (#morefood)
+item.vanilla_extract.name=Vanilla Extract (#morefood)
+item.vanilla_latte.name=Vanilla Latte (#morefood)
+item.vanilla_pod.name=Vanilla Pod (#morefood)
+item.veganburger.name=Veganburger (#morefood)
+item.veganburger_patty.name=Veganburger Patty (#morefood)
+item.waffle.name=Waffle (#morefood)
+item.wedges_pot.name=Wedges Pot (#morefood)
+item.white_chocolate.name=White Chocolate (#morefood)
+item.yeast.name=Yeast (#morefood)
+
+# Alchohol
+item.beer.name=Beer (#morefood)
+item.cider.name=Cider (#morefood)
+item.red_wine.name=Red Wine (#morefood)
+item.white_wine.name=White Wine (#morefood)
+
+item.bottled_beer.name=Beer Bottle 100% (#morefood)
+item.bottled_cider.name=Cider Bottle 100% (#morefood)
+item.bottled_red_wine.name=Red Wine Bottle 100% (#morefood)
+item.bottled_white_wine.name=White Wine Bottle 100% (#morefood)
+
+item.bottled_beer_75.name=Beer Bottle 75% (#morefood)
+item.bottled_cider_75.name=Cider Bottle 75% (#morefood)
+item.bottled_red_wine_75.name=Red Wine Bottle 75% (#morefood)
+item.bottled_white_wine_75.name=White Wine Bottle 75% (#morefood)
+item.bottled_beer_50.name=Beer Bottle 50% (#morefood)
+item.bottled_cider_50.name=Cider Bottle 50% (#morefood)
+item.bottled_red_wine_50.name=Red Wine Bottle 50% (#morefood)
+item.bottled_white_wine_50.name=White Wine Bottle 50% (#morefood)
+item.bottled_beer_25.name=Beer Bottle 25% (#morefood)
+item.bottled_cider_25.name=Cider Bottle 25% (#morefood)
+item.bottled_red_wine_25.name=Red Wine Bottle 25% (#morefood)
+item.bottled_white_wine_25.name=White Wine Bottle 25% (#morefood)
+item.bottled_beer_0.name=Beer Bottle 0% (#morefood)
+item.bottled_cider_0.name=Cider Bottle 0% (#morefood)
+item.bottled_red_wine_0.name=Red Wine Bottle 0% (#morefood)
+item.bottled_white_wine_0.name=White Wine Bottle 0% (#morefood)
+
+# Donut
+item.donut_chocolate.name=Chocolate Donut (#morefood)
+item.donut_coffee.name=Coffee Donut (#morefood)
+item.donut_golden.name=Golden Donut (#morefood)
+item.donut_iced.name=Iced Donut (#morefood)
+item.donut_pink_ice.name=Pink Iced Donut (#morefood)
+item.donut_plain.name=Plain Donut (#morefood)
+item.donut_strawberry.name=Strawberry Donut (#morefood)
+item.donut_toffee.name=Toffee Donut (#morefood)
+
+# Fruit
+item.banana.name=Banana (#morefood)
+item.grape.name=Grape (#morefood)
+item.lemon.name=Lemon (#morefood)
+item.olives.name=Olives (#morefood)
+item.orange.name=Orange (#morefood)
+item.plum.name=Plum (#morefood)
+item.raspberry.name=Raspberry (#morefood)
+item.strawberry.name=Strawberry (#morefood)
+item.tomato.name=Tomato (#morefood)
+
+# Icecream
+item.ice_bowl.name=Ice Cream Bowl (#morefood)
+item.icecream_banana.name=Banana Ice Cream (#morefood)
+item.icecream_chocolate.name=Chocolate Ice Cream (#morefood)
+item.icecream_cone.name=Ice Cream Cone (#morefood)
+item.icecream_strawberry.name=Strawberry Ice Cream (#morefood)
+item.icecream_toffee.name=Toffee Ice Cream (#morefood)
+item.icecream_vanilla.name=Vanilla Ice Cream (#morefood)
+
+# Icecrush
+item.icecrush_apple.name=Apple Ice Crush (#morefood)
+item.icecrush_apple_raspberry.name=Apple Raspberry Ice Crush (#morefood)
+item.icecrush_icecrush_berry.name=Berry Ice Crush (#morefood)
+item.icecrush_berry.name=Berry Ice Crush (#morefood)
+item.icecrush_grape.name=Grape Ice Crush (#morefood)
+item.icecrush_lemon.name=Lemon Ice Crush (#morefood)
+item.icecrush_melon.name=Melon Ice Crush (#morefood)
+item.icecrush_mixed_fruit.name=Mixed Fruit Ice Crush (#morefood)
+item.icecrush_orange.name=Orange Ice Crush (#morefood)
+item.icecrush_strawberry.name=Strawberry Ice Crush (#morefood)
+
+# Juice
+item.juice_apple.name=Apple Juice (#morefood)
+item.juice_berry.name=Berry Juice (#morefood)
+item.juice_grape.name=Grape Juice (#morefood)
+item.juice_lemon.name=Lemon Juice (#morefood)
+item.juice_melon.name=Melon Juice (#morefood)
+item.juice_mixed_fruit.name=Mixed Fruit Juice (#morefood)
+item.juice_orange.name=Orange Juice (#morefood)
+item.juice_strawberry.name=Strawberry Juice (#morefood)
+item.juice_tomato.name=Tomato Juice (#morefood)
+
+# Milkshake
+item.milkshake_banana.name=Banana Milkshake (#morefood)
+item.milkshake_chocolate.name=Chocolate Milkshake (#morefood)
+item.milkshake_strawberry.name=Strawberry Milkshake (#morefood)
+
+# Pie
+item.pie_apple.name=Apple Pie (#morefood)
+item.pie_apple_raspberry.name=Apple Raspberry Pie (#morefood)
+item.pie_base.name=Pie Base (#morefood)
+item.pie_berry.name=Berry Pie (#morefood)
+item.pie_cheese.name=Cheese Pie (#morefood)
+item.pie_chicken.name=Chicken Pie (#morefood)
+item.pie_chocolate.name=Chocolate Pie (#morefood)
+item.pie_golden_apple.name=Golden Apple Pie (#morefood)
+item.pie_lemon.name=Lemon Pie (#morefood)
+item.pie_plum.name=Plum Pie (#morefood)
+item.pie_pork.name=Pork Pie (#morefood)
+item.pie_steak.name=Steak Pie (#morefood)
+item.pie_strawberry.name=Strawberry Pie (#morefood)
+item.pie_toffee.name=Toffee Pie (#morefood)
+
+# Smoothie
+item.smoothie_banana.name=Banana Smoothie (#morefood)
+item.smoothie_berry.name=Berry Smoothie (#morefood)
+item.smoothie_grape.name=Grape Smoothie (#morefood)
+item.smoothie_mixed_fruit.name=Mixed Fruit Smoothie (#morefood)
+item.smoothie_raspberry.name=Raspberry Smoothie (#morefood)
+item.smoothie_strawberry.name=Strawberry Smoothie (#morefood)
+
+# Soda
+item.soda_apple.name=Apple Soda (#morefood)
+item.soda_berry.name=Berry Soda (#morefood)
+item.soda_grape.name=Grape Soda (#morefood)
+item.soda_lemon.name=Lemon Soda (#morefood)
+item.soda_orange.name=Orange Soda (#morefood)
+item.soda_strawberry.name=Strawberry Soda (#morefood)
+
+# Vegi
+item.corn_on_cob.name=Corn On The Cob (#morefood)
+item.gherkin.name=Gherkin (#morefood)
+item.lettuce.name=Lettuce (#morefood)
+item.onion.name=Onion (#morefood)
+item.pickles.name=Pickles (#morefood)
+
+# Items
+item.sub_wrapper.name=Sub Wrapper (#morefood)
+item.beer_glass.name=Beer Glass (#morefood)
+item.beverage_cup.name=Beverage Cup (#morefood)
+item.bottle.name=Bottle (#morefood)
+item.carton.name=Carton (#morefood)
+item.chicken_select_box.name=Chicken Select Box (#morefood)
+item.cream_carton.name=Cream Carton (#morefood)
+item.empty_icecrush_glass.name=Empty Icecrush Glass (#morefood)
+item.empty_popcorn_bucket.name=Empty Popcorn Bucket (#morefood)
+item.empty_tumbler_glass.name=Empty Tumbler Glass (#morefood)
+item.empty_wedges_pot.name=Empty Wedges Pot (#morefood)
+item.fry_wrapper.name=Fry Wrapper (#morefood)
+item.hot_beverage_cup.name=Hot Beverage Cup (#morefood)
+item.icing.name=Icing (#morefood)
+item.jar.name=Jar (#morefood)
+item.pizza_box_opened.name=Pizza Box Opened (#morefood)
+item.recipe_book.name=Recipe Book (#morefood)
+item.soda_can_empty.name=Soda Can Empty (#morefood)
+item.starch.name=Starch (#morefood)
+item.wine_glass.name=Wine Glass (#morefood)
+
+# moreplants
+item.spawn_egg.entity.moreplant:tree_apple.name=Apple Sapling (#morefood)
+item.spawn_egg.entity.moreplant:tree_banana.name=Banana Sapling (#morefood)
+item.spawn_egg.entity.moreplant:tree_lemon.name=Lemon Sapling (#morefood)
+item.spawn_egg.entity.moreplant:tree_olives.name=Olive Sapling (#morefood)
+item.spawn_egg.entity.moreplant:tree_orange.name=Orange Sapling (#morefood)
+item.spawn_egg.entity.moreplant:tree_plum.name=Plum Sapling (#morefood)
+item.spawn_egg.entity.moreplant:tree_coconut.name=Coconut Sapling (#morefood)
+
+item.spawn_egg.entity.moreplant:bush_coffee.name=Coffee Beans (#morefood)
+item.spawn_egg.entity.moreplant:bush_corn.name=Corn (#morefood)
+item.spawn_egg.entity.moreplant:bush_barley.name=Barley Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_gherkin.name=Gherkin Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_grape.name=Grape Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_hops.name=Hops Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_lettuce.name=Lettuce Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_onion.name=Onion Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_raspberry.name=Raspberry Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_rice.name=Rice Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_strawberry.name=Strawberry Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_tea.name=Tea Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_tomato.name=Tomato Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_vanilla.name=Vanilla Seeds (#morefood)
+item.spawn_egg.entity.moreplant:bush_pepper.name=Pepper Seeds (#morefood)
+
+item.spawn_egg.entity.exotic_trader.name=Exotic Trader Spawn Egg (#morefood)
+
+# tools
+item.knife_netherite.name=Netherite Knife (#morefood)
+item.knife_diamond.name=Diamond Knife (#morefood)
+item.knife_golden.name=Golden Knife (#morefood)
+item.knife_iron.name=Iron Knife (#morefood)
+item.knife_stone.name=Stone Knife (#morefood)
+item.knife_wooden.name=Wooden Knife (#morefood)
+item.wooden_spoon.name=Wooden Spoon (#morefood)
+
+##############################################################################
+##                        How to play More Food                             ##
+##############################################################################
+## icons :shank: :_input_key.use: 
+howtoplay.category.morefood=Morefood Addon
+
+#######################
+## Morefood : Links
+howtoplay.linkmf=Official Links
+howtoplay.linkmf.title=Morefood : Official Links
+howtoplay.linkmf.text.1=Official Downloads:
+howtoplay.linkmf.text.2=https://legopitstop.weebly.com/getmore.html
+howtoplay.linkmf.text.3=Found a bug? Fill out the bug form: https://legopitstop.weebly.com/bug-report-more-food.html
+howtoplay.linkmf.text.4=Want to craft? Check out the recipe page:https://legopitstop.weebly.com/recipes-morefood.html
+howtoplay.linkmf.text.5=Check out some morefood videos! and submitt
+howtoplay.linkmf.text.6=Find the Official Wiki here: https://legopitstop.weebly.com/wiki-morefood.html
+howtoplay.linkmf.text.7= or here: https://minecraft.gamepedia.com/User:Legopitstop/More_Food_Pack
+
+#######################
+## Morefood : General Info
+howtoplay.generalmf=General Info
+howtoplay.generalmf.title=Morefood : General Info
+
+howtoplay.generalmf.text.1=Ever thought that Minecraft needed more food? Then this is your pack! This pack adds more than 50+ Foods. use to replenish those health and hunger points. This pack also includes MorePlants to get the food..
+howtoplay.generalmf.header.1=header 1
+howtoplay.generalmf.text.2=text 2
+howtoplay.generalmf.text.3=text 3
+howtoplay.generalmf.text.4=text 4
+howtoplay.generalmf.header.2=header 2
+howtoplay.generalmf.text.5=text 5
+howtoplay.generalmf.text.6=text 6
+howtoplay.generalmf.header.3=header 3
+howtoplay.generalmf.text.7=text 7
+
+#######################
+## Morefood : FAQ
+howtoplay.mffaq=FAQ
+howtoplay.mffaq.title=Morefood : FAQ
+howtoplay.mffaq.text.1=Want to ask a Question? Go to my discord and comment in the #faq channel. Invite link: https://discord.io/Legopitstop
+howtoplay.mffaq.header.1=MORE FOOD TROUBLESHOOTING
+howtoplay.mffaq.text.2=Bedrock/PE/Windows 10:
+howtoplay.mffaq.text.3=-Did you turn on experimental gameplay?
+howtoplay.mffaq.text.4=-Do you have the resourcepack and behavior pack installed on the world?
+howtoplay.mffaq.text.5=Still didn't help? Try contacting Legopitstop on discord (link above) Discord tag: Legopitstop#4774
+howtoplay.mffaq.header.2=WHERE IS THE CUSTOM CRAFTING TABLE?
+howtoplay.mffaq.text.6=On the bedrock version of the pack their is no custom crafting table, just use a regular crafting table.
+howtoplay.mffaq.header.3=HOW TO ACTIVATE PACK TESTING?
+howtoplay.mffaq.text.7=Pack testing only works on windows 10 (tested on) follow the steps below:
+howtoplay.mffaq.text.8=Turn on pack testing for platable seeds and more!
+howtoplay.mffaq.text.9=1. Go to behavior packs
+howtoplay.mffaq.text.10=2. Select pack and click the gear/settings
+howtoplay.mffaq.text.11=3. Slide the slider to the left until it says "testing -ON"
+howtoplay.mffaq.text.12=4. Do the same for the resource pack.
+howtoplay.mffaq.header.4=WHERE IS THE RECIPE BOOK?
+howtoplay.mffaq.text.13=Minecraft bedrock doesn't support custom items in the recipe book, there are plans to add a custom recipe book, but that will take a lot of time which I don't have for now look in the google doc for recipes.
+howtoplay.mffaq.header.5=WHY IS THE FOOD NOT IN THE CREATIVE INVENTORY?
+howtoplay.mffaq.text.14=Minecraft bedrock doesn't support custom items in the creative inventory. you can use the /function command to easy get the items in creative. Upvote this bug: https://bugs.mojang.com/browse/MCPE-64487
+
+#######################
+# Morefood : Special Foods
+howtoplay.foodmf=Special Foods
+howtoplay.foodmf.title=Morefood : Special Foods
+howtoplay.foodmf.text.1=Some foods have special effects. below are some items that have these effects
+howtoplay.foodmf.header.1=SPECIAL EFFECTS
+howtoplay.foodmf.text.2=Beer
+howtoplay.foodmf.text.3=  1/2:shank:
+howtoplay.foodmf.text.4=  Speed III 00:20
+howtoplay.foodmf.text.5=  Nausia II 00:15
+howtoplay.foodmf.text.6=  Blindness III 00:15
+howtoplay.foodmf.text.7=Cider
+howtoplay.foodmf.text.8=  1/2:shank:
+howtoplay.foodmf.text.9=  Speed III 00:20
+howtoplay.foodmf.text.10=  Nausia II 00:15
+howtoplay.foodmf.text.11=  Blindness III 00:15
+howtoplay.foodmf.text.12=Red Wine
+howtoplay.foodmf.text.13=  1/2:shank:
+howtoplay.foodmf.text.14=  Speed III 00:20
+howtoplay.foodmf.text.15=  Nausia II 00:15
+howtoplay.foodmf.text.16=  Blindness III 00:15
+howtoplay.foodmf.text.17=White Wine
+howtoplay.foodmf.text.18=  1/2:shank:
+howtoplay.foodmf.text.19=  Speed III 00:20
+howtoplay.foodmf.text.20=  Nausia II 00:15
+howtoplay.foodmf.text.21=  Blindness III 00:15
+
+#######################
+# Morefood : Food Nutrution
+howtoplay.nutmf=Food Nutrution
+howtoplay.nutmf.title=Morefood : Food Nutrution
+howtoplay.nutmf.text.1=Some foods have special effects. below are some items that have these effects
+
+howtoplay.nutmf.header.2=FOOD NUTRUTION
+howtoplay.nutmf.text.2=:shank::shank:
+
+#######################

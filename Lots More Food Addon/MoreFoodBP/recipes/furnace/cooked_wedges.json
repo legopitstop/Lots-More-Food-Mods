@@ -1,0 +1,12 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "morefood:furnace/cooked_wedges"
+    },
+
+  "tags": ["furnace", "smoker", "campfire"],
+  "input": "morefood:raw_wedges",
+  "output": "morefood:cooked_wedges"
+  }
+}

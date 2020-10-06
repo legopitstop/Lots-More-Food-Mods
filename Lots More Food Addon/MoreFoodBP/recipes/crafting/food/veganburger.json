@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:veganburger"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#P",
+      "AB",
+      "XC"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:burger_bun"
+      },
+      "P": {
+        "item": "morefood:tomato"
+      },
+      "A": {
+        "item": "morefood:lettuce"
+      },
+      "B": {
+        "item": "morefood:onion"
+      },
+      "C": {
+        "item": "minecraft:pickles"
+      },
+      "X": {
+        "item": "minecraft:veganburger_patty"
+      }
+    },
+    "result": {
+      "item": "morefood:veganburger"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:block_apple",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/block_apple.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+       "minecraft:map_color": "#000000"
+      }
+    }
+}

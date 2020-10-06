@@ -1,0 +1,138 @@
+{
+    "item.general.drink": {
+        "sounds": [
+          {
+            "name": "morefood:item/general/drink1"
+          },
+          {
+            "name": "morefood:item/general/drink2"
+          },
+          {
+            "name": "morefood:item/general/drink3",
+            "volume": 0.35
+          },
+          {
+            "name": "morefood:item/general/drink4",
+            "volume": 0.75
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      },
+      "item.icecrush.drink": {
+        "sounds": [
+          {
+            "name": "morefood:item/icecrush/drink_icecrush1"
+          },
+          {
+            "name": "morefood:item/icecrush/drink_icecrush2"
+          },
+          {
+            "name": "morefood:item/icecrush/drink_icecrush3",
+            "volume": 0.35
+          },
+          {
+            "name": "morefood:item/icecrush/drink_icecrush4",
+            "volume": 0.75
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      },
+      "item.juice.drink": {
+        "sounds": [
+          {
+            "name": "morefood:item/juice/drink_juice1"
+          },
+          {
+            "name": "morefood:item/juice/drink_juice2"
+          },
+          {
+            "name": "morefood:item/juice/drink_juice3",
+            "volume": 0.35
+          },
+          {
+            "name": "morefood:item/juice/drink_juice4",
+            "volume": 0.75
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      },
+      "item.milkshake.drink": {
+        "sounds": [
+          {
+            "name": "morefood:item/milkshake/drink_milkshake1"
+          },
+          {
+            "name": "morefood:item/milkshake/drink_milkshake2"
+          },
+          {
+            "name": "morefood:item/milkshake/drink_milkshake3",
+            "volume": 0.35
+          },
+          {
+            "name": "morefood:item/milkshake/drink_milkshake4",
+            "volume": 0.75
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      },
+      "item.smoothie.drink": {
+        "sounds": [
+          {
+            "name": "morefood:item/smoothie/drink_smoothie1"
+          },
+          {
+            "name": "morefood:item/smoothie/drink_smoothie2"
+          },
+          {
+            "name": "morefood:item/smoothie/drink_smoothie3",
+            "volume": 0.35
+          },
+          {
+            "name": "morefood:item/smoothie/drink_smoothie4",
+            "volume": 0.75
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      },
+      "item.soda.drink": {
+        "sounds": [
+          {
+            "name": "morefood:item/soda/drink_soda1"
+          },
+          {
+            "name": "morefood:item/soda/drink_soda2"
+          },
+          {
+            "name": "morefood:item/soda/drink_soda3",
+            "volume": 0.35
+          },
+          {
+            "name": "morefood:item/soda/drink_soda4",
+            "volume": 0.75
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      },
+      "item.fuzz": {
+        "sounds": [
+          {
+            "name": "morefood:item/soda/fuzz1"
+          },
+          {
+            "name": "morefood:item/soda/fuzz2"
+          }
+        ],
+        "subtitle": "subtitles.item.fuzz"
+      },
+      "item.soda.open": {
+        "sounds": [
+          {
+            "name": "morefood:item/soda/opening1"
+          },
+          {
+            "name": "morefood:item/soda/opening2"
+          }
+        ],
+        "subtitle": "subtitles.item.drink"
+      }
+}

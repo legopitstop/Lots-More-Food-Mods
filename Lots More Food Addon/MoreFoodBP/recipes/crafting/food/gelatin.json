@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:gelatin"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      " P "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:dye",
+        "data": 15
+      },
+      "P": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:gelatin"
+      }
+    ]
+  }
+}

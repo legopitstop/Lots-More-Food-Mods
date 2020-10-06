@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morefood:chocolate_bar",
+  "pattern": [
+    "BBM",
+    "BBS",
+    " L "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "morefood:dark_chocolate"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "morefood:block/glowberries_vines_with_berry"
+  }
+}

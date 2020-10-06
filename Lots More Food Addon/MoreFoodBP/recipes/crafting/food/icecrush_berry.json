@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:icecrush_berry"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:icecrush",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:sweet_berries"
+      },
+      "P": {
+        "item": "morefood:empty_icecrush_glass"
+      },
+      "X": {
+        "item": "minecraft:ice"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:icecrush_berry"
+      }
+    ]
+  }
+}

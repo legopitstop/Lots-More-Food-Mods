@@ -1,0 +1,23 @@
+gamerule sendcommandfeedback false
+tellraw @s {"rawtext":[{"text":"§f<"},{"text":"§6Lot's More Food"},{"text":"§f>"},{"text":"§c Given all item items."}]}
+give @p morefood:beer_glass
+give @p morefood:beverage_cup
+give @p morefood:bottle
+give @p morefood:carton
+give @p morefood:chicken_select_box
+give @p morefood:cream_carton
+give @p morefood:empty_icecrush_glass
+give @p morefood:empty_popcorn_bucket
+give @p morefood:empty_tumbler_glass
+give @p morefood:empty_wedges_pot
+give @p morefood:fry_wrapper
+give @p morefood:hot_beverage_cup
+give @p morefood:icing
+give @p morefood:jar
+give @p morefood:pizza_box_opened
+give @p morefood:recipe_book
+give @p morefood:soda_can_empty
+give @p morefood:starch
+give @p morefood:sub_wrapper
+give @p morefood:wine_glass
+gamerule sendcommandfeedback true

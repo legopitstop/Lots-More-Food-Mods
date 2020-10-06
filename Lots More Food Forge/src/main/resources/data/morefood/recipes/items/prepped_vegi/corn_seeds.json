@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morefood:prepped_vegi",
+  "pattern": [
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "morefood:corn_on_cob"
+    }
+  },
+  "result": {
+    "item": "morefood:corn_seeds",
+    "count": 4
+  }
+}

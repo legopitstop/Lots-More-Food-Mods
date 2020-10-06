@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:muffin_bun",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "muffin_bun",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

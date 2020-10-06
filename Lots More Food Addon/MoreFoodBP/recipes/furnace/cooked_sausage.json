@@ -1,0 +1,12 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "morefood:furnace/cooked_sausage"
+    },
+
+  "tags": ["furnace", "smoker", "campfire"],
+  "input": "morefood:raw_sausage",
+  "output": "morefood:cooked_sausage"
+  }
+}

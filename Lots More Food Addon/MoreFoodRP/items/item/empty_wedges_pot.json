@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:empty_wedges_pot",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "empty_wedges_pot",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

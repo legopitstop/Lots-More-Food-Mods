@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:cheese_bucket"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:max_stack_size": 1,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "low",
+        "using_converts_to": "bucket"
+      }
+    }
+  }
+}

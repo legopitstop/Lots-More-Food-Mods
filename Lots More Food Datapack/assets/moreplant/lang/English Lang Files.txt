@@ -1,0 +1,5 @@
+en_au
+en_ca
+en_gb
+en_nz
+en_us - mine

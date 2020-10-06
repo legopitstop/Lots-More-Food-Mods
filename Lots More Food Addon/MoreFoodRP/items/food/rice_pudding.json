@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:rice_pudding",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "rice_pudding",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

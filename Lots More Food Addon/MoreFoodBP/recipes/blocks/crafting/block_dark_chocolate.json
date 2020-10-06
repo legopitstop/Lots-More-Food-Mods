@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/blocks/block_dark_chocolate"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:dark_chocolate"
+      }
+    },
+    "result": [
+      {"item": "morefood:block_dark_chocolate","count": 1}
+    ]
+  }
+}

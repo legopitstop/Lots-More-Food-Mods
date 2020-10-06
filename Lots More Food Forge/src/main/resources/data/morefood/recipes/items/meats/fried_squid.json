@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "morefood:meats",
+  "ingredient": {
+    "item": "morefood:raw_squid"
+  },
+  "result": "morefood:fried_squid",
+  "experience": 0.35,
+  "cookingtime": 200
+}

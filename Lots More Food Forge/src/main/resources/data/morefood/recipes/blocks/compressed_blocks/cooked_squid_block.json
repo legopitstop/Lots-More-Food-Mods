@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morefood:fried_squid"
+    }
+  },
+  "result": {
+    "item": "morefood:cooked_squid_block"
+  }
+}

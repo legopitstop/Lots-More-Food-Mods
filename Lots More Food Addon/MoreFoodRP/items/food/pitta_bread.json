@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:pitta_bread",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "pitta_bread",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

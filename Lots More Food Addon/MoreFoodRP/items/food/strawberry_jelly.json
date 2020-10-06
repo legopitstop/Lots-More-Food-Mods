@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:strawberry_jelly",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "strawberry_jelly",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

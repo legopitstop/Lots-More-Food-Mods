@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "morefood:blocks/banana_block_top",
+    "side": "morefood:blocks/banana_block"
+  }
+}

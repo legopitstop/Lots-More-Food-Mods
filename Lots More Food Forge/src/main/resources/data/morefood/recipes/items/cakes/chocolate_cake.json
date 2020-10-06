@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morefood:cake",
+  "pattern": [
+    "MIF",
+    "SEC",
+    "CC "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "I": {
+      "item": "morefood:icing"
+    },
+    "F": {
+      "item": "morefood:flour"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "morefood:chocolate_cake"
+  }
+}

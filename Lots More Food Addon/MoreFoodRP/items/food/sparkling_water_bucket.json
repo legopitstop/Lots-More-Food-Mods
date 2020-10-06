@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:sparkling_water_bucket",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "sparkling_water_bucket"
+      
+    }
+  }
+}

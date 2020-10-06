@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:craft/items/block_cookie"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:block_cookie"
+      }
+    },
+    "result": [
+      {"item": "minecraft:cookie","count": 9}
+    ]
+  }
+}

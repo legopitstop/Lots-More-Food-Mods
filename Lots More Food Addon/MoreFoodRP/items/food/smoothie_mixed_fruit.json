@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:smoothie_mixed_fruit",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "smoothie_mixed_fruit",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:ice_bowl",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "ice_bowl",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

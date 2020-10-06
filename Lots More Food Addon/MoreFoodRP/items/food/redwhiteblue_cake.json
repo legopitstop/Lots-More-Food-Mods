@@ -1,0 +1,16 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:redwhiteblue_cake",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "redwhiteblue_cake",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "cake"
+      
+    }
+  }
+}

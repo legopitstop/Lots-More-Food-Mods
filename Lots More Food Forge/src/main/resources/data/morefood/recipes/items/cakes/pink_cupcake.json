@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morefood:cupcake",
+  "pattern": [
+    " D ",
+    "BSV",
+    "IFE"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:pink_dye"
+    },
+    "B": {
+      "item": "morefood:butter"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "V": {
+      "item": "morefood:vanilla_extract"
+    },
+    "I": {
+      "item": "morefood:icing"
+    },
+    "F": {
+      "item": "morefood:flour"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "morefood:pink_cupcake"
+  }
+}

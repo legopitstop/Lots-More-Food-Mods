@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:empty_tumbler_glass",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "empty_tumbler_glass",
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:burrito"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#P",
+      "XY",
+      " Z"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:tortilla"
+      },
+      "P": {
+        "item": "morefood:tomato"
+      },
+      "X": {
+        "item": "morefood:lettuce"
+      },
+      "Y": {
+        "item": "morefood:onion"
+      },
+      "Z": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "result": {
+      "item": "morefood:burrito"
+    }
+  }
+}

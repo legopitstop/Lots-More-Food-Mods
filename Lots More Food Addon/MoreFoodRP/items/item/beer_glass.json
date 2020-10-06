@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:beer_glass",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "beer_glass"
+      
+    }
+  }
+}

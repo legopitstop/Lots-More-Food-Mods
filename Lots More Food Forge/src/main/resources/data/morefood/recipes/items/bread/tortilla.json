@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "morefood:bread",
+  "pattern": [
+    "F",
+    "C",
+    "W"
+  ],
+  "key": {
+    "F": {
+      "item": "morefood:flour"
+    },
+    "C": {
+      "item": "morefood:salt"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "morefood:tortilla"
+  }
+}
