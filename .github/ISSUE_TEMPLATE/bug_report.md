@@ -8,12 +8,8 @@ assignees: legopitstop
 ---
 
 **What Edition of the mod are you using?**
-Bedrock Edition
--Addon
+The Minecraft platform that that issue is taking place:
 
- Java Edition
--Datapack
--Forge Mod
 
 **Describe the bug**
 A clear and concise description of what the bug is.
