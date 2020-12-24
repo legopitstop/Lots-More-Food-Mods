@@ -1,8 +1,9 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "morefood:raw_veganburger_patty"
+    "identifier": "morefood:toast"
     },
     "tags": [ "crafting_table" ],
     "pattern": [

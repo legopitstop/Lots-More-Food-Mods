@@ -1,0 +1,25 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:orange_candy",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "morefood:candy",
+        "frame": 10
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.halloween"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "poor"
+      }
+    }
+  }
+}

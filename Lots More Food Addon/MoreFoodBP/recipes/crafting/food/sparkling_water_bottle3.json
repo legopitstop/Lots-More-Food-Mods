@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shapeless": {
     "description": {
@@ -20,11 +21,6 @@
       {
         "item": "morefood:sparkling_water_bottle",
         "count": 3
-      },
-      {
-        "item": "minecraft:bucket",
-        "data": 0,
-        "count": 1
       }
     ]
   }

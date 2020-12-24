@@ -1,0 +1,41 @@
+V1.1.5 Changelog - pre2
+
+**ONLY WORKS IN BETA 1.16.200.51**
+
++ Added pepper bush textures
++ Fixed MF010 - rices when fully grown they won't drop any items​
++ Added creative hunger item, (creative only item)
++ Added halloween content (Only available if Holiday features is on)
+	*Candy (in all 16 colors)
+	*Candy Corn
+	*Candy Corn Bowl
+	*Cooked pumpkin seeds
+	*Cooked salted pumpkin seeds
+	*Small Pumpkin Pale ( empty, 1, 2, full )
+	*Large Pumpkin Pale ( empty, 1, 2, 3, 4, full )
+	*Ghast Cookie
++ Changed test features settings to Holiday features. 
+	(use this to toggle holiday features, like; halloween, thanksgiving, christmas, etc when they get added.)
++ Fixed any/all errors that came up in the console.
++ Changed crop, bush block names.
++ Fixed block translation names.
++ Removed bush functions as they are no longer needed.
++ Added new give function command /function give/plants_all
++ Thanks to Gouzei for chinese translation key
++ Saplings will grow into trees.
++ Crop plot structures will generate around your world.
++ Fixed resource pack name and description.
++ Removed all entity files, There are no more entities!
++ Removed trader as plants now generate around the world.
++ Fixed apple block.
++ Using bonemeal on crops, bushes, saplings will now remove one item from the stack.
++ Changed plants blockstates
++ Fixed barley taking more bonemeal to add stage compared to the other 8 stage crops
++ Bushes will remove one bonemeal on the last growth stage.
++ Trees/saplings will now destory any block that gets in the way, This is until tree features
+	are added for sapling blocks, ie; executing for blocks around to decide if it should generate.
++ Added palm sapling and tree
++ Corn crop will now drop corn seeds
++ Structure Changes
+	+ Cleaned up generation, will not replace some blocks
+	+ Loot chests now use a loot table.

@@ -1,0 +1,216 @@
+{
+	"credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cake_block",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [14, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [14, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [14, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [15, 15], "uv_size": [-14, -14]},
+								"down": {"uv": [15, 15], "uv_size": [-14, -14]}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.cake_block_slice1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block_slice1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [12, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [12, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [12, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [13, 15], "uv_size": [-12, -14]},
+								"down": {"uv": [13, 15], "uv_size": [-12, -14]}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.cake_block_slice2",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block_slice2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [10, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [10, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [10, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [11, 15], "uv_size": [-10, -14]},
+								"down": {"uv": [11, 15], "uv_size": [-10, -14]}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.cake_block_slice3",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block_slice3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [8, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [8, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [8, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [9, 15], "uv_size": [-8, -14]},
+								"down": {"uv": [9, 15], "uv_size": [-8, -14]}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.cake_block_slice4",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block_slice4",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [6, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [6, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [6, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [7, 15], "uv_size": [-6, -14]},
+								"down": {"uv": [7, 15], "uv_size": [-6, -14]}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.cake_block_slice5",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block_slice5",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [4, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [4, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [4, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [5, 15], "uv_size": [-4, -14]},
+								"down": {"uv": [5, 15], "uv_size": [-4, -14]}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.cake_block_slice6",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "cake_block_slice6",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [2, 8, 14],
+							"uv": {
+								"north": {"uv": [1, 8], "uv_size": [2, 8]},
+								"east": {"uv": [1, 8], "uv_size": [14, 8]},
+								"south": {"uv": [1, 8], "uv_size": [2, 8]},
+								"west": {"uv": [1, 8], "uv_size": [14, 8]},
+								"up": {"uv": [3, 15], "uv_size": [-2, -14]},
+								"down": {"uv": [3, 15], "uv_size": [-2, -14]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

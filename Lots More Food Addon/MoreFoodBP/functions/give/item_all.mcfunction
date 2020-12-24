@@ -14,8 +14,6 @@ give @p morefood:fry_wrapper
 give @p morefood:hot_beverage_cup
 give @p morefood:icing
 give @p morefood:jar
-give @p morefood:pizza_box_opened
-give @p morefood:recipe_book
 give @p morefood:soda_can_empty
 give @p morefood:starch
 give @p morefood:sub_wrapper

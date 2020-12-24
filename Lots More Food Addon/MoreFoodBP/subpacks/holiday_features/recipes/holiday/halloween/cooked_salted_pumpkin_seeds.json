@@ -1,0 +1,32 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morefood:cooked_salted_pumpkin_seeds"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "group": "halloween",
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:cooked_pumpkin_seeds"
+      },
+      "X": {
+        "item": "morefood:salt"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:cooked_salted_pumpkin_seeds",
+        "count": 8
+      }
+    ]
+  }
+}

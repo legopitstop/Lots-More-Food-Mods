@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "morefood:acacia_barn_rice_structure"
+    },
+    "structure_name": "morefood:acacia_barn_rice",
+    "adjustment_radius": 8,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {}
+    }
+  }
+}

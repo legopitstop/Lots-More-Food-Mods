@@ -1,0 +1,25 @@
+gamerule sendCommandFeedback true
+tellraw @s {"rawtext":[{"text":"§f<"},{"text":"§6Lot's More Food"},{"text":"§f>"},{"text":"§c Given all tool items."}]}
+give @p morefood:onion_seeds
+give @p morefood:lettuce_seeds
+give @p morefood:hops_seeds
+give @p morefood:grape_seeds
+give @p morefood:gherkin_seeds
+give @p morefood:barley_seeds
+give @p morefood:vanilla_seeds
+give @p morefood:tomato_seeds
+give @p morefood:tea_seeds
+give @p morefood:strawberry_seeds
+give @p morefood:rice_seeds
+give @p morefood:raspberry_seeds
+give @p morefood:coffee_beans
+give @p morefood:pepper_seeds
+give @p morefood:corn
+#give @p morefood:palm_sapling
+give @p morefood:apple_sapling
+give @p morefood:banana_sapling
+give @p morefood:lemon_sapling
+give @p morefood:olive_sapling
+give @p morefood:orange_sapling
+give @p morefood:plum_sapling
+gamerule sendCommandFeedback true

@@ -1,0 +1,60 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:netherite_apple",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "morefood:netherite_apple"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:foil": false,
+  
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "instant_health",
+            "chance": 1.0,
+            "duration": 60, // 1:00
+            "amplifier": 1 // instant_health II
+          },
+          {
+            "name": "resistance",
+            "chance": 1.0,
+            "duration": 240, // 4:00
+            "amplifier": 0
+          },
+          {
+            "name": "absorption",
+            "chance": 1.0,
+            "duration": 240, // 4:00
+            "amplifier": 3 // absorption IV
+          },
+          {
+            "name": "strength",
+            "chance": 1.0,
+            "duration": 240, // 4:00
+            "amplifier": 1 // strength II
+          },
+          {
+            "name": "haste",
+            "chance": 1.0,
+            "duration": 240, // 4:00
+            "amplifier": 2 // haste III
+          }
+        ]
+      }
+    }
+  }
+}

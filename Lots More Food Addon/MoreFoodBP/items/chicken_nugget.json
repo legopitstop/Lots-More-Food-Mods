@@ -1,0 +1,25 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:chicken_nugget",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": {
+        "texture": "morefood:chicken_nugget"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 0.865,
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": "poor"
+      }
+    }
+  }
+}

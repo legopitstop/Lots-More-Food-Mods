@@ -1,0 +1,33 @@
+{
+  "note": "This will replace the block with the new updated one.",
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:onion_block"
+    },
+    "components": {
+      "minecraft:destroy_time": 0,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:on_player_placing": {
+        "event": "lps:block_updater"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          1,1
+        ],
+        "on_tick": {
+          "event": "lps:block_updater",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "lps:block_updater": {
+        "set_block": {
+          "block_type": "morefood:onion_crop"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,9 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_furnace": {
     "description": {
-    "identifier": "morefood:furnace/veganburger_patty"
+    "identifier": "morefood:furnace/cheese_toastie"
     },
 
   "tags": ["furnace", "smoker", "campfire"],

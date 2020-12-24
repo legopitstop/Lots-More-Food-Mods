@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
@@ -25,7 +26,7 @@
       }
     },
     "result": {
-      "item": "morefood:ssusage_egg_sandwich"
+      "item": "morefood:sausage_egg_sandwich"
     }
   }
 }

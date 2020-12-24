@@ -1,0 +1,11 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "morefood:grape_bush_feature"
+    },
+    "places_block": "morefood:grape_bush",
+    "enforce_placement_rules": true,
+    "enforce_survivability_rules": true
+  }
+}

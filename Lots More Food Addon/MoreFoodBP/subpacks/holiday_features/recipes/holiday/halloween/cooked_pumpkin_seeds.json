@@ -1,0 +1,16 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "morefood:cooked_pumpkin_seeds"
+    },
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire"
+    ],
+    "input": "minecraft:pumpkin_seeds",
+    "output": "morefood:cooked_pumpkin_seeds"
+  }
+}

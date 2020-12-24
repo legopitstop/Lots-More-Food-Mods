@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
@@ -24,7 +25,7 @@
         "item": "minecraft:sugar"
       },
       "Z": {
-        "item": "morefood:bucket",
+        "item": "minecraft:bucket",
         "data": 8
       },
       "A": {

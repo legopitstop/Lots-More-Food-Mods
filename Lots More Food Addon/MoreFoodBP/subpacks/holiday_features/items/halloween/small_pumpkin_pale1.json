@@ -1,0 +1,32 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:small_pumpkin_pale1",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.halloween"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:small_pumpkin_pale",
+        "frame": 1
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:max_stack_size": 1,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "using_converts_to": {
+          "item": "morefood:empty_small_pumpkin_pale"
+        }
+      },
+      "minecraft:block_placer": {
+        "block": "morefood:small_pumpkin_pale1_block"
+      }
+    }
+  }
+}

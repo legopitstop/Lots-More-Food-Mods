@@ -1,0 +1,66 @@
+{
+    format_version: 1,
+    size: [5, 2, 5],
+    structure: {
+        block_indices: [
+            [0, 1, 1, 1, 0, -1, 2, 2, 2, -1, 1, 3, 1, 0, 0, 2, -1, 2, -1, -1, 1, 1, 1, 0, 0, 2, 2, 2, -1, -1, 1, 1, 0, 0, 0, 2, 2, -1, -1, 4, 1, 0, 0, 0, 0, 2, -1, -1, -1, -1],
+            [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+        ],
+        entities: [],
+        palette: {
+            default: {
+                block_palette: [
+                    {
+                        name: "minecraft:grass",
+                        states: {},
+                        version: 17825808
+                    },
+                    {
+                        name: "minecraft:farmland",
+                        states: {
+                            moisturized_amount: 7
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:lettuce_crop",
+                        states: {
+                            "morefood:stage": 3
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "minecraft:water",
+                        states: {
+                            liquid_depth: 0
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "minecraft:chest",
+                        states: {
+                            facing_direction: 5
+                        },
+                        version: 17825808
+                    }
+                ],
+                block_position_data: {
+                    39: {
+                        block_entity_data: {
+                            Findable: 0b,
+                            Items: [],
+                            LootTable: "loot_tables/morefood/chests/small_lettuce_plot.json",
+                            LootTableSeed: 0L,
+                            id: "Chest",
+                            isMovable: 1b,
+                            x: -57,
+                            y: 5,
+                            z: -18
+                        }
+                    }
+                }
+            }
+        }
+    },
+    structure_world_origin: [-60, 4, -22]
+}

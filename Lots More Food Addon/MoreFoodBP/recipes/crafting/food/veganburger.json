@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
@@ -24,10 +25,10 @@
         "item": "morefood:onion"
       },
       "C": {
-        "item": "minecraft:pickles"
+        "item": "morefood:pickles"
       },
       "X": {
-        "item": "minecraft:veganburger_patty"
+        "item": "morefood:veganburger_patty"
       }
     },
     "result": {

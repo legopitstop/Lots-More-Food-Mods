@@ -1,0 +1,5 @@
+
+A little info on snbt files
+Snbt files are basicly viewable mcstructure files, 
+However Minecraft cannot load these files and must be .mcstructure files.
+I recomend download a nbt viewer to convert/view mcstructue file or files like this.

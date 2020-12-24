@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
@@ -21,7 +22,7 @@
         "item": "morefood:fried_egg"
       },
       "Y": {
-        "item": "morefood:sub_wrapping"
+        "item": "morefood:sub_wrapper"
       },
       "Z": {
         "item": "morefood:sub_bun"

@@ -1,0 +1,23 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:empty_large_pumpkin_pale",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.halloween"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:large_pumpkin_pale",
+        "frame": 0
+      },
+      "minecraft:block_placer": {
+        "block": "morefood:empty_large_pumpkin_pale_block"
+      }
+    }
+  }
+}

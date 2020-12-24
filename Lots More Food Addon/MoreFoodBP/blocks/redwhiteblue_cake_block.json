@@ -1,0 +1,414 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:redwhiteblue_cake_block",
+      "properties": {
+        "morefood:slice": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "components": {
+      "minecraft:block_light_absorption": 0,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:destroy_time": 0.3,
+      "minecraft:on_player_placing": {
+        "event": "0"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('morefood:slice') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block",
+          "minecraft:on_interact": {
+            "event": "1"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7,0,-7],
+            "size": [14,8,14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7,0,-7],
+            "size": [14,8,14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block_slice1",
+          "minecraft:on_interact": {
+            "event": "2"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7, 0, -7],
+						"size": [12, 8, 14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7, 0, -7],
+						"size": [12, 8, 14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_inner",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block_slice2",
+          "minecraft:on_interact": {
+            "event": "3"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7, 0, -7],
+						"size": [10, 8, 14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7, 0, -7],
+						"size": [10, 8, 14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_inner",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block_slice3",
+          "minecraft:on_interact": {
+            "event": "4"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7, 0, -7],
+						"size": [8, 8, 14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7, 0, -7],
+						"size": [8, 8, 14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_inner",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block_slice4",
+          "minecraft:on_interact": {
+            "event": "5"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7, 0, -7],
+						"size": [6, 8, 14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7, 0, -7],
+						"size": [6, 8, 14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_inner",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block_slice5",
+          "minecraft:on_interact": {
+            "event": "6"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7, 0, -7],
+						"size": [4, 8, 14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7, 0, -7],
+						"size": [4, 8, 14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_inner",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 6",
+        "components": {
+          "minecraft:geometry": "geometry.cake_block_slice6",
+          "minecraft:on_interact": {
+            "event": "morefood:air"
+          },
+          "minecraft:pick_collision": {
+            "origin": [-7, 0, -7],
+						"size": [2, 8, 14]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-7, 0, -7],
+						"size": [2, 8, 14]
+          },
+          "minecraft:material_instances": {
+            "north": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "morefood:redwhiteblue_cake_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "morefood:redwhiteblue_cake_inner",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "morefood:redwhiteblue_cake_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "morefood:redwhiteblue_cake_bottom",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "0": {
+        "set_block_property": {
+          "morefood:slice": 0
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "1": {
+        "set_block_property": {
+          "morefood:slice": 1
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "2": {
+        "set_block_property": {
+          "morefood:slice": 2
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "3": {
+        "set_block_property": {
+          "morefood:slice": 3
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "4": {
+        "set_block_property": {
+          "morefood:slice": 4
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "5": {
+        "set_block_property": {
+          "morefood:slice": 5
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "6": {
+        "set_block_property": {
+          "morefood:slice": 6
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      },
+      "morefood:air": {
+        "set_block": {
+          "block_type": "air"
+        },
+        "play_sound": {
+          "sound": "random.burp",
+          "target": "self"
+        }
+      }
+    }
+  }
+}

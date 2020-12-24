@@ -1,0 +1,17 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:block_raw_squid",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/morefood/blocks/raw_squid_block.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+       "minecraft:map_color": "#000000"
+      }
+    }
+}

@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
@@ -12,7 +13,7 @@
     ],
     "key": {
       "#": {
-        "item": "morefood:raw_potato_wedges"
+        "item": "morefood:raw_wedges"
       },
       "P": {
         "item": "morefood:empty_wedges_pot"

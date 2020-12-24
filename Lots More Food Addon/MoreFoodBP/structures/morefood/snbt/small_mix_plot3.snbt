@@ -1,0 +1,101 @@
+{
+    format_version: 1,
+    size: [5, 2, 5],
+    structure: {
+        block_indices: [
+            [0, 1, 1, 1, -1, 0, 2, 2, 3, -1, 1, 4, 1, -1, -1, 5, 0, 6, -1, -1, 1, 1, 1, -1, -1, 7, 8, 6, -1, -1, 1, 1, -1, -1, -1, 5, 5, -1, -1, 9, 1, -1, -1, -1, -1, 7, -1, -1, -1, -1],
+            [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+        ],
+        entities: [],
+        palette: {
+            default: {
+                block_palette: [
+                    {
+                        name: "minecraft:air",
+                        states: {},
+                        version: 17825808
+                    },
+                    {
+                        name: "minecraft:farmland",
+                        states: {
+                            moisturized_amount: 7
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:rice_crop",
+                        states: {
+                            "morefood:stage": 3
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:onion_crop",
+                        states: {
+                            "morefood:stage": 3
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "minecraft:water",
+                        states: {
+                            liquid_depth: 0
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:corn_crop",
+                        states: {
+                            "morefood:stage": 7
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:lettuce_crop",
+                        states: {
+                            "morefood:stage": 3
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:barley_crop",
+                        states: {
+                            "morefood:stage": 7
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "morefood:hops_crop",
+                        states: {
+                            "morefood:stage": 7
+                        },
+                        version: 17825808
+                    },
+                    {
+                        name: "minecraft:chest",
+                        states: {
+                            facing_direction: 5
+                        },
+                        version: 17825808
+                    }
+                ],
+                block_position_data: {
+                    39: {
+                        block_entity_data: {
+                            Findable: 0b,
+                            Items: [],
+                            LootTable: "loot_table/morefood/chest/small_mix_plot.json",
+                            LootTableSeed: 0L,
+                            id: "Chest",
+                            isMovable: 1b,
+                            x: -57,
+                            y: 5,
+                            z: -12
+                        }
+                    }
+                }
+            }
+        }
+    },
+    structure_world_origin: [-60, 4, -16]
+}

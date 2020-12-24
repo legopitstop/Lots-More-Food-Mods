@@ -1,0 +1,24 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:banana_leaves",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:unit_cube": {},
+      "minecraft:loot": "loot_tables/morefood/blocks/banana_leaves.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "morefood:banana_leaves",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
@@ -18,7 +19,7 @@
         "item": "morefood:onion"
       },
       "X": {
-        "item": "minecraft:cooked_sausage"
+        "item": "morefood:cooked_sausage"
       },
       "Y": {
         "item": "minecraft:cooked_chicken"

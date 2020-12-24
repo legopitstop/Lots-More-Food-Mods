@@ -1,10 +1,13 @@
 {
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "morefood:cereal"
+      "identifier": "morefood:cereal"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "#",
       "P",
@@ -23,10 +26,10 @@
     },
     "result": [
       {
-      "item": "morefood:cereal"
+        "item": "morefood:cereal"
       },
       {
-        "itme": "morefood:carton"
+        "item": "morefood:carton"
       }
     ]
   }
