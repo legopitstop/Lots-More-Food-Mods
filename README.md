@@ -13,7 +13,7 @@ You can find the more food faq via the wiki. Go to [Wiki/FAQ](https://github.com
 
 
 ## Like Lot's More Food?
-Like lot's more food and all it has to offor? Want it to keep reciving updates? Consider helping out by dotating. Donateing Lets us know that you love what this mod has to offor, but keeping all the editions up-to-date is a time enucing task (expecially for one person). Thank You.
+Like lot's more food and all it has to offer? Want it to keep receiving updates? Consider helping out by donating. Donating Lets us know that you love what this mod has to offer, but keeping all the editions up-to-date is a very time-consuming task (especially for one person). Thank You.
 
 [Patreon](https://www.patreon.com/Legopitstop)
 
