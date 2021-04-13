@@ -1,4 +1,4 @@
-# [Legopitstop's Common License v2](https://legopitstop.weebly.com/legopitstops-common-license.html "Go to legopitstop.weebly.com")
+# [Legopitstop's Common License v2](https://legopitstop.weebly.com/legopitstops-common-license-v2.html "Go to legopitstop.weebly.com")
 
 The following applies to all Legopitstop's materials, unless stated.
 ## **You are free to:**
