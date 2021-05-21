@@ -1,0 +1,34 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:ramen_noodles"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "# X",
+      "YZA"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:corn"
+      },
+      "X": {
+        "item": "morefood:noodles"
+      },
+      "Y": {
+        "item": "minecraft:egg"
+      },
+      "Z": {
+        "item": "minecraft:bowl"
+      },
+      "A": {
+        "item": "minecraft:cooked_chicken"
+      }
+    },
+    "result": {
+      "item": "morefood:ramen_noodles"
+    }
+  }
+}

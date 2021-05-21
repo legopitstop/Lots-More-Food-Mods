@@ -1,0 +1,27 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:white_wine100"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:white_wine",
+    "pattern": [
+      "#",
+      "G"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:bottled_white_wine"
+      },
+      "G": {
+        "item": "morefood:wine_glass"
+      }
+    },
+    "result": [
+      {"item": "morefood:white_wine"},
+      {"item": "morefood:bottled_white_wine_75"}
+    ]
+  }
+}

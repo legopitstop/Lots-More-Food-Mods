@@ -2,47 +2,46 @@
 #		      MoreFood Addon by Legopitstop			                        #
 #             Translator: mtripg6666tdr                                     #
 #############################################################################
+# https://gist.github.com/mtripg6666tdr/748b6f2776460f5596bfd4ae0d17fde3
+
 upd.ch=changelog
-upd.version= §ev1.1.6 - dev
-changelog.0=͸+ すべての食べ物ブロックを書きなおしました.
-changelog.1=͸+ すべての食べ物ブロックはピストンで壊せます
-changelog.2=͸
-changelog.3=͸
-changelog.4=͸
-changelog.5=͸
-# Item Groups
-itemGroup.name.knife=ナイフ
-# Compressed Blocks
-tile.morefood:apple_block.name=リンゴブロック (#morefood)
-tile.morefood:banana_block.name=バナナブロック (#morefood)
-tile.morefood:golden_apple_block.name=金リンゴブロック (#morefood)
-tile.morefood:grape_block.name=グレープブロック (#morefood)
-tile.morefood:hops_block.name=ホップブロック (#morefood)
-tile.morefood:lemon_block.name=レモンブロック (#morefood)
-tile.morefood:olive_block.name=オリーブブロック (#morefood)
-tile.morefood:orange_block.name=オレンジブロック (#morefood)
-tile.morefood:plum_block.name=プラムブロック (#morefood)
-tile.morefood:raspberry_block.name=ラズベリーブロック (#morefood)
-tile.morefood:strawberry_block.name=ストロベリーブロック (#morefood)
-tile.morefood:baked_potato_block.name=焼きポテトブロック (#morefood)
-tile.morefood:carrot_block.name=ニンジンブロック (#morefood)
-tile.morefood:potato_block.name=じゃがいもブロック (#morefood)
-tile.morefood:cookie_block.name=クッキーブロック (#morefood)
-tile.morefood:dark_chocolate_block.name=ダークチョコレートブロック (#morefood)
-tile.morefood:milk_chocolate_block.name=ミルクチョコレートブロック (#morefood)
-tile.morefood:white_chocolate_block.name=ホワイトチョコレートブロック (#morefood)
-tile.morefood:cooked_beef_block.name=調理した牛肉ブロック (#morefood)
-tile.morefood:cooked_chicken_block.name=調理した鶏肉ブロック (#morefood)
-tile.morefood:cooked_mutton_block.name=調理した羊肉ブロック (#morefood)
-tile.morefood:cooked_rabbit_block.name=調理した兎肉ブロック (#morefood)
-tile.morefood:cooked_squid_block.name=調理したイカブロック (#morefood)
-tile.morefood:beef_block.name=牛肉ブロック (#morefood)
-tile.morefood:chicken_block.name=チキンブロック (#morefood)
-tile.morefood:mutton_block.name=羊肉ブロック (#morefood)
-tile.morefood:rabbit_block.name=兎肉ブロック (#morefood)
-tile.morefood:squid_block.name=イカブロック (#morefood)
-tile.morefood:tomato_block.name=トマトブロック (#morefood)
-# May remove?
+upd.version= §ev1.1.5 - pre2
+changelog.0=͸+ コショウの低木のテクスチャの追加.
+changelog.1=͸+ MF010​の修正
+changelog.2=͸+ クリエイティブハンガーアイテムの追加 (クリエイティブのみのアイテム)
+changelog.3=͸+ ハロウィーンコンテンツの追加
+changelog.4=͸+ ホリデー機能のテスト機能の設定の変更.
+changelog.5=͸+ 苗木は木に成長します.
+
+# compressed blocks
+tile.morefood:block_apple.name=リンゴブロック (#morefood)
+tile.morefood:block_banana.name=バナナブロック (#morefood)
+tile.morefood:block_golden_apple.name=金リンゴブロック (#morefood)
+tile.morefood:block_grape.name=グレープブロック (#morefood)
+tile.morefood:block_hops.name=ホップブロック (#morefood)
+tile.morefood:block_lemon.name=レモンブロック (#morefood)
+tile.morefood:block_olives.name=オリーブブロック (#morefood)
+tile.morefood:block_orange.name=オレンジブロック (#morefood)
+tile.morefood:block_plum.name=プラムブロック (#morefood)
+tile.morefood:block_raspberry.name=ラズベリーブロック (#morefood)
+tile.morefood:block_strawberry.name=ストロベリーブロック (#morefood)
+tile.morefood:block_baked_potato.name=焼きポテトブロック (#morefood)
+tile.morefood:block_carrots.name=ニンジンブロック (#morefood)
+tile.morefood:block_potato.name=じゃがいもブロック (#morefood)
+tile.morefood:block_cookie.name=クッキーブロック (#morefood)
+tile.morefood:block_dark_chocolate.name=ダークチョコレートブロック (#morefood)
+tile.morefood:block_milk_chocolate.name=ミルクチョコレートブロック (#morefood)
+tile.morefood:block_white_chocolate.name=ホワイトチョコレートブロック (#morefood)
+tile.morefood:block_cooked_beef.name=調理した牛肉ブロック (#morefood)
+tile.morefood:block_cooked_chicken.name=調理した鶏肉ブロック (#morefood)
+tile.morefood:block_cooked_mutton.name=調理した羊肉ブロック (#morefood)
+tile.morefood:block_cooked_rabbit.name=調理した兎肉ブロック (#morefood)
+tile.morefood:block_cooked_squid.name=調理したイカブロック (#morefood)
+tile.morefood:block_raw_beef.name=生の牛肉ブロック (#morefood)
+tile.morefood:block_raw_chicken.name=生の鶏肉ブロック (#morefood)
+tile.morefood:block_raw_mutton.name=生の羊肉ブロック (#morefood)
+tile.morefood:block_raw_rabbit.name=生の兎肉ブロック (#morefood)
+tile.morefood:block_raw_squid.name=生のイカブロック (#morefood)
 tile.morefood:apple_leaves.name=リンゴの木の葉 (#morefood)
 tile.morefood:banana_leaves.name=バナナの木の葉 (#morefood)
 tile.morefood:coconut_leaves.name=ココナッツの木の葉 (#morefood)
@@ -145,11 +144,11 @@ item.morefood:pizza_slice=ピザ片 (#morefood)
 item.morefood:popcorn=ポップコーン (#morefood)
 item.morefood:popcorn_bucket=ポップコーンバケツ (#morefood)
 item.morefood:ramen_noodles=ラーメン (#morefood)
-item.morefood:raw_hamburger_patty=ハンバーガーのパティ (#morefood)
-item.morefood:raw_sausage=ソーセージ (#morefood)
-item.morefood:raw_squid=イカ (#morefood)
-item.morefood:raw_veganburger_patty=ビーガンバーガーのパティ (#morefood)
-item.morefood:raw_wedges=ウェッジ (#morefood)
+item.morefood:raw_hamburger_patty=生のハンバーガーのパティ (#morefood)
+item.morefood:raw_sausage=生のソーセージ (#morefood)
+item.morefood:raw_squid=生のイカ (#morefood)
+item.morefood:raw_veganburger_patty=生のビーガンバーガーのパティ (#morefood)
+item.morefood:raw_wedges=生のウェッジ (#morefood)
 item.morefood:rice=米 (#morefood)
 item.morefood:rice_pudding=ミルク粥 (#morefood)
 item.morefood:round_cheese=丸いチーズ (#morefood)
@@ -193,17 +192,14 @@ item.morefood:bottled_beer_75=ビールボトル(75%) (#morefood)
 item.morefood:bottled_cider_75=リンゴ酒ボトル(75%) (#morefood)
 item.morefood:bottled_red_wine_75=赤ワインボトル(75%) (#morefood)
 item.morefood:bottled_white_wine_75=白ワインボトル(75%) (#morefood)
-
 item.morefood:bottled_beer_50=ビールボトル(50%) (#morefood)
 item.morefood:bottled_cider_50=リンゴ酒ボトル(50%) (#morefood)
 item.morefood:bottled_red_wine_50=赤ワインボトル(50%) (#morefood)
 item.morefood:bottled_white_wine_50=白ワインボトル(50%) (#morefood)
-
 item.morefood:bottled_beer_25=ビールボトル(25%) (#morefood)
 item.morefood:bottled_cider_25=リンゴ酒ボトル(25%) (#morefood)
 item.morefood:bottled_red_wine_25=赤ワインボトル(25%) (#morefood)
 item.morefood:bottled_white_wine_25=白ワインボトル(25%) (#morefood)
-
 item.morefood:bottled_beer_0=ビールボトル(0%) (#morefood)
 item.morefood:bottled_cider_0=リンゴ酒ボトル(0%) (#morefood)
 item.morefood:bottled_red_wine_0=赤ワインボトル(0%) (#morefood)
@@ -299,7 +295,7 @@ item.morefood:soda_lemon=レモンソーダ (#morefood)
 item.morefood:soda_orange=オレンジソーダ (#morefood)
 item.morefood:soda_strawberry=ストロベリーソーダ (#morefood)
 
-# Vegis
+# Vegi
 item.morefood:corn_on_cob=軸付きトウモロコシ (#morefood)
 item.morefood:gherkin=ミニキュウリ (#morefood)
 item.morefood:lettuce=レタス (#morefood)
@@ -329,7 +325,7 @@ item.morefood:starch=スターチ (#morefood)
 item.morefood:wine_glass=ワイングラス (#morefood)
 item.morefood:coconut=ココナッツ (#morefood)
 
-# Plants
+# moreplants
 item.morefood:apple_sapling=リンゴの苗木 (#morefood)
 item.morefood:banana_sapling=バナナの苗木 (#morefood)
 item.morefood:lemon_sapling=レモンの苗木 (#morefood)
@@ -457,38 +453,14 @@ howtoplay.nutmf.text.1=Some foods have special effects. below are some items tha
 
 howtoplay.nutmf.header.2=FOOD NUTRUTION
 howtoplay.nutmf.text.2=:shank::shank:
+
 #######################
 
-# Holiday Feature Foods
+# Holiday
 item.morefood:black_candy=黒のキャンディ
 item.morefood:blue_candy=青のキャンディ
 item.morefood:brown_candy=ブラウンのキャンディ
 item.morefood:cyan_candy=シアンのキャンディ
 item.morefood:gray_candy=グレーのキャンディ
 item.morefood:green_candy=緑のキャンディ
-item.morefood:light_blue_candy=薄い青のキャンディ
-item.morefood:light_gray_candy=薄いグレーのキャンディ
-item.morefood:lime_candy=ライムのキャンディ
-item.morefood:magenta_candy=マゼンタのキャンディ
-item.morefood:orange_candy=オレンジのキャンディ
-item.morefood:pink_candy=ピンクのキャンディ
-item.morefood:purple_candy=紫のキャンディ
-item.morefood:red_candy=赤のキャンディ
-item.morefood:white_candy=白のキャンディ
-item.morefood:yellow_candy=黄のキャンディ
-
-item.morefood:candy_corn=キャンディコーン
-item.morefood:candy_corn_bowl=キャンディコーンのボール
-item.morefood:cooked_pumpkin_seeds=調理したカボチャの種
-item.morefood:cooked_salted_pumpkin_seeds=調理した塩漬けのカボチャの種
-item.morefood:empty_large_pumpkin_pale=空の大きなパンプキンペール
-item.morefood:large_pumpkin_pale1=大きなパンプキンペール
-item.morefood:large_pumpkin_pale2=大きなパンプキンペール
-item.morefood:large_pumpkin_pale3=大きなパンプキンペール
-item.morefood:large_pumpkin_pale4=大きなパンプキンペール
-item.morefood:large_pumpkin_pale5=いっぱいの大きなパンプキンペール
-item.morefood:empty_small_pumpkin_pale=空の小さなパンプキンペール
-item.morefood:small_pumpkin_pale1=小さなパンプキンペール
-item.morefood:small_pumpkin_pale2=小さなパンプキンペール
-item.morefood:small_pumpkin_pale3=いっぱいの小さなパンプキンペール
-item.morefood:ghast_cookie=ガストクッキー
+item.morefood:light_blue

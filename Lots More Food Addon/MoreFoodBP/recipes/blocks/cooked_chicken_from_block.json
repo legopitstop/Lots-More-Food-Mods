@@ -1,0 +1,26 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morefood:cooked_chicken_from_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:cooked_chicken_block"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:cooked_chicken",
+        "count": 9
+      }
+    ]
+  }
+}

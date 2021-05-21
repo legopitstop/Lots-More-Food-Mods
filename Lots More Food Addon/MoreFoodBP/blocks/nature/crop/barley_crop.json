@@ -1,0 +1,275 @@
+{
+  "note": "Encoded to prevent copy cats, If you want help with your addon consider joining Legopitstop's Discord Server: https://discord.io/legopitstop",
+  "format_version": "1.16.201",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:barley_crop",
+      "register_to_creative_menu": false,
+      "properties": {
+        "morefood:stage": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/morefood/blocks/barley.json",
+      "minecraft:geometry": "geometry.template_crop",
+      "minecraft:entity_collision":false,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:breakonpush": true,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "minecraft:farmland"
+            ],
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [360,360],
+        "on_tick": {
+          "event": "morefood:increase_stage",
+          "target": "self"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "morefood:on_interact"
+      },
+      "minecraft:on_fall_on": {
+        "event": "morefood:fall_on_crop",
+        "min_fall_distance": 1
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('morefood:stage') == 0",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,2,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage0",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 1",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,2,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage1",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 2",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,2,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage2",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 3",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,8,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage3",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 4",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,8,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage4",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 5",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,16,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage5",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 6",
+        "components": {
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,16,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage6",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 7",
+        "components": {
+          "minecraft:loot": "loot_tables/morefood/blocks/mature_barley.json",
+          "minecraft:pick_collision": {
+            "origin": [
+              -8,0,-8
+            ],
+            "size": [
+              16,16,16
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:barley_stage7",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "morefood:on_interact": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name =='bone_meal'",
+            "decrement_stack": {},
+            "run_command": {
+              "command": "particle minecraft:crop_growth_emitter ~ ~ ~"
+            },
+            "trigger": {
+              "event": "morefood:increase_stage"
+            }
+          }
+        ]
+      },
+      "morefood:increase_stage": {
+        "sequence": [
+          {
+            "condition": "query.block_property('morefood:stage') == 6",
+            "set_block_property": {
+              "morefood:stage": "7"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 5",
+            "set_block_property": {
+              "morefood:stage": "6"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 4",
+            "set_block_property": {
+              "morefood:stage": "5"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 3",
+            "set_block_property": {
+              "morefood:stage": "4"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 2",
+            "set_block_property": {
+              "morefood:stage": "3"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 1",
+            "set_block_property": {
+              "morefood:stage": "2"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 0",
+            "set_block_property": {
+              "morefood:stage": "1"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

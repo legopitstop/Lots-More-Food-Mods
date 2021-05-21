@@ -1,0 +1,27 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:cider75"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:cider",
+    "pattern": [
+      "#",
+      "G"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:bottled_cider_75"
+      },
+      "G": {
+        "item": "morefood:empty_tumbler_glass"
+      }
+    },
+    "result": [
+      {"item": "morefood:cider"},
+      {"item": "morefood:bottled_cider_50"}
+    ]
+  }
+}

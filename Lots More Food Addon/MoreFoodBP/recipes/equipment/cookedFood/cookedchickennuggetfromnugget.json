@@ -1,0 +1,17 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "morefood:cooked_chicken_nugget_from_cooking"
+    },
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "morefood:chicken_nugget",
+    "output": "morefood:cooked_chicken_nugget"
+  }
+}

@@ -7,11 +7,12 @@
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": {
-        "texture": "morefood:ghast_cookie"
-      },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.halloween"
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:cookie",
+        "frame": 1
       },
       "minecraft:use_animation": "eat",
       "minecraft:use_duration": 1.61,

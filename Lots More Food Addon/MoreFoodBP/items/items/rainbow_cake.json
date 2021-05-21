@@ -1,0 +1,22 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:rainbow_cake",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:cake",
+        "frame": 1
+      },
+      "minecraft:block_placer": {
+        "block": "morefood:rainbow_cake_block"
+      }
+    }
+  }
+}

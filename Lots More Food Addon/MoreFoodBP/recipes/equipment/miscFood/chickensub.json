@@ -1,0 +1,35 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:chicken_sub"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#p",
+      "XY",
+      " Z"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:butter"
+      },
+      "P": {
+        "item": "morefood:lettuce"
+      },
+      "X": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "Y": {
+        "item": "morefood:tomato"
+      },
+      "Z": {
+        "item": "morefood:sub_bun"
+      }
+    },
+    "result": {
+      "item": "morefood:chicken_sub"
+    }
+  }
+}

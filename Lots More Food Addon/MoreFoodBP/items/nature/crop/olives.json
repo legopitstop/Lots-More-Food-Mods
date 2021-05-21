@@ -1,0 +1,24 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:olives",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.crop"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:olives"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "low"
+      }
+    }
+  }
+}

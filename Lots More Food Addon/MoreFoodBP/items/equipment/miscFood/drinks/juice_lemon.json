@@ -1,0 +1,27 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:juice_lemon",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:juice",
+        "frame": 3
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:use_duration": 1.61,
+      "minecraft:max_stack_size": 16,
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": "normal",
+        "using_converts_to": "morefood:empty_tumbler_glass"
+      }
+    }
+  }
+}

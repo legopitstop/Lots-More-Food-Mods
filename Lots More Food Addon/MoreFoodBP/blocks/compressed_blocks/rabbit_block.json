@@ -1,0 +1,22 @@
+{
+  "note": "Encoded to prevent copy cats, If you want help with your addon consider joining Legopitstop's Discord Server: https://discord.io/legopitstop",
+  "format_version": "1.16.200",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:rabbit_block",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/morefood/blocks/rabbit_block.json",
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:breakonpush": true,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "morefood:rabbit_block"
+        }
+      }
+    }
+  }
+}

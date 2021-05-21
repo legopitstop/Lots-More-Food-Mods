@@ -1,0 +1,31 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morefood:cheese_toastie"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#P",
+      " X",
+      " P"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:butter"
+      },
+      "P": {
+        "item": "morefood:toast"
+      },
+      "X": {
+        "item": "morefood:cheese_wedge"
+      }
+    },
+    "result": {
+      "item": "morefood:cheese_toastie"
+    }
+  }
+}

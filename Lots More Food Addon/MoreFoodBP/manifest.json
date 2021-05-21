@@ -5,10 +5,14 @@
         "name": "More Food Behavior Pack",
         "uuid": "ee649bcf-256c-4013-9068-6a802b89d756",
         "version": [
-            1, 1, 5
+            1,
+            6,
+            0
         ],
         "min_engine_version": [
-            1, 16, 1
+            1,
+            16,
+            1
         ]
     },
     "modules": [
@@ -17,7 +21,9 @@
             "type": "data",
             "uuid": "586073da-205f-444e-842c-54b748ef2d08",
             "version": [
-                1, 1, 5
+                1,
+                6,
+                0
             ]
         }
     ],
@@ -26,10 +32,20 @@
             "description": "More Food Resourcepack Needed",
             "uuid": "4e098d16-f6b4-11e9-802a-5aa538984bd8",
             "version": [
-                1, 1, 5
+                1,
+                6,
+                0
             ]
         }
     ],
+    "metadata": {
+        "authors": [
+            "Legopitstop",
+            "Sir_Craftypants"
+        ],
+        "license": "https://legopitstop.weebly.com/legopitstops-common-license.html",
+        "url": "https://legopitstop.weebly.com/"
+    },
     "subpacks": [
         {
             "folder_name": "holiday_features",

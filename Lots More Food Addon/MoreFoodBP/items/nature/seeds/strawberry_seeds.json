@@ -1,0 +1,27 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:strawberry_seeds",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "morefood:seed",
+        "frame": 9
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.seed"
+      },
+      "minecraft:block_placer": {
+        "block": "morefood:strawberry_bush",
+        "on_use": [
+          "minecraft:dirt",
+          "minecraft:grass",
+          "minecraft:podzol"
+        ]
+      }
+    }
+  }
+}

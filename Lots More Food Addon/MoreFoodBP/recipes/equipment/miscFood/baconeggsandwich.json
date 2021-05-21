@@ -1,0 +1,34 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morefood:bacon_egg_sandwich"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#P",
+      "XY",
+      " P"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:butter"
+      },
+      "P": {
+        "item": "morefood:cut_bread"
+      },
+      "X": {
+        "item": "morefood:cooked_bacon"
+      },
+      "Y": {
+        "item": "morefood:fried_egg"
+      }
+    },
+    "result": {
+      "item": "morefood:bacon_egg_sandwich"
+    }
+  }
+}

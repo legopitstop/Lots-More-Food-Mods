@@ -1,0 +1,30 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:donut_strawberry"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:donut",
+    "pattern": [
+      "P",
+      "#",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:donut_plain"
+      },
+      "P": {
+        "item": "morefood:icing"
+      },
+      "X": {
+        "item": "morefood:strawberry"
+      }
+    },
+    "result": {
+      "item": "morefood:donut_strawberry"
+    }
+  }
+}

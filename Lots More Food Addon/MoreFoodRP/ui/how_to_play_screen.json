@@ -3152,58 +3152,6 @@
       "paragraph_1@how_to_play_common.paragraph": {
         "$text": "howtoplay.generalmf.text.1"
       }
-    },
-    { "padding_1@how_to_play_common.padding": {} },
-    {
-      "header_1@how_to_play_common.header": {
-        "$text": "howtoplay.generalmf.header.1"
-      }
-    },
-    {
-      "paragraph_2@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.generalmf.text.2"
-      }
-    },
-    { "padding_2@how_to_play_common.padding": {} },
-    {
-      "paragraph_3@how_to_play_common.paragraph": {
-        "$text": "howtoplay.generalmf.text.3"
-      }
-    },
-    { "padding_3@how_to_play_common.padding": {} },
-    {
-      "paragraph_4@how_to_play_common.paragraph_with_icons": {
-        "line_padding": 0.0,
-        "$text": "howtoplay.generalmf.text.4"
-      }
-    },
-    { "padding_4@how_to_play_common.padding": {} },
-    {
-      "header_2@how_to_play_common.header": {
-        "$text": "howtoplay.generalmf.header.2"
-      }
-    },
-    {
-      "paragraph_5@how_to_play_common.paragraph": {
-        "$text": "howtoplay.generalmf.text.5"
-      }
-    },
-    { "padding_5@how_to_play_common.padding": {} },
-    {
-      "paragraph_6@how_to_play_common.paragraph": {
-        "$text": "howtoplay.generalmf.text.6"
-      }
-    },
-    { "padding_6@how_to_play_common.padding": {} },
-    {
-      "header_3@how_to_play_common.header": {
-        "$text": "howtoplay.generalmf.header.3"
-      }
-    },
-    {
-      "paragraph_7@how_to_play_common.paragraph": {
-        "$text": "howtoplay.generalmf.text.7"
-      }
     }
   ]
 },
@@ -3300,30 +3248,7 @@
       "paragraph_12@how_to_play_common.paragraph": {
         "$text": "howtoplay.mffaq.text.12"
       }
-    },
-    { "padding_5@how_to_play_common.padding": {} },
-    {
-      "header_4@how_to_play_common.header": {
-        "$text": "howtoplay.mffaq.header.4"
-      }
-    },
-    {
-      "paragraph_13@how_to_play_common.paragraph": {
-        "$text": "howtoplay.mffaq.text.13"
-      }
-    },
-    { "padding_6@how_to_play_common.padding": {} },
-    {
-      "header_5@how_to_play_common.header": {
-        "$text": "howtoplay.mffaq.header.5"
-      }
-    },
-    {
-      "paragraph_14@how_to_play_common.paragraph": {
-        "$text": "howtoplay.mffaq.text.14"
-      }
-    },
-    { "padding_7@how_to_play_common.padding": {} }
+    }
   ]
 },
 // morefood : Food Info
@@ -3353,129 +3278,129 @@
     },
     {
       "image_1@how_to_play_common.image": {
-        "texture": "textures/food/alcohol/beer",
+        "texture": "textures/morefood/item/beer",
         "size": [ "100%", "32px" ]
       }
     },
     {
       "paragraph_2@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.2"
+        "$text": "item.morefood:beer"
       }
     },
     {
       "paragraph_3@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.3"
+        "$text": ":1shank:"
       }
     },
     {
       "paragraph_4@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.4"
+        "$text": "item.morefood:beer.effect1"
       }
     },
     {
       "paragraph_5@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.5"
+        "$text": "item.morefood:beer.effect2"
       }
     },
     {
       "paragraph_6@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.6"
+        "$text": "item.morefood:beer.effect3"
       }
     },
     { "padding_2@how_to_play_common.padding": {} },
     {
       "image_2@how_to_play_common.image": {
-        "texture": "textures/food/alcohol/cider",
+        "texture": "textures/morefood/item/cider",
         "size": [ "100%", "32px" ]
       }
     },
     {
       "paragraph_7@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.7"
+        "$text": "item.morefood:cider"
       }
     },
     {
       "paragraph_8@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.8"
+        "$text": ":1shank:"
       }
     },
     {
       "paragraph_9@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.9"
+        "$text": "item.morefood:cider.effect1"
       }
     },
     {
       "paragraph_10@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.10"
+        "$text": "item.morefood:cider.effect2"
       }
     },
     {
       "paragraph_11@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.11"
+        "$text": "hitem.morefood:cider.effect3"
       }
     },
     { "padding_3@how_to_play_common.padding": {} },
     {
       "image_3@how_to_play_common.image": {
-        "texture": "textures/food/alcohol/red_wine",
+        "texture": "textures/morefood/item/red_wine",
         "size": [ "100%", "32px" ]
       }
     },
     {
       "paragraph_12@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.12"
+        "$text": "item.morefood:red_wine"
       }
     },
     {
       "paragraph_13@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.13"
+        "$text": ":1shank:"
       }
     },
     {
       "paragraph_14@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.14"
+        "$text": "item.morefood:red_wine.effect1"
       }
     },
     {
       "paragraph_15@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.15"
+        "$text": "item.morefood:red_wine.effect2"
       }
     },
     {
       "paragraph_16@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.16"
+        "$text": "item.morefood:red_wine.effect3"
       }
     },
     { "padding_4@how_to_play_common.padding": {} },
     {
       "image_4@how_to_play_common.image": {
-        "texture": "textures/food/alcohol/white_wine",
+        "texture": "textures/morefood/item/white_wine",
         "size": [ "100%", "32px" ]
       }
     },
     {
       "paragraph_17@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.17"
+        "$text": "item.morefood:white_wine"
       }
     },
     {
       "paragraph_18@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.18"
+        "$text": ":1shank:"
       }
     },
     {
       "paragraph_19@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.19"
+        "$text": "item.morefood:white_wine.effect1"
       }
     },
     {
       "paragraph_20@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.20"
+        "$text": "item.morefood:white_wine.effect2"
       }
     },
     {
       "paragraph_21@how_to_play_common.paragraph_with_icons": {
-        "$text": "howtoplay.foodmf.text.21"
+        "$text": "item.morefood:white_wine.effect3"
       }
     }
   ]

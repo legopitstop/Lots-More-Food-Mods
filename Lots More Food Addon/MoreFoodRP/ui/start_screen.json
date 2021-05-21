@@ -7,7 +7,7 @@
 		"controls": [
 			{"ico": {"type": "image","texture": "food_icon","size": [15,15]}},
 			{"ver": {"type": "label","text": "§6 More Food"}},
-			{"ver2": {"type": "label","font_scale_factor": 0.5,"text": "upd.version"}}
+			{"ver2": {"type": "label","font_scale_factor": 0.5,"text": "update.version"}}
 		]
 	},
 

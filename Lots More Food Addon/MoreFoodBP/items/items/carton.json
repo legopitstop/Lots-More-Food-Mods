@@ -1,0 +1,18 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:carton",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:carton"
+      }
+    }
+  }
+}

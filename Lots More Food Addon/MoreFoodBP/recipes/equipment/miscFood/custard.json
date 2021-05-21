@@ -1,0 +1,46 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:custard"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#",
+      "PXY",
+      "ABC"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:vanilla_extract"
+      },
+      "P": {
+        "item": "minecraft:egg"
+      },
+      "X": {
+        "item": "morefood:cream_carton"
+      },
+      "Y": {
+        "item": "morefood:cornflour"
+      },
+      "A": {
+        "item": "morefood:milk_carton"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "C": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:custard"
+      },
+      {
+        "item": "morefood:carton", "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:yeast"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " # ",
+      " PX",
+      " Y "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:bucket",
+        "data": 8
+      },
+      "P": {
+        "item": "minecraft:potato"
+      },
+      "X": {
+        "item": "minecraft:sugar"
+      },
+      "Y": {
+        "item": "minecraft:bucket",
+        "data": 10
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:yeast"
+      },
+      {
+        "item": "minecraft:bucket", "count": 2 , "data": 0
+      }
+    ]
+  }
+}

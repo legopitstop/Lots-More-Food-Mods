@@ -1,8 +1,6 @@
 {
   "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
-  "format_version": [
-    1,16,0
-  ],
+  "format_version": "1.16.0",
   "morefood:apple_hanging_fruit": {
     "sound": "wood"
   },
@@ -96,283 +94,89 @@
   "morefood:palm_sapling_block": {
     "sound": "grass"
   },
-  "morefood:block_apple": {
-    "textures": {
-      "up": "morefood:block_apple_top",
-      "down": "morefood:block_apple_bottom",
-      "side": "morefood:block_apple"
-    },
+  "morefood:apple_block": {
     "sound": "wood"
   },
-  "morefood:block_banana": {
-    "textures": {
-      "up": "morefood:block_banana_top",
-      "down": "morefood:block_banana_top",
-      "side": "morefood:block_banana"
-    },
+  "morefood:banana_block": {
     "sound": "wood"
   },
-  "morefood:block_golden_apple": {
-    "textures": {
-      "up": "morefood:block_golden_apple",
-      "down": "morefood:block_golden_apple",
-      "side": "morefood:block_golden_apple"
-    },
+  "morefood:golden_apple_block": {
     "sound": "wood"
   },
-  "morefood:block_grape": {
-    "textures": {
-      "up": "morefood:block_grape_top",
-      "down": "morefood:block_grape_top",
-      "side": "morefood:block_grape"
-    },
+  "morefood:grape_block": {
     "sound": "wood"
   },
-  "morefood:block_hops": {
-    "textures": {
-      "up": "morefood:block_hops_top",
-      "down": "morefood:block_hops_top",
-      "side": "morefood:block_hops"
-    },
+  "morefood:hops_block": {
     "sound": "wood"
   },
-  "morefood:block_lemon": {
-    "textures": {
-      "up": "morefood:block_lemon_top",
-      "down": "morefood:block_lemon_top",
-      "side": "morefood:block_lemon"
-    },
+  "morefood:lemon_block": {
     "sound": "wood"
   },
-  "morefood:block_olives": {
-    "textures": {
-      "up": "morefood:block_olives",
-      "down": "morefood:block_olives",
-      "side": "morefood:block_olives"
-    },
+  "morefood:olive_block": {
     "sound": "wood"
   },
-  "morefood:block_orange": {
-    "textures": {
-      "up": "morefood:block_orange_top",
-      "down": "morefood:block_orange_top",
-      "side": "morefood:block_orange"
-    },
+  "morefood:orange_block": {
     "sound": "wood"
   },
-  "morefood:block_plum": {
-    "textures": {
-      "up": "morefood:block_plum",
-      "down": "morefood:block_plum",
-      "side": "morefood:block_plum"
-    },
+  "morefood:plum_block": {
     "sound": "wood"
   },
-  "morefood:block_raspberry": {
-    "textures": {
-      "up": "morefood:block_raspberry_top",
-      "down": "morefood:block_raspberry_top",
-      "side": "morefood:block_raspberry"
-    },
+  "morefood:raspberry_block": {
     "sound": "wood"
   },
-  "morefood:block_strawberry": {
-    "textures": {
-      "up": "morefood:block_strawberry_top",
-      "down": "morefood:block_strawberry_top",
-      "side": "morefood:block_strawberry"
-    },
+  "morefood:strawberry_block": {
     "sound": "wood"
   },
-  "morefood:block_baked_potato": {
-    "textures": {
-      "up": "morefood:block_baked_potato",
-      "down": "morefood:block_baked_potato",
-      "side": "morefood:block_baked_potato"
-    },
+  "morefood:baked_potato_block": {
     "sound": "wood"
   },
-  "morefood:block_carrots": {
-    "textures": {
-      "up": "morefood:block_carrots_top",
-      "down": "morefood:block_carrots_bottom",
-      "side": "morefood:block_carrots"
-    },
+  "morefood:carrot_block": {
     "sound": "wood"
   },
-  "morefood:block_potato": {
-    "textures": {
-      "up": "morefood:block_potato",
-      "down": "morefood:block_potato",
-      "side": "morefood:block_potato"
-    },
+  "morefood:potato_block": {
     "sound": "wood"
   },
-  "morefood:block_cookie": {
-    "textures": "morefood:block_cookie",
+  "morefood:cookie_block": {
     "sound": "wood"
   },
-  "morefood:block_dark_chocolate": {
-    "textures": "morefood:block_dark_chocolate",
+  "morefood:dark_chocolate_block": {
     "sound": "wood"
   },
-  "morefood:block_milk_chocolate": {
-    "textures": "morefood:block_milk_chocolate",
+  "morefood:milk_chocolate_block": {
     "sound": "wood"
   },
-  "morefood:block_white_chocolate": {
-    "textures": "morefood:block_white_chocolate",
+  "morefood:white_chocolate_block": {
     "sound": "wood"
   },
-  "morefood:block_cooked_beef": {
-    "textures": "morefood:block_cooked_beef",
+  "morefood:cooked_beef_block": {
     "sound": "wood"
   },
-  "morefood:block_cooked_chicken": {
-    "textures": "morefood:block_cooked_chicken",
+  "morefood:cooked_chicken_block": {
     "sound": "wood"
   },
-  "morefood:block_cooked_mutton": {
-    "textures": "morefood:block_cooked_mutton",
+  "morefood:cooked_mutton_block": {
     "sound": "wood"
   },
-  "morefood:block_cooked_rabbit": {
-    "textures": "morefood:block_cooked_rabbit",
+  "morefood:cooked_rabbit_block": {
     "sound": "wood"
   },
-  "morefood:block_cooked_squid": {
-    "textures": "morefood:block_cooked_squid",
+  "morefood:cooked_squid_block": {
     "sound": "wood"
   },
-  "morefood:block_raw_beef": {
-    "textures": "morefood:block_raw_beef",
+  "morefood:beef_block": {
     "sound": "wood"
   },
-  "morefood:block_raw_chicken": {
-    "textures": "morefood:block_raw_chicken",
+  "morefood:chicken_block": {
     "sound": "wood"
   },
-  "morefood:block_raw_mutton": {
-    "textures": "morefood:block_raw_mutton",
+  "morefood:mutton_block": {
     "sound": "wood"
   },
-  "morefood:block_raw_rabbit": {
-    "textures": "morefood:block_raw_rabbit",
+  "morefood:rabbit_block": {
     "sound": "wood"
   },
-  "morefood:block_raw_squid": {
-    "textures": "morefood:block_raw_squid",
+  "morefood:squid_block": {
     "sound": "wood"
-  },
-  "morefood:tree_coconut": {
-    "textures": "morefood:tree_coconut",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:tree_apple": {
-    "textures": "morefood:tree_apple",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:tree_banana": {
-    "textures": "morefood:tree_banana",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:tree_lemon": {
-    "textures": "morefood:tree_lemon",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:tree_olive": {
-    "textures": "morefood:tree_olive",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:tree_orange": {
-    "textures": "morefood:tree_orange",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:tree_plum": {
-    "textures": "morefood:tree_plum",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_barley": {
-    "textures": "morefood:bush_barley",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_coffee": {
-    "textures": "morefood:bush_coffee",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_corn": {
-    "textures": "morefood:bush_corn",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_gherkin": {
-    "textures": "morefood:bush_gherkin",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_grape": {
-    "textures": "morefood:bush_grape",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_hops": {
-    "textures": "morefood:bush_hops",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_lettuce": {
-    "textures": "morefood:bush_lettuce",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_onion": {
-    "textures": "morefood:bush_onion",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_raspberry": {
-    "textures": "morefood:bush_raspberry",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_rice": {
-    "textures": "morefood:bush_rice",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_strawberry": {
-    "textures": "morefood:bush_strawberry",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_tea": {
-    "textures": "morefood:bush_tea",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_tomato": {
-    "textures": "morefood:bush_tomato",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_vanilla": {
-    "textures": "morefood:bush_vanilla",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
-  },
-  "morefood:bush_pepper": {
-    "textures": "morefood:bush_pepper",
-    "brightness_gamma": 0.80,
-    "sound": "grass"
   },
   "morefood:empty_large_pumpkin_pile_block": {
     "sound": "wood"

@@ -1,0 +1,32 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "morefood:icecrush_lemon"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "morefood:icecrush",
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:lemon"
+      },
+      "P": {
+        "item": "morefood:empty_icecrush_glass"
+      },
+      "X": {
+        "item": "minecraft:ice"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:icecrush_lemon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "morefood:netherite_apple",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:icon": {
+        "texture": "morefood:netherite_apple"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "on_consume": {
+          "event": "effects"
+        }
+      }
+    },
+    "events": {
+      "effects": {
+        "sequence": [
+          {
+            "add_mob_effect": {
+              "amplifier": 1,
+              "duration": 60,
+              "effect": "instant_health",
+              "target": "self"
+            }
+          },
+          {
+            "add_mob_effect": {
+              "amplifier": 0,
+              "duration": 240,
+              "effect": "resistance",
+              "target": "self"
+            }
+          },
+          {
+            "add_mob_effect": {
+              "amplifier": 3,
+              "duration": 240,
+              "effect": "absorption",
+              "target": "self"
+            }
+          },
+          {
+            "add_mob_effect": {
+              "amplifier": 1,
+              "duration": 240,
+              "effect": "strength",
+              "target": "self"
+            }
+          },
+          {
+            "add_mob_effect": {
+              "amplifier": 2,
+              "duration": 240,
+              "effect": "haste",
+              "target": "self"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "format_version": "1.16.220",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "morefood:small_plot_random"
+        },
+        "features": [
+          [ "morefood:small_plot_barley1", 3 ],
+          [ "morefood:small_plot_corn1", 3 ],
+          [ "morefood:small_plot_hops1", 3 ],
+          [ "morefood:small_plot_lettuce1", 3 ],
+          [ "morefood:small_plot_onion1", 3 ],
+          [ "morefood:small_plot_rice1", 3 ],
+
+          [ "morefood:small_plot_barley2", 2 ],
+          [ "morefood:small_plot_corn2", 2 ],
+          [ "morefood:small_plot_hops2", 2 ],
+          [ "morefood:small_plot_lettuce2", 2 ],
+          [ "morefood:small_plot_onion2", 2 ],
+          [ "morefood:small_plot_rice2", 2 ],
+
+          [ "morefood:small_plot_barley3", 1 ],
+          [ "morefood:small_plot_corn3", 1 ],
+          [ "morefood:small_plot_hops3", 1 ],
+          [ "morefood:small_plot_lettuce3", 1 ],
+          [ "morefood:small_plot_onion3", 1 ],
+          [ "morefood:small_plot_rice3", 1 ]
+        ]
+    }
+}

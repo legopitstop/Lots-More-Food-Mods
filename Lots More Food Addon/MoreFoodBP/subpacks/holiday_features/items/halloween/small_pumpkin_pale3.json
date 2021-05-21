@@ -8,7 +8,7 @@
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.halloween"
+        "parent": "itemGroup.name.miscFood"
       },
       "minecraft:icon": {
         "texture": "morefood:small_pumpkin_pale",

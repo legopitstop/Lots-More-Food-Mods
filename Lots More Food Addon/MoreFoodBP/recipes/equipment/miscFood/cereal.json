@@ -1,0 +1,36 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morefood:cereal"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#",
+      "P",
+      "X"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:wheat"
+      },
+      "P": {
+        "item": "morefood:milk_carton"
+      },
+      "X": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:cereal"
+      },
+      {
+        "item": "morefood:carton"
+      }
+    ]
+  }
+}

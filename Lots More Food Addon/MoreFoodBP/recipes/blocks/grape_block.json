@@ -1,0 +1,29 @@
+{
+  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
+  "format_version": "1.16.1",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "morefood:grape_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "group": "morefood",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "morefood:grape"
+      }
+    },
+    "result": [
+      {
+        "item": "morefood:grape_block",
+        "count": 1
+      }
+    ]
+  }
+}

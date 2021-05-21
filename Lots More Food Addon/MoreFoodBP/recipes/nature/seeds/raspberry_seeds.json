@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "morefood:raspberry_seeds"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "C"
+        ],
+        "key": {
+            "C": {
+                "item": "morefood:raspberry"
+            }
+        },
+        "result": "morefood:raspberry_seeds"
+    }
+}

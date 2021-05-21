@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.220",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "morefood:barn_acacia_random"
+        },
+        "features": [
+          [ "morefood:barn_acacia_barley", 1 ],
+          [ "morefood:barn_acacia_corn", 1 ],
+          [ "morefood:barn_acacia_hops", 1 ],
+          [ "morefood:barn_acacia_lettuce", 1 ],
+          [ "morefood:barn_acacia_onion", 1 ],
+          [ "morefood:barn_acacia_rice", 1 ]
+        ]
+    }
+}

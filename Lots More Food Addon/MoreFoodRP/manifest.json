@@ -1,29 +1,43 @@
 {
     "format_version": 2,
     "header": {
-        "description": "More Food!\n\u00a78Pack by: \u00a7r\u00a76\u00a7l\u00a7nLego\u00a7e\u00a7l\u00a7npit\u00a7f\u00a7l\u00a7nstop",
+        "description": "More Food!\n§8Pack by: §r§6§l§nLego§e§l§npit§f§l§nstop",
         "name": "More Food Resource Pack",
         "uuid": "4e098d16-f6b4-11e9-802a-5aa538984bd8",
         "version": [
-            1, 1, 5
+            1,
+            6,
+            0
         ],
         "min_engine_version": [
-            1, 16, 1
+            1,
+            16,
+            1
         ]
     },
     "modules": [
         {
-            "description": "More Food!\n\u00a78Pack by: \u00a7r\u00a76\u00a7l\u00a7nLego\u00a7e\u00a7l\u00a7npit\u00a7f\u00a7l\u00a7nstop",
+            "description": "More Food!\n§8Pack by: §r§6§l§nLego§e§l§npit§f§l§nstop",
             "type": "resources",
             "uuid": "f0087188-7e01-47ba-bfd7-275a4f143e84",
             "version": [
-                1, 1, 5
+                1,
+                6,
+                0
             ]
         }
     ],
+    "metadata": {
+        "authors": [
+            "legopitstop",
+            "Sir_Craftypants"
+        ],
+        "license": "https://legopitstop.weebly.com/legopitstops-common-license.html",
+        "url": "https://legopitstop.weebly.com"
+    },
     "subpacks": [
         {
-            "folder_name": "pack",
+            "folder_name": "holiday_features",
             "name": "Holiday Features: §2ON§r",
             "memory_tier": 2
         },
