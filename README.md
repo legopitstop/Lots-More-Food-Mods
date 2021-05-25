@@ -1,7 +1,8 @@
 # Lot's More Food Mods
 
 [![Patreon](https://img.shields.io/badge/Supporters-2-ff5733)](https://www.patreon.com/Legopitstop)
-[![license](https://img.shields.io/badge/license-custom-success)](https://legopitstop.weebly.com/legopitstops-common-license-v2.html)
+[![license](https://img.shields.io/badge/license-custom-844685)](https://legopitstop.weebly.com/legopitstops-common-license-v2.html)
+[![discord](https://img.shields.io/discord/479902284810027008)](https://legopitstop.weebly.com/discord.html)
 
 This Github is for all morefood editions, Java's datapack edition, Forge edition, and Bedrock's addon. If you find an issue submit it
 via the Issues tab so we can get it fixed. If you have a feature requiest also submit it through the Issues tab.
