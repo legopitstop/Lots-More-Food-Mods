@@ -1,8 +1,9 @@
 # Lot's More Food Mods
 
-[![Patreon](https://img.shields.io/badge/Supporters-2-ff5733)](https://www.patreon.com/Legopitstop)
-[![license](https://img.shields.io/badge/license-custom-844685)](https://legopitstop.weebly.com/legopitstops-common-license-v2.html)
-[![discord](https://img.shields.io/discord/479902284810027008)](https://legopitstop.weebly.com/discord.html)
+[![patreon](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flegopitstop%2Fwebsite-files%2Fmain%2Fshields.io%2Fpatreon.json)](https://www.patreon.com/Legopitstop "Go to patreon")
+[![license](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flegopitstop%2Fwebsite-files%2Fmain%2Fshields.io%2Flicense.json)](https://legopitstop.weebly.com/legopitstops-common-license-v2.html "Go to legopitstop.weebly.com")
+[![discord](https://img.shields.io/discord/479902284810027008)](https://legopitstop.weebly.com/discord.html "Go to legopitstop.weebly.com")
+[![github](https://img.shields.io/github/issues-raw/legopitstop/Lots-More-Food-Mods)](https://github.com/legopitstop/Lots-More-Food-Mods/issues "Go to Github")
 
 This Github is for all morefood editions, Java's datapack edition, Forge edition, and Bedrock's addon. If you find an issue submit it
 via the Issues tab so we can get it fixed. If you have a feature requiest also submit it through the Issues tab.
