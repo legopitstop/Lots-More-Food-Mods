@@ -1,2 +1,0 @@
-# DO NOT USE!
-These assets are used only for the [wiki](https://github.com/legopitstop/Lots-More-Food-Mods/wiki)! These files are licensed under [Legopitstop's Common License](https://legopitstop.weebly.com/legopitstops-common-license-v2.html).
