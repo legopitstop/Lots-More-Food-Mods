@@ -1,7 +1,7 @@
 {
     "$schema": "https://cdn.jsdelivr.net/gh/legopitstop/Javascript/libs/Sprite/schema.json",
-    "$id": "https://raw.githubusercontent.com/legopitstop/Lots-More-Food-Mods/main/.github/ASSETS/sprite/spritesheet.json",
-    "file": "https://raw.githubusercontent.com/legopitstop/Lots-More-Food-Mods/main/.github/ASSETS/sprite/spritesheet.png",
+    "$id": "https://raw.githubusercontent.com/legopitstop/Lots-More-Food-Mods/main/recipes/spritesheet.json",
+    "file": "https://raw.githubusercontent.com/legopitstop/Lots-More-Food-Mods/main/recipes/spritesheet.png",
     "height": 32,
     "width": 32,
     "textures": {
