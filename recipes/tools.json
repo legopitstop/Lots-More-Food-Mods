@@ -1,0 +1,188 @@
+{
+    "$schema": "https://legopitstop.github.io/Minecraft-Recipe-Display/schema.json",
+    "description": {
+        "id": "recipe",
+        "theme": "dark",
+        "meta": {
+            "title": "Lot's More Food Tools",
+            "description": "Ever thought that Minecraft needed more food? Then this is your pack! This pack adds more than 50+ Foods. use to replenish those health and hunger points. This pack also include..."
+        }
+    },
+    "resources": {
+        "textures": {
+            "morefood": {
+                "type": "spritesheet",
+                "file": "https://raw.githubusercontent.com/legopitstop/Lots-More-Food-Mods/main/recipes/spritesheet.json"
+            }
+        },
+        "langs": {
+            "morefood": "https://raw.githubusercontent.com/legopitstop/Lots-More-Food-Mods/main/recipes/en_us.json#item.${NAMESPACE}.${NAME}"
+        },
+        "links": {
+            "morefood": "#${NAMESPACE}:${NAME}"
+        }
+    },
+    "recipes": [
+        {
+            "identifier": "morefood:wooden_spoon",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "OOO",
+                "OSO",
+                "OOO"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:oak_planks"
+                },
+                "S": {
+                    "item": "minecraft:wooden_shovel"
+                }
+            },
+            "result": {
+                "item": "morefood:wooden_spoon",
+                "count": 2
+            }
+        },
+        {
+            "identifier": "morefood:wooden_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:oak_planks"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:wooden_knife"
+            }
+        },
+        {
+            "identifier": "morefood:stone_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:cobblestone"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:stone_knife"
+            }
+        },
+        {
+            "identifier": "morefood:iron_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:iron_ingot"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:iron_knife"
+            }
+        },
+        {
+            "identifier": "morefood:copper_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:copper_ingot"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:copper_knife"
+            }
+        },
+        {
+            "identifier": "morefood:golden_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:gold_ingot"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:golden_knife"
+            }
+        },
+        {
+            "identifier": "morefood:diamond_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:diamond"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:diamond_knife"
+            }
+        },
+        {
+            "identifier": "morefood:emerald_knife",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "O",
+                "B",
+                "B"
+            ],
+            "key": {
+                "O": {
+                    "item": "minecraft:emerald"
+                },
+                "B": {
+                    "item": "minecraft:black_concrete"
+                }
+            },
+            "result": {
+                "item": "morefood:emerald_knife"
+            }
+        }
+    ]
+}
