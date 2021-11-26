@@ -1,11 +1,12 @@
 package com.legopitstop.morefood.items;
 
 import com.legopitstop.morefood.MoreFood;
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
 
 public class ItemBase extends Item {
-
     public ItemBase() {
-        super(new Item.Properties().group(MoreFood.TAB));
+        super(new Item.Properties()
+                .tab(MoreFood.TAB));
     }
+
 }

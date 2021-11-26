@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "morefood:item/cooked_hoglin_meat"
+        "layer0": "morefood:item/supersonic/cooked_hoglin_meat"
     }
 }

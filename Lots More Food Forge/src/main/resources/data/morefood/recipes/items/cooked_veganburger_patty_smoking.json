@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "morefood:veganburger_patty"
+  },
+  "result": "morefood:veganburger_patty"
+}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "morefood:raw_beef_block"
-  },
-  "result": "morefood:cooked_beef_block",
-  "experience": 0.70,
-  "cookingtime": 400
-}

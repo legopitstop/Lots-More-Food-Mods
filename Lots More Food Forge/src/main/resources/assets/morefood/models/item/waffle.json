@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "morefood:item/waffle"
+        "layer0": "morefood:item/supersonic/waffle"
     }
 }

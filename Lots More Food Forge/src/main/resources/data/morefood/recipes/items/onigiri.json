@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "R",
+        "D"
+    ],
+    "key": {
+        "R": {
+            "item": "morefood:rice"
+        },
+        "D": {
+            "item": "minecraft:dried_kelp"
+        }
+    },
+    "result": {
+        "item": "morefood:onigiri"
+    }
+}

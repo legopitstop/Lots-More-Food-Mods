@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "morefood:item/bottled_white_wine"
+        "layer0": "morefood:item/supersonic/bottled_white_wine"
     }
 }

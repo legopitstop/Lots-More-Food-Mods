@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "morefood:raw_squid_block"
-  },
-  "result": "morefood:cooked_squid_block",
-  "experience": 0.70,
-  "cookingtime": 400
-}

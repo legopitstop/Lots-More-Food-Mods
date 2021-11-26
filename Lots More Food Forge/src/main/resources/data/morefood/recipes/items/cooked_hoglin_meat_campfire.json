@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "morefood:hoglin_meat"
+  },
+  "result": "morefood:cooked_hoglin_meat"
+}

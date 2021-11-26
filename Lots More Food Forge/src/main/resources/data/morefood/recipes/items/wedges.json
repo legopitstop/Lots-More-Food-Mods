@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "morefood:wedges",
+    "count": 3
+  }
+}

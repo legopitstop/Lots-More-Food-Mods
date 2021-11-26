@@ -1,17 +1,18 @@
 modLoader="javafml"
-loaderVersion="[31,34]"
-license="Legopitstop & Sir_Craftypants Common License"
-issueTrackerURL="https://github.com/legopitstop/LotsMoreFood-1.16.1/issues"
+loaderVersion="[37,)"
+license="LPS Common License"
+issueTrackerURL="https://github.com/legopitstop/Lots-More-Food-Mods/issues"
 
-[[mods]]
+[[mods]] #mandatory
 modId="morefood"
-version="1.0.0-pre2"
+version="1.3.0-beta1"
 displayName="Lot's More Food"
 updateJSONURL="https://github.com/legopitstop/ModUpdates/raw/master/LotsMoreFood/update.json"
-displayURL="https://www.curseforge.com/members/legopitstop/projects"
-logoFile="pack.png"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/lots-more-food-forge"
+logoFile="banner.png"
 credits="Now available for forge!"
-authors="Legopitstop & Sir_Craftypants"
+authors="Legopitstop"
+itemIcon="morefood:hamburger"
 description='''
  Ever thought that Minecraft needed more food? Then this is your mod! This mod adds more than 200+ Foods. Use to replenish those health and hunger points.
 '''
@@ -19,13 +20,13 @@ description='''
 [[dependencies.morefood]]
     modId="forge"
     mandatory=true
-    versionRange="[31,34]"
+    versionRange="[37,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.morefood]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16,1.16.3]"
+    versionRange="[1.17.1,1.18)"
     ordering="NONE"
     side="BOTH"

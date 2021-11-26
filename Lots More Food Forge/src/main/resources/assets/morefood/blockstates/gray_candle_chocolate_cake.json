@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "lit=false": {
+            "model": "morefood:block/gray_candle_chocolate_cake"
+        },
+        "lit=true": {
+            "model": "morefood:block/gray_candle_chocolate_cake_lit"
+        }
+    }
+}

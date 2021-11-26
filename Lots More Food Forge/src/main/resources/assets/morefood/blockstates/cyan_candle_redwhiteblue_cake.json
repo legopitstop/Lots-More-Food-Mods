@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "lit=false": {
+            "model": "morefood:block/cyan_candle_redwhiteblue_cake"
+        },
+        "lit=true": {
+            "model": "morefood:block/cyan_candle_redwhiteblue_cake_lit"
+        }
+    }
+}

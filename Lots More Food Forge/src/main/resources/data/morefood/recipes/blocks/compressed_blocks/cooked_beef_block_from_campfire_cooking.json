@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "item": "morefood:raw_beef_block"
-  },
-  "result": "morefood:cooked_beef_block",
-  "experience": 0.70,
-  "cookingtime": 400
-}
