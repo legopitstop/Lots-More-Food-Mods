@@ -2,7 +2,7 @@
 
 [![patreon](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flegopitstop%2Fwebsite-files%2Fmain%2Fshields.io%2Fpatreon.json)](https://www.patreon.com/Legopitstop "Go to patreon")
 [![license](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flegopitstop%2Fwebsite-files%2Fmain%2Fshields.io%2Flicense.json)](https://legopitstop.weebly.com/legopitstops-common-license-v2.html "Go to legopitstop.weebly.com")
-[![discord](https://img.shields.io/discord/479902284810027008)](https://legopitstop.weebly.com/discord.html "Go to legopitstop.weebly.com")
+[![discord](https://img.shields.io/discord/932661468212641813)](https://discord.gg/8veP32PUEQ "Join discord server")
 [![github](https://img.shields.io/github/issues-raw/legopitstop/Lots-More-Food-Mods)](https://github.com/legopitstop/Lots-More-Food-Mods/issues "Go to Github")
 [![curseforge](http://cf.way2muchnoise.eu/full_347677_downloads.svg)](https://www.curseforge.com/minecraft/customization/lots-more-food-datapack "Go to curseforge")
 
