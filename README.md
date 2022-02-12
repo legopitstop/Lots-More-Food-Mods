@@ -25,5 +25,3 @@ Like lot's more food and all it has to offer? Want it to keep receiving updates?
 [Patreon](https://www.patreon.com/Legopitstop)
 
 [Ko-fi](https://ko-fi.com/V7V629T96)
-
-[Paypalme](https://www.paypal.com/paypalme/Legopitstop)
