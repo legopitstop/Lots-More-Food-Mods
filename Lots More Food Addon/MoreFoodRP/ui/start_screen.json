@@ -5,7 +5,7 @@
 		"type": "stack_panel",
 		"orientation": "horizontal",
 		"controls": [
-			{"ico": {"type": "image","texture": "food_icon","size": [15,15]}},
+			{"ico": {"type": "image","texture": "textures/ui/icon.png","size": [15,15]}},
 			{"ver": {"type": "label","text": "§6 More Food"}},
 			{"ver2": {"type": "label","font_scale_factor": 0.5,"text": "update.version"}}
 		]

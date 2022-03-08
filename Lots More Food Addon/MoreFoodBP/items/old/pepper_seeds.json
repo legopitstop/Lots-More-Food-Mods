@@ -1,0 +1,25 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:pepper_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:pepper_seeds"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:pepper_bush",
+                "on_use": [
+                    "minecraft:dirt",
+                    "minecraft:grass",
+                    "minecraft:podzol"
+                ]
+            }
+        }
+    }
+}

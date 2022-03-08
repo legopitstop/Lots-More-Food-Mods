@@ -1,10 +1,719 @@
 {
-  "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.terrain",
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
+    "candle_lit": {
+      "textures": [
+        "textures/blocks/candles/candle_lit.png"
+      ]
+    },
+    "black_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/black_candle_lit"
+      ]
+    },
+    "blue_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/blue_candle_lit"
+      ]
+    },
+    "brown_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/brown_candle_lit"
+      ]
+    },
+    "cyan_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/cyan_candle_lit"
+      ]
+    },
+    "gray_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/gray_candle_lit"
+      ]
+    },
+    "green_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/green_candle_lit"
+      ]
+    },
+    "light_blue_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/light_blue_candle_lit"
+      ]
+    },
+    "light_gray_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/light_gray_candle_lit"
+      ]
+    },
+    "lime_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/lime_candle_lit"
+      ]
+    },
+    "magenta_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/magenta_candle_lit"
+      ]
+    },
+    "orange_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/orange_candle_lit"
+      ]
+    },
+    "pink_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/pink_candle_lit"
+      ]
+    },
+    "purple_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/purple_candle_lit"
+      ]
+    },
+    "red_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/red_candle_lit"
+      ]
+    },
+    "white_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/white_candle_lit"
+      ]
+    },
+    "yellow_candle_lit": {
+      "textures": [
+        "textures/blocks/candles/yellow_candle_lit"
+      ]
+    },
+    "morefood:buckwheat_contents": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_contents.png"
+      ]
+    },
+    "morefood:sweet_potato_contents": {
+      "textures": [
+        "textures/morefood/block/new/sweet_potato_contents.png"
+      ]
+    },
+    "morefood:soybean_contents": {
+      "textures": [
+        "textures/morefood/block/new/soybean_contents.png"
+      ]
+    },
+    "morefood:barley_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/barley_seed_contents.png"
+      ]
+    },
+    "morefood:blueberry_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/blueberry_seed_contents.png"
+      ]
+    },
+    "morefood:cabbage_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/cabbage_seed_contents.png"
+      ]
+    },
+    "morefood:chocolate_chunk_oatmeal_cookie_contents": {
+      "textures": [
+        "textures/morefood/block/new/chocolate_chunk_oatmeal_cookie_contents.png"
+      ]
+    },
+    "morefood:coffee_bean_contents": {
+      "textures": [
+        "textures/morefood/block/new/coffee_bean_contents.png"
+      ]
+    },
+    "morefood:corn_contents": {
+      "textures": [
+        "textures/morefood/block/new/corn_contents.png"
+      ]
+    },
+    "morefood:cornflour_contents": {
+      "textures": [
+        "textures/morefood/block/new/cornflour_contents.png"
+      ]
+    },
+    "morefood:eggplant_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/eggplant_seed_contents.png"
+      ]
+    },
+    "morefood:flour_contents": {
+      "textures": [
+        "textures/morefood/block/new/flour_contents.png"
+      ]
+    },
+    "morefood:gherkin_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/gherkin_seed_contents.png"
+      ]
+    },
+    "morefood:grape_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/grape_seed_contents.png"
+      ]
+    },
+    "morefood:hops_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/hops_seed_contents.png"
+      ]
+    },
+    "morefood:lettuce_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/lettuce_seed_contents.png"
+      ]
+    },
+    "morefood:nether_cookie_contents": {
+      "textures": [
+        "textures/morefood/block/new/nether_cookie_contents.png"
+      ]
+    },
+    "morefood:oat_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/oat_seed_contents.png"
+      ]
+    },
+    "morefood:oatmeal_cookie_contents": {
+      "textures": [
+        "textures/morefood/block/new/oatmeal_cookie_contents.png"
+      ]
+    },
+    "morefood:onion_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/onion_seed_contents.png"
+      ]
+    },
+    "morefood:peanut_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/peanut_seed_contents.png"
+      ]
+    },
+    "morefood:pepper_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/pepper_seed_contents.png"
+      ]
+    },
+    "morefood:raspberry_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/raspberry_seed_contents.png"
+      ]
+    },
+    "morefood:rice_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/rice_seed_contents.png"
+      ]
+    },
+    "morefood:spinach_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/spinach_seed_contents.png"
+      ]
+    },
+    "morefood:strawberry_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/strawberry_seed_contents.png"
+      ]
+    },
+    "morefood:sugar_cookie_contents": {
+      "textures": [
+        "textures/morefood/block/new/sugar_cookie_contents.png"
+      ]
+    },
+    "morefood:tea_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/tea_seed_contents.png"
+      ]
+    },
+    "morefood:tomato_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/tomato_seed_contents.png"
+      ]
+    },
+    "morefood:vanilla_seed_contents": {
+      "textures": [
+        "textures/morefood/block/new/vanilla_seed_contents.png"
+      ]
+    },
+    "morefood:yeast_contents": {
+      "textures": [
+        "textures/morefood/block/new/yeast_contents.png"
+      ]
+    },
+    "morefood:banana_contents": {
+      "textures": [
+        "textures/morefood/block/new/banana_contents.png"
+      ]
+    },
+    "morefood:coconut_contents": {
+      "textures": [
+        "textures/morefood/block/new/coconut_contents.png"
+      ]
+    },
+    "morefood:corn_cob_contents": {
+      "textures": [
+        "textures/morefood/block/new/corn_cob_contents.png"
+      ]
+    },
+    "morefood:gherkin_contents": {
+      "textures": [
+        "textures/morefood/block/new/gherkin_contents.png"
+      ]
+    },
+    "morefood:grape_contents": {
+      "textures": [
+        "textures/morefood/block/new/grape_contents.png"
+      ]
+    },
+    "morefood:hops_contents": {
+      "textures": [
+        "textures/morefood/block/new/hops_contents.png"
+      ]
+    },
+    "morefood:lemon_contents": {
+      "textures": [
+        "textures/morefood/block/new/lemon_contents.png"
+      ]
+    },
+    "morefood:lettuce_contents": {
+      "textures": [
+        "textures/morefood/block/new/lettuce_contents.png"
+      ]
+    },
+    "morefood:olive_contents": {
+      "textures": [
+        "textures/morefood/block/new/olive_contents.png"
+      ]
+    },
+    "morefood:onion_contents": {
+      "textures": [
+        "textures/morefood/block/new/onion_contents.png"
+      ]
+    },
+    "morefood:orange_contents": {
+      "textures": [
+        "textures/morefood/block/new/orange_contents.png"
+      ]
+    },
+    "morefood:pepper_contents": {
+      "textures": [
+        "textures/morefood/block/new/pepper_contents.png"
+      ]
+    },
+    "morefood:plum_contents": {
+      "textures": [
+        "textures/morefood/block/new/plum_contents.png"
+      ]
+    },
+    "morefood:raspberry_contents": {
+      "textures": [
+        "textures/morefood/block/new/raspberry_contents.png"
+      ]
+    },
+    "morefood:rice_contents": {
+      "textures": [
+        "textures/morefood/block/new/rice_contents.png"
+      ]
+    },
+    "morefood:strawberry_contents": {
+      "textures": [
+        "textures/morefood/block/new/strawberry_contents.png"
+      ]
+    },
+    "morefood:tea_leaf_contents": {
+      "textures": [
+        "textures/morefood/block/new/tea_leaf_contents.png"
+      ]
+    },
+    "morefood:tomato_contents": {
+      "textures": [
+        "textures/morefood/block/new/tomato_contents.png"
+      ]
+    },
+    "morefood:vanilla_pod_contents": {
+      "textures": [
+        "textures/morefood/block/new/vanilla_pod_contents.png"
+      ]
+    },
+    "morefood:almond_contents": {
+      "textures": [
+        "textures/morefood/block/new/almond_contents.png"
+      ]
+    },
+    "morefood:avocado_contents": {
+      "textures": [
+        "textures/morefood/block/new/avocado_contents.png"
+      ]
+    },
+    "morefood:bean_contents": {
+      "textures": [
+        "textures/morefood/block/new/bean_contents.png"
+      ]
+    },
+    "morefood:cabbage_contents": {
+      "textures": [
+        "textures/morefood/block/new/cabbage_contents.png"
+      ]
+    },
+    "morefood:cranberry_contents": {
+      "textures": [
+        "textures/morefood/block/new/cranberry_contents.png"
+      ]
+    },
+    "morefood:eggplant_contents": {
+      "textures": [
+        "textures/morefood/block/new/eggplant_contents.png"
+      ]
+    },
+    "morefood:garlic_contents": {
+      "textures": [
+        "textures/morefood/block/new/garlic_contents.png"
+      ]
+    },
+    "morefood:oat_contents": {
+      "textures": [
+        "textures/morefood/block/new/oat_contents.png"
+      ]
+    },
+    "morefood:peanut_contents": {
+      "textures": [
+        "textures/morefood/block/new/peanut_contents.png"
+      ]
+    },
+    "morefood:poisonous_sweet_potato_contents": {
+      "textures": [
+        "textures/morefood/block/new/poisonous_sweet_potato_contents.png"
+      ]
+    },
+    "morefood:poison_berry_contents": {
+      "textures": [
+        "textures/morefood/block/new/poison_berry_contents.png"
+      ]
+    },
+    "morefood:spinach_contents": {
+      "textures": [
+        "textures/morefood/block/new/spinach_contents.png"
+      ]
+    },
+    "morefood:blueberry_contents": {
+      "textures": [
+        "textures/morefood/block/new/blueberry_contents.png"
+      ]
+    },
+    "morefood:sack_side": {
+      "textures": [
+        "textures/morefood/block/new/sack_side.png"
+      ]
+    },
+    "morefood:sack_top": {
+      "textures": [
+        "textures/morefood/block/new/sack_top.png"
+      ]
+    },
+    "morefood:sack_bottom": {
+      "textures": [
+        "textures/morefood/block/new/sack_bottom.png"
+      ]
+    },
+    "morefood:wooden_tree_tap_level0": {
+      "textures": [
+        "textures/morefood/block/new/wooden_tree_tap.png"
+      ]
+    },
+    "morefood:wooden_tree_tap_level1": {
+      "textures": [
+        "textures/morefood/block/new/wooden_tree_tap.png"
+      ]
+    },
+    "morefood:wooden_tree_tap_level2": {
+      "textures": [
+        "textures/morefood/block/new/wooden_tree_tap.png"
+      ]
+    },
+    "morefood:wooden_tree_tap_level3": {
+      "textures": [
+        "textures/morefood/block/new/wooden_tree_tap.png"
+      ]
+    },
+    "morefood:wooden_tree_tap_level4": {
+      "textures": [
+        "textures/morefood/block/new/wooden_tree_tap.png"
+      ]
+    },
+    "morefood:wooden_tree_tap_level5": {
+      "textures": [
+        "textures/morefood/block/new/wooden_tree_tap_full.png"
+      ]
+    },
+    "morefood:buckwheat_stage0": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage0.png"
+      ]
+    },
+    "morefood:buckwheat_stage1": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage1.png"
+      ]
+    },
+    "morefood:buckwheat_stage2": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage2.png"
+      ]
+    },
+    "morefood:buckwheat_stage3": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage3.png"
+      ]
+    },
+    "morefood:buckwheat_stage4": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage4.png"
+      ]
+    },
+    "morefood:buckwheat_stage5": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage5.png"
+      ]
+    },
+    "morefood:buckwheat_stage6": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage6.png"
+      ]
+    },
+    "morefood:buckwheat_stage7": {
+      "textures": [
+        "textures/morefood/block/new/buckwheat_stage7.png"
+      ]
+    },
+    "morefood:cabbage_stage0": {
+      "textures": [
+        "textures/morefood/block/new/cabbage_stage0.png"
+      ]
+    },
+    "morefood:cabbage_stage1": {
+      "textures": [
+        "textures/morefood/block/new/cabbage_stage1.png"
+      ]
+    },
+    "morefood:cabbage_stage2": {
+      "textures": [
+        "textures/morefood/block/new/cabbage_stage2.png"
+      ]
+    },
+    "morefood:cabbage_stage3": {
+      "textures": [
+        "textures/morefood/block/new/cabbage_stage3.png"
+      ]
+    },
+    "morefood:eggplant_bush_stage0": {
+      "textures": [
+        "textures/morefood/block/new/eggplant_bush_stage0.png"
+      ]
+    },
+    "morefood:eggplant_bush_stage1": {
+      "textures": [
+        "textures/morefood/block/new/eggplant_bush_stage1.png"
+      ]
+    },
+    "morefood:eggplant_bush_stage2": {
+      "textures": [
+        "textures/morefood/block/new/eggplant_bush_stage2.png"
+      ]
+    },
+    "morefood:eggplant_bush_stage3": {
+      "textures": [
+        "textures/morefood/block/new/eggplant_bush_stage3.png"
+      ]
+    },
+    "morefood:oat_stage0": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage0.png"
+      ]
+    },
+    "morefood:oat_stage1": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage1.png"
+      ]
+    },
+    "morefood:oat_stage2": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage2.png"
+      ]
+    },
+    "morefood:oat_stage3": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage3.png"
+      ]
+    },
+    "morefood:oat_stage4": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage4.png"
+      ]
+    },
+    "morefood:oat_stage5": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage5.png"
+      ]
+    },
+    "morefood:oat_stage6": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage6.png"
+      ]
+    },
+    "morefood:oat_stage7": {
+      "textures": [
+        "textures/morefood/block/new/oat_stage7.png"
+      ]
+    },
+    "morefood:peanut_bush_stage0": {
+      "textures": [
+        "textures/morefood/block/new/peanut_bush_stage0.png"
+      ]
+    },
+    "morefood:peanut_bush_stage1": {
+      "textures": [
+        "textures/morefood/block/new/peanut_bush_stage1.png"
+      ]
+    },
+    "morefood:peanut_bush_stage2": {
+      "textures": [
+        "textures/morefood/block/new/peanut_bush_stage2.png"
+      ]
+    },
+    "morefood:peanut_bush_stage3": {
+      "textures": [
+        "textures/morefood/block/new/peanut_bush_stage3.png"
+      ]
+    },
+    "morefood:soybean_bush_stage0": {
+      "textures": [
+        "textures/morefood/block/new/soybean_bush_stage0.png"
+      ]
+    },
+    "morefood:soybean_bush_stage1": {
+      "textures": [
+        "textures/morefood/block/new/soybean_bush_stage1.png"
+      ]
+    },
+    "morefood:soybean_bush_stage2": {
+      "textures": [
+        "textures/morefood/block/new/soybean_bush_stage2.png"
+      ]
+    },
+    "morefood:soybean_bush_stage3": {
+      "textures": [
+        "textures/morefood/block/new/soybean_bush_stage3.png"
+      ]
+    },
+    "morefood:spinach_stage0": {
+      "textures": [
+        "textures/morefood/block/new/spinach_stage0.png"
+      ]
+    },
+    "morefood:spinach_stage1": {
+      "textures": [
+        "textures/morefood/block/new/spinach_stage1.png"
+      ]
+    },
+    "morefood:spinach_stage2": {
+      "textures": [
+        "textures/morefood/block/new/spinach_stage2.png"
+      ]
+    },
+    "morefood:spinach_stage3": {
+      "textures": [
+        "textures/morefood/block/new/spinach_stage3.png"
+      ]
+    },
+    "morefood:avocado_sapling": {
+      "textures": [
+        "textures/morefood/block/new/avocado_sapling.png"
+      ]
+    },
+    "morefood:blueberry_bush_stage0": {
+      "textures": [
+        "textures/morefood/block/new/blueberry_bush_stage0.png"
+      ]
+    },
+    "morefood:blueberry_bush_stage1": {
+      "textures": [
+        "textures/morefood/block/new/blueberry_bush_stage1.png"
+      ]
+    },
+    "morefood:blueberry_bush_stage2": {
+      "textures": [
+        "textures/morefood/block/new/blueberry_bush_stage2.png"
+      ]
+    },
+    "morefood:blueberry_bush_stage3": {
+      "textures": [
+        "textures/morefood/block/new/blueberry_bush_stage3.png"
+      ]
+    },
+    "morefood:poison_berry_bush_stage0": {
+      "textures": [
+        "textures/morefood/block/new/poison_berry_bush_stage0.png"
+      ]
+    },
+    "morefood:poison_berry_bush_stage1": {
+      "textures": [
+        "textures/morefood/block/new/poison_berry_bush_stage1.png"
+      ]
+    },
+    "morefood:poison_berry_bush_stage2": {
+      "textures": [
+        "textures/morefood/block/new/poison_berry_bush_stage2.png"
+      ]
+    },
+    "morefood:poison_berry_bush_stage3": {
+      "textures": [
+        "textures/morefood/block/new/poison_berry_bush_stage3.png"
+      ]
+    },
+    "morefood:sweet_potatoes_stage0": {
+      "textures": [
+        "textures/morefood/block/new/sweet_potatoes_stage0.png"
+      ]
+    },
+    "morefood:sweet_potatoes_stage1": {
+      "textures": [
+        "textures/morefood/block/new/sweet_potatoes_stage1.png"
+      ]
+    },
+    "morefood:sweet_potatoes_stage2": {
+      "textures": [
+        "textures/morefood/block/new/sweet_potatoes_stage2.png"
+      ]
+    },
+    "morefood:sweet_potatoes_stage3": {
+      "textures": [
+        "textures/morefood/block/new/sweet_potatoes_stage3.png"
+      ]
+    },
+    "morefood:avocado_hanging_stage0": {
+      "textures": [
+        "textures/morefood/block/new/avocado_hanging_stage0.png"
+      ]
+    },
+    "morefood:avocado_hanging_stage1": {
+      "textures": [
+        "textures/morefood/block/new/avocado_hanging_stage1.png"
+      ]
+    },
+    "morefood:avocado_hanging_stage2": {
+      "textures": [
+        "textures/morefood/block/new/avocado_hanging_stage2.png"
+      ]
+    },
+    "morefood:avocado_hanging_stage3": {
+      "textures": [
+        "textures/morefood/block/new/avocado_hanging_stage3.png"
+      ]
+    },
     "morefood:coconut_hanging_stage0": {
       "textures": [
         "textures/morefood/block/coconut_hanging_stage0.png"
@@ -562,22 +1271,22 @@
     },
     "morefood:pound_cake_bottom": {
       "textures": [
-        "textures/morefood/block/pound_cake_bottom.png"
+        "textures/morefood/block/new/pound_cake_bottom.png"
       ]
     },
     "morefood:pound_cake_inner": {
       "textures": [
-        "textures/morefood/block/pound_cake_inner.png"
+        "textures/morefood/block/new/pound_cake_inner.png"
       ]
     },
     "morefood:pound_cake_side": {
       "textures": [
-        "textures/morefood/block/pound_cake_side.png"
+        "textures/morefood/block/new/pound_cake_side.png"
       ]
     },
     "morefood:pound_cake_top": {
       "textures": [
-        "textures/morefood/block/pound_cake_top.png"
+        "textures/morefood/block/new/pound_cake_top.png"
       ]
     },
     "morefood:chocolate_cake_bottom": {

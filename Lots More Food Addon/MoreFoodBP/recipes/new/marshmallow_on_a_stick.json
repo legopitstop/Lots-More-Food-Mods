@@ -1,0 +1,1 @@
+{"format_version":"1.17.1","minecraft:recipe_shapeless":{"description":{"identifier":"morefood:marshmallow_on_a_stick"},"tags":["crafting_table"],"ingredients":[{"item":"morefood:marshmallow"},{"item":"minecraft:stick"}],"result":"morefood:marshmallow_on_a_stick"}}

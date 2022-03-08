@@ -1,71 +1,70 @@
 {
 	"namespace": "tabbed_upsell",
-
 	"morefood_panel": {
 		"type": "stack_panel",
 		"orientation": "horizontal",
 		"size": ["100%",256],
 		"offset": [4,4],
 		"controls": [
+			{"1": {"type": "image","texture": "textures/ui/banner.png","size": [400,200]}},
 			{
-				"r":{
-					"type": "stack_panel",
-					"size": [132,"100%"],
-					"controls": [
-						{"1": {"type": "image","texture": "food_icon","size": [128,128]}},
-						{"2": {"type": "panel","size": [4,4]}},
-						{"3": {"type": "label","font_scale_factor": 1.5,"text": "§6More Food"}},
-						{"4": {"type": "label","font_scale_factor": 1.5,"text": "update.version"}},
-						{"5": {"type": "label","font_scale_factor": 1.2,"text": "update.changelog"}}
-					]
-				}
-			},
-			{
-				"l":{
+				"2":{
 					"type": "stack_panel",
 					"size": ["fill","100%"],
 					"controls": [
-						{"a": {"type": "label","font_scale_factor": 1.5,"text": "§6More Food Add-On \n§efor §6Bedrock Edition\n "}},
-						{"b": {"type": "label","text": "©2021 §b@Legopitstop\n§rLegopitstop Common License.\nsee LICENSE for more\n \n§6URL"}},
-						{"c": {"type": "label","font_scale_factor": 0.8,"text": "§eOfficial Download:\n §rmcpedl.com/lots-more-food-bedrock-addon"}},
-						{"d": {"type": "label","font_scale_factor": 0.8,"text": "§eLegopitstop:\n §rlegopitstop.weebly.com/media.html"}},
-						{"e": {"type": "label","font_scale_factor": 0.8,"text": "§eSir_craftypants:\n §rtwitter.com/CraftypantsSir"}},
-						{ "padding_1@how_to_play_common.padding": {} },
+						{"b": {"type": "label","text": "©2022 §b@Legopitstop\n§rLegopitstop Common License.\nsee LICENSE for more\n \n§6Meet the team"}},
+						{"c": {"type": "label","font_scale_factor": 0.8,"text": "§eProgrammer:\n §rLegopitstop - https://legopitstop.weebly.com/profile.html"}},
+						{"d": {"type": "label","font_scale_factor": 0.8,"text": "§eTextures artest:\n §rSuperSonic - ??"}},
+						{"e": {"type": "label","font_scale_factor": 0.8,"text": "§eLegacy artest:\n §rSircraftypants - https://twitter.com/CraftypantsSir"}},
+						{"f": {"type": "label","text": "\n\n§6Other Links"}},
+						{"g": {"type": "label","font_scale_factor": 0.8,"text": "§eDownload:\n §rhttps://mcpedl.com/lots-more-food-bedrock-addon"}},
+						{"h": {"type": "label","font_scale_factor": 0.8,"text": "§eBug Report:\n §rhttps://legopitstop.weebly.com/bug-report-more-food.html"}},
+						{"i": {"type": "label","font_scale_factor": 0.8,"text": "§eRecipes:\n §rhttps://legopitstop.weebly.com/recipes-morefood.html"}},
+						{"j": {"type": "label","font_scale_factor": 0.8,"text": "§eWiki:\n §rhttps://more-food.fandom.com/wiki/"}},
 						{
-							"paragraph_1@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.0"
-							}
-						},
-						{
-							"paragraph_2@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.1"
-							}
-						},
-						{
-							"paragraph_3@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.2"
-							}
-						},
-						{
-							"paragraph_4@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.3"
-							}
-						},
-						{
-							"paragraph_5@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.4"
-							}
-						},
-						{
-							"paragraph_6@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.5"
-							}
-						},
-						{
-							"paragraph_7@how_to_play_common.paragraph": {
-							  "$text": "update.changelog.more"
+							"k":{
+								"type": "stack_panel",
+								"size": ["fill","100%"],
+								"controls": [
+									{
+										"paragraph_1@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.0"
+										}
+									},
+									{
+										"paragraph_2@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.1"
+										}
+									},
+									{
+										"paragraph_3@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.2"
+										}
+									},
+									{
+										"paragraph_4@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.3"
+										}
+									},
+									{
+										"paragraph_5@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.4"
+										}
+									},
+									{
+										"paragraph_6@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.5"
+										}
+									},
+									{
+										"paragraph_7@how_to_play_common.paragraph": {
+										  "$text": "update.changelog.more"
+										}
+									}
+								]
 							}
 						}
+
 					]
 				}
 			}

@@ -1,49 +1,37 @@
 {
     "format_version": 2,
     "header": {
-        "description": "More Food!\n§8Pack by: §r§6§l§nLego§e§l§npit§f§l§nstop",
-        "name": "More Food Resource Pack",
+        "description": "\u00a78This addon adds over 200+ new foods to your world!\u00a7r\n\u00a77Addon by:\u00a76 Legopitstop\u00a7r\n\u00a7Textures by:\u00a76 SuperSonic\u00a7r\n\u00a77Download:\u00a78 https:\/\/mcpedl.com\/lots-more-food-bedrock-addon\u00a7r\n\u00a77Wiki:\u00a78 https:\/\/more-food.fandom.com\u00a7r\n\u00a77License:\u00a78 https:\/\/legopitstop.weebly.com\/license",
+        "name": "Lot's More Food RP",
         "uuid": "4e098d16-f6b4-11e9-802a-5aa538984bd8",
-        "version": [
-            1,
-            6,
-            0
-        ],
-        "min_engine_version": [
-            1,
-            16,
-            1
-        ]
+        "version": [1, 6, 2],
+        "min_engine_version": [1, 18, 1]
     },
     "modules": [
         {
-            "description": "More Food!\n§8Pack by: §r§6§l§nLego§e§l§npit§f§l§nstop",
+            "description": "Lot's More Food resrouce pack.",
             "type": "resources",
             "uuid": "f0087188-7e01-47ba-bfd7-275a4f143e84",
-            "version": [
-                1,
-                6,
-                0
-            ]
+            "version": [1, 6, 2]
         }
     ],
     "metadata": {
         "authors": [
             "legopitstop",
-            "Sir_Craftypants"
+            "SuperSonic"
         ],
         "license": "https://legopitstop.weebly.com/legopitstops-common-license.html",
         "url": "https://legopitstop.weebly.com"
     },
     "subpacks": [
         {
-            "folder_name": "holiday_features",
-            "name": "Holiday Features: §2ON§r",
+            "folder_name": "legacy_textures",
+            "name": "Legacy Textures",
             "memory_tier": 2
         },
         {
             "folder_name": "pack",
-            "name": "Holiday Features: §4OFF§r",
+            "name": "Default Textures",
             "memory_tier": 1
         }
     ]

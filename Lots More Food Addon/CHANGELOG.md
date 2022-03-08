@@ -1,58 +1,239 @@
-# CHANGELOG v1.6.0 (Bug Fix Update)
+# CHANGELOG v1.7.0-pre2
+## General
+- Updated for 1.18.10
+- Removed emerald knife
+- All foods should be eatable
+- cornflour is not eatable.
+- You can now use the smithing table to upgrade your diamond knife to a netherite knife.
+## Fixes
+- Crop and tree tap blocks use the update texture and have no model.
+- Certain items have the same textures. [#35](https://github.com/legopitstop/Lots-More-Food-Mods/issues/35)
+## Known Issues
+- Crops pop off farmland in some cases. This is a issue that is not fixable through add-ons. (Mojang will have to fix it.)
+- Tree taps behave and look wierd.
 
+# CHANGELOG v1.7.0-pre1
 ### General
-- Rewritten all food blocks.
-- All food blocks can be broken by pistons.
-- If you pick block an "illegal" block item it will be removed from your inventory.
-- Updated custom GUI's.
-- Added support for upcoming addon "Just Another Furniture Addon" (Preview via Discord server)
-- Hanging coconut now drops a coconut and has its proper texture. 
-- Knifes are now like swords, breaks; webs, and bamboo, can be repaired in an anvil. Also gave them their respective tags. They shouldn't break blocks in creative mode.
-- Wooden spoon is now like a shovel. (texture is subject to change)
-- Plant block states have been changed, meaning all plant stages will be reset, Nothing a little bit of time and bonemeal could'nt fix.
-- All plants (crop, bush, sapling) should now show growth particles when using bonemeal on the plant. It will still consume your bonemeal even if the plant is at its last stage.
-- organized creative inventory items.
-- morefood tag at the end of names is now gray.
-- rewrote all loot tables, should be more organized.
-- Drinks (like juice, ice crush, smoothie, etc) have a max stack of 16, like honey bottles.
-- Gelatin is now only a recipe item, cannot be eaten
-- Netherite apple now has a light purple name.
-- Hanging fruit can now be placed on `minecraft:leaves2`
-- When you break a mature hanging fruit it has a 30% chance to drop the sapling. This is until custom leaves are added.
-- Sapling's voxel shape should now better match vanilla saplings.
+- min Minecraft version ( 1.17.30 )
+- Blocks will now show up in the creative inventory.
+- Added copper knife
+- Added texture toggle to resourcepack. Default, The new textures by [SuperSonic](URL). Legacy, textures before v1.6.0. Legacy dev art, Textures that where used when More food was first release to the public.
+- You can view all the new items, blocks, and recipes via the new Google Sheet. [View Recipes]( https://docs.google.com/spreadsheets/d/e/2PACX-1vS6vSEl2wLOzFk6hr15sV3QYFTPIUGMFx_Z0Oyeux36ta970iYemqWMpkKJEl8hDKZjtnGLd_nl-g0P/pubhtml)
+- Blocks now have tags. ie; all plants have 'non_full' tag. all bushes can be placed on blocks with tags 'grass' and/or 'dirt' etc.
+- You can now place candles on cakes.
+- Added links to resource and behavior pack's description.
+- All plants will now emmit growth partiles and use the bonemeal sound when bonemealed
+- Bushes can now be bonemealed to stage 3 (last stage) without harvesting, You must not be holding bonemeal to harvest.
 
-### World Generation Changes
-- There should be fewer/no buried crop plot structures.
-- Changed up spawn rates. lowered crops, bush, and barn rates. Increased custom tree rates. (You are meant to have to explore to find all the plants)
-- Changed up spawn locations for some structures. See the wiki for more.
-- bushes will now spawn as Sweet Berry bushes do. (In small clumps instead of structures)
-- Check the wiki to get more detailed information on the world generation! https://github.com/legopitstop/Lots-More-Food-Mods/wiki
-- If you are having issues finding the world generation features make sure "Holiday Creator Features" and "Creation of Custom Biomes" are toggled on in the experimental gameplay section in the world creation menu.
-- There are now 2 variants of trees. The old version and the new version that generate and will be randomly chosen from a sapling.
-
-### NOTE
-- If you cannot find the generated plants make sure **Experimental Gameplay**, Creation of custom biomes is toggled on! They will not generate if it is off!
-- Custom trees use vanilla logs (for now). Under a custom tree, there will be a hanging plant. When fully grown you can right click to get the fruit/item drop.
-- Some seeds can only be placed on grass/dirt. These are called "bushes". Other seeds can only be placed on farmland. These are called "crops"
-- Some crops do not have a crop item. i.e. barley will always drop barley seeds because there is no barley drop.
-- There are some issues with the saplings. For example; They will break any block that is in their way. This will be fixed in the next update, requires a complete redo of the tree structures.
+### New Stuff!
+#### 1.17 only
+- breadsticks with glowberry jam
+- crackers with glowberry jam
+- cut bread with glowberry jam
+- glowberry icecrush
+- glowberry pie
+- glowberry smoothie
+- glowberry soda
+- glowberry jam
+- glowberry juice
+- glowberry jelly sandwich
+#### Plants
+- avocado tree
+- blueberry bush
+- poison berry bush
+- sweet potatoes, crop 
+- buckwheat, crop
+- cabbage, crop
+- eggplant, crop
+- oat, crop
+- soy beans, crop
+- spinach, crop
+#### Items
+- applesauce
+- baked sweet potato
+- beef ravioli
+- beef stew
+- blueberries
+- blueberry seeds (bush)
+- blueberry syrup
+- buckwheat (crop)
+- cabbage seeds (crop)
+- chili
+- cut sweet potato
+- dark chocolate covered apple
+- eggplant
+- eggplant seeds (crop)
+- garlic
+- guacamole
+- large bowl
+- maple sap bucket
+- maple syrup
+- maple syrup bucket
+- mashed potatoes
+- milk chocolate coverd apple
+- oat seeds (crop)
+- oatmeal
+- oatmeal cookie
+- oats
+- pancake mix
+- peanut butter
+- peanut butter jelly sandwich
+- poison berries (bush)
+- poisonous sweet potato
+- pulled beef burger
+- raspberry syrup
+- roasted soybeans
+- soy flour
+- soy milk
+- soy oil
+- soybeans (crop)
+- spinach seeds (crop)
+- strawberry syrup
+- sunflower oil
+- sweet mashed potatoes
+- sweet potato (crop)
+- sweet potato fries
+- tortilla chips
+- white chocolate covered apple.
+- almods
+- beef goulash
+- breadsticks
+- breadsticks with peanut butter
+- breadsticks with jam
+- cappucino drink mix
+- cheese spread
+- cheese tortellini
+- chicken soup
+- chocolate banana muffin
+- chocolate chunk oatmeal cookie
+- chocolate peanut butter
+- chocolate protein drink
+- chocolate protein dirnk mix
+- chocolate pudding
+- cocoa beverage
+- cocoa beverage powder
+- cornbread
+- crackers
+- crackers with cheese
+- crackers with chocolate peanut butter
+- crackers with jalapeno cheese
+- crackers with jam
+- crackers with peanut butter
+- cut bread with cheese
+- cut bread with chocolate peanut butter
+- cut bread with jalapeno cheese
+- cut bread with jam
+- cut bread with peanut butter
+- dried cranberries
+- dried raisens
+- garlic mashed potatoes
+- grape beverage
+- grape beverage powder
+- hash browns
+- jalapeno cheese bucket
+- jalapeno cheese pie
+- jaapeno cheese spread
+- jalapeno cheese toastie
+- jalapeno cheese wedge
+- jalapeno round cheese
+- lemon lime beverage
+- lemon lime beverage powder
+- maple muffin
+- orange beverage
+- orange beverage powder
+- peanut butter
+- peppermint ring
+- pork sausage burger
+- pound cake
+- pretzel nuggets
+- pretzel sticks
+- roasted peanuts
+- smoked almonds
+- spaghetti with meatballs
+- spinach fettuccine
+- sugar cookies
+- tortilla with cheese
+- tortilla with jalapeno cheese
+- trail mix
+- tropical punch beverage
+- tropical punch beverage powder
+- tuna sandwich
+- vanilla pudding
+- wooden tree tap
+    - Used to gather tree sap. Place on any log.
+- meal ready-to-eat (MRE) 
+    - when you click on the MRE it will give you one meal, check wiki for more.
+#### Blocks
+- Tree tap
+- Sack of almond
+- Sack of avocado
+- Sack of banana
+- Sack of barley
+- Sack of bean
+- Sack of blueberry
+- Sack of blueberry seed
+- Sack of buckwheat
+- Sack of cabbage
+- Sack of cabbage seed
+- Sack of chocolate chunk oatmeal cookie
+- Sack of coconut
+- Sack of coffee bean
+- Sack of corn cob
+- Sack of corn
+- Sack of cornflour
+- Sack of cranberry
+- Sack of eggplant
+- Sack of eggplant seed
+- Sack of flour
+- Sack of garlic
+- Sack of gherkin
+- Sack of gherkin seed
+- Sack of grape
+- Sack of grape seed
+- Sack of hops
+- Sack of hops seed
+- Sack of lemon
+- Sack of lettuce
+- Sack of lettuce seed
+- Sack of nether cookie
+- Sack of oat
+- Sack of oat seed
+- Sack of oatmeal cookie
+- Sack of olives
+- Sack of onion
+- Sack of onion seed
+- Sack of orange
+- Sack of peanut
+- Sack of peanut seed
+- Sack of pepper
+- Sack of pepper seed
+- Sack of plum
+- Sack of poison berry
+- Sack of poisonous sweet potato
+- Sack of raspberry
+- Sack of raspberry seed
+- Sack of rice
+- Sack of rice seed
+- Sack of soybean
+- Sack of spinach
+- Sack of spinach seed
+- Sack of strawberry
+- Sack of starwberry seed
+- Sack of sugar cookie
+- Sack of sweet potato
+- Sack of tea leaf
+- Sack of tea seed
+- Sack of tomato
+- Sack of tomato seed
+- Sack of vanilla pod
+- Sack of vanilla seed
+- Sack of yeast
 
 ### Recipes
-- Added seed recipes for bushes. Renewable bushes to easily expand your farms. (the item that you get from clicking on the bush) -> seed
-
-### Bug Fixes!
-- [#9](https://github.com/legopitstop/Lots-More-Food-Mods/issues/9) Crafting issues
-- [#10](https://github.com/legopitstop/Lots-More-Food-Mods/issues/10) Emerald knife has missing texture.
-- [#11](https://github.com/legopitstop/Lots-More-Food-Mods/issues/11) Breaking a mature bush gives the wrong item/block.
-- [#14](https://github.com/legopitstop/Lots-More-Food-Mods/issues/14) Some seeds are not placing
-- [#19](https://github.com/legopitstop/Lots-More-Food-Mods/issues/19) Cake is too easy to break compared to vanilla cake. 
-- [#20](https://github.com/legopitstop/Lots-More-Food-Mods/issues/20) Items that are "drinks" play the eating sound and animation. 
-- [#21](https://github.com/legopitstop/Lots-More-Food-Mods/issues/21) Players do not get hunger/saturation when eating the custom cake.
-- White wine 100% does not stack as it should.
-- Items that should convert to a different item (potion converts to glass bottle after use.) do not work
-
-## **Note**
-that some blocks are being removed or their name has been changed. These blocks should automatically be converted into their new block or turned into air. If you find any issues consider reporting them through the issue tracker.
+- recipes for all new items
+- Added jam recipe.
+- Added shroomlight slices to shroomlight recipe.
+### Fixes
+- fixed spamming of invalid var "varable.worldx" in console.
 
 If you find any bugs with this update or any future updates please properly fill out a bug report. [Github Bug Tracker](https://github.com/legopitstop/Lots-More-Food-Mods/issues)
-Have any other questions or concerns? Check out the FAQ! [Lot's More Food FAQ](https://github.com/legopitstop/Lots-More-Food-Mods/wiki/FAQ)

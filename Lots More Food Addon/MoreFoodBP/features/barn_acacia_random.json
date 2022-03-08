@@ -1,16 +1,1 @@
-{
-    "format_version": "1.16.220",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "morefood:barn_acacia_random"
-        },
-        "features": [
-          [ "morefood:barn_acacia_barley", 1 ],
-          [ "morefood:barn_acacia_corn", 1 ],
-          [ "morefood:barn_acacia_hops", 1 ],
-          [ "morefood:barn_acacia_lettuce", 1 ],
-          [ "morefood:barn_acacia_onion", 1 ],
-          [ "morefood:barn_acacia_rice", 1 ]
-        ]
-    }
-}
+{"format_version":"1.16.220","minecraft:weighted_random_feature":{"description":{"identifier":"morefood:barn_acacia_random"},"features":[["morefood:barn_acacia_barley",1],["morefood:barn_acacia_barley2",1],["morefood:barn_acacia_barley3",1],["morefood:barn_acacia_corn",1],["morefood:barn_acacia_corn2",1],["morefood:barn_acacia_corn3",1],["morefood:barn_acacia_hops",1],["morefood:barn_acacia_hops2",1],["morefood:barn_acacia_hops3",1],["morefood:barn_acacia_lettuce",1],["morefood:barn_acacia_lettuce2",1],["morefood:barn_acacia_lettuce3",1],["morefood:barn_acacia_onion",1],["morefood:barn_acacia_onion2",1],["morefood:barn_acacia_onion3",1],["morefood:barn_acacia_rice",1],["morefood:barn_acacia_rice2",1],["morefood:barn_acacia_rice3",1],["morefood:barn_acacia_oat",1],["morefood:barn_acacia_oat2",1],["morefood:barn_acacia_oat3",1],["morefood:barn_acacia_buckwheat",1],["morefood:barn_acacia_buckwheat2",1],["morefood:barn_acacia_buckwheat3",1],["morefood:barn_acacia_cabbage",1],["morefood:barn_acacia_cabbage2",1],["morefood:barn_acacia_cabbage3",1],["morefood:barn_acacia_spinach",1],["morefood:barn_acacia_spinach2",1],["morefood:barn_acacia_spinach3",1],["morefood:barn_acacia_sweet_potatoes",1],["morefood:barn_acacia_sweet_potatoes2",1],["morefood:barn_acacia_sweet_potatoes3",1]]}}

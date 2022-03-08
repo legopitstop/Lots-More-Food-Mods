@@ -1,0 +1,25 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:olive_sapling",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:olive_sapling"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sapling"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:olive_sapling_block",
+                "on_use": [
+                    "minecraft:dirt",
+                    "minecraft:grass",
+                    "minecraft:podzol"
+                ]
+            }
+        }
+    }
+}

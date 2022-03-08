@@ -1,0 +1,29 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:wooden_tree_tap.item",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:display_name": {
+                "value": "tile.morefood:wooden_tree_tap.name"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:wooden_tree_tap",
+                "on_use": [
+                    "minecraft:log",
+                    "minecraft:log2",
+                    "minecraft:warped_stem",
+                    "minecraft:crimson_stem"
+                ]
+            },
+            "minecraft:icon": {
+                "texture": "morefood:wooden_tree_tap"
+            }
+        }
+    }
+}

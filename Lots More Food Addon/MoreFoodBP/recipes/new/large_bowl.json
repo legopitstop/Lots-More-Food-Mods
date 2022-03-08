@@ -1,0 +1,1 @@
+{"format_version":"1.17.1","minecraft:recipe_shaped":{"description":{"identifier":"morefood:large_bowl"},"tags":["crafting_table"],"pattern":["# #"," # "],"key":{"#":{"item":"minecraft:planks"}},"result":{"item":"morefood:large_bowl"}}}

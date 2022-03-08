@@ -1,0 +1,23 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:spinach_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:spinach_seeds"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:spinach_crop",
+                "on_use": [
+                    "minecraft:farmland"
+                ]
+            }
+        }
+    }
+}

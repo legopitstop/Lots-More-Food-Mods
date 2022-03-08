@@ -1,0 +1,25 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:grape_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:grape_seeds"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:grape_bush",
+                "on_use": [
+                    "minecraft:dirt",
+                    "minecraft:grass",
+                    "minecraft:podzol"
+                ]
+            }
+        }
+    }
+}

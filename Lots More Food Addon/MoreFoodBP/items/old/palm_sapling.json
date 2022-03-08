@@ -1,0 +1,25 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:palm_sapling",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:palm_sapling"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sapling"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:palm_sapling_block",
+                "on_use": [
+                    "minecraft:dirt",
+                    "minecraft:grass",
+                    "minecraft:podzol"
+                ]
+            }
+        }
+    }
+}

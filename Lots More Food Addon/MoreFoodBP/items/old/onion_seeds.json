@@ -1,0 +1,23 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:onion_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:onion_seeds"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:onion_crop",
+                "on_use": [
+                    "minecraft:farmland"
+                ]
+            }
+        }
+    }
+}

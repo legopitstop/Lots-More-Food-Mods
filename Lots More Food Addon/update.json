@@ -17,8 +17,11 @@
             }
         }
     },
+    "1.18": {
+        "1.7.0-pre2": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre2"
+    },
     "1.17": {
-        "1.7.0": "Coming soon!"
+        "1.7.0-pre1": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre1"
     },
     "1.16": {
         "1.6.0": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.6.0",

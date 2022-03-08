@@ -1,0 +1,159 @@
+{
+  "format_version": "1.18",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:hanging_coconut",
+      "properties": {
+        "morefood:stage": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "components": {
+      "tag:non_full": {},
+      "tag:plant": {},
+      "minecraft:loot": "loot_tables/morefood/blocks/coconut.json",
+      "minecraft:block_light_filter": 0,
+      "minecraft:block_light_emission": 0,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:geometry": "geometry.template_cross",
+      "minecraft:breakonpush": true,
+      "minecraft:block_collision":false,
+      "minecraft:destroy_time": 0.3,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": [
+              "minecraft:leaves",
+              "minecraft:leaves2",
+              {
+                "tags": "query.any_tag('leaves') && !query.any_tag('non_full')"
+              }
+            ],
+            "allowed_faces": [
+              "down"
+            ]
+          }
+        ]
+      },
+      "minecraft:aim_collision": {
+        "origin": [-6.2,8,-6.2],
+        "size": [12.4,8,12.4]
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [840,840],
+        "on_tick": {
+          "event": "morefood:increase_stage",
+          "target": "self"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "morefood:on_interact"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('morefood:stage') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:coconut_hanging_stage0",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:coconut_hanging_stage1",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:coconut_hanging_stage2",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:stage') == 3",
+        "components": {
+          "minecraft:loot": "loot_tables/morefood/blocks/mature_coconut.json",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "morefood:coconut_hanging_stage3",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ],
+    "events": {
+      "morefood:on_interact": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name =='bone_meal'",
+            "decrement_stack": {},
+            "run_command": {
+              "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~",
+            "playsound item.bone_meal.use @p ~ ~ ~"
+          ]
+            },
+            "trigger": {
+              "event": "morefood:increase_stage"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 3",
+            "spawn_loot": {
+              "table": "loot_tables/morefood/on_interact/coconut.json"
+            },
+            "set_block_property": {
+              "morefood:stage": "0"
+            },
+            "play_sound": {
+              "sound": "block.sweet_berry_bush.pick"
+            }
+          }
+        ]
+      },
+      "morefood:increase_stage": {
+        "sequence": [
+          {
+            "condition": "query.block_property('morefood:stage') == 2",
+            "set_block_property": {
+              "morefood:stage": "3"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 1",
+            "set_block_property": {
+              "morefood:stage": "2"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:stage') == 0",
+            "set_block_property": {
+              "morefood:stage": "1"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

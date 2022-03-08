@@ -1,0 +1,484 @@
+{
+  "credit": "Thanks to Legopitstop for creating the schema. https://github.com/legopitstop/JSON-Schemas",
+  "format_version": "1.18",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:redwhiteblue_cake_block",
+      "properties": {
+        "morefood:slice": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "morefood:convert": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/morefood/empty.json",
+      "minecraft:block_light_filter": 0,
+      "minecraft:explosion_resistance": 0.5,
+      "minecraft:destroy_time": 0.5,
+      "minecraft:on_interact": {
+        "event": "morefood:on_interact"
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              {
+                "tags": "!query.any_tag('non_full')"
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "morefood:redwhiteblue_cake_bottom",
+          "render_method": "opaque"
+        },
+        "side": {
+          "texture": "morefood:redwhiteblue_cake_side",
+          "render_method": "opaque"
+        },
+        "inside": {
+          "texture": "morefood:redwhiteblue_cake_inner",
+          "render_method": "opaque"
+        },
+        "top": {
+          "texture": "morefood:redwhiteblue_cake_top",
+          "render_method": "opaque"
+        },
+        "bottom": {
+          "texture": "morefood:redwhiteblue_cake_bottom",
+          "render_method": "opaque"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('morefood:slice') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice0",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              8,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice1",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              12,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              12,
+              8,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice2",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              10,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              10,
+              8,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice3",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              8,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              8,
+              8,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice4",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              6,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              6,
+              8,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice5",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              4,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              4,
+              8,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('morefood:slice') == 6",
+        "components": {
+          "minecraft:geometry": "geometry.template_cake_slice6",
+          "minecraft:aim_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              2,
+              8,
+              14
+            ]
+          },
+          "minecraft:block_collision": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              2,
+              8,
+              14
+            ]
+          }
+        }
+      }
+    ],
+    "events": {
+      "morefood:increase_slice": {
+        "sequence": [
+          {
+            "run_command": {
+              "target": "player",
+              "command": [
+                "playsound random.burp @s ~ ~ ~ 0.50",
+                "effect @s saturation 1 1 true"
+              ]
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 6",
+            "set_block": {
+              "block_type": "minecraft:air"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 5",
+            "set_block_property": {
+              "morefood:slice": "6"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 4",
+            "set_block_property": {
+              "morefood:slice": "5"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 3",
+            "set_block_property": {
+              "morefood:slice": "4"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 2",
+            "set_block_property": {
+              "morefood:slice": "3"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 1",
+            "set_block_property": {
+              "morefood:slice": "2"
+            }
+          },
+          {
+            "condition": "query.block_property('morefood:slice') == 0",
+            "set_block_property": {
+              "morefood:slice": "1"
+            }
+          }
+        ]
+      },
+      "morefood:convert": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name == 'black_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:black_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'blue_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:blue_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'brown_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:brown_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'cyan_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:cyan_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'gray_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:gray_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'green_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:green_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'light_blue_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:light_blue_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'light_gray_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:light_gray_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'lime_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:lime_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'magenta_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:magenta_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'orange_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:orange_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'pink_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:pink_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'purple_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:purple_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'red_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:red_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'white_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:white_candle_redwhiteblue_cake"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name == 'yellow_candle'",
+            "decrement_stack": {},
+            "set_block": {
+              "block_type": "morefood:yellow_candle_redwhiteblue_cake"
+            }
+          }
+        ]
+      },
+      "morefood:on_interact": {
+        "sequence": [
+          {
+            "condition": "query.get_equipped_item_name == 'black_candle' || query.get_equipped_item_name == 'blue_candle' || query.get_equipped_item_name == 'brown_candle' || query.get_equipped_item_name == 'candle' || query.get_equipped_item_name == 'cyan_candle' || query.get_equipped_item_name == 'gray_candle' || query.get_equipped_item_name == 'green_candle' || query.get_equipped_item_name == 'light_blue_candle' || query.get_equipped_item_name == 'light_gray_candle' || query.get_equipped_item_name == 'lime_candle' || query.get_equipped_item_name == 'magenta_candle' || query.get_equipped_item_name == 'orange_candle' || query.get_equipped_item_name == 'pink_candle' || query.get_equipped_item_name == 'purple_candle' || query.get_equipped_item_name == 'red_candle' || query.get_equipped_item_name == 'white_candle' || query.get_equipped_item_name == 'yellow_candle' && query.block_property('morefood:slice') == 0",
+            "set_block_property": {
+              "morefood:convert": "true"
+            },
+            "run_command": {
+              "target": "block",
+              "command": "playsound cake.add_candle @p"
+            },
+            "trigger": {
+              "event": "morefood:convert"
+            }
+          },
+          {
+            "condition": "query.get_equipped_item_name != 'black_candle' && query.get_equipped_item_name != 'blue_candle' && query.get_equipped_item_name != 'brown_candle' && query.get_equipped_item_name != 'candle' && query.get_equipped_item_name != 'cyan_candle' && query.get_equipped_item_name != 'gray_candle' && query.get_equipped_item_name != 'green_candle' && query.get_equipped_item_name != 'light_blue_candle' && query.get_equipped_item_name != 'light_gray_candle' && query.get_equipped_item_name != 'lime_candle' && query.get_equipped_item_name != 'magenta_candle' && query.get_equipped_item_name != 'orange_candle' && query.get_equipped_item_name != 'pink_candle' && query.get_equipped_item_name != 'purple_candle' && query.get_equipped_item_name != 'red_candle' && query.get_equipped_item_name != 'white_candle' && query.get_equipped_item_name != 'yellow_candle' && query.block_property('morefood:convert') != true",
+            "trigger": {
+              "event": "morefood:increase_slice"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

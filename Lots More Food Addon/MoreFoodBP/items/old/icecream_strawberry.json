@@ -1,0 +1,23 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:icecream_strawberry",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.miscFood"
+            },
+            "minecraft:icon": {
+                "texture": "morefood:strawberry_icecream"
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.2
+            }
+        }
+    }
+}

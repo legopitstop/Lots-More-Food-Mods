@@ -1,0 +1,35 @@
+{
+  "note": "This will replace the block with the new updated one.",
+  "format_version": "1.18",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:strawberry_block",
+      "register_to_creative_menu": false
+    },
+    "components": {
+      "minecraft:destroy_time": 0,
+      "minecraft:explosion_resistance": 0,
+      "minecraft:on_player_placing": {
+        "event": "lps:block_updater"
+      },
+      "minecraft:ticking": {
+        "looping": true,
+        "range": [
+          1,
+          1
+        ],
+        "on_tick": {
+          "event": "lps:block_updater",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "lps:block_updater": {
+        "set_block": {
+          "block_type": "morefood:strawberry_sack"
+        }
+      }
+    }
+  }
+}

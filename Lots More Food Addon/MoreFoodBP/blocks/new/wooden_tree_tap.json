@@ -1,0 +1,230 @@
+{
+    "format_version": "1.18",
+    "minecraft:block": {
+        "description": {
+            "identifier": "morefood:wooden_tree_tap",
+            "properties": {
+                "morefood:facing": [
+                    2, 3, 4, 5, 6
+                ],
+                "morefood:sap_level": [
+                    5,0, 1, 2, 3, 4
+                ]
+            }
+        },
+        "components": {
+            "tag:non_full": {},
+            "minecraft:loot": "loot_tables/morefood/blocks/wooden_tree_tap.json",
+            "minecraft:block_light_filter": 0,
+            "minecraft:block_light_emission": 0,
+            "minecraft:geometry": "geometry.block.tree_tap",
+            "minecraft:on_player_placing": {
+                "event": "morefood:place_block"
+            },
+            "minecraft:block_collision": {
+                "origin": [-2.5, 3.5, 1],
+				"size": [5, 7, 7]
+            },
+            "minecraft:aim_collision": {
+                "origin": [-2.5, 3.5, 1],
+				"size": [5, 7, 7]
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "side"
+                        ],
+                        "block_filter": [
+                            "minecraft:log",
+                            "minecraft:log2",
+                            "minecraft:warped_stem",
+                            "minecraft:crimson_stem",
+                            {
+                              "tags": "query.any_tag('log') && !query.any_tag('non_full')"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "minecraft:ticking": {
+                "looping": true,
+                "range": [
+                    9600,
+                    9600
+                ],
+                "on_tick": {
+                    "condition": "query.block_property('morefood:sap_level') != 5",
+                    "event": "morefood:increase_level"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('morefood:facing') == 2",
+                "components": {
+                    "minecraft:rotation": [0, 0, 0]
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:facing') == 3",
+                "components": {
+                    "minecraft:rotation": [0, 180, 0]
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:facing') == 4",
+                "components": {
+                    "minecraft:rotation": [0, 90, 0]
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:facing') == 5",
+                "components": {
+                    "minecraft:rotation": [0, -90, 0]
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:sap_level') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "morefood:wooden_tree_tap_level0",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:sap_level') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "morefood:wooden_tree_tap_level1",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:sap_level') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "morefood:wooden_tree_tap_level2",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:sap_level') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "morefood:wooden_tree_tap_level3",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:sap_level') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "morefood:wooden_tree_tap_level4",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_property('morefood:sap_level') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "morefood:wooden_tree_tap_level5",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:on_interact": {
+                        "condition": "q.get_equipped_item_name=='bucket'",
+                        "event": "morefood:take_sap"
+                    },
+                    "minecraft:ticking": {
+                        "looping": true,
+                        "range": [
+                            5,
+                            5
+                        ],
+                        "on_tick": {
+                            "target": "player",
+                            "event": "morefood:sap_drip"
+                        }
+                    }
+                }
+            }
+        ],
+        "events": {
+            "morefood:place_block": {
+                "set_block_property": {
+                    "morefood:facing": "(query.block_face)"
+                }
+            },
+            "morefood:sap_drip": {
+                "run_command": {
+                    "target": "block",
+                    "command": "particle morefood:sap_drip_particle ~-0.1 ~-0.3 ~"
+                }
+            },
+            "morefood:take_sap": {
+                "decrement_stack": {},
+                "run_command": {
+                    "target": "player",
+                    "command": [
+                        "say WORKED",
+                        "give @s morefood:maple_sap_bucket"
+                    ]
+                },
+                "set_block_property": {
+                    "morefood:sap_level": "0"
+                }
+            },
+            "morefood:increase_level": {
+                "sequence": [
+                    {
+                        "condition": "query.block_property('morefood:sap_level') == 4",
+                        "set_block_property": {
+                            "morefood:sap_level": "5"
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('morefood:sap_level') == 3",
+                        "set_block_property": {
+                            "morefood:sap_level": "4"
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('morefood:sap_level') == 2",
+                        "set_block_property": {
+                            "morefood:sap_level": "3"
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('morefood:sap_level') == 1",
+                        "set_block_property": {
+                            "morefood:sap_level": "2"
+                        }
+                    },
+                    {
+                        "condition": "query.block_property('morefood:sap_level') == 0",
+                        "set_block_property": {
+                            "morefood:sap_level": "1"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:empty_icecrush_glass",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:icon": {
+                "texture": "morefood:empty_icecrush_glass"
+            }
+        }
+    }
+}

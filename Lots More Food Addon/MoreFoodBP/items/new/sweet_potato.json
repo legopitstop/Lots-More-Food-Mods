@@ -1,0 +1,27 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:sweet_potato",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:sweet_potato"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.crop"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:sweet_potatoes",
+                "on_use": [
+                    "minecraft:farmland"
+                ]
+            },
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation_modifier": 2.4
+            }
+        }
+    }
+}

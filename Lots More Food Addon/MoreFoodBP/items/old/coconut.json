@@ -1,0 +1,25 @@
+{
+    "format_version": "1.18",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:coconut",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:coconut"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.crop"
+            },
+            "minecraft:seed": {
+                "plant_at": [
+                    "grass",
+                    "dirt",
+                    "podzol"
+                ],
+                "crop_result": "morefood:tree_coconut"
+            }
+        }
+    }
+}
