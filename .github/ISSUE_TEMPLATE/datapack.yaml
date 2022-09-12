@@ -31,7 +31,6 @@ body:
    attributes:
      label: Describe the bug
      description: A clear and concise description of what the bug is.
-     render: Markdown
 
  - type: textarea
    id: reproduce
@@ -40,7 +39,6 @@ body:
    attributes:
      label: Steps To Reproduce
      description: Steps to reproduce the behavior
-     render: Markdown
      value: |
       1.
       2.
@@ -55,7 +53,6 @@ body:
    attributes:
      label: Expected behavior
      description: A clear and concise description of what you expected to happen.
-     render: Markdown
 
  - type: input
    id: minecraft_version
