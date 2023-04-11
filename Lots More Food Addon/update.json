@@ -17,6 +17,9 @@
             }
         }
     },
+    "1.19": {
+        "1.7.0-pre4": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre4"
+    },
     "1.18": {
         "1.7.0-pre2": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre2"
     },

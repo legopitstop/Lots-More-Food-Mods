@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:bacon",
@@ -12,7 +12,7 @@
             "minecraft:icon": {
                 "texture": "morefood:bacon"
             },
-            "minecraft:use_animation": "eat",
+            "minecraft:use_animation": "drink",
             "minecraft:use_duration": 1.61,
             "minecraft:food": {
                 "is_meat": true,

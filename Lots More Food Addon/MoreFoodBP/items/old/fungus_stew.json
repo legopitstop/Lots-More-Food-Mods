@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:fungus_stew",
@@ -19,7 +19,7 @@
                 "nutrition": 6,
                 "saturation_modifier": 6.0,
                 "using_converts_to": "minecraft:bowl",
-                "on_use_action": "suspicious_stew_effect"
+                "use_on_action": "suspicious_stew_effect"
             }
         }
     }

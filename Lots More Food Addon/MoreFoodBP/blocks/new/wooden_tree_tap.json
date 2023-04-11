@@ -1,91 +1,109 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:block": {
         "description": {
             "identifier": "morefood:wooden_tree_tap",
             "properties": {
                 "morefood:facing": [
-                    2, 3, 4, 5, 6
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
                 ],
                 "morefood:sap_level": [
-                    5,0, 1, 2, 3, 4
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
                 ]
             }
         },
         "components": {
             "tag:non_full": {},
             "minecraft:loot": "loot_tables/morefood/blocks/wooden_tree_tap.json",
-            "minecraft:block_light_filter": 0,
-            "minecraft:block_light_emission": 0,
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 0,
             "minecraft:geometry": "geometry.block.tree_tap",
             "minecraft:on_player_placing": {
                 "event": "morefood:place_block"
             },
-            "minecraft:block_collision": {
-                "origin": [-2.5, 3.5, 1],
-				"size": [5, 7, 7]
-            },
-            "minecraft:aim_collision": {
-                "origin": [-2.5, 3.5, 1],
-				"size": [5, 7, 7]
-            },
-            "minecraft:placement_filter": {
-                "conditions": [
-                    {
-                        "allowed_faces": [
-                            "side"
-                        ],
-                        "block_filter": [
-                            "minecraft:log",
-                            "minecraft:log2",
-                            "minecraft:warped_stem",
-                            "minecraft:crimson_stem",
-                            {
-                              "tags": "query.any_tag('log') && !query.any_tag('non_full')"
-                            }
-                        ]
-                    }
+            "minecraft:collision_box": {
+                "origin": [
+                    -2.5,
+                    3.5,
+                    1
+                ],
+                "size": [
+                    5,
+                    7,
+                    7
                 ]
             },
-            "minecraft:ticking": {
-                "looping": true,
-                "range": [
-                    9600,
-                    9600
+            "minecraft:selection_box": {
+                "origin": [
+                    -2.5,
+                    3.5,
+                    1
                 ],
+                "size": [
+                    5,
+                    7,
+                    7
+                ]
+            },
+            "minecraft:random_ticking": {
                 "on_tick": {
-                    "condition": "query.block_property('morefood:sap_level') != 5",
-                    "event": "morefood:increase_level"
+                    "condition": "q.block_property('morefood:sap_level') != 5",
+                    "event": "morefood:test"
                 }
             }
         },
         "permutations": [
             {
-                "condition": "query.block_property('morefood:facing') == 2",
+                "condition": "q.block_property('morefood:facing') == 2",
                 "components": {
-                    "minecraft:rotation": [0, 0, 0]
+                    "minecraft:rotation": [
+                        0,
+                        180,
+                        0
+                    ]
                 }
             },
             {
-                "condition": "query.block_property('morefood:facing') == 3",
+                "condition": "q.block_property('morefood:facing') == 3",
                 "components": {
-                    "minecraft:rotation": [0, 180, 0]
+                    "minecraft:rotation": [
+                        0,
+                        0,
+                        0
+                    ]
                 }
             },
             {
-                "condition": "query.block_property('morefood:facing') == 4",
+                "condition": "q.block_property('morefood:facing') == 4",
                 "components": {
-                    "minecraft:rotation": [0, 90, 0]
+                    "minecraft:rotation": [
+                        0,
+                        -90,
+                        0
+                    ]
                 }
             },
             {
-                "condition": "query.block_property('morefood:facing') == 5",
+                "condition": "q.block_property('morefood:facing') == 5",
                 "components": {
-                    "minecraft:rotation": [0, -90, 0]
+                    "minecraft:rotation": [
+                        0,
+                        90,
+                        0
+                    ]
                 }
             },
             {
-                "condition": "query.block_property('morefood:sap_level') == 0",
+                "condition": "q.block_property('morefood:sap_level') == 0",
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -96,7 +114,7 @@
                 }
             },
             {
-                "condition": "query.block_property('morefood:sap_level') == 1",
+                "condition": "q.block_property('morefood:sap_level') == 1",
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -107,7 +125,7 @@
                 }
             },
             {
-                "condition": "query.block_property('morefood:sap_level') == 2",
+                "condition": "q.block_property('morefood:sap_level') == 2",
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -118,7 +136,7 @@
                 }
             },
             {
-                "condition": "query.block_property('morefood:sap_level') == 3",
+                "condition": "q.block_property('morefood:sap_level') == 3",
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -129,7 +147,7 @@
                 }
             },
             {
-                "condition": "query.block_property('morefood:sap_level') == 4",
+                "condition": "q.block_property('morefood:sap_level') == 4",
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -140,7 +158,7 @@
                 }
             },
             {
-                "condition": "query.block_property('morefood:sap_level') == 5",
+                "condition": "q.block_property('morefood:sap_level') == 5",
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
@@ -149,17 +167,16 @@
                         }
                     },
                     "minecraft:on_interact": {
-                        "condition": "q.get_equipped_item_name=='bucket'",
+                        "condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:bucket')",
                         "event": "morefood:take_sap"
                     },
-                    "minecraft:ticking": {
+                    "minecraft:queued_ticking": {
                         "looping": true,
-                        "range": [
-                            5,
-                            5
+                        "interval_range": [
+                            100,
+                            100
                         ],
                         "on_tick": {
-                            "target": "player",
                             "event": "morefood:sap_drip"
                         }
                     }
@@ -169,7 +186,7 @@
         "events": {
             "morefood:place_block": {
                 "set_block_property": {
-                    "morefood:facing": "(query.block_face)"
+                    "morefood:facing": "q.cardinal_facing_2d"
                 }
             },
             "morefood:sap_drip": {
@@ -181,49 +198,40 @@
             "morefood:take_sap": {
                 "decrement_stack": {},
                 "run_command": {
-                    "target": "player",
                     "command": [
-                        "say WORKED",
+                        "playsound bucket.fill_water @a[r=17] ~ ~ ~",
                         "give @s morefood:maple_sap_bucket"
-                    ]
+                    ],
+                    "target": "player"
                 },
                 "set_block_property": {
                     "morefood:sap_level": "0"
                 }
             },
-            "morefood:increase_level": {
+            "morefood:test": {
                 "sequence": [
                     {
-                        "condition": "query.block_property('morefood:sap_level') == 4",
-                        "set_block_property": {
-                            "morefood:sap_level": "5"
-                        }
+                        "condition": "q.block_property('morefood:facing')==2 && q.block_neighbor_has_any_tag(0,0,-1,'log') && ( q.block_neighbor_has_any_tag(0,1,-1,'log') || q.block_neighbor_has_any_tag(0,-1,-1,'log'))",
+                        "trigger": {"event": "morefood:increase_level"}
                     },
                     {
-                        "condition": "query.block_property('morefood:sap_level') == 3",
-                        "set_block_property": {
-                            "morefood:sap_level": "4"
-                        }
+                        "condition": "q.block_property('morefood:facing')==3 && q.block_neighbor_has_any_tag(0,0,1,'log') && ( q.block_neighbor_has_any_tag(0,1,1,'log') || q.block_neighbor_has_any_tag(0,-1,1,'log'))",
+                        "trigger": {"event": "morefood:increase_level"}
                     },
                     {
-                        "condition": "query.block_property('morefood:sap_level') == 2",
-                        "set_block_property": {
-                            "morefood:sap_level": "3"
-                        }
+                        "condition": "q.block_property('morefood:facing')==4 && q.block_neighbor_has_any_tag(-1,0,0,'log') && ( q.block_neighbor_has_any_tag(-1,1,0,'log') || q.block_neighbor_has_any_tag(-1,-1,0,'log'))",
+                        "trigger": {"event": "morefood:increase_level"}
                     },
                     {
-                        "condition": "query.block_property('morefood:sap_level') == 1",
-                        "set_block_property": {
-                            "morefood:sap_level": "2"
-                        }
-                    },
-                    {
-                        "condition": "query.block_property('morefood:sap_level') == 0",
-                        "set_block_property": {
-                            "morefood:sap_level": "1"
-                        }
+                        "condition": "q.block_property('morefood:facing')==5 && q.block_neighbor_has_any_tag(1,0,0,'log') && ( q.block_neighbor_has_any_tag(1,1,0,'log') || q.block_neighbor_has_any_tag(1,-1,0,'log'))",
+                        "trigger": {"event": "morefood:increase_level"}
                     }
                 ]
+            },
+            "morefood:increase_level": {
+                "set_block_property": {
+                    "morefood:sap_level": "q.block_property('morefood:sap_level') + 1"
+                }
             }
         }
     }

@@ -1,0 +1,134 @@
+# Desc: Removes all illegal block items from the players inventory
+#
+# Called By: tick.json
+
+# legacy
+# clear @a morefood:peanut_bush
+
+# Remove command output
+gamerule sendcommandfeedback false
+
+# remove 'illegal' items
+clear @a morefood:barley_crop
+clear @a morefood:corn_crop
+clear @a morefood:hops_crop
+clear @a morefood:lettuce_crop
+clear @a morefood:onion_crop
+clear @a morefood:rice_crop
+clear @a morefood:coffee_bush
+clear @a morefood:gherkin_bush
+clear @a morefood:grape_bush
+clear @a morefood:pepper_bush
+clear @a morefood:raspberry_bush
+clear @a morefood:strawberry_bush
+clear @a morefood:tea_bush
+clear @a morefood:tomato_bush
+clear @a morefood:vanilla_bush
+clear @a morefood:blueberry_bush
+clear @a morefood:buckwheat_crop
+clear @a morefood:cabbage_crop
+clear @a morefood:eggplant_bush
+clear @a morefood:oat_crop
+clear @a morefood:peanut_crop
+clear @a morefood:poison_berry_bush
+clear @a morefood:soybean_bush
+clear @a morefood:spinach_crop
+clear @a morefood:sweet_potatoes
+clear @a morefood:apple_hanging_fruit
+clear @a morefood:banana_hanging_fruit
+clear @a morefood:lemon_hanging_fruit
+clear @a morefood:olives_hanging_fruit
+clear @a morefood:orange_hanging_fruit
+clear @a morefood:plum_hanging_fruit
+clear @a morefood:hanging_coconut
+clear @a morefood:hanging_avocado
+clear @a morefood:apple_sapling_block
+clear @a morefood:banana_sapling_block
+clear @a morefood:lemon_sapling_block
+clear @a morefood:olive_sapling_block
+clear @a morefood:orange_sapling_block
+clear @a morefood:plum_sapling_block
+clear @a morefood:palm_sapling_block
+clear @a morefood:avocado_sapling_block
+clear @a morefood:almond_sapling_block
+clear @a morefood:hanging_almond
+clear @a morefood:bean_bush
+clear @a morefood:cranberry_bush
+clear @a morefood:garlic_crop
+clear @a morefood:peppermint_bush
+clear @a morefood:watermint_plant
+clear @a morefood:spearmint_plant
+
+# Cake
+clear @a morefood:chocolate_cake_block
+clear @a morefood:black_candle_chocolate_cake
+clear @a morefood:blue_candle_chocolate_cake
+clear @a morefood:brown_candle_chocolate_cake
+clear @a morefood:candle_chocolate_cake
+clear @a morefood:cyan_candle_chocolate_cake
+clear @a morefood:gray_candle_chocolate_cake
+clear @a morefood:green_candle_chocolate_cake
+clear @a morefood:light_blue_candle_chocolate_cake
+clear @a morefood:light_gray_candle_chocolate_cake
+clear @a morefood:lime_candle_chocolate_cake
+clear @a morefood:magenta_candle_chocolate_cake
+clear @a morefood:orange_candle_chocolate_cake
+clear @a morefood:pink_candle_chocolate_cake
+clear @a morefood:purple_candle_chocolate_cake
+clear @a morefood:red_candle_chocolate_cake
+clear @a morefood:white_candle_chocolate_cake
+clear @a morefood:yellow_candle_chocolate_cake
+clear @a morefood:rainbow_cake_block
+clear @a morefood:black_candle_rainbow_cake
+clear @a morefood:blue_candle_rainbow_cake
+clear @a morefood:brown_candle_rainbow_cake
+clear @a morefood:candle_rainbow_cake
+clear @a morefood:cyan_candle_rainbow_cake
+clear @a morefood:gray_candle_rainbow_cake
+clear @a morefood:green_candle_rainbow_cake
+clear @a morefood:light_blue_candle_rainbow_cake
+clear @a morefood:light_gray_candle_rainbow_cake
+clear @a morefood:lime_candle_rainbow_cake
+clear @a morefood:magenta_candle_rainbow_cake
+clear @a morefood:orange_candle_rainbow_cake
+clear @a morefood:pink_candle_rainbow_cake
+clear @a morefood:purple_candle_rainbow_cake
+clear @a morefood:red_candle_rainbow_cake
+clear @a morefood:white_candle_rainbow_cake
+clear @a morefood:yellow_candle_rainbow_cake
+clear @a morefood:redwhiteblue_cake_block
+clear @a morefood:black_candle_redwhiteblue_cake
+clear @a morefood:blue_candle_redwhiteblue_cake
+clear @a morefood:brown_candle_redwhiteblue_cake
+clear @a morefood:candle_redwhiteblue_cake
+clear @a morefood:cyan_candle_redwhiteblue_cake
+clear @a morefood:gray_candle_redwhiteblue_cake
+clear @a morefood:green_candle_redwhiteblue_cake
+clear @a morefood:light_blue_candle_redwhiteblue_cake
+clear @a morefood:light_gray_candle_redwhiteblue_cake
+clear @a morefood:lime_candle_redwhiteblue_cake
+clear @a morefood:magenta_candle_redwhiteblue_cake
+clear @a morefood:orange_candle_redwhiteblue_cake
+clear @a morefood:pink_candle_redwhiteblue_cake
+clear @a morefood:purple_candle_redwhiteblue_cake
+clear @a morefood:red_candle_redwhiteblue_cake
+clear @a morefood:white_candle_redwhiteblue_cake
+clear @a morefood:yellow_candle_redwhiteblue_cake
+clear @a morefood:pound_cake_block
+clear @a morefood:black_candle_pound_cake
+clear @a morefood:blue_candle_pound_cake
+clear @a morefood:brown_candle_pound_cake
+clear @a morefood:candle_pound_cake
+clear @a morefood:cyan_candle_pound_cake
+clear @a morefood:gray_candle_pound_cake
+clear @a morefood:green_candle_pound_cake
+clear @a morefood:light_blue_candle_pound_cake
+clear @a morefood:light_gray_candle_pound_cake
+clear @a morefood:lime_candle_pound_cake
+clear @a morefood:magenta_candle_pound_cake
+clear @a morefood:orange_candle_pound_cake
+clear @a morefood:pink_candle_pound_cake
+clear @a morefood:purple_candle_pound_cake
+clear @a morefood:red_candle_pound_cake
+clear @a morefood:white_candle_pound_cake
+clear @a morefood:yellow_candle_pound_cake

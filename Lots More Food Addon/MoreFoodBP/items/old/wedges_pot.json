@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:wedges_pot",
@@ -16,7 +16,8 @@
             "minecraft:use_duration": 1.61,
             "minecraft:food": {
                 "nutrition": 5,
-                "saturation_modifier": 6.0
+                "saturation_modifier": 6.0,
+                "using_converts_to": "minecraft:flower_pot"
             }
         }
     }

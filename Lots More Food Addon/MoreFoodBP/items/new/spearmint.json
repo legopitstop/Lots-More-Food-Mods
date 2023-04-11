@@ -1,0 +1,43 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:spearmint",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:spearmint"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.grass"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:spearmint_plant",
+                "on_use": [
+                    "minecraft:dirt",
+                    "minecraft:grass",
+                    "minecraft:podzol"
+                ]
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation_modifier": 1.0,
+                "on_consume": {
+                    "event": "event:minty"
+                }
+            }
+        },
+        "events": {
+            "event:minty": {
+                "damage": {
+                    "amount": 1,
+                    "type": "freezing",
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

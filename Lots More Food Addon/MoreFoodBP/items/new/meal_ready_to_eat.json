@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:meal_ready_to_eat",
@@ -14,7 +14,7 @@
             },
             "minecraft:use_animation": "eat",
             "minecraft:use_duration": 1.61,
-            "minecraft:on_use": {
+            "minecraft:use_on": {
                 "on_use": {
                     "event": "morefood:mre_loot"
                 }

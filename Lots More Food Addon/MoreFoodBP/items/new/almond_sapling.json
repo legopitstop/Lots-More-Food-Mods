@@ -1,0 +1,26 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:almond_sapling",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:almond_sapling"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sapling"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:almond_sapling_block",
+                "on_use": [
+                    "minecraft:grass",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:dirt_with_roots"
+                ]
+            }
+        }
+    }
+}

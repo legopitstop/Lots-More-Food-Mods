@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:wooden_tree_tap.item",
@@ -17,8 +17,13 @@
                 "on_use": [
                     "minecraft:log",
                     "minecraft:log2",
+                    "minecraft:mangrove_log",
+                    "minecraft:wood",
+                    "minecraft:mangrove_wood",
+                    "minecraft:crimson_stem",
                     "minecraft:warped_stem",
-                    "minecraft:crimson_stem"
+                    "minecraft:crimson_hyphae",
+                    "minecraft:warped_hyphae"
                 ]
             },
             "minecraft:icon": {

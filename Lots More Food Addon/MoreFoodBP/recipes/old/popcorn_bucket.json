@@ -1,1 +1,28 @@
-{"format_version":"1.17.1","minecraft:recipe_shaped":{"description":{"identifier":"morefood:popcorn_bucket"},"tags":["crafting_table"],"pattern":["#","P","X"],"key":{"#":{"item":"morefood:empty_popcorn_bucket"},"P":{"item":"morefood:corn"},"X":{"item":"minecraft:bucket","data":10}},"result":{"item":"morefood:popcorn_bucket"}}}
+{
+    "format_version": "1.17.1",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "morefood:popcorn_bucket"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "PPP",
+            "PPP",
+            " B "
+        ],
+        "key": {
+            "P": {
+                "item": "morefood:popcorn"
+            },
+            "B": {
+                "item": "minecraft:bucket",
+                "data": 0
+            }
+        },
+        "result": {
+            "item": "morefood:popcorn_bucket"
+        }
+    }
+}

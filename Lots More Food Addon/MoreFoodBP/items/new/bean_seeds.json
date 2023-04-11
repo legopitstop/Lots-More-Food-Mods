@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "morefood:bean_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "morefood:bean_seeds"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "morefood:bean_bush",
+                "on_use": [
+                    "minecraft:dirt",
+                    "minecraft:grass",
+                    "minecraft:podzol"
+                ]
+            }
+        }
+    }
+}

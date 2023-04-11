@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18",
+    "format_version": "1.19.40",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:peanut_seeds",
@@ -13,11 +13,10 @@
                 "parent": "itemGroup.name.seed"
             },
             "minecraft:block_placer": {
-                "block": "morefood:peanut_bush",
+                "block": "morefood:peanut_crop",
                 "on_use": [
-                    "minecraft:dirt",
-                    "minecraft:grass",
-                    "minecraft:podzol"
+                    "minecraft:farmland",
+                    "morefood:fertile_soil"
                 ]
             }
         }

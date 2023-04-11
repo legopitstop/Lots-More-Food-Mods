@@ -1,1 +1,32 @@
-{"format_version":"1.17.1","minecraft:recipe_shaped":{"description":{"identifier":"morefood:starch"},"tags":["crafting_table"],"pattern":["#","P","X"],"key":{"#":{"item":"minecraft:potato"},"P":{"item":"minecraft:wheat"},"X":{"item":"minecraft:beetroot"}},"result":[{"item":"morefood:starch"}]}}
+{
+    "format_version": "1.17.1",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "morefood:starch"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#",
+            "P",
+            "X"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:potato"
+            },
+            "P": {
+                "item": "minecraft:wheat"
+            },
+            "X": {
+                "item": "minecraft:beetroot"
+            }
+        },
+        "result": [
+            {
+                "item": "morefood:starch"
+            }
+        ]
+    }
+}

@@ -1,25 +1,30 @@
 {
     "format_version": 2,
     "header": {
-        "description": "\u00a78This addon adds over 200+ new foods to your world!\u00a7r\n\u00a77Addon by:\u00a76 Legopitstop\u00a7r\n\u00a7Textures by:\u00a76 SuperSonic\u00a7r\n\u00a77Download:\u00a78 https:\/\/mcpedl.com\/lots-more-food-bedrock-addon\u00a7r\n\u00a77Wiki:\u00a78 https:\/\/more-food.fandom.com\u00a7r\n\u00a77License:\u00a78 https:\/\/legopitstop.weebly.com\/license",
+        "description": "This addon adds over 400+ new foods to your world!\n\u00c2\u00a78Developer: \u00c2\u00a76Legopitstop\n\u00c2\u00a78Artist: \u00c2\u00a72SuperSonic",
         "name": "Lot's More Food BP",
         "uuid": "ee649bcf-256c-4013-9068-6a802b89d756",
-        "version": [1, 6, 2],
-        "min_engine_version": [1, 18, 1]
+        "version": [1, 6, 4],
+        "min_engine_version": [1, 19, 73]
     },
     "modules": [
         {
             "description": "Lot's More Food behaivor pack.",
             "type": "data",
             "uuid": "586073da-205f-444e-842c-54b748ef2d08",
-            "version": [1, 6, 2]
+            "version": [1, 6, 4]
         }
     ],
     "dependencies": [
         {
-            "description": "More Food Resourcepack Needed",
+            "description": "More Food RP Needed",
             "uuid": "4e098d16-f6b4-11e9-802a-5aa538984bd8",
-            "version": [1, 6, 2]
+            "version": [1, 6, 4]
+        },
+        {
+            "description": "Assets Plus RP Needed",
+            "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
+            "version": [1, 3, 0]
         }
     ],
     "metadata": {
@@ -33,12 +38,12 @@
     "subpacks": [
         {
             "folder_name": "holiday_features",
-            "name": "Holiday Features: §2ON§r",
+            "name": "Holiday Features: \u00c2\u00a72ON",
             "memory_tier": 2
         },
         {
             "folder_name": "pack",
-            "name": "Holiday Features: §4OFF§r",
+            "name": "Holiday Features: \u00c2\u00a74OFF",
             "memory_tier": 1
         }
     ]

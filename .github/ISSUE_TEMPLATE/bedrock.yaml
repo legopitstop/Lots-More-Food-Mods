@@ -71,6 +71,7 @@ body:
      label: Mod Version
      description: The version of the Mod that you are using.
      options:
+       - "1.7.0-pre4"
        - "1.7.0-pre3"
        - "1.7.0-pre2"
        - "1.7.0-pre1"
