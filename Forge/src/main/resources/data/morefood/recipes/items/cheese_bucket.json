@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " B "
+  ],
+  "key": {
+    "C": {
+      "item": "morefood:cheese_wedge"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "morefood:cheese_bucket"
+  }
+}

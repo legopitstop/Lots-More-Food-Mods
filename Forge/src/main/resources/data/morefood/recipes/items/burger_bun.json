@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#F#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "morefood:dough"
+    },
+    "F": {
+      "item": "morefood:flour"
+    }
+  },
+  "result": {
+    "item": "morefood:burger_bun"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "morefood:template/template_spoon",
+    "textures": {
+        "all": "minecraft:block/oak_planks"
+    }
+}

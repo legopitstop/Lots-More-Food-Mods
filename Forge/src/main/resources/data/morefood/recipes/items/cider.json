@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "G"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:bottled_cider"
+        },
+        "G": {
+            "item": "morefood:empty_tumbler_glass"
+        }
+    },
+    "result": {
+        "item": "morefood:cider"
+    }
+}

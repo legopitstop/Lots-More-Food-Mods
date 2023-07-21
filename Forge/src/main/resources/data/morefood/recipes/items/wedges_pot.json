@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "P"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:cooked_wedges"
+        },
+        "P": {
+            "item": "minecraft:flower_pot"
+        }
+    },
+    "result": {
+        "item": "morefood:wedges_pot"
+    }
+}

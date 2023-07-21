@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "morefood:bacon",
+    "count": 4
+  }
+}

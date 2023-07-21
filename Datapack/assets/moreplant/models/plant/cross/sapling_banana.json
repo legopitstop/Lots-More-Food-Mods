@@ -1,0 +1,6 @@
+{
+    "parent": "moreplant:block/mp_cross",
+    "textures": {
+        "cross": "moreplant:plant/banana_tree_sapling"
+    }
+}
