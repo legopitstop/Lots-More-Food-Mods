@@ -4,13 +4,9 @@
 [![license](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flegopitstop%2Fwebsite-files%2Fmain%2Fshields.io%2Flicense.json)](https://legopitstop.weebly.com/legopitstops-common-license-v2.html "Go to legopitstop.weebly.com")
 [![discord](https://img.shields.io/discord/932661468212641813)](https://discord.gg/8veP32PUEQ "Join discord server")
 [![github](https://img.shields.io/github/issues-raw/legopitstop/Lots-More-Food-Mods)](https://github.com/legopitstop/Lots-More-Food-Mods/issues "Go to Github")
-[![curseforge](http://cf.way2muchnoise.eu/full_347677_downloads.svg)](https://www.curseforge.com/minecraft/customization/lots-more-food-datapack "Go to curseforge")
 
 This Github is for all morefood editions, Java's datapack edition, Forge edition, and Bedrock's addon. If you find an issue submit it
 via the Issues tab so we can get it fixed. If you have a feature requiest also submit it through the Issues tab.
-
-## Wiki
-Check out the *work in progress* wiki page located right here on Github. Go to [Wiki](https://github.com/legopitstop/Lots-More-Food-Mods/wiki "Go to wiki")
 
 ## Recipes
 You can find a Google Document that contains all the recipes for Lot's More Food, Some editions have slightly diffrent recipes. Go to [Recipes Page](https://legopitstop.weebly.com/recipes-morefood.html "Go to recipe page.")

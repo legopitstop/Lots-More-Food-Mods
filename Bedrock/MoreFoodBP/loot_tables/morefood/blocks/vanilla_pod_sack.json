@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "morefood:vanilla_pod_sack",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
