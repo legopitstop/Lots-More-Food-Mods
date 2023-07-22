@@ -71,6 +71,8 @@ body:
      label: Mod Version
      description: The version of the Mod that you are using.
      options:
+       - "newer"
+       - "1.7.0-pre5"
        - "1.7.0-pre4"
        - "1.7.0-pre3"
        - "1.7.0-pre2"
@@ -89,6 +91,7 @@ body:
        - "0.0.4"
        - "0.0.3"
        - "0.0.1"
+       - "older"
 
  - type: input
    id: platform
