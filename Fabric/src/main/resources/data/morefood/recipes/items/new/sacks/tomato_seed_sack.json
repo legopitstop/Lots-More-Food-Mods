@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "morefood:tomato_seeds"
+        }
+    },
+    "result": {
+        "item": "morefood:tomato_seed_sack"
+    }
+}

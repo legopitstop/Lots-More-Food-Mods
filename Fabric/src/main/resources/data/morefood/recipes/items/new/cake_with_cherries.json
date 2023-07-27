@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "A"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:cherries"
+        },
+        "A": {
+            "item": "minecraft:cake"
+        }
+    },
+    "result": {
+        "item": "morefood:cake_with_cherries"
+    }
+}

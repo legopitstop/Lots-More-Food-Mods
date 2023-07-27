@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "SPS",
+        " S "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:sugar"
+        },
+        "P": {
+            "item": "morefood:peppermint_extract"
+        }
+    },
+    "result": {
+        "item": "morefood:peppermint_ring"
+    }
+}

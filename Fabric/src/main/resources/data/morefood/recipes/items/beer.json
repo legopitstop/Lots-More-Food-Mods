@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "G"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:bottled_beer"
+        },
+        "G": {
+            "item": "morefood:beer_glass"
+        }
+    },
+    "result": {
+        "item": "morefood:beer"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " B "
+  ],
+  "key": {
+    "P": {
+      "item": "morefood:vanilla_pod"
+    },
+    "B": {
+      "item": "morefood:bottle"
+    }
+  },
+  "result": {
+    "item": "morefood:vanilla_extract"
+  }
+}

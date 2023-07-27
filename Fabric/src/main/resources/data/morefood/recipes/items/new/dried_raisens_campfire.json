@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "morefood:grape"
+  },
+  "result": "morefood:dried_raisens"
+}

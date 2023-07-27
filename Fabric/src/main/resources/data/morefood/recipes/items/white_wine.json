@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "G"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:bottled_white_wine"
+        },
+        "G": {
+            "item": "morefood:wine_glass"
+        }
+    },
+    "result": {
+        "item": "morefood:white_wine"
+    }
+}

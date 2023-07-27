@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "morefood:corn_cob"
+    }
+  },
+  "result": {
+    "item": "morefood:corn",
+    "count": 4
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " P "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glow_berries"
+        },
+        "P": {
+            "item": "morefood:pie_base"
+        }
+    },
+    "result": {
+        "item": "morefood:glowberry_pie"
+    }
+}

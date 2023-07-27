@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C"
+  ],
+  "key": {
+    "C": {
+      "item": "morefood:coconut"
+    }
+  },
+  "result": {
+    "item": "morefood:coconut_meat"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        " P "
+    ],
+    "key": {
+        "#": {
+            "item": "morefood:dough"
+        },
+        "C": {
+            "item": "morefood:corn_cob"
+        },
+        "P": {
+            "item": "morefood:flour"
+        }
+    },
+    "result": {
+        "item": "morefood:cornbread"
+    }
+}

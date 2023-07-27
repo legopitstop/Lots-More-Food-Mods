@@ -1,0 +1,13 @@
+{
+  "features": {
+    "enabled": [
+      "morefood:holiday"
+    ]
+  },
+  "pack": {
+    "description": {
+      "translate": "dataPack.holiday.description"
+    },
+    "pack_format": 15
+  }
+}

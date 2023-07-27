@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "morefood:peanut"
+  },
+  "result": "morefood:roasted_peanut"
+}

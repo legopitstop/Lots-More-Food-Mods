@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "supersonic:item/apple_raspberry_pie"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "morefood:rice_seeds"
+        }
+    },
+    "result": {
+        "item": "morefood:rice_seed_sack"
+    }
+}

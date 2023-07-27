@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "morefood:block/peanut_crop_stage3"
+    }
+}

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "morefood",
+	"version": "${version}",
+	"name": "Lot's More Food",
+	"description": "Adds over 200+ new foods to your world!!",
+	"authors": [
+		"legopitstop"
+	],
+	"contact": {
+		"homepage": "https://legopitstop.weebly.com",
+		"sources": "https://github.com/legopitstop/Lots-More-Food-Mods"
+	},
+	"license": "CC-BY-NC-ND-4.0",
+	"icon": "assets/morefood/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.legopitstop.morefood.MoreFood"
+		],
+		"client": [
+			"com.legopitstop.morefood.MoreFoodClient"
+		],
+		"fabric-datagen": [
+			"com.legopitstop.morefood.ModDataGenerator"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}

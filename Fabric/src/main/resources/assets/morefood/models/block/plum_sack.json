@@ -1,0 +1,6 @@
+{
+    "parent": "morefood:block/template_sack",
+    "textures": {
+        "content": "morefood:block/sack/plum_contents"
+    }
+}

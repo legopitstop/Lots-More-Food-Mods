@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "C"
+  ],
+  "key": {
+    "E": {
+      "item": "morefood:cooked_wedges"
+    },
+    "C": {
+      "item": "morefood:chicken_select_box"
+    }
+  },
+  "result": {
+    "item": "morefood:chicken_select"
+  }
+}

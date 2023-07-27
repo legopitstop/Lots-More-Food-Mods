@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "lit=false": {
+            "model": "morefood:block/purple_candle_cake_with_cherries"
+        },
+        "lit=true": {
+            "model": "morefood:block/purple_candle_cake_with_cherries_lit"
+        }
+    }
+}

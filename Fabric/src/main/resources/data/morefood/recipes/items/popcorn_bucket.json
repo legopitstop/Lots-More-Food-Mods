@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    " LB"
+  ],
+  "key": {
+    "C": {
+      "item": "morefood:popcorn"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "morefood:popcorn_bucket"
+  }
+}

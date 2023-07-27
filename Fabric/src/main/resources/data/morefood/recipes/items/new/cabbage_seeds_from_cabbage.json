@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:cabbage"
+        }
+    },
+    "result": {
+        "item": "morefood:cabbage_seeds"
+    }
+}

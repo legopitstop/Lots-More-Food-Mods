@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C"
+    ],
+    "key": {
+        "C": {
+            "item": "morefood:eggplant"
+        }
+    },
+    "result": {
+        "item": "morefood:eggplant_seeds"
+    }
+}
