@@ -71,11 +71,13 @@ body:
      label: Mod Version
      description: The version of the Mod that you are using.
      options:
+       - "newer"
        - "1.3.0-beta1"
        - "1.2.0"
        - "1.0.0-pre1"
        - "1.0.1"
        - "1.0.0"
+       - "older"
 
  - type: input
    id: platform

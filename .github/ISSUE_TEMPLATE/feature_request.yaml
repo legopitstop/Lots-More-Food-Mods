@@ -28,9 +28,10 @@ body:
      description: The Minecraft Edition you would like to see this feature added to.
      options:
        - unset
-       - Bedrock
-       - Forge
-       - Datapack
+       - Bedrock (MCPE)
+       - Forge (MC)
+       - Fabric (MC)
+       - Datapack (MC)
 
  - type: textarea
    id: other
