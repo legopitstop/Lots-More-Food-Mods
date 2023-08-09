@@ -1,6 +1,6 @@
 package com.legopitstop.morefood.item;
 
-import com.legopitstop.morefood.registry.ModItems;
+import com.legopitstop.morefood.registry.MoreFoodItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -25,10 +25,10 @@ public class TumblerItem extends Item {
         }
 
         if (stack.isEmpty()) {
-            return new ItemStack(ModItems.TUMBLER_GLASS);
+            return new ItemStack(MoreFoodItems.TUMBLER_GLASS);
         } else {
             if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-                ItemStack itemStack = new ItemStack(ModItems.TUMBLER_GLASS);
+                ItemStack itemStack = new ItemStack(MoreFoodItems.TUMBLER_GLASS);
                 PlayerEntity playerEntity = (PlayerEntity)user;
                 if (!playerEntity.getInventory().insertStack(itemStack)) {
                     playerEntity.dropItem(itemStack, false);

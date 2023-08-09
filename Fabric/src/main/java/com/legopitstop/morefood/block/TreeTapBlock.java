@@ -2,8 +2,8 @@ package com.legopitstop.morefood.block;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
-import com.legopitstop.morefood.registry.ModBlocks;
-import com.legopitstop.morefood.registry.ModItems;
+import com.legopitstop.morefood.registry.MoreFoodBlocks;
+import com.legopitstop.morefood.registry.MoreFoodItems;
 import net.minecraft.block.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemPlacementContext;
@@ -70,7 +70,7 @@ public class TreeTapBlock extends Block {
         if (i == MAX_LEVEL && world.getBlockState(pos.down()).getBlock() == Blocks.CAULDRON) {
             BlockState blockState = (BlockState)state.with(LEVEL, 0);
             world.setBlockState(pos, blockState, Block.NOTIFY_LISTENERS);
-            world.setBlockState(pos.down(), ModBlocks.SAP_CAULDRON.getDefaultState(), Block.NOTIFY_LISTENERS);
+            world.setBlockState(pos.down(), MoreFoodBlocks.SAP_CAULDRON.getDefaultState(), Block.NOTIFY_LISTENERS);
         }
     }
 
@@ -81,7 +81,7 @@ public class TreeTapBlock extends Block {
         ItemStack item = player.getStackInHand(hand);
         if (bl && item.isOf(Items.BUCKET)) {
             if (!player.getAbilities().creativeMode) {item.decrement(1);}
-            player.giveItemStack(new ItemStack(ModItems.MAPLE_SAP_BUCKET));
+            player.giveItemStack(new ItemStack(MoreFoodItems.MAPLE_SAP_BUCKET));
 
             world.playSound((PlayerEntity)null, pos, SoundEvents.ITEM_BUCKET_FILL, SoundCategory.BLOCKS, 1.0F, 0.8F + world.random.nextFloat() * 0.4F);
             BlockState blockState = (BlockState)state.with(LEVEL, 0);

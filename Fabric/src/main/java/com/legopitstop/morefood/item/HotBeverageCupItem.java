@@ -1,6 +1,6 @@
 package com.legopitstop.morefood.item;
 
-import com.legopitstop.morefood.registry.ModItems;
+import com.legopitstop.morefood.registry.MoreFoodItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -26,10 +26,10 @@ public class HotBeverageCupItem extends Item {
         }
 
         if (stack.isEmpty()) {
-            return new ItemStack(ModItems.HOT_BEVERAGE_CUP);
+            return new ItemStack(MoreFoodItems.HOT_BEVERAGE_CUP);
         } else {
             if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-                ItemStack itemStack = new ItemStack(ModItems.HOT_BEVERAGE_CUP);
+                ItemStack itemStack = new ItemStack(MoreFoodItems.HOT_BEVERAGE_CUP);
                 PlayerEntity playerEntity = (PlayerEntity)user;
                 if (!playerEntity.getInventory().insertStack(itemStack)) {
                     playerEntity.dropItem(itemStack, false);

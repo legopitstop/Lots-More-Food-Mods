@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#c:grains/barley",
+    "#c:grains/corn",
+    "#c:grains/oats",
+    "#c:grains/rice"
+  ]
+}

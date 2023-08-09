@@ -1,24 +1,33 @@
 package com.legopitstop.morefood;
 
-import com.legopitstop.morefood.block.cauldron.ModCauldronBehavior;
-import com.legopitstop.morefood.registry.ModBlocks;
-import com.legopitstop.morefood.registry.ModItemGroups;
-import com.legopitstop.morefood.registry.ModItems;
-import com.legopitstop.morefood.world.gen.ModWorldGeneration;
+import com.legopitstop.morefood.block.cauldron.MoreFoodCauldronBehavior;
+import com.legopitstop.morefood.registry.*;
+import com.legopitstop.morefood.world.gen.MoreFoodWorldGeneration;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.block.ChestBlock;
+import net.minecraft.block.WearableCarvedPumpkinBlock;
+import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.entity.mob.SkeletonEntity;
 
-// TODO
-// - Create "morefood:holiday" feature & datapack which adds blocks & items related to holidays.
+import java.time.LocalDate;
+import java.time.Month;
+import java.util.Calendar;
+import java.util.Date;
+
 public class MoreFood implements ModInitializer {
     public static final String MOD_ID = "morefood";
 
     @Override
     public void onInitialize() {
-        ModCauldronBehavior.register();
-        ModItems.register();
-        ModBlocks.register();
-        ModItemGroups.register();
+        MoreFoodCauldronBehavior.register();
+        MoreFoodItems.register();
+        MoreFoodBlocks.register();
+        MoreFoodItemGroups.register();
 
-        ModWorldGeneration.generateModWorldGen();
+        MoreFoodBlockEntityType.register();
+        MoreFoodComposting.register();
+
+        MoreFoodWorldGeneration.generateModWorldGen();
+
     }
 }

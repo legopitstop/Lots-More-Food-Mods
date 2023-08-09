@@ -1,6 +1,6 @@
 package com.legopitstop.morefood.item;
 
-import com.legopitstop.morefood.registry.ModItems;
+import com.legopitstop.morefood.registry.MoreFoodItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -26,10 +26,10 @@ public class SodaCanItem extends Item {
         }
 
         if (stack.isEmpty()) {
-            return new ItemStack(ModItems.SODA_CAN);
+            return new ItemStack(MoreFoodItems.SODA_CAN);
         } else {
             if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-                ItemStack itemStack = new ItemStack(ModItems.SODA_CAN);
+                ItemStack itemStack = new ItemStack(MoreFoodItems.SODA_CAN);
                 PlayerEntity playerEntity = (PlayerEntity)user;
                 if (!playerEntity.getInventory().insertStack(itemStack)) {
                     playerEntity.dropItem(itemStack, false);

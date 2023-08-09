@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#c:crops/coffee_beans",
+    "#c:crops/hops",
+    "#c:crops/peanuts",
+    "#c:crops/vanilla",
+    "#c:fruits",
+    "#c:grains",
+    "#c:nuts",
+    "#c:vegetables"
+  ]
+}

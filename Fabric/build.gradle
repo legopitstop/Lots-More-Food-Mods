@@ -3,6 +3,9 @@ plugins {
 	id 'maven-publish'
 }
 
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
 version = project.mod_version
 group = project.maven_group
 
@@ -20,9 +23,7 @@ repositories {
 
 loom {
 	runs {
-		//
-		// This adds a new gradle task that runs the datagen API: "gradlew runDatagenClient"
-		//
+		// This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
 		datagen {
 			inherit server
 			name "Data Generation"
@@ -31,19 +32,11 @@ loom {
 			vmArg "-Dfabric-api.datagen.modid=${archives_base_name}"
 
 			runDir "build/datagen"
+
 		}
 	}
-
-    splitEnvironmentSourceSets()
-
-	mods {
-		"modid" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-
 }
+
 //
 // Adds the generated files into the jar you distribute to players.
 //
@@ -65,12 +58,13 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	
-	// Uncomment the following line to enable the deprecated Fabric API modules. 
+
+	// Uncomment the following line to enable the deprecated Fabric API modules.
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 }
+
 
 processResources {
 	inputs.property "version", project.version
@@ -89,9 +83,6 @@ java {
 	// if it is present.
 	// If you remove this line, sources will not be generated.
 	withSourcesJar()
-
-	sourceCompatibility = JavaVersion.VERSION_17
-	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {

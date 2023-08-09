@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://legopitstop.weebly.com",
-		"sources": "https://github.com/legopitstop/Lots-More-Food-Mods"
+		"sources": "https://github.com/legopitstop/Lots-More-Food-Mods",
+		"issues": "https://github.com/legopitstop/Lots-More-Food-Mods/issues"
 	},
 	"license": "CC-BY-NC-ND-4.0",
 	"icon": "assets/morefood/icon.png",
@@ -22,7 +23,7 @@
 			"com.legopitstop.morefood.MoreFoodClient"
 		],
 		"fabric-datagen": [
-			"com.legopitstop.morefood.ModDataGenerator"
+          "com.legopitstop.morefood.MoreFoodDataGenerator"
 		]
 	},
 	"mixins": [
@@ -33,5 +34,13 @@
 		"java": ">=17",
 		"fabric-api": "*"
 	},
-	"suggests": {}
+	"suggests": {},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/8veP32PUEQ"
+			},
+			"update_checker": true
+		}
+	}
 }

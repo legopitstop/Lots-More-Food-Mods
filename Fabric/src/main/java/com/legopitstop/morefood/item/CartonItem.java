@@ -1,6 +1,6 @@
 package com.legopitstop.morefood.item;
 
-import com.legopitstop.morefood.registry.ModItems;
+import com.legopitstop.morefood.registry.MoreFoodItems;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -26,10 +26,10 @@ public class CartonItem extends Item {
         }
 
         if (stack.isEmpty()) {
-            return new ItemStack(ModItems.CARTON);
+            return new ItemStack(MoreFoodItems.CARTON);
         } else {
             if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
-                ItemStack itemStack = new ItemStack(ModItems.CARTON);
+                ItemStack itemStack = new ItemStack(MoreFoodItems.CARTON);
                 PlayerEntity playerEntity = (PlayerEntity)user;
                 if (!playerEntity.getInventory().insertStack(itemStack)) {
                     playerEntity.dropItem(itemStack, false);
