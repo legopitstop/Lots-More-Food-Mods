@@ -1,11 +1,15 @@
 name: Feature Request
 description: Suggest an idea for this project
-title: "(ALL) "
 labels: 
 - "Suggestion :bulb:"
 assignees:
 - legopitstop
 body:
+ - type: markdown
+   attributes:
+     value: |
+      Note: Use the `/idea` command in the Lot's More Food Discord server for suggesting new items/foods.
+
  - type: textarea
    id: feature
    validations:
@@ -28,10 +32,10 @@ body:
      description: The Minecraft Edition you would like to see this feature added to.
      options:
        - unset
-       - Bedrock (MCPE)
-       - Forge (MC)
-       - Fabric (MC)
-       - Datapack (MC)
+       - Bedrock
+       - Datapack
+       - Forge
+       - Fabric
 
  - type: textarea
    id: other
