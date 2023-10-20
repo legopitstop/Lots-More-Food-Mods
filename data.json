@@ -1,76 +1,4435 @@
 {
+  "__comment": "data for nerds",
+  "items": {
+    "morefood:apple_sapling": {
+      "type": "sapling",
+      "block": "morefood:apple_sapling_block",
+      "obtain": []
+    },
+    "morefood:bacon": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 1,
+      "obtain": []
+    },
+    "morefood:bacon_egg_muffin": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:bacon_egg_sandwich": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:baked_sweet_potato": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:banana": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:banana_sapling": {
+      "type": "sapling",
+      "block": "morefood:banana_sapling_block",
+      "obtain": []
+    },
+    "morefood:barley_seeds": {
+      "type": "seeds",
+      "block": "morefood:barley_crop",
+      "obtain": []
+    },
+    "morefood:bat_meat": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:beef_sub": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:blue_cupcake": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:bread_loaf": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:breakfast_sub": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:burger_bun": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:burrito": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:butter": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:cereal": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cheese_bucket": {
+      "type": "food",
+      "nutrition": 0,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:cheese_toastie": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:cheese_wedge": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:chicken_fajita": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:chicken_nugget": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:chicken_select": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:chicken_sub": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:coconut_meat": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:cooked_bacon": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:cooked_bat_meat": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cooked_chicken_nugget": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:cooked_chicken_piece": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:hamburger_patty": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:cooked_hoglin_meat": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:cooked_hotdog_sausage": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:cooked_sausage": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:veganburger_patty": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:cooked_wedges": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:corn_on_cob": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:creative_hunger": {
+      "type": "food",
+      "nutrition": 0,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:custard": {
+      "type": "food",
+      "nutrition": 10,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_bread": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_fries": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:dark_chocolate": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_chocolate": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_coffee": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_iced": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_pink_ice": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_plain": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_strawberry": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:donut_toffee": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:dough": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:flour": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:fried_egg": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:fried_squid": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:fries": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:fungus_stew": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:gherkin": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:gherkin_seeds": {
+      "type": "seeds",
+      "block": "morefood:gherkin_bush",
+      "obtain": []
+    },
+    "morefood:grape": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:grape_seeds": {
+      "type": "seeds",
+      "block": "morefood:grape_bush",
+      "obtain": []
+    },
+    "morefood:hamburger": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:raw_hamburger_patty": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:hoglin_meat": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:hops": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:hops_seeds": {
+      "type": "seeds",
+      "block": "morefood:hops_crop",
+      "obtain": []
+    },
+    "morefood:hotdog": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:hotdog_bun": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:hotdog_sausage": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:icecream_banana": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:icecream_chocolate": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:icecream_cone": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:icecream_strawberry": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:icecream_toffee": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:icecream_vanilla": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:ice_bowl": {
+      "type": "food",
+      "nutrition": 10,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:jam": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:jelly_sandwich": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:kebab": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:ketchup": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:lemon": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:lemon_sapling": {
+      "type": "sapling",
+      "block": "lemon_sapling_block",
+      "obtain": []
+    },
+    "morefood:lettuce": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:lettuce_seeds": {
+      "type": "seeds",
+      "block": "morefood:lettuce_crop",
+      "obtain": []
+    },
+    "morefood:milk_chocolate": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:muffin_bun": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:netherite_apple": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:netherwart_chicken_soup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:netherwart_mushroom_soup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:nether_cookie": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:noodles": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:olives": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:olive_sapling": {
+      "type": "sapling",
+      "block": "olive_sapling_block",
+      "obtain": []
+    },
+    "morefood:onigiri": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:onion": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:onion_seeds": {
+      "type": "seeds",
+      "block": "morefood:onion_crop",
+      "obtain": []
+    },
+    "morefood:orange": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:orange_jelly": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:orange_sapling": {
+      "type": "sapling",
+      "block": "orange_sapling_block",
+      "obtain": []
+    },
+    "morefood:palm_sapling": {
+      "type": "sapling",
+      "block": "palm_sapling_block",
+      "obtain": []
+    },
+    "morefood:pancakes": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:pasta": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pepper": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:pepper_seeds": {
+      "type": "seeds",
+      "block": "morefood:pepper_bush",
+      "obtain": []
+    },
+    "morefood:pickles": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:pie_apple": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_apple_raspberry": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_base": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_berry": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_cheese": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_chicken": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_chocolate": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_lemon": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_plum": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_pork": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_steak": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_strawberry": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pie_toffee": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pink_cupcake": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:pitta_bread": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:pizza": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:pizza_base": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:pizza_slice": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:plum": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:plum_sapling": {
+      "type": "sapling",
+      "block": "plum_sapling_block",
+      "obtain": []
+    },
+    "morefood:popcorn": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:popcorn_bucket": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:ramen_noodles": {
+      "type": "food",
+      "nutrition": 10,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:raspberry": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:raspberry_seeds": {
+      "type": "seeds",
+      "block": "morefood:raspberry_bush",
+      "obtain": []
+    },
+    "morefood:rice": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:rice_pudding": {
+      "type": "food",
+      "nutrition": 10,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:rice_seeds": {
+      "type": "seeds",
+      "block": "morefood:rice_crop",
+      "obtain": []
+    },
+    "morefood:rotten_porkchop": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:round_cheese": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:salt": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:sashimi": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:raw_sausage": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:sausage_egg_muffin": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:sausage_egg_sandwich": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:shroomlight_slices": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:spaghetti": {
+      "type": "food",
+      "nutrition": 10,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:sparkling_water_bucket": {
+      "type": "food",
+      "nutrition": 0,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:raw_squid": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:strawberry": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:strawberry_jelly": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:strawberry_seeds": {
+      "type": "seeds",
+      "block": "morefood:strawberry_bush",
+      "obtain": []
+    },
+    "morefood:sub_bun": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:sushi": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:taco": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:tea_leaves": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:tea_seeds": {
+      "type": "seeds",
+      "block": "morefood:tea_crop",
+      "obtain": []
+    },
+    "morefood:toast": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:toffee": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:tomato": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:tomato_puree": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:tomato_seeds": {
+      "type": "seeds",
+      "block": "morefood:tomato_bush",
+      "obtain": []
+    },
+    "morefood:tortilla": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:turkish_delight": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:vanilla_pod": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:vanilla_seeds": {
+      "type": "seeds",
+      "block": "morefood:vanilla_bush",
+      "obtain": []
+    },
+    "morefood:veganburger": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:raw_veganburger_patty": {
+      "type": "food",
+      "nutrition": 3,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:waffle": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:warped_berries": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:wart_pie": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:raw_wedges": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:wedges_pot": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:white_chocolate": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:yeast": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:americano": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 1,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:beer": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "using_converts_to": "morefood:beer_glass",
+      "effects": [
+        { "amplifier": 20, "duration": 20, "effect": "minecraft:speed" },
+        { "amplifier": 1, "duration": 15, "effect": "minecraft:nausea" },
+        { "amplifier": 2, "duration": 15, "effect": "minecraft:blindness" }
+      ],
+      "obtain": []
+    },
+    "morefood:cappuccino": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:cider": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "effects": [
+        { "amplifier": 20, "duration": 20, "effect": "minecraft:speed" },
+        { "amplifier": 1, "duration": 15, "effect": "minecraft:nausea" },
+        { "amplifier": 2, "duration": 15, "effect": "minecraft:blindness" }
+      ],
+      "obtain": []
+    },
+    "morefood:coconut_milk": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cream_carton": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "using_converts_to": "morefood:carton",
+      "obtain": []
+    },
+    "morefood:hot_cocoa": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:hot_coffee": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:hot_tea": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:icecrush_apple": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_apple_raspberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_berry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_grape": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_lemon": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_melon": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_mixed_fruit": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_strawberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:icecrush_orange": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "using_converts_to": "morefood:empty_icecrush_glass",
+      "obtain": []
+    },
+    "morefood:juice_apple": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_berry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_grape": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_lemon": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_melon": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_mixed_fruit": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_orange": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_strawberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:juice_tomato": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:macchiato": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:milkshake_banana": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:beverage_cup",
+      "obtain": []
+    },
+    "morefood:milkshake_chocolate": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:beverage_cup",
+      "obtain": []
+    },
+    "morefood:milkshake_strawberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:beverage_cup",
+      "obtain": []
+    },
+    "morefood:milk_carton": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "using_converts_to": "morefood:carton",
+      "obtain": []
+    },
+    "morefood:mocha": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:oil": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "using_converts_to": "morefood:bottle",
+      "obtain": []
+    },
+    "morefood:red_wine": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "using_converts_to": "morefood:wine_glass",
+      "effects": [
+        { "amplifier": 20, "duration": 20, "effect": "minecraft:speed" },
+        { "amplifier": 1, "duration": 15, "effect": "minecraft:nausea" },
+        { "amplifier": 2, "duration": 15, "effect": "minecraft:blindness" }
+      ],
+      "obtain": []
+    },
+    "morefood:smoothie_banana": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:smoothie_berry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:smoothie_grape": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:smoothie_mixed_fruit": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:smoothie_raspberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:smoothie_strawberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:soda_apple": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:soda_berry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:soda_grape": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:soda_lemon": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:soda_orange": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:soda_strawberry": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:sparkling_water_bottle": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:glass_bottle",
+      "obtain": []
+    },
+    "morefood:toffee_latte": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:hot_beverage_cup",
+      "obtain": []
+    },
+    "morefood:vanilla_extract": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:bottle",
+      "obtain": []
+    },
+    "morefood:vanilla_latte": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:white_wine": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 0.2,
+      "using_converts_to": "morefood:wine_glass",
+      "effects": [
+        { "amplifier": 20, "duration": 20, "effect": "minecraft:speed" },
+        { "amplifier": 1, "duration": 15, "effect": "minecraft:nausea" },
+        { "amplifier": 2, "duration": 15, "effect": "minecraft:blindness" }
+      ],
+      "obtain": []
+    },
+    "morefood:almonds": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:applesauce": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:avocado": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:avocado_sapling": {
+      "type": "sapling",
+      "block": "morefood:avocado_sapling_block",
+      "obtain": []
+    },
+    "morefood:beans": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:beef_goulash": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:beef_ravioli": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:beef_stew": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:blueberries": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:blueberry_seeds": {
+      "type": "seeds",
+      "block": "morefood:blueberry_bush",
+      "obtain": []
+    },
+    "morefood:blueberry_syrup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:breadsticks": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:breadsticks_with_glowberry_jam": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:breadsticks_with_jam": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:breadsticks_with_peanut_butter": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:burnt_marshmallow_on_a_stick": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:stick",
+      "obtain": []
+    },
+    "morefood:cabbage": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cabbage_seeds": {
+      "type": "seeds",
+      "block": "morefood:cabbage_crop",
+      "obtain": []
+    },
+    "morefood:cheese_spread": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:cheese_tortellini": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:chicken_soup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:chili": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:chocolate_banana_muffin": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:chocolate_chunk_oatmeal_cookie": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:chocolate_peanut_butter": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:chocolate_protein_drink": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:chocolate_pudding": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cocoa_beverage": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:glass_bottle",
+      "obtain": []
+    },
+    "morefood:cooked_marshmallow_on_a_stick": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:stick",
+      "obtain": []
+    },
+    "morefood:cornbread": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers_with_cheese": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers_with_chocolate_peanut_butter": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers_with_glowberry_jam": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers_with_jalapeno_cheese": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers_with_jam": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:crackers_with_peanut_butter": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cranberries": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:cut_bread_with_cheese": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_bread_with_chocolate_peanut_butter": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_bread_with_glowberry_jam": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_bread_with_jalapeno_cheese": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_bread_with_jam": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_bread_with_peanut_butter": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:cut_sweet_potato": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:dark_chocolate_covered_apple": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:dried_cranberries": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:dried_raisens": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:eggplant": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:eggplant_seeds": {
+      "type": "seeds",
+      "block": "morefood:eggplant_bush",
+      "obtain": []
+    },
+    "morefood:garlic": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:garlic_mashed_potatoes": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:glowberry_icecrush": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:glowberry_jam": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:glowberry_jelly_sandwich": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:glowberry_juice": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:glowberry_pie": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:glowberry_smoothie": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_tumbler_glass",
+      "obtain": []
+    },
+    "morefood:glowberry_soda": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "morefood:empty_soda_can",
+      "obtain": []
+    },
+    "morefood:grape_beverage": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:glass_bottle",
+      "obtain": []
+    },
+    "morefood:guacamole": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:hash_browns": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:jalapeno_cheese_bucket": {
+      "type": "food",
+      "nutrition": 0,
+      "saturation": 0,
+      "using_converts_to": "minecraft:bucket",
+      "obtain": []
+    },
+    "morefood:jalapeno_cheese_pie": {
+      "type": "food",
+      "nutrition": 8,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:jalapeno_cheese_spread": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:jalapeno_cheese_toastie": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:jalapeno_cheese_wedge": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 12.8,
+      "obtain": []
+    },
+    "morefood:jalapeno_round_cheese": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:lemon_lime_beverage": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:glass_bottle",
+      "obtain": []
+    },
+    "morefood:maple_muffin": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:maple_sap_bucket": {
+      "type": "food",
+      "nutrition": 0,
+      "saturation": 2.4,
+      "using_converts_to": "minecraft:bucket",
+      "obtain": []
+    },
+    "morefood:maple_syrup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:maple_syrup_bucket": {
+      "type": "food",
+      "nutrition": 0,
+      "saturation": 2.4,
+      "using_converts_to": "minecraft:bucket",
+      "obtain": []
+    },
+    "morefood:marshmallow": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:marshmallow_on_a_stick": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:stick",
+      "obtain": []
+    },
+    "morefood:mashed_potatoes": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:milk_chocolate_covered_apple": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:oatmeal": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:oatmeal_cookie": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:oats": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:oat_seeds": {
+      "type": "seeds",
+      "block": "oat_bush",
+      "obtain": []
+    },
+    "morefood:onion_rings": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:orange_beverage": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:glass_bottle",
+      "obtain": []
+    },
+    "morefood:peanut": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:peanut_butter": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:peanut_butter_jelly_sandwich": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:peanut_seeds": {
+      "type": "seeds",
+      "block": "morefood:peanut_crop",
+      "obtain": []
+    },
+    "morefood:peppermint_ring": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:poisonous_sweet_potato": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:poison_berries": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:pork_sausage_burger": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:pretzel_nuggets": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:pretzel_sticks": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:pulled_beef_burger": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:raspberry_syrup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:roasted_peanut": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:roasted_soybeans": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:roasted_sunflower_seeds": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:smoked_almonds": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:spaghetti_with_meatballs": {
+      "type": "food",
+      "nutrition": 10,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:spinach": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:spinach_fettuccine": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:spinach_seeds": {
+      "type": "seeds",
+      "block": "morefood:spinach_crop",
+      "obtain": []
+    },
+    "morefood:strawberry_syrup": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:sugar_cookie": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 0.2,
+      "obtain": []
+    },
+    "morefood:sweet_mashed_potatoes": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:sweet_potato": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:sweet_potato_fries": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:tortilla_chips": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:tortilla_with_cheese": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:tortilla_with_jalapeno_cheese": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:trail_mix": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:tropical_punch_beverage": {
+      "type": "food",
+      "nutrition": 5,
+      "saturation": 6.0,
+      "using_converts_to": "minecraft:glass_bottle",
+      "obtain": []
+    },
+    "morefood:tuna_sandwich": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 9.6,
+      "obtain": []
+    },
+    "morefood:vanilla_pudding": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:white_chocolate_covered_apple": {
+      "type": "food",
+      "nutrition": 4,
+      "saturation": 2.4,
+      "obtain": []
+    },
+    "morefood:almond_sapling": {
+      "type": "sapling",
+      "block": "almond_sapling_block",
+      "obtain": []
+    },
+    "morefood:bean_seeds": {
+      "type": "seeds",
+      "block": "morefood:bean_crop",
+      "obtain": []
+    },
+    "morefood:cranberry_seeds": {
+      "type": "seeds",
+      "block": "morefood:cranberry_bush",
+      "obtain": []
+    },
+    "morefood:peppermint": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 1.0,
+      "obtain": []
+    },
+    "morefood:peppermint_extract": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:peppermint_seeds": {
+      "type": "seeds",
+      "block": "peppermint_bush",
+      "obtain": []
+    },
+    "morefood:pretzel": {
+      "type": "food",
+      "nutrition": 6,
+      "saturation": 6.0,
+      "obtain": []
+    },
+    "morefood:spearmint": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 1.0,
+      "obtain": []
+    },
+    "morefood:watermint": {
+      "type": "food",
+      "nutrition": 1,
+      "saturation": 1.0,
+      "obtain": []
+    },
+    "morefood:cherries": {
+      "type": "food",
+      "nutrition": 2,
+      "saturation": 1.2,
+      "obtain": []
+    },
+    "morefood:netherite_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:rainbow_cake": {
+      "type": "ingredient",
+      "block": "rainbow_cake_block",
+      "obtain": []
+    },
+    "morefood:redwhiteblue_cake": {
+      "type": "ingredient",
+      "block": "redwhiteblue_cake_block",
+      "obtain": []
+    },
+    "morefood:diamond_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:fry_wrapper": { "type": "ingredient", "obtain": [] },
+    "morefood:gelatin": { "type": "ingredient", "obtain": [] },
+    "morefood:golden_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:hot_beverage_cup": { "type": "ingredient", "obtain": [] },
+    "morefood:icing": { "type": "ingredient", "obtain": [] },
+    "morefood:iron_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:jar": { "type": "ingredient", "obtain": [] },
+    "morefood:carton": { "type": "ingredient", "obtain": [] },
+    "morefood:chicken_select_box": { "type": "ingredient", "obtain": [] },
+    "morefood:chocolate_cake": { "type": "ingredient", "obtain": [] },
+    "morefood:coconut": { "type": "ingredient", "obtain": [] },
+    "morefood:coffee_beans": { "type": "ingredient", "obtain": [] },
+    "morefood:copper_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:corn": { "type": "ingredient", "obtain": [] },
+    "morefood:cornflour": { "type": "ingredient", "obtain": [] },
+    "morefood:empty_icecrush_glass": { "type": "ingredient", "obtain": [] },
+    "morefood:empty_tumbler_glass": { "type": "ingredient", "obtain": [] },
+    "morefood:soda_can_empty": { "type": "ingredient", "obtain": [] },
+    "morefood:starch": { "type": "ingredient", "obtain": [] },
+    "morefood:stone_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:sub_wrapper": { "type": "ingredient", "obtain": [] },
+    "morefood:wine_glass": { "type": "ingredient", "obtain": [] },
+    "morefood:wooden_knife": { "type": "ingredient", "obtain": [] },
+    "morefood:wooden_spoon": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_beer_0": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_beer": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_beer_25": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_beer_50": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_beer_75": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_cider_0": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_cider": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_cider_25": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_cider_50": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_cider_75": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_red_wine_0": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_red_wine": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_red_wine_25": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_red_wine_50": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_red_wine_75": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_white_wine_0": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_white_wine": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_white_wine_25": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_white_wine_50": { "type": "ingredient", "obtain": [] },
+    "morefood:bottled_white_wine_75": { "type": "ingredient", "obtain": [] },
+    "morefood:buckwheat": { "type": "ingredient", "obtain": [] },
+    "morefood:cappuccino_drink_mix": { "type": "ingredient", "obtain": [] },
+    "morefood:chocolate_protein_drink_mix": {
+      "type": "ingredient",
+      "obtain": []
+    },
+    "morefood:cocoa_beverage_powder": { "type": "ingredient", "obtain": [] },
+    "morefood:grape_beverage_powder": { "type": "ingredient", "obtain": [] },
+    "morefood:large_bowl": { "type": "ingredient", "obtain": [] },
+    "morefood:lemon_lime_beverage_powder": {
+      "type": "ingredient",
+      "obtain": []
+    },
+    "morefood:meal_ready_to_eat": { "type": "ingredient", "obtain": [] },
+    "morefood:orange_beverage_powder": { "type": "ingredient", "obtain": [] },
+    "morefood:pancake_mix": { "type": "ingredient", "obtain": [] },
+    "morefood:pound_cake": { "type": "ingredient", "obtain": [] },
+    "morefood:soybeans": { "type": "ingredient", "obtain": [] },
+    "morefood:tropical_punch_beverage_powder": {
+      "type": "ingredient",
+      "obtain": []
+    },
+    "morefood:wooden_tree_tap.item": {
+      "type": "ingredient",
+      "block": "morefood:wooden_tree_tap",
+      "obtain": []
+    },
+    "morefood:garlic_bulb": { "type": "ingredient", "obtain": [] },
+    "morefood:glass_shard": { "type": "ingredient", "obtain": [] },
+    "morefood:pulp": { "type": "ingredient", "obtain": [] },
+    "morefood:cake_with_cherries": {
+      "type": "ingredient",
+      "block": "morefood:cake_with_cherries",
+      "obtain": []
+    },
+    "morefood:beer_glass": { "type": "ingredient", "obtain": [] },
+    "morefood:beverage_cup": { "type": "ingredient", "obtain": [] },
+    "morefood:bottle": { "type": "ingredient", "obtain": [] }
+  },
+  "blocks": {
+    "morefood:apple_hanging_fruit": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:apple_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:banana_hanging_fruit": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:banana_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:barley_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:cake_with_cherries_block": {
+      "type": "cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:chocolate_cake_block": {
+      "type": "cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:coffee_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:corn_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:gherkin_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:grape_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:hanging_coconut": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:hops_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:lemon_hanging_fruit": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:lemon_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:lettuce_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:olives_hanging_fruit": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:olive_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:onion_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:orange_hanging_fruit": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:orange_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:palm_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:pepper_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:plum_hanging_fruit": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:plum_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:pound_cake_block": {
+      "type": "cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:rainbow_cake_block": {
+      "type": "cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:raspberry_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:redwhiteblue_cake_block": {
+      "type": "cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:rice_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:strawberry_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:tea_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:tomato_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:vanilla_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:black_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:black_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:black_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:black_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:black_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:blue_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:blue_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:blue_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:blue_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:blue_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:brown_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:brown_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:brown_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:brown_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:brown_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:cyan_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:cyan_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:cyan_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:cyan_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:cyan_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:gray_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:gray_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:gray_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:gray_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:gray_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:green_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:green_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:green_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:green_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:green_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_blue_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_blue_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_blue_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_blue_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_blue_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_gray_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_gray_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_gray_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_gray_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:light_gray_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:lime_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:lime_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:lime_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:lime_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:lime_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:magenta_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:magenta_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:magenta_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:magenta_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:magenta_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:orange_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:orange_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:orange_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:orange_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:orange_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:pink_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:pink_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:pink_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:pink_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:pink_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:purple_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:purple_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:purple_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:purple_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:purple_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:red_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:red_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:red_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:red_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:red_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:white_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:white_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:white_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:white_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:white_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:yellow_candle_cake_with_cherries": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:yellow_candle_chocolate_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:yellow_candle_pound_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:yellow_candle_rainbow_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:yellow_candle_redwhiteblue_cake": {
+      "type": "candle_cake",
+      "strength": 0.5,
+      "resistance": 0.5,
+      "obtain": []
+    },
+    "morefood:apple_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:baked_potato_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:beef_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:carrot_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:chicken_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:cooked_beef_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:cooked_chicken_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:cooked_mutton_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:cooked_rabbit_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:cooked_squid_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:cookie_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:dark_chocolate_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:golden_apple_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:milk_chocolate_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:mutton_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:potato_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:rabbit_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:squid_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:white_chocolate_block": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:almond_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:avocado_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:avocado_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:banana_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:barley_seed_sack": {
+      "type": "block",
+      "strength": 0.3,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:bean_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:blueberry_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:blueberry_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:blueberry_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:buckwheat_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:buckwheat_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:cabbage_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:cabbage_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:cabbage_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:chocolate_chunk_oatmeal_cookie_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:coconut_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:coffee_bean_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:cornflour_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:corn_cob_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:corn_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:cranberry_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:eggplant_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:eggplant_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:eggplant_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:flour_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:garlic_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:gherkin_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:gherkin_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:grape_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:grape_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:hanging_avocado": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:hops_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:hops_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:lemon_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:lettuce_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:lettuce_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:nether_cookie_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:oatmeal_cookie_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:oat_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:oat_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:oat_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:olive_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:onion_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:onion_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:orange_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:peanut_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:peanut_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:peanut_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:pepper_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:pepper_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:plum_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:poisonous_sweet_potato_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:poison_berry_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:poison_berry_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:raspberry_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:raspberry_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:rice_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:rice_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:soybean_bush": {
+      "type": "bush",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:soybean_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:spinach_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:spinach_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:spinach_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:strawberry_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:strawberry_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:sugar_cookie_sack": {
+      "type": "sack",
+      "strength": 0,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:sweet_potatoes": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:sweet_potato_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:tea_leaf_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:tea_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:tomato_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:tomato_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:vanilla_pod_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:vanilla_seed_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:wooden_tree_tap": {
+      "type": "tree_tap",
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:yeast_sack": {
+      "type": "sack",
+      "strength": 0.3,
+      "resistance": 0.3,
+      "obtain": []
+    },
+    "morefood:almond_sapling_block": {
+      "type": "sapling",
+      "strength": 0,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:bean_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:cranberry_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:fertile_soil": {
+      "type": "block",
+      "strength": 0.6,
+      "resistance": 0.6,
+      "obtain": []
+    },
+    "morefood:garlic_crop": {
+      "type": "crop",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:hanging_almond": {
+      "type": "hanging",
+      "strength": 0.3,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:peppermint_bush": {
+      "type": "bush",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:spearmint_plant": {
+      "type": "plant",
+      "strength": 0,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:watermint_plant": {
+      "type": "plant",
+      "strength": 0,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:potted_almond_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_apple_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_avocado_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_banana_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_lemon_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_olive_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_orange_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_palm_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_plum_sapling": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "properties": {},
+      "obtain": []
+    },
+    "morefood:potted_spearmint": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:potted_watermint": {
+      "type": "flower_pot",
+      "strength": 0,
+      "resistance": 0,
+      "obtain": []
+    },
+    "morefood:sap_cauldron": {
+      "type": "cauldron",
+      "strength": 2,
+      "resistance": 2,
+      "obtain": []
+    },
+    "morefood:shroomlight": {
+      "type": "shroomlight",
+      "strength": 1,
+      "resistance": 1,
+      "obtain": []
+    },
+    "morefood:warped_wart_block": {
+      "type": "warped_wart_block",
+      "strength": 1,
+      "resistance": 1,
+      "obtain": []
+    }
+  },
+  "editions": {
     "bedrock": {
-        "versions": {
-            "0.0.1": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.1",
-            "0.0.3": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.3",
-            "0.0.4": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.4",
-            "0.0.5": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.5",
-            "0.0.6": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.6",
-            "0.0.7": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.7",
-            "0.0.8": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.8",
-            "0.0.9": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.0.9",
-            "0.1.0": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.1.0",
-            "0.1.1": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.1.1",
-            "0.1.2": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.1.2",
-            "0.1.4": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.1.4",
-            "0.1.5": "https://more-food.fandom.com/wiki/Bedrock_Edition_0.1.5",
-            "1.6.0": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.6.0",
-            "1.7.0-pre1": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre1",
-            "1.7.0-pre2": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre2",
-            "1.7.0-pre3": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre3",
-            "1.7.0-pre4": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre4",
-            "1.7.0-pre5": "https://more-food.fandom.com/wiki/Bedrock_Edition_1.7.0-pre5"
-        },
-        "items": [],
-        "blocks": []
+      "versions": {
+        "0.0.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.1",
+        "0.0.3": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.3",
+        "0.0.4": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.4",
+        "0.0.5": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.5",
+        "0.0.6": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.6",
+        "0.0.7": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.7",
+        "0.0.8": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.8",
+        "0.0.9": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.0.9",
+        "0.1.0": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.1.0",
+        "0.1.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.1.1",
+        "0.1.2": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.1.2",
+        "0.1.4": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.1.4",
+        "0.1.5": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_0.1.5",
+        "1.6.0": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_1.6.0",
+        "1.7.0-pre1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_1.7.0-pre1",
+        "1.7.0-pre2": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_1.7.0-pre2",
+        "1.7.0-pre3": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_1.7.0-pre3",
+        "1.7.0-pre4": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_1.7.0-pre4",
+        "1.7.0-pre5": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Bedrock_Edition_1.7.0-pre5"
+      },
+      "items": [
+        "morefood:apple_sapling",
+        "morefood:bacon",
+        "morefood:bacon_egg_muffin",
+        "morefood:bacon_egg_sandwich",
+        "morefood:baked_sweet_potato",
+        "morefood:banana",
+        "morefood:banana_sapling",
+        "morefood:barley_seeds",
+        "morefood:bat_meat",
+        "morefood:beef_sub",
+        "morefood:beer_glass",
+        "morefood:beverage_cup",
+        "morefood:blue_cupcake",
+        "morefood:bottle",
+        "morefood:bread_loaf",
+        "morefood:breakfast_sub",
+        "morefood:burger_bun",
+        "morefood:burrito",
+        "morefood:butter",
+        "morefood:carton",
+        "morefood:cereal",
+        "morefood:cheese_bucket",
+        "morefood:cheese_toastie",
+        "morefood:cheese_wedge",
+        "morefood:chicken_fajita",
+        "morefood:chicken_nugget",
+        "morefood:chicken_select",
+        "morefood:chicken_select_box",
+        "morefood:chicken_sub",
+        "morefood:chocolate_cake",
+        "morefood:coconut",
+        "morefood:coconut_meat",
+        "morefood:coffee_beans",
+        "morefood:cooked_bacon",
+        "morefood:cooked_bat_meat",
+        "morefood:cooked_chicken_nugget",
+        "morefood:cooked_chicken_piece",
+        "morefood:hamburger_patty",
+        "morefood:cooked_hoglin_meat",
+        "morefood:cooked_hotdog_sausage",
+        "morefood:cooked_sausage",
+        "morefood:veganburger_patty",
+        "morefood:cooked_wedges",
+        "morefood:copper_knife",
+        "morefood:corn",
+        "morefood:cornflour",
+        "morefood:corn_on_cob",
+        "morefood:creative_hunger",
+        "morefood:custard",
+        "morefood:cut_bread",
+        "morefood:cut_fries",
+        "morefood:dark_chocolate",
+        "morefood:diamond_knife",
+        "morefood:donut_chocolate",
+        "morefood:donut_coffee",
+        "morefood:donut_iced",
+        "morefood:donut_pink_ice",
+        "morefood:donut_plain",
+        "morefood:donut_strawberry",
+        "morefood:donut_toffee",
+        "morefood:dough",
+        "morefood:empty_icecrush_glass",
+        "morefood:empty_tumbler_glass",
+        "morefood:flour",
+        "morefood:fried_egg",
+        "morefood:fried_squid",
+        "morefood:fries",
+        "morefood:fry_wrapper",
+        "morefood:fungus_stew",
+        "morefood:gelatin",
+        "morefood:gherkin",
+        "morefood:gherkin_seeds",
+        "morefood:golden_knife",
+        "morefood:grape",
+        "morefood:grape_seeds",
+        "morefood:hamburger",
+        "morefood:raw_hamburger_patty",
+        "morefood:hoglin_meat",
+        "morefood:hops",
+        "morefood:hops_seeds",
+        "morefood:hotdog",
+        "morefood:hotdog_bun",
+        "morefood:hotdog_sausage",
+        "morefood:hot_beverage_cup",
+        "morefood:icecream_banana",
+        "morefood:icecream_chocolate",
+        "morefood:icecream_cone",
+        "morefood:icecream_strawberry",
+        "morefood:icecream_toffee",
+        "morefood:icecream_vanilla",
+        "morefood:ice_bowl",
+        "morefood:icing",
+        "morefood:iron_knife",
+        "morefood:jam",
+        "morefood:jar",
+        "morefood:jelly_sandwich",
+        "morefood:kebab",
+        "morefood:ketchup",
+        "morefood:lemon",
+        "morefood:lemon_sapling",
+        "morefood:lettuce",
+        "morefood:lettuce_seeds",
+        "morefood:milk_chocolate",
+        "morefood:muffin_bun",
+        "morefood:netherite_apple",
+        "morefood:nehterite_knife",
+        "morefood:netherwart_chicken_soup",
+        "morefood:netherwart_mushroom_soup",
+        "morefood:nether_cookie",
+        "morefood:noodles",
+        "morefood:olives",
+        "morefood:olive_sapling",
+        "morefood:onigiri",
+        "morefood:onion",
+        "morefood:onion_seeds",
+        "morefood:orange",
+        "morefood:orange_jelly",
+        "morefood:orange_sapling",
+        "morefood:palm_sapling",
+        "morefood:pancakes",
+        "morefood:pasta",
+        "morefood:pepper",
+        "morefood:pepper_seeds",
+        "morefood:pickles",
+        "morefood:pie_apple",
+        "morefood:pie_apple_raspberry",
+        "morefood:pie_base",
+        "morefood:pie_berry",
+        "morefood:pie_cheese",
+        "morefood:pie_chicken",
+        "morefood:pie_chocolate",
+        "morefood:pie_lemon",
+        "morefood:pie_plum",
+        "morefood:pie_pork",
+        "morefood:pie_steak",
+        "morefood:pie_strawberry",
+        "morefood:pie_toffee",
+        "morefood:pink_cupcake",
+        "morefood:pitta_bread",
+        "morefood:pizza",
+        "morefood:pizza_base",
+        "morefood:pizza_slice",
+        "morefood:plum",
+        "morefood:plum_sapling",
+        "morefood:popcorn",
+        "morefood:popcorn_bucket",
+        "morefood:rainbow_cake",
+        "morefood:ramen_noodles",
+        "morefood:raspberry",
+        "morefood:raspberry_seeds",
+        "morefood:redwhiteblue_cake",
+        "morefood:rice",
+        "morefood:rice_pudding",
+        "morefood:rice_seeds",
+        "morefood:rotten_porkchop",
+        "morefood:round_cheese",
+        "morefood:salt",
+        "morefood:sashimi",
+        "morefood:raw_sausage",
+        "morefood:sausage_egg_muffin",
+        "morefood:sausage_egg_sandwich",
+        "morefood:shroomlight_slices",
+        "morefood:soda_can_empty",
+        "morefood:spaghetti",
+        "morefood:sparkling_water_bucket",
+        "morefood:raw_squid",
+        "morefood:starch",
+        "morefood:stone_knife",
+        "morefood:strawberry",
+        "morefood:strawberry_jelly",
+        "morefood:strawberry_seeds",
+        "morefood:sub_bun",
+        "morefood:sub_wrapper",
+        "morefood:sushi",
+        "morefood:taco",
+        "morefood:tea_leaves",
+        "morefood:tea_seeds",
+        "morefood:toast",
+        "morefood:toffee",
+        "morefood:tomato",
+        "morefood:tomato_puree",
+        "morefood:tomato_seeds",
+        "morefood:tortilla",
+        "morefood:turkish_delight",
+        "morefood:vanilla_pod",
+        "morefood:vanilla_seeds",
+        "morefood:veganburger",
+        "morefood:raw_veganburger_patty",
+        "morefood:waffle",
+        "morefood:warped_berries",
+        "morefood:wart_pie",
+        "morefood:raw_wedges",
+        "morefood:wedges_pot",
+        "morefood:white_chocolate",
+        "morefood:wine_glass",
+        "morefood:wooden_knife",
+        "morefood:wooden_spoon",
+        "morefood:yeast",
+        "morefood:americano",
+        "morefood:beer",
+        "morefood:bottled_beer_0",
+        "morefood:bottled_beer",
+        "morefood:bottled_beer_25",
+        "morefood:bottled_beer_50",
+        "morefood:bottled_beer_75",
+        "morefood:bottled_cider_0",
+        "morefood:bottled_cider",
+        "morefood:bottled_cider_25",
+        "morefood:bottled_cider_50",
+        "morefood:bottled_cider_75",
+        "morefood:bottled_red_wine_0",
+        "morefood:bottled_red_wine",
+        "morefood:bottled_red_wine_25",
+        "morefood:bottled_red_wine_50",
+        "morefood:bottled_red_wine_75",
+        "morefood:bottled_white_wine_0",
+        "morefood:bottled_white_wine",
+        "morefood:bottled_white_wine_25",
+        "morefood:bottled_white_wine_50",
+        "morefood:bottled_white_wine_75",
+        "morefood:cappuccino",
+        "morefood:cider",
+        "morefood:coconut_milk",
+        "morefood:cream_carton",
+        "morefood:hot_cocoa",
+        "morefood:hot_coffee",
+        "morefood:hot_tea",
+        "morefood:icecrush_apple",
+        "morefood:icecrush_apple_raspberry",
+        "morefood:icecrush_berry",
+        "morefood:icecrush_grape",
+        "morefood:icecrush_lemon",
+        "morefood:icecrush_melon",
+        "morefood:icecrush_mixed_fruit",
+        "morefood:icecrush_strawberry",
+        "morefood:icecrush_orange",
+        "morefood:juice_apple",
+        "morefood:juice_berry",
+        "morefood:juice_grape",
+        "morefood:juice_lemon",
+        "morefood:juice_melon",
+        "morefood:juice_mixed_fruit",
+        "morefood:juice_orange",
+        "morefood:juice_strawberry",
+        "morefood:juice_tomato",
+        "morefood:macchiato",
+        "morefood:milkshake_banana",
+        "morefood:milkshake_chocolate",
+        "morefood:milkshake_strawberry",
+        "morefood:milk_carton",
+        "morefood:mocha",
+        "morefood:oil",
+        "morefood:red_wine",
+        "morefood:smoothie_banana",
+        "morefood:smoothie_berry",
+        "morefood:smoothie_grape",
+        "morefood:smoothie_mixed_fruit",
+        "morefood:smoothie_raspberry",
+        "morefood:smoothie_strawberry",
+        "morefood:soda_apple",
+        "morefood:soda_berry",
+        "morefood:soda_grape",
+        "morefood:soda_lemon",
+        "morefood:soda_orange",
+        "morefood:soda_strawberry",
+        "morefood:sparkling_water_bottle",
+        "morefood:toffee_latte",
+        "morefood:vanilla_extract",
+        "morefood:vanilla_latte",
+        "morefood:white_wine",
+        "morefood:almonds",
+        "morefood:applesauce",
+        "morefood:avocado",
+        "morefood:avocado_sapling",
+        "morefood:beans",
+        "morefood:beef_goulash",
+        "morefood:beef_ravioli",
+        "morefood:beef_stew",
+        "morefood:blueberries",
+        "morefood:blueberry_seeds",
+        "morefood:blueberry_syrup",
+        "morefood:breadsticks",
+        "morefood:breadsticks_with_glowberry_jam",
+        "morefood:breadsticks_with_jam",
+        "morefood:breadsticks_with_peanut_butter",
+        "morefood:buckwheat",
+        "morefood:burnt_marshmallow_on_a_stick",
+        "morefood:cabbage",
+        "morefood:cabbage_seeds",
+        "morefood:cappuccino_drink_mix",
+        "morefood:cheese_spread",
+        "morefood:cheese_tortellini",
+        "morefood:chicken_soup",
+        "morefood:chili",
+        "morefood:chocolate_banana_muffin",
+        "morefood:chocolate_chunk_oatmeal_cookie",
+        "morefood:chocolate_peanut_butter",
+        "morefood:chocolate_protein_drink",
+        "morefood:chocolate_protein_drink_mix",
+        "morefood:chocolate_pudding",
+        "morefood:cocoa_beverage",
+        "morefood:cocoa_beverage_powder",
+        "morefood:cooked_marshmallow_on_a_stick",
+        "morefood:cornbread",
+        "morefood:crackers",
+        "morefood:crackers_with_cheese",
+        "morefood:crackers_with_chocolate_peanut_butter",
+        "morefood:crackers_with_glowberry_jam",
+        "morefood:crackers_with_jalapeno_cheese",
+        "morefood:crackers_with_jam",
+        "morefood:crackers_with_peanut_butter",
+        "morefood:cranberries",
+        "morefood:cut_bread_with_cheese",
+        "morefood:cut_bread_with_chocolate_peanut_butter",
+        "morefood:cut_bread_with_glowberry_jam",
+        "morefood:cut_bread_with_jalapeno_cheese",
+        "morefood:cut_bread_with_jam",
+        "morefood:cut_bread_with_peanut_butter",
+        "morefood:cut_sweet_potato",
+        "morefood:dark_chocolate_covered_apple",
+        "morefood:dried_cranberries",
+        "morefood:dried_raisens",
+        "morefood:eggplant",
+        "morefood:eggplant_seeds",
+        "morefood:garlic",
+        "morefood:garlic_mashed_potatoes",
+        "morefood:glowberry_icecrush",
+        "morefood:glowberry_jam",
+        "morefood:glowberry_jelly_sandwich",
+        "morefood:glowberry_juice",
+        "morefood:glowberry_pie",
+        "morefood:glowberry_smoothie",
+        "morefood:glowberry_soda",
+        "morefood:grape_beverage",
+        "morefood:grape_beverage_powder",
+        "morefood:guacamole",
+        "morefood:hash_browns",
+        "morefood:jalapeno_cheese_bucket",
+        "morefood:jalapeno_cheese_pie",
+        "morefood:jalapeno_cheese_spread",
+        "morefood:jalapeno_cheese_toastie",
+        "morefood:jalapeno_cheese_wedge",
+        "morefood:jalapeno_round_cheese",
+        "morefood:large_bowl",
+        "morefood:lemon_lime_beverage",
+        "morefood:lemon_lime_beverage_powder",
+        "morefood:maple_muffin",
+        "morefood:maple_sap_bucket",
+        "morefood:maple_syrup",
+        "morefood:maple_syrup_bucket",
+        "morefood:marshmallow",
+        "morefood:marshmallow_on_a_stick",
+        "morefood:mashed_potatoes",
+        "morefood:meal_ready_to_eat",
+        "morefood:milk_chocolate_covered_apple",
+        "morefood:oatmeal",
+        "morefood:oatmeal_cookie",
+        "morefood:oats",
+        "morefood:oat_seeds",
+        "morefood:onion_rings",
+        "morefood:orange_beverage",
+        "morefood:orange_beverage_powder",
+        "morefood:pancake_mix",
+        "morefood:peanut",
+        "morefood:peanut_butter",
+        "morefood:peanut_butter_jelly_sandwich",
+        "morefood:peanut_seeds",
+        "morefood:peppermint_ring",
+        "morefood:poisonous_sweet_potato",
+        "morefood:poison_berries",
+        "morefood:pork_sausage_burger",
+        "morefood:pound_cake",
+        "morefood:pretzel_nuggets",
+        "morefood:pretzel_sticks",
+        "morefood:pulled_beef_burger",
+        "morefood:raspberry_syrup",
+        "morefood:roasted_peanut",
+        "morefood:roasted_soybeans",
+        "morefood:roasted_sunflower_seeds",
+        "morefood:smoked_almonds",
+        "morefood:soybeans",
+        "morefood:spaghetti_with_meatballs",
+        "morefood:spinach",
+        "morefood:spinach_fettuccine",
+        "morefood:spinach_seeds",
+        "morefood:strawberry_syrup",
+        "morefood:sugar_cookie",
+        "morefood:sweet_mashed_potatoes",
+        "morefood:sweet_potato",
+        "morefood:sweet_potato_fries",
+        "morefood:tortilla_chips",
+        "morefood:tortilla_with_cheese",
+        "morefood:tortilla_with_jalapeno_cheese",
+        "morefood:trail_mix",
+        "morefood:tropical_punch_beverage",
+        "morefood:tropical_punch_beverage_powder",
+        "morefood:tuna_sandwich",
+        "morefood:vanilla_pudding",
+        "morefood:white_chocolate_covered_apple",
+        "morefood:wooden_tree_tap.item",
+        "morefood:almond_sapling",
+        "morefood:bean_seeds",
+        "morefood:cranberry_seeds",
+        "morefood:garlic_bulb",
+        "morefood:glass_shard",
+        "morefood:peppermint",
+        "morefood:peppermint_extract",
+        "morefood:peppermint_seeds",
+        "morefood:pretzel",
+        "morefood:pulp",
+        "morefood:spearmint",
+        "morefood:watermint",
+        "morefood:cake_with_cherries",
+        "morefood:cherries"
+      ],
+      "blocks": [
+        "morefood:apple_hanging_fruit",
+        "morefood:apple_sapling_block",
+        "morefood:banana_hanging_fruit",
+        "morefood:banana_sapling_block",
+        "morefood:barley_crop",
+        "morefood:cake_with_cherries_block",
+        "morefood:chocolate_cake_block",
+        "morefood:coffee_bush",
+        "morefood:corn_crop",
+        "morefood:gherkin_bush",
+        "morefood:grape_bush",
+        "morefood:hanging_coconut",
+        "morefood:hops_crop",
+        "morefood:lemon_hanging_fruit",
+        "morefood:lemon_sapling_block",
+        "morefood:lettuce_crop",
+        "morefood:olives_hanging_fruit",
+        "morefood:olive_sapling_block",
+        "morefood:onion_crop",
+        "morefood:orange_hanging_fruit",
+        "morefood:orange_sapling_block",
+        "morefood:palm_sapling_block",
+        "morefood:pepper_bush",
+        "morefood:plum_hanging_fruit",
+        "morefood:plum_sapling_block",
+        "morefood:pound_cake_block",
+        "morefood:rainbow_cake_block",
+        "morefood:raspberry_bush",
+        "morefood:redwhiteblue_cake_block",
+        "morefood:rice_crop",
+        "morefood:strawberry_bush",
+        "morefood:tea_bush",
+        "morefood:tomato_bush",
+        "morefood:vanilla_bush",
+        "morefood:black_candle_cake_with_cherries",
+        "morefood:black_candle_chocolate_cake",
+        "morefood:black_candle_pound_cake",
+        "morefood:black_candle_rainbow_cake",
+        "morefood:black_candle_redwhiteblue_cake",
+        "morefood:blue_candle_cake_with_cherries",
+        "morefood:blue_candle_chocolate_cake",
+        "morefood:blue_candle_pound_cake",
+        "morefood:blue_candle_rainbow_cake",
+        "morefood:blue_candle_redwhiteblue_cake",
+        "morefood:brown_candle_cake_with_cherries",
+        "morefood:brown_candle_chocolate_cake",
+        "morefood:brown_candle_pound_cake",
+        "morefood:brown_candle_rainbow_cake",
+        "morefood:brown_candle_redwhiteblue_cake",
+        "morefood:candle_cake_with_cherries",
+        "morefood:candle_chocolate_cake",
+        "morefood:candle_pound_cake",
+        "morefood:candle_rainbow_cake",
+        "morefood:candle_redwhiteblue_cake",
+        "morefood:cyan_candle_cake_with_cherries",
+        "morefood:cyan_candle_chocolate_cake",
+        "morefood:cyan_candle_pound_cake",
+        "morefood:cyan_candle_rainbow_cake",
+        "morefood:cyan_candle_redwhiteblue_cake",
+        "morefood:gray_candle_cake_with_cherries",
+        "morefood:gray_candle_chocolate_cake",
+        "morefood:gray_candle_pound_cake",
+        "morefood:gray_candle_rainbow_cake",
+        "morefood:gray_candle_redwhiteblue_cake",
+        "morefood:green_candle_cake_with_cherries",
+        "morefood:green_candle_chocolate_cake",
+        "morefood:green_candle_pound_cake",
+        "morefood:green_candle_rainbow_cake",
+        "morefood:green_candle_redwhiteblue_cake",
+        "morefood:light_blue_candle_cake_with_cherries",
+        "morefood:light_blue_candle_chocolate_cake",
+        "morefood:light_blue_candle_pound_cake",
+        "morefood:light_blue_candle_rainbow_cake",
+        "morefood:light_blue_candle_redwhiteblue_cake",
+        "morefood:light_gray_candle_cake_with_cherries",
+        "morefood:light_gray_candle_chocolate_cake",
+        "morefood:light_gray_candle_pound_cake",
+        "morefood:light_gray_candle_rainbow_cake",
+        "morefood:light_gray_candle_redwhiteblue_cake",
+        "morefood:lime_candle_cake_with_cherries",
+        "morefood:lime_candle_chocolate_cake",
+        "morefood:lime_candle_pound_cake",
+        "morefood:lime_candle_rainbow_cake",
+        "morefood:lime_candle_redwhiteblue_cake",
+        "morefood:magenta_candle_cake_with_cherries",
+        "morefood:magenta_candle_chocolate_cake",
+        "morefood:magenta_candle_pound_cake",
+        "morefood:magenta_candle_rainbow_cake",
+        "morefood:magenta_candle_redwhiteblue_cake",
+        "morefood:orange_candle_cake_with_cherries",
+        "morefood:orange_candle_chocolate_cake",
+        "morefood:orange_candle_pound_cake",
+        "morefood:orange_candle_rainbow_cake",
+        "morefood:orange_candle_redwhiteblue_cake",
+        "morefood:pink_candle_cake_with_cherries",
+        "morefood:pink_candle_chocolate_cake",
+        "morefood:pink_candle_pound_cake",
+        "morefood:pink_candle_rainbow_cake",
+        "morefood:pink_candle_redwhiteblue_cake",
+        "morefood:purple_candle_cake_with_cherries",
+        "morefood:purple_candle_chocolate_cake",
+        "morefood:purple_candle_pound_cake",
+        "morefood:purple_candle_rainbow_cake",
+        "morefood:purple_candle_redwhiteblue_cake",
+        "morefood:red_candle_cake_with_cherries",
+        "morefood:red_candle_chocolate_cake",
+        "morefood:red_candle_pound_cake",
+        "morefood:red_candle_rainbow_cake",
+        "morefood:red_candle_redwhiteblue_cake",
+        "morefood:white_candle_cake_with_cherries",
+        "morefood:white_candle_chocolate_cake",
+        "morefood:white_candle_pound_cake",
+        "morefood:white_candle_rainbow_cake",
+        "morefood:white_candle_redwhiteblue_cake",
+        "morefood:yellow_candle_cake_with_cherries",
+        "morefood:yellow_candle_chocolate_cake",
+        "morefood:yellow_candle_pound_cake",
+        "morefood:yellow_candle_rainbow_cake",
+        "morefood:yellow_candle_redwhiteblue_cake",
+        "morefood:apple_block",
+        "morefood:baked_potato_block",
+        "morefood:beef_block",
+        "morefood:carrot_block",
+        "morefood:chicken_block",
+        "morefood:cooked_beef_block",
+        "morefood:cooked_chicken_block",
+        "morefood:cooked_mutton_block",
+        "morefood:cooked_rabbit_block",
+        "morefood:cooked_squid_block",
+        "morefood:cookie_block",
+        "morefood:dark_chocolate_block",
+        "morefood:golden_apple_block",
+        "morefood:milk_chocolate_block",
+        "morefood:mutton_block",
+        "morefood:potato_block",
+        "morefood:rabbit_block",
+        "morefood:squid_block",
+        "morefood:white_chocolate_block",
+        "morefood:almond_sack",
+        "morefood:avocado_sack",
+        "morefood:avocado_sapling_block",
+        "morefood:banana_sack",
+        "morefood:barley_seed_sack",
+        "morefood:bean_sack",
+        "morefood:blueberry_bush",
+        "morefood:blueberry_sack",
+        "morefood:blueberry_seed_sack",
+        "morefood:buckwheat_crop",
+        "morefood:buckwheat_sack",
+        "morefood:cabbage_crop",
+        "morefood:cabbage_sack",
+        "morefood:cabbage_seed_sack",
+        "morefood:chocolate_chunk_oatmeal_cookie_sack",
+        "morefood:coconut_sack",
+        "morefood:coffee_bean_sack",
+        "morefood:cornflour_sack",
+        "morefood:corn_cob_sack",
+        "morefood:corn_sack",
+        "morefood:cranberry_sack",
+        "morefood:eggplant_bush",
+        "morefood:eggplant_sack",
+        "morefood:eggplant_seed_sack",
+        "morefood:flour_sack",
+        "morefood:garlic_sack",
+        "morefood:gherkin_sack",
+        "morefood:gherkin_seed_sack",
+        "morefood:grape_sack",
+        "morefood:grape_seed_sack",
+        "morefood:hanging_avocado",
+        "morefood:hops_sack",
+        "morefood:hops_seed_sack",
+        "morefood:lemon_sack",
+        "morefood:lettuce_sack",
+        "morefood:lettuce_seed_sack",
+        "morefood:nether_cookie_sack",
+        "morefood:oatmeal_cookie_sack",
+        "morefood:oat_crop",
+        "morefood:oat_sack",
+        "morefood:oat_seed_sack",
+        "morefood:olive_sack",
+        "morefood:onion_sack",
+        "morefood:onion_seed_sack",
+        "morefood:orange_sack",
+        "morefood:peanut_crop",
+        "morefood:peanut_sack",
+        "morefood:peanut_seed_sack",
+        "morefood:pepper_sack",
+        "morefood:pepper_seed_sack",
+        "morefood:plum_sack",
+        "morefood:poisonous_sweet_potato_sack",
+        "morefood:poison_berry_bush",
+        "morefood:poison_berry_sack",
+        "morefood:raspberry_sack",
+        "morefood:raspberry_seed_sack",
+        "morefood:rice_sack",
+        "morefood:rice_seed_sack",
+        "morefood:soybean_bush",
+        "morefood:soybean_sack",
+        "morefood:spinach_crop",
+        "morefood:spinach_sack",
+        "morefood:spinach_seed_sack",
+        "morefood:strawberry_sack",
+        "morefood:strawberry_seed_sack",
+        "morefood:sugar_cookie_sack",
+        "morefood:sweet_potatoes",
+        "morefood:sweet_potato_sack",
+        "morefood:tea_leaf_sack",
+        "morefood:tea_seed_sack",
+        "morefood:tomato_sack",
+        "morefood:tomato_seed_sack",
+        "morefood:vanilla_pod_sack",
+        "morefood:vanilla_seed_sack",
+        "morefood:wooden_tree_tap",
+        "morefood:yeast_sack",
+        "morefood:almond_sapling_block",
+        "morefood:bean_bush",
+        "morefood:cranberry_bush",
+        "morefood:fertile_soil",
+        "morefood:garlic_crop",
+        "morefood:hanging_almond",
+        "morefood:peppermint_bush",
+        "morefood:spearmint_plant",
+        "morefood:watermint_plant",
+        "morefood:potted_almond_sapling",
+        "morefood:potted_apple_sapling",
+        "morefood:potted_avocado_sapling",
+        "morefood:potted_banana_sapling",
+        "morefood:potted_lemon_sapling",
+        "morefood:potted_olive_sapling",
+        "morefood:potted_orange_sapling",
+        "morefood:potted_palm_sapling",
+        "morefood:potted_plum_sapling",
+        "morefood:potted_spearmint",
+        "morefood:potted_watermint",
+        "morefood:sap_cauldron",
+        "morefood:shroomlight",
+        "morefood:warped_wart_block"
+      ]
     },
     "datapack": {
-        "versions": {
-            "Beta": "https://more-food.fandom.com/wiki/Datapack_Edition_Beta",
-            "Update_2": "https://more-food.fandom.com/wiki/Datapack_Edition_Update_2",
-            "1.1": "https://more-food.fandom.com/wiki/Datapack_Edition_1.1",
-            "1.2": "https://more-food.fandom.com/wiki/Datapack_Edition_1.2",
-            "1.3": "https://more-food.fandom.com/wiki/Datapack_Edition_1.3",
-            "1.3_Fix": "https://more-food.fandom.com/wiki/Datapack_Edition_1.3_Fix",
-            "1.4": "https://more-food.fandom.com/wiki/Datapack_Edition_1.4",
-            "1.5": "https://more-food.fandom.com/wiki/Datapack_Edition_1.5",
-            "1.5_Fix": "https://more-food.fandom.com/wiki/Datapack_Edition_1.5_Fix",
-            "1.6": "https://more-food.fandom.com/wiki/Datapack_Edition_1.6",
-            "1.7": "https://more-food.fandom.com/wiki/Datapack_Edition_1.7",
-            "1.8": "https://more-food.fandom.com/wiki/Datapack_Edition_1.8",
-            "1.9": "https://more-food.fandom.com/wiki/Datapack_Edition_1.9",
-            "2.0": "https://more-food.fandom.com/wiki/Datapack_Edition_2.0",
-            "2.1": "https://more-food.fandom.com/wiki/Datapack_Edition_2.1",
-            "2.2": "https://more-food.fandom.com/wiki/Datapack_Edition_2.2",
-            "2.3": "https://more-food.fandom.com/wiki/Datapack_Edition_2.3",
-            "2.4": "https://more-food.fandom.com/wiki/Datapack_Edition_2.4",
-            "2.5": "https://more-food.fandom.com/wiki/Datapack_Edition_2.5",
-            "2.6": "https://more-food.fandom.com/wiki/Datapack_Edition_2.6",
-            "2.7": "https://more-food.fandom.com/wiki/Datapack_Edition_2.7",
-            "2.8": "https://more-food.fandom.com/wiki/Datapack_Edition_2.8",
-            "2.9": "https://more-food.fandom.com/wiki/Datapack_Edition_2.9",
-            "3.0": "https://more-food.fandom.com/wiki/Datapack_Edition_3.0",
-            "3.1": "https://more-food.fandom.com/wiki/Datapack_Edition_3.1"
-        },
-        "items": [],
-        "blocks": []
+      "versions": {
+        "Beta": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_Beta",
+        "Update_2": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_Update_2",
+        "1.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.1",
+        "1.2": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.2",
+        "1.3": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.3",
+        "1.3_Fix": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.3_Fix",
+        "1.4": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.4",
+        "1.5": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.5",
+        "1.5_Fix": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.5_Fix",
+        "1.6": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.6",
+        "1.7": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.7",
+        "1.8": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.8",
+        "1.9": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_1.9",
+        "2.0": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.0",
+        "2.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.1",
+        "2.2": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.2",
+        "2.3": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.3",
+        "2.4": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.4",
+        "2.5": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.5",
+        "2.6": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.6",
+        "2.7": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.7",
+        "2.8": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.8",
+        "2.9": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_2.9",
+        "3.0": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_3.0",
+        "3.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Datapack_Edition_3.1"
+      },
+      "items": ["undocumented"],
+      "blocks": ["undocumented"]
     },
     "forge": {
-        "versions": {
-            "1.0.0": "https://more-food.fandom.com/wiki/Forge_Edition_1.0.0",
-            "1.0.1": "https://more-food.fandom.com/wiki/Forge_Edition_1.0.1",
-            "1.0.0-pre1": "https://more-food.fandom.com/wiki/Forge_Edition_1.0.0-pre1",
-            "1.2.0": "https://more-food.fandom.com/wiki/Forge_Edition_1.2.0",
-            "1.3.0-beta1": "https://more-food.fandom.com/wiki/Forge_Edition_1.3.0-beta1"
-        },
-        "items": [],
-        "blocks": []
+      "versions": {
+        "1.0.0": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Forge_Edition_1.0.0",
+        "1.0.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Forge_Edition_1.0.1",
+        "1.0.0-pre1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Forge_Edition_1.0.0-pre1",
+        "1.2.0": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Forge_Edition_1.2.0",
+        "1.3.0-beta1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Forge_Edition_1.3.0-beta1"
+      },
+      "items": ["undocumented"],
+      "blocks": ["undocumented"]
     },
     "fabric": {
-        "versions": {
-            "0.0.1": "https://more-food.fandom.com/wiki/Fabric_Edition_0.0.1"
-        },
-        "items": [],
-        "blocks": []
+      "versions": {
+        "0.0.1": "https://more-food.fandom.com/api.php?action=query&prop=revisions&rvslots=*&rvprop=content&format=json&titles=Fabric_Edition_0.0.1"
+      },
+      "items": ["undocumented"],
+      "blocks": ["undocumented"]
     }
+  }
 }
