@@ -131,13 +131,13 @@ public class HangingCropBlock extends PlantBlock implements Fertilizable {
         return new ItemStack(this.getSaplingItem());
     }
 
-    @Override
-    public boolean isFertilizable(WorldView world, BlockPos pos, BlockState state, boolean isClient) {
-        return !this.isMature(state);
-    }
-
     protected int getGrowthAmount(World world) {
         return MathHelper.nextInt(world.random, 2, 5);
+    }
+
+    @Override
+    public boolean isFertilizable(WorldView world, BlockPos pos, BlockState state) {
+        return !this.isMature(state);
     }
 
     @Override

@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.4] - unreleased
+### General
+- 
+
+### Bug Fixes
+- #76 Peanut crop doesn't drop Peanuts
+- #75 Peanut crop uses the wrong model
+- #74 Some crops don't look fully grown
+- #73 Spearmint and Watermint have black backgrounds
+
+## [0.0.3] - 9-21-2023
+### General
+- Updated for 1.20.2
+- Fixed a crash that would occor when attempting to bone meal hanging fruits.
+
 ## [0.0.2] - 8-9-2023
 ### General
 - Saplings, Crops, and Seeds are now compostable.

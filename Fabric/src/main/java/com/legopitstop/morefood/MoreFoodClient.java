@@ -75,5 +75,7 @@ public class MoreFoodClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(MoreFoodBlocks.CABBAGE_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(MoreFoodBlocks.SPINACH_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(MoreFoodBlocks.GARLIC_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MoreFoodBlocks.SPEARMINT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MoreFoodBlocks.WATERMINT, RenderLayer.getCutout());
     }
 }
