@@ -4,6 +4,35 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.0-pre6] (1.6.6) - 10/31/2023
+
+### Before Updating
+- Make sure to create a backup of your world before updaing. This update renames some block and item IDs which could be lost.
+
+### General
+- Updated for 1.20.40
+- Add unlock data to recipes.
+- Squids should now only drop one squid item.
+- Glow Squids will now drop squid
+- Hanging crops can now be placed on mangrove and cherry leaves (won't pop off when updated).
+- Wooden Tree Tap can now be placed on mangrove and cherry logs.
+- #81 update block and item IDs.
+- Outdated items will show up as dirt with "legacy"
+
+### Fixed
+- Fixed a handful of food items that are not using the eating animation.
+- World gen is now working and does'nt require "Creation of Custom Biomes"
+- #78 Saplings Disappearing
+- #72 Chicken Soup does'nt return a bucket.
+
+### Added
+- Cherry Sack
+- Hanging Cherry
+- Missing recipes that are on the Wiki
+
+### Removed
+- Sub Wrapper
+
 ## [1.7.0-pre5] (1.6.5) - 7-21-2023
 
 ### Known Issues
