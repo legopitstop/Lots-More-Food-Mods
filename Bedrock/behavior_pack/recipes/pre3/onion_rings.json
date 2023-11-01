@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:onion_rings"
@@ -29,6 +29,23 @@
                 "item": "morefood:large_bowl"
             }
         },
-        "result": "morefood:onion_rings"
+        "result": "morefood:onion_rings",
+        "unlock": [
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "morefood:onion"
+            },
+            {
+                "item": "morefood:large_bowl"
+            }
+        ]
     }
 }

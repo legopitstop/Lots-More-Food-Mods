@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:sausage_egg_sandwich"
@@ -17,10 +17,10 @@
                 "item": "morefood:butter"
             },
             "P": {
-                "item": "morefood:cut_bread"
+                "item": "morefood:bread_slice"
             },
             "X": {
-                "item": "morefood:cooked_sausage"
+                "item": "morefood:cooked_breakfast_sausage"
             },
             "Y": {
                 "item": "morefood:fried_egg"
@@ -28,6 +28,20 @@
         },
         "result": {
             "item": "morefood:sausage_egg_sandwich"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:bread_slice"
+            },
+            {
+                "item": "morefood:cooked_breakfast_sausage"
+            },
+            {
+                "item": "morefood:fried_egg"
+            }
+        ]
     }
 }

@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:chicken_sub"
+            "identifier": "morefood:chicken_submarine_sandwich"
         },
         "tags": [
             "crafting_table"
@@ -26,11 +26,28 @@
                 "item": "morefood:tomato"
             },
             "Z": {
-                "item": "morefood:sub_bun"
+                "item": "morefood:submarine_sandwich_bun"
             }
         },
         "result": {
-            "item": "morefood:chicken_sub"
-        }
+            "item": "morefood:chicken_submarine_sandwich"
+        },
+        "unlock": [
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:lettuce"
+            },
+            {
+                "item": "minecraft:cooked_chicken"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:submarine_sandwich_bun"
+            }
+        ]
     }
 }

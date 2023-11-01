@@ -1,14 +1,14 @@
 {
-    "format_version": "1.16.100",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:small_pumpkin_pale1",
-            "category": "equipment"
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.miscFood"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.miscFood"
-            },
             "minecraft:icon": {
                 "texture": "morefood:small_pumpkin_pale1"
             },
@@ -17,9 +17,9 @@
             "minecraft:max_stack_size": 1,
             "minecraft:food": {
                 "nutrition": 6,
-                "saturation_modifier": "normal",
+                "saturation_modifier": 0.6,
                 "using_converts_to": {
-                    "item": "morefood:empty_small_pumpkin_pale"
+                    "item": "morefood:small_pumpkin_pale"
                 }
             },
             "minecraft:block_placer": {

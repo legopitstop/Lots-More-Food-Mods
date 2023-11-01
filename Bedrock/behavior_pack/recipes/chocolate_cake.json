@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:chocolate_cake"
@@ -15,12 +15,10 @@
         ],
         "key": {
             "#": {
-                "item": "minecraft:dye",
-                "data": 3
+                "item": "minecraft:cocoa_beans"
             },
             "P": {
-                "item": "minecraft:bucket",
-                "data": 1
+                "item": "minecraft:milk_bucket"
             },
             "X": {
                 "item": "minecraft:egg"
@@ -40,8 +38,27 @@
                 "item": "morefood:chocolate_cake"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:cocoa_beans"
+            },
+            {
+                "item": "minecraft:milk_bucket"
+            },
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:icing"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:flour"
             }
         ]
     }

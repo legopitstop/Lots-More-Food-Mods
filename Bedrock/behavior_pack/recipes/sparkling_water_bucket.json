@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:sparkling_water_bucket"
@@ -17,13 +17,20 @@
                 "item": "morefood:yeast"
             },
             "P": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             }
         },
         "result": [
             {
                 "item": "morefood:sparkling_water_bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:yeast"
+            },
+            {
+                "item": "minecraft:water_bucket"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:gherkin_from_sack"
@@ -19,6 +19,11 @@
             {
                 "item": "morefood:gherkin",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:gherkin_sack"
             }
         ]
     }

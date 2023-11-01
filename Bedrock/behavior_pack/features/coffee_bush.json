@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.220",
+    "format_version": "1.20.30",
     "minecraft:single_block_feature": {
         "description": {
             "identifier": "morefood:coffee_bush"

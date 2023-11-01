@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:chicken_select"
@@ -21,6 +21,14 @@
         },
         "result": {
             "item": "morefood:chicken_select"
-        }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cooked_chicken"
+            },
+            {
+                "item": "morefood:chicken_select_box"
+            }
+        ]
     }
 }

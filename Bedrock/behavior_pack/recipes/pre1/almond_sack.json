@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:almond_sack"
@@ -21,6 +21,11 @@
             {
                 "item": "morefood:almond_sack",
                 "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:almonds"
             }
         ]
     }

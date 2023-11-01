@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:vanilla_seeds_from_vanilla"
@@ -15,6 +15,11 @@
                 "item": "morefood:vanilla_pod"
             }
         },
-        "result": "morefood:vanilla_seeds"
+        "result": "morefood:vanilla_seeds",
+        "unlock": [
+            {
+                "item": "morefood:vanilla_pod"
+            }
+        ]
     }
 }

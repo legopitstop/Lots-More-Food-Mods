@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:netherwart_mushroom_soup"
@@ -28,6 +28,20 @@
         "result": [
             {
                 "item": "morefood:netherwart_mushroom_soup"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:brown_mushroom"
+            },
+            {
+                "item": "minecraft:red_mushroom"
+            },
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "minecraft:nether_wart"
             }
         ]
     }

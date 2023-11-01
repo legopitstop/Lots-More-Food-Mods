@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:tomato_seeds_from_tomato"
@@ -15,6 +15,11 @@
                 "item": "morefood:tomato"
             }
         },
-        "result": "morefood:tomato_seeds"
+        "result": "morefood:tomato_seeds",
+        "unlock": [
+            {
+                "item": "morefood:tomato"
+            }
+        ]
     }
 }

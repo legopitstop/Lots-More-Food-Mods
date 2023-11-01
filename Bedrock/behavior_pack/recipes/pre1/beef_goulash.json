@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:beef_goulash"
@@ -32,6 +32,26 @@
                 "item": "morefood:large_bowl"
             }
         },
-        "result": "morefood:beef_goulash"
+        "result": "morefood:beef_goulash",
+        "unlock": [
+            {
+                "item": "minecraft:cooked_beef"
+            },
+            {
+                "item": "morefood:rice"
+            },
+            {
+                "item": "morefood:spinach"
+            },
+            {
+                "item": "minecraft:carrot"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:large_bowl"
+            }
+        ]
     }
 }

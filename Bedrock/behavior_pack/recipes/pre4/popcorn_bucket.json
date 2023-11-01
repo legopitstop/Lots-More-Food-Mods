@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:popcorn_bucket"
@@ -17,12 +17,19 @@
                 "item": "morefood:popcorn"
             },
             "B": {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
             }
         },
         "result": {
             "item": "morefood:popcorn_bucket"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:popcorn"
+            },
+            {
+                "item": "minecraft:bucket"
+            }
+        ]
     }
 }

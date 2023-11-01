@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:sushi"
@@ -24,6 +24,17 @@
         },
         "result": {
             "item": "morefood:sushi"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:rice"
+            },
+            {
+                "item": "minecraft:salmon"
+            },
+            {
+                "item": "morefood:salt"
+            }
+        ]
     }
 }

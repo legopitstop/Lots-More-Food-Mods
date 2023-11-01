@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pulled_beef_burger"
@@ -29,6 +29,23 @@
                 "item": "minecraft:cooked_beef"
             }
         },
-        "result": "morefood:pulled_beef_burger"
+        "result": "morefood:pulled_beef_burger",
+        "unlock": [
+            {
+                "item": "morefood:burger_bun"
+            },
+            {
+                "item": "morefood:cheese_wedge"
+            },
+            {
+                "item": "morefood:lettuce"
+            },
+            {
+                "item": "morefood:onion"
+            },
+            {
+                "item": "minecraft:cooked_beef"
+            }
+        ]
     }
 }

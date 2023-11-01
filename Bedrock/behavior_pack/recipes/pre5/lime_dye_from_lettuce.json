@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:lime_dye_from_lettuce"
@@ -10,13 +10,22 @@
         "ingredients": [
             {
                 "item": "morefood:lettuce"
-            }, {
+            },
+            {
                 "item": "morefood:lettuce"
             }
         ],
         "result": {
             "item": "minecraft:lime_dye",
             "count": 2
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:lettuce"
+            },
+            {
+                "item": "morefood:lettuce"
+            }
+        ]
     }
 }

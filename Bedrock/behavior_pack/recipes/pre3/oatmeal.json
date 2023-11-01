@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:oatmeal"
@@ -26,6 +26,20 @@
                 "item": "morefood:large_bowl"
             }
         },
-        "result": "morefood:oatmeal"
+        "result": "morefood:oatmeal",
+        "unlock": [
+            {
+                "item": "morefood:oats"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "morefood:large_bowl"
+            }
+        ]
     }
 }

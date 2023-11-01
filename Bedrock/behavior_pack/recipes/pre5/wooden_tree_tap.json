@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:wooden_tree_tap"
@@ -17,6 +17,14 @@
         ],
         "result": {
             "item": "morefood:wooden_tree_tap"
-        }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:stick"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ]
     }
 }

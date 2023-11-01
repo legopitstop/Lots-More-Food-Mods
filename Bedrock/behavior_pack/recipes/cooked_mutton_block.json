@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:cooked_mutton_block"
@@ -21,6 +21,11 @@
             {
                 "item": "morefood:cooked_mutton_block",
                 "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:muttonCooked"
             }
         ]
     }

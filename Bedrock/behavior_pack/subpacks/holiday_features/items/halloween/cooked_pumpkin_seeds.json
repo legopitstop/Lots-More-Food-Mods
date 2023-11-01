@@ -1,14 +1,14 @@
 {
-    "format_version": "1.16.100",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:cooked_pumpkin_seeds",
-            "category": "equipment"
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.miscFood"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.miscFood"
-            },
             "minecraft:icon": {
                 "texture": "morefood:cooked_pumpkin_seeds"
             },
@@ -16,7 +16,7 @@
             "minecraft:use_duration": 1.61,
             "minecraft:food": {
                 "nutrition": 2,
-                "saturation_modifier": "poor"
+                "saturation_modifier": 0.4
             }
         }
     }

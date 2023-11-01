@@ -1168,6 +1168,9 @@
         "morefood:tomato_block_top": {
             "textures": "textures/morefood/blocks/tomato_block_top"
         },
+        "morefood:cherry_contents": {
+            "textures": "textures/morefood/blocks/new/cherry_contents"
+        },
         "morefood:buckwheat_contents": {
             "textures": "textures/morefood/blocks/new/buckwheat_contents"
         },

@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "morefood:shroomlight_slices",
+                    "name": "morefood:shroomlight_slice",
                     "weight": 1,
                     "functions": [
                         {

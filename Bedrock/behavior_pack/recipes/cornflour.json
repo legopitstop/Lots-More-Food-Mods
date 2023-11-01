@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:cornflour"
+            "identifier": "morefood:corn_flour"
         },
         "tags": [
             "crafting_table"
@@ -12,12 +12,17 @@
         ],
         "key": {
             "#": {
-                "item": "morefood:corn_on_cob"
+                "item": "morefood:corncob"
             }
         },
         "result": [
             {
-                "item": "morefood:cornflour"
+                "item": "morefood:corn_flour"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:corncob"
             }
         ]
     }

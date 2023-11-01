@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:breakfast_sub"
+            "identifier": "morefood:breakfast_submarine_sandwich"
         },
         "tags": [
             "crafting_table"
@@ -10,27 +10,38 @@
         "pattern": [
             "# ",
             "PX",
-            "YZ"
+            " Z"
         ],
         "key": {
             "#": {
                 "item": "morefood:butter"
             },
             "P": {
-                "item": "morefood:cooked_sausage"
+                "item": "morefood:cooked_breakfast_sausage"
             },
             "X": {
                 "item": "morefood:fried_egg"
             },
-            "Y": {
-                "item": "morefood:sub_wrapper"
-            },
             "Z": {
-                "item": "morefood:sub_bun"
+                "item": "morefood:submarine_sandwich_bun"
             }
         },
         "result": {
-            "item": "morefood:breakfast_sub"
-        }
+            "item": "morefood:breakfast_submarine_sandwich"
+        },
+        "unlock": [
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:cooked_breakfast_sausage"
+            },
+            {
+                "item": "morefood:fried_egg"
+            },
+            {
+                "item": "morefood:submarine_sandwich_bun"
+            }
+        ]
     }
 }

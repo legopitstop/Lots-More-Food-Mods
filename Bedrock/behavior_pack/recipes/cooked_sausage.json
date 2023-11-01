@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "morefood:cooked_sausage_from_cooking"
+            "identifier": "morefood:cooked_breakfast_sausage_from_cooking"
         },
         "tags": [
             "furnace",
@@ -10,7 +10,7 @@
             "campfire",
             "soul_campfire"
         ],
-        "input": "morefood:raw_sausage",
-        "output": "morefood:cooked_sausage"
+        "input": "morefood:breakfast_sausage",
+        "output": "morefood:cooked_breakfast_sausage"
     }
 }

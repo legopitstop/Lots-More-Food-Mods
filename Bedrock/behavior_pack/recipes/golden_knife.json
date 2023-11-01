@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:golden_knife"
@@ -18,12 +18,19 @@
                 "item": "minecraft:gold_ingot"
             },
             "P": {
-                "item": "minecraft:concrete",
-                "data": 15
+                "item": "minecraft:black_concrete"
             }
         },
         "result": {
             "item": "morefood:knife_golden"
-        }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:gold_ingot"
+            },
+            {
+                "item": "minecraft:black_concrete"
+            }
+        ]
     }
 }

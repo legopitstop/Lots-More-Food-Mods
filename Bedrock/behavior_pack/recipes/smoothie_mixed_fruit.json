@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:smoothie_mixed_fruit"
+            "identifier": "morefood:mixed_fruit_smoothie"
         },
         "tags": [
             "crafting_table"
@@ -24,12 +24,26 @@
                 "item": "minecraft:sweet_berries"
             },
             "P": {
-                "item": "morefood:empty_tumbler_glass"
+                "item": "morefood:tumbler_glass"
             }
         },
         "result": [
             {
-                "item": "morefood:smoothie_mixed_fruit"
+                "item": "morefood:mixed_fruit_smoothie"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:grape"
+            },
+            {
+                "item": "morefood:strawberry"
+            },
+            {
+                "item": "minecraft:sweet_berries"
+            },
+            {
+                "item": "morefood:tumbler_glass"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:bottled_red_wine"
@@ -14,8 +14,7 @@
         ],
         "key": {
             "#": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             },
             "H": {
                 "item": "morefood:raspberry"
@@ -38,8 +37,27 @@
                 "item": "morefood:bottled_red_wine"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:water_bucket"
+            },
+            {
+                "item": "morefood:raspberry"
+            },
+            {
+                "item": "morefood:strawberry"
+            },
+            {
+                "item": "morefood:bottle"
+            },
+            {
+                "item": "morefood:yeast"
+            },
+            {
+                "item": "minecraft:sugar"
             }
         ]
     }

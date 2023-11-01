@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:starch"
@@ -26,6 +26,17 @@
         "result": [
             {
                 "item": "morefood:starch"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:potato"
+            },
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:beetroot"
             }
         ]
     }

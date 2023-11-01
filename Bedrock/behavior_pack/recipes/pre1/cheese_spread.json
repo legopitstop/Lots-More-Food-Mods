@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:cheese_spread"
@@ -15,6 +15,14 @@
                 "item": "morefood:jar"
             }
         ],
-        "result": "morefood:cheese_spread"
+        "result": "morefood:cheese_spread",
+        "unlock": [
+            {
+                "item": "morefood:cheese_wedge"
+            },
+            {
+                "item": "morefood:jar"
+            }
+        ]
     }
 }

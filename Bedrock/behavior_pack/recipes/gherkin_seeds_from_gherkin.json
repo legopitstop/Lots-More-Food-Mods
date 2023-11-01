@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:gherkin_seeds_from_gherkin"
@@ -15,6 +15,11 @@
                 "item": "morefood:gherkin"
             }
         },
-        "result": "morefood:gherkin_seeds"
+        "result": "morefood:gherkin_seeds",
+        "unlock": [
+            {
+                "item": "morefood:gherkin"
+            }
+        ]
     }
 }

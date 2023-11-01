@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:tomato_puree"
@@ -23,6 +23,14 @@
         "result": [
             {
                 "item": "morefood:tomato_puree"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:jar"
             }
         ]
     }

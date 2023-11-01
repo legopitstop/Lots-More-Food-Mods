@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:hops_seeds_from_hops"
@@ -15,6 +15,11 @@
                 "item": "morefood:hops"
             }
         },
-        "result": "morefood:hops_seeds"
+        "result": "morefood:hops_seeds",
+        "unlock": [
+            {
+                "item": "morefood:hops"
+            }
+        ]
     }
 }

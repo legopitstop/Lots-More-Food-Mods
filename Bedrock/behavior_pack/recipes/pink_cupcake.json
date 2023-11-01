@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pink_cupcake"
@@ -15,8 +15,7 @@
         ],
         "key": {
             "#": {
-                "item": "minecraft:dye",
-                "data": 9
+                "item": "minecraft:pink_dye"
             },
             "P": {
                 "item": "morefood:butter"
@@ -39,6 +38,29 @@
         },
         "result": {
             "item": "morefood:pink_cupcake"
-        }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:pink_dye"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "morefood:icing"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ]
     }
 }

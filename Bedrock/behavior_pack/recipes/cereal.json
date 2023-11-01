@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:cereal"
@@ -29,6 +29,17 @@
             },
             {
                 "item": "morefood:carton"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "minecraft:bowl"
             }
         ]
     }

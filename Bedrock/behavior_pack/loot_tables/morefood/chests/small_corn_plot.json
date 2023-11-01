@@ -22,7 +22,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "morefood:corn_on_cob",
+                    "name": "morefood:corncob",
                     "weight": 3,
                     "functions": [
                         {

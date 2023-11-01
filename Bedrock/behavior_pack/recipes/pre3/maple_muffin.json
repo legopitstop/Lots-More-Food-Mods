@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:maple_muffin"
@@ -31,6 +31,26 @@
                 "item": "morefood:maple_syrup"
             }
         },
-        "result": "morefood:maple_muffin"
+        "result": "morefood:maple_muffin",
+        "unlock": [
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:salt"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:maple_syrup"
+            }
+        ]
     }
 }

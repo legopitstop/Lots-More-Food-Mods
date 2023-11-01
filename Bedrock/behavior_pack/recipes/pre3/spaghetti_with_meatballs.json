@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:spaghetti_with_meatballs"
@@ -32,6 +32,26 @@
                 "item": "morefood:onion"
             }
         },
-        "result": "morefood:spaghetti_with_meatballs"
+        "result": "morefood:spaghetti_with_meatballs",
+        "unlock": [
+            {
+                "item": "minecraft:cooked_beef"
+            },
+            {
+                "item": "morefood:pasta"
+            },
+            {
+                "item": "morefood:tomato_puree"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:lettuce"
+            },
+            {
+                "item": "morefood:onion"
+            }
+        ]
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:hash_browns"
@@ -14,7 +14,7 @@
         ],
         "key": {
             "P": {
-                "item": "morefood:cut_fries"
+                "item": "morefood:french_fries"
             },
             "O": {
                 "item": "morefood:oil"
@@ -26,6 +26,17 @@
         "result": {
             "item": "morefood:hash_browns",
             "count": 1
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:french_fries"
+            },
+            {
+                "item": "morefood:oil"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ]
     }
 }

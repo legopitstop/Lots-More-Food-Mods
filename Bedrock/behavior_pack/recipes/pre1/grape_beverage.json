@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:grape_beverage"
@@ -12,10 +12,17 @@
                 "item": "morefood:grape_beverage_powder"
             },
             {
-                "item": "minecraft:potion",
-                "data": 0
+                "item": "minecraft:potion"
             }
         ],
-        "result": "morefood:grape_beverage"
+        "result": "morefood:grape_beverage",
+        "unlock": [
+            {
+                "item": "morefood:grape_beverage_powder"
+            },
+            {
+                "item": "minecraft:potion"
+            }
+        ]
     }
 }

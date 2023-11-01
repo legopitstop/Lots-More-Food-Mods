@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:pie_plum"
+            "identifier": "morefood:plum_pie"
         },
         "tags": [
             "crafting_table"
@@ -17,11 +17,19 @@
                 "item": "morefood:plum"
             },
             "P": {
-                "item": "morefood:pie_base"
+                "item": "morefood:pie_crust"
             }
         },
         "result": {
-            "item": "morefood:pie_plum"
-        }
+            "item": "morefood:plum_pie"
+        },
+        "unlock": [
+            {
+                "item": "morefood:plum"
+            },
+            {
+                "item": "morefood:pie_crust"
+            }
+        ]
     }
 }

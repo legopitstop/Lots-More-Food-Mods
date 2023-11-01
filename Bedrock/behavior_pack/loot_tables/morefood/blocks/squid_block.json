@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "morefood:raw_squid",
+                    "name": "morefood:squid",
                     "weight": 1,
                     "functions": [
                         {

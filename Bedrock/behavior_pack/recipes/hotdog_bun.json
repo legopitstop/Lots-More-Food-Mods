@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:hotdog_bun"
+            "identifier": "morefood:hot_dog_bun"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,15 @@
         },
         "result": [
             {
-                "item": "morefood:hotdog_bun"
+                "item": "morefood:hot_dog_bun"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:dough"
+            },
+            {
+                "item": "morefood:flour"
             }
         ]
     }

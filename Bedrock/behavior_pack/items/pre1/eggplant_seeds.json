@@ -1,16 +1,16 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:eggplant_seeds",
-            "category": "nature"
+            "menu_category": {
+                "group": "itemGroup.name.seed",
+                "category": "nature"
+            }
         },
         "components": {
             "minecraft:icon": {
                 "texture": "morefood:eggplant_seeds"
-            },
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.seed"
             },
             "minecraft:block_placer": {
                 "block": "morefood:eggplant_bush",

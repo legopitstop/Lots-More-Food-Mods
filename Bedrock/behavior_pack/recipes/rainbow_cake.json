@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:rainbow_cake"
@@ -15,24 +15,19 @@
         ],
         "key": {
             "#": {
-                "item": "minecraft:dye",
-                "data": 2
+                "item": "minecraft:green_dye"
             },
             "A": {
-                "item": "minecraft:dye",
-                "data": 1
+                "item": "minecraft:red_dye"
             },
             "B": {
-                "item": "minecraft:dye",
-                "data": 18
+                "item": "minecraft:blue_dye"
             },
             "C": {
-                "item": "minecraft:dye",
-                "data": 11
+                "item": "minecraft:yellow_dye"
             },
             "P": {
-                "item": "minecraft:bucket",
-                "data": 1
+                "item": "minecraft:milk_bucket"
             },
             "X": {
                 "item": "minecraft:egg"
@@ -52,8 +47,36 @@
                 "item": "morefood:rainbow_cake"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:green_dye"
+            },
+            {
+                "item": "minecraft:red_dye"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            },
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:milk_bucket"
+            },
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:icing"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:flour"
             }
         ]
     }

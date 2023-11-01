@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:crackers_with_peanut_butter"
@@ -15,6 +15,14 @@
                 "item": "morefood:peanut_butter"
             }
         ],
-        "result": "morefood:crackers_with_peanut_butter"
+        "result": "morefood:crackers_with_peanut_butter",
+        "unlock": [
+            {
+                "item": "morefood:crackers"
+            },
+            {
+                "item": "morefood:peanut_butter"
+            }
+        ]
     }
 }

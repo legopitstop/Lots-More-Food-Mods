@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:marshmallow"
@@ -28,6 +28,20 @@
         "result": {
             "item": "morefood:marshmallow",
             "count": 4
-        }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:gelatin"
+            },
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "minecraft:water_bucket"
+            }
+        ]
     }
 }

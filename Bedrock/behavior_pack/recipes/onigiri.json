@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:onigiri"
@@ -20,6 +20,17 @@
         ],
         "result": {
             "item": "morefood:onigiri"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:rice"
+            },
+            {
+                "item": "minecraft:dried_kelp"
+            },
+            {
+                "item": "morefood:salt"
+            }
+        ]
     }
 }

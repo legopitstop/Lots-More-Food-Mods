@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:strawberry_seeds_from_strawberry"
@@ -15,6 +15,11 @@
                 "item": "morefood:strawberry"
             }
         },
-        "result": "morefood:strawberry_seeds"
+        "result": "morefood:strawberry_seeds",
+        "unlock": [
+            {
+                "item": "morefood:strawberry"
+            }
+        ]
     }
 }

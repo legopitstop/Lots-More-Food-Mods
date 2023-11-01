@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pizza"
@@ -20,7 +20,7 @@
                 "item": "morefood:onion"
             },
             "X": {
-                "item": "morefood:cooked_sausage"
+                "item": "morefood:cooked_breakfast_sausage"
             },
             "Y": {
                 "item": "minecraft:cooked_chicken"
@@ -29,7 +29,7 @@
                 "item": "morefood:tomato"
             },
             "A": {
-                "item": "morefood:pizza_base"
+                "item": "morefood:pizza_crust"
             },
             "B": {
                 "item": "morefood:tomato_puree"
@@ -41,6 +41,29 @@
             },
             {
                 "item": "morefood:jar"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:cheese_wedge"
+            },
+            {
+                "item": "morefood:onion"
+            },
+            {
+                "item": "morefood:cooked_breakfast_sausage"
+            },
+            {
+                "item": "minecraft:cooked_chicken"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:pizza_crust"
+            },
+            {
+                "item": "morefood:tomato_puree"
             }
         ]
     }

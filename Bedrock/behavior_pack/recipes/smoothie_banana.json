@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:smoothie_banana"
+            "identifier": "morefood:banana_smoothie"
         },
         "tags": [
             "crafting_table"
@@ -18,12 +18,20 @@
                 "item": "morefood:banana"
             },
             "P": {
-                "item": "morefood:empty_tumbler_glass"
+                "item": "morefood:tumbler_glass"
             }
         },
         "result": [
             {
-                "item": "morefood:smoothie_banana"
+                "item": "morefood:banana_smoothie"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:banana"
+            },
+            {
+                "item": "morefood:tumbler_glass"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_furnace": {
         "description": {
             "identifier": "morefood:toast"
@@ -9,7 +9,7 @@
             "campfire",
             "soul_campfire"
         ],
-        "input": "morefood:cut_bread",
+        "input": "morefood:bread_slice",
         "output": "morefood:toast"
     }
 }

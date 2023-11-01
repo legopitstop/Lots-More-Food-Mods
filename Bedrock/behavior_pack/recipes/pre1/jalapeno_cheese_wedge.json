@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:jalapeno_cheese_wedge"
@@ -12,13 +12,18 @@
         ],
         "key": {
             "#": {
-                "item": "morefood:jalapeno_round_cheese"
+                "item": "morefood:truckle_of_jalapeno_cheese"
             }
         },
         "result": [
             {
                 "item": "morefood:jalapeno_cheese_wedge",
                 "count": 6
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:truckle_of_jalapeno_cheese"
             }
         ]
     }

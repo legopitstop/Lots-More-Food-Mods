@@ -1,18 +1,3 @@
-# give @s morefood:olive_block
-# give @s morefood:olive_leaves
-# give @s morefood:onion_block
-# give @s morefood:orange_block
-# give @s morefood:orange_leaves
-# give @s morefood:peanut_bush
-# give @s morefood:pepper_block
-# give @s morefood:plum_block
-# give @s morefood:plum_leaves
-# give @s morefood:raspberry_block
-# give @s morefood:rice_block
-# give @s morefood:strawberry_block
-# give @s morefood:tea_block
-# give @s morefood:tomato_block
-# give @s morefood:vanilla_block
 give @s morefood:almond_sapling_block
 give @s morefood:avocado_sapling_block
 give @s morefood:bean_bush

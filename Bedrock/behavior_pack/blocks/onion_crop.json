@@ -1,9 +1,9 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:block": {
         "description": {
             "identifier": "morefood:onion_crop",
-            "properties": {
+            "states": {
                 "morefood:stage": [
                     0,
                     1,
@@ -32,12 +32,12 @@
             "minecraft:geometry": "geometry.template_crop",
             "minecraft:collision_box": false,
             "minecraft:on_interact": {
-                "condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal') && q.block_property('morefood:stage') != 7",
+                "condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:bone_meal') && q.block_state('morefood:stage') != 7",
                 "event": "event:bone_meal_growth"
             },
             "minecraft:random_ticking": {
                 "on_tick": {
-                    "condition": "q.block_property('morefood:stage') != 7",
+                    "condition": "q.block_state('morefood:stage') != 7",
                     "event": "event:increase_stage"
                 }
             },
@@ -59,7 +59,7 @@
         },
         "permutations": [
             {
-                "condition": "q.block_property('morefood:stage') == 0",
+                "condition": "q.block_state('morefood:stage') == 0",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -82,7 +82,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 1",
+                "condition": "q.block_state('morefood:stage') == 1",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -105,7 +105,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 2",
+                "condition": "q.block_state('morefood:stage') == 2",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -128,7 +128,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 3",
+                "condition": "q.block_state('morefood:stage') == 3",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -151,7 +151,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 4",
+                "condition": "q.block_state('morefood:stage') == 4",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -174,7 +174,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 5",
+                "condition": "q.block_state('morefood:stage') == 5",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -197,7 +197,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 6",
+                "condition": "q.block_state('morefood:stage') == 6",
                 "components": {
                     "minecraft:selection_box": {
                         "origin": [
@@ -220,7 +220,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:stage') == 7",
+                "condition": "q.block_state('morefood:stage') == 7",
                 "components": {
                     "minecraft:loot": "loot_tables/morefood/blocks/mature_onion.json",
                     "minecraft:selection_box": {
@@ -258,9 +258,9 @@
                 }
             },
             "event:increase_stage": {
-                "condition": "q.block_property('morefood:stage')!=7",
-                "set_block_property": {
-                    "morefood:stage": "q.block_property('morefood:stage')+1"
+                "condition": "q.block_state('morefood:stage')!=7",
+                "set_block_state": {
+                    "morefood:stage": "q.block_state('morefood:stage')+1"
                 }
             }
         }

@@ -1,14 +1,14 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:knife_golden",
-            "category": "equipment"
+            "menu_category": {
+                "group": "itemGroup.search",
+                "category": "equipment"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
             "minecraft:icon": {
                 "texture": "morefood:golden_knife"
             },
@@ -19,7 +19,6 @@
             "minecraft:can_destroy_in_creative": false,
             "minecraft:max_stack_size": 1,
             "minecraft:damage": 4,
-            "minecraft:mining_speed": 1.5,
             "minecraft:use_duration": 72000,
             "minecraft:durability": {
                 "max_durability": 32

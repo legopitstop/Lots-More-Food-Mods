@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:macchiato"
@@ -18,8 +18,7 @@
                 "item": "morefood:coffee_beans"
             },
             "P": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             },
             "X": {
                 "item": "minecraft:sugar"
@@ -40,6 +39,23 @@
             },
             {
                 "item": "morefood:carton"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:coffee_beans"
+            },
+            {
+                "item": "minecraft:water_bucket"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:hot_beverage_cup"
+            },
+            {
+                "item": "morefood:cream_carton"
             }
         ]
     }

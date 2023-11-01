@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:waffle"
@@ -45,6 +45,32 @@
             },
             {
                 "item": "morefood:carton"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "morefood:salt"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "morefood:butter"
             }
         ]
     }

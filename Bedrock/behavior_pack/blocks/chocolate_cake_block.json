@@ -1,10 +1,10 @@
 {
     "credit": "Thanks to Legopitstop for creating the schema. https://github.com/legopitstop/JSON-Schemas",
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:block": {
         "description": {
             "identifier": "morefood:chocolate_cake_block",
-            "properties": {
+            "states": {
                 "morefood:slice": [
                     0,
                     1,
@@ -72,7 +72,7 @@
         },
         "permutations": [
             {
-                "condition": "q.block_property('morefood:slice') == 0",
+                "condition": "q.block_state('morefood:slice') == 0",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice0",
                     "minecraft:selection_box": {
@@ -102,7 +102,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:slice') == 1",
+                "condition": "q.block_state('morefood:slice') == 1",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice1",
                     "minecraft:selection_box": {
@@ -132,7 +132,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:slice') == 2",
+                "condition": "q.block_state('morefood:slice') == 2",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice2",
                     "minecraft:selection_box": {
@@ -162,7 +162,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:slice') == 3",
+                "condition": "q.block_state('morefood:slice') == 3",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice3",
                     "minecraft:selection_box": {
@@ -192,7 +192,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:slice') == 4",
+                "condition": "q.block_state('morefood:slice') == 4",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice4",
                     "minecraft:selection_box": {
@@ -222,7 +222,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:slice') == 5",
+                "condition": "q.block_state('morefood:slice') == 5",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice5",
                     "minecraft:selection_box": {
@@ -252,7 +252,7 @@
                 }
             },
             {
-                "condition": "q.block_property('morefood:slice') == 6",
+                "condition": "q.block_state('morefood:slice') == 6",
                 "components": {
                     "minecraft:geometry": "geometry.template_cake_slice6",
                     "minecraft:selection_box": {
@@ -295,15 +295,15 @@
                         }
                     },
                     {
-                        "condition": "q.block_property('morefood:slice')==6",
+                        "condition": "q.block_state('morefood:slice')==6",
                         "set_block": {
                             "block_type": "minecraft:air"
                         }
                     },
                     {
-                        "condition": "q.block_property('morefood:slice')!=6",
-                        "set_block_property": {
-                            "morefood:slice": "q.block_property('morefood:slice')+1"
+                        "condition": "q.block_state('morefood:slice')!=6",
+                        "set_block_state": {
+                            "morefood:slice": "q.block_state('morefood:slice')+1"
                         }
                     }
                 ]
@@ -434,7 +434,7 @@
             "event:on_interact": {
                 "sequence": [
                     {
-                        "condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:white_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:orange_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:magenta_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:light_blue_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:yellow_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:lime_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:pink_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:light_gray_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:gray_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:cyan_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:purple_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:blue_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:brown_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:green_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:red_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:black_candle')&&q.block_property('morefood:slice')==0",
+                        "condition": "q.is_item_name_any('slot.weapon.mainhand','minecraft:candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:white_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:orange_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:magenta_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:light_blue_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:yellow_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:lime_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:pink_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:light_gray_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:gray_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:cyan_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:purple_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:blue_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:brown_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:green_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:red_candle')||q.is_item_name_any('slot.weapon.mainhand','minecraft:black_candle')&&q.block_state('morefood:slice')==0",
                         "run_command": {
                             "target": "block",
                             "command": "playsound cake.add_candle @p"

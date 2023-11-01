@@ -1,16 +1,16 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:oat_seeds",
-            "category": "nature"
+            "menu_category": {
+                "group": "itemGroup.name.seed",
+                "category": "nature"
+            }
         },
         "components": {
             "minecraft:icon": {
                 "texture": "morefood:oat_seeds"
-            },
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.seed"
             },
             "minecraft:block_placer": {
                 "block": "morefood:oat_crop",

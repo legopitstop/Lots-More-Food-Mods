@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pepper_seeds_from_pepper"
@@ -15,6 +15,11 @@
                 "item": "morefood:pepper"
             }
         },
-        "result": "morefood:pepper_seeds"
+        "result": "morefood:pepper_seeds",
+        "unlock": [
+            {
+                "item": "morefood:pepper"
+            }
+        ]
     }
 }

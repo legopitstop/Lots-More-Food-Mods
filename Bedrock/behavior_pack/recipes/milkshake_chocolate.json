@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:milkshake_chocolate"
+            "identifier": "morefood:chocolate_milkshake"
         },
         "tags": [
             "crafting_table"
@@ -26,10 +26,21 @@
         },
         "result": [
             {
-                "item": "morefood:milkshake_chocolate"
+                "item": "morefood:chocolate_milkshake"
             },
             {
                 "item": "morefood:carton"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:milk_chocolate"
+            },
+            {
+                "item": "morefood:beverage_cup"
+            },
+            {
+                "item": "morefood:milk_carton"
             }
         ]
     }

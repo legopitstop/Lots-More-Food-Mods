@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:noodles"
@@ -22,6 +22,14 @@
         "result": [
             {
                 "item": "morefood:noodles"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "minecraft:egg"
             }
         ]
     }

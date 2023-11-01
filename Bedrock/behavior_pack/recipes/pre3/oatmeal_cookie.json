@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:oatmeal_cookie"
@@ -31,6 +31,26 @@
                 "item": "morefood:oats"
             }
         },
-        "result": "morefood:oatmeal_cookie"
+        "result": "morefood:oatmeal_cookie",
+        "unlock": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:oats"
+            }
+        ]
     }
 }

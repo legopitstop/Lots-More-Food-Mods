@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:spaghetti"
@@ -34,6 +34,23 @@
             },
             {
                 "item": "morefood:jar"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:cooked_beef"
+            },
+            {
+                "item": "morefood:pasta"
+            },
+            {
+                "item": "morefood:tomato_puree"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:onion"
             }
         ]
     }

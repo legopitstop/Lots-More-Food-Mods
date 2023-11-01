@@ -6,7 +6,7 @@ give @s morefood:cabbage_seed_sack
 give @s morefood:chocolate_chunk_oatmeal_cookie_sack
 give @s morefood:coconut_sack
 give @s morefood:coffee_bean_sack
-give @s morefood:cornflour_sack
+give @s morefood:corn_flour_sack
 give @s morefood:corn_cob_sack
 give @s morefood:corn_sack
 give @s morefood:cranberry_sack

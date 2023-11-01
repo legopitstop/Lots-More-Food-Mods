@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:salt"
@@ -13,12 +13,10 @@
         ],
         "key": {
             "#": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             },
             "Y": {
-                "item": "minecraft:bucket",
-                "data": 10
+                "item": "minecraft:lava_bucket"
             }
         },
         "result": [
@@ -27,8 +25,15 @@
             },
             {
                 "item": "minecraft:bucket",
-                "count": 2,
-                "data": 0
+                "count": 2
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:water_bucket"
+            },
+            {
+                "item": "minecraft:lava_bucket"
             }
         ]
     }

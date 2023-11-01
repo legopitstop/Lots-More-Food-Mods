@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:eggplant_seeds_from_eggplant"
@@ -15,6 +15,11 @@
                 "item": "morefood:eggplant"
             }
         },
-        "result": "morefood:eggplant_seeds"
+        "result": "morefood:eggplant_seeds",
+        "unlock": [
+            {
+                "item": "morefood:eggplant"
+            }
+        ]
     }
 }

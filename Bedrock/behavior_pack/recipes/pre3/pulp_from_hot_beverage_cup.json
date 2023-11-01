@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pulp_from_hot_beverage_cup"
@@ -15,6 +15,11 @@
                 "item": "morefood:hot_beverage_cup"
             }
         },
-        "result": "morefood:pulp"
+        "result": "morefood:pulp",
+        "unlock": [
+            {
+                "item": "morefood:hot_beverage_cup"
+            }
+        ]
     }
 }

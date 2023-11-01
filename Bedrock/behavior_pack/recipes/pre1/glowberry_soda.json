@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:glowberry_soda"
@@ -18,7 +18,7 @@
                 "item": "minecraft:glow_berries"
             },
             "P": {
-                "item": "morefood:soda_can_empty"
+                "item": "morefood:soda_can"
             },
             "X": {
                 "item": "morefood:sparkling_water_bucket"
@@ -29,8 +29,18 @@
                 "item": "morefood:glowberry_soda"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:glow_berries"
+            },
+            {
+                "item": "morefood:soda_can"
+            },
+            {
+                "item": "morefood:sparkling_water_bucket"
             }
         ]
     }

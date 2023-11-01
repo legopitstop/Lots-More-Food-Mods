@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pork_sausage_burger"
@@ -20,12 +20,26 @@
                 "item": "morefood:tomato"
             },
             "S": {
-                "item": "morefood:cooked_sausage"
+                "item": "morefood:cooked_breakfast_sausage"
             },
             "L": {
                 "item": "morefood:lettuce"
             }
         },
-        "result": "morefood:pork_sausage_burger"
+        "result": "morefood:pork_sausage_burger",
+        "unlock": [
+            {
+                "item": "morefood:burger_bun"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:cooked_breakfast_sausage"
+            },
+            {
+                "item": "morefood:lettuce"
+            }
+        ]
     }
 }

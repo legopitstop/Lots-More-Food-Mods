@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:glass_from_glass_shard"
@@ -16,6 +16,11 @@
                 "item": "morefood:glass_shard"
             }
         },
-        "result": "minecraft:glass"
+        "result": "minecraft:glass",
+        "unlock": [
+            {
+                "item": "morefood:glass_shard"
+            }
+        ]
     }
 }

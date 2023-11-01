@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:ramen_noodles"
@@ -30,6 +30,23 @@
         },
         "result": {
             "item": "morefood:ramen_noodles"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:corn"
+            },
+            {
+                "item": "morefood:noodles"
+            },
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:large_bowl"
+            },
+            {
+                "item": "minecraft:cooked_chicken"
+            }
+        ]
     }
 }

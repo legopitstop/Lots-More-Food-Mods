@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.220",
+    "format_version": "1.20.30",
     "minecraft:feature_rules": {
         "description": {
             "identifier": "morefood:watermint",
@@ -65,7 +65,7 @@
                 "denominator": 100
             },
             "coordinate_eval_order": "xzy",
-            "y": "query.heightmap(variable.worldx, variable.worldz) + 0",
+            "y": "q.heightmap(variable.worldx, variable.worldz) + 0",
             "x": {
                 "distribution": "uniform",
                 "extent": [

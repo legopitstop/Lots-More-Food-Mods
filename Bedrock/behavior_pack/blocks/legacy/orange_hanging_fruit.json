@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "morefood:orange_hanging_fruit",
+      "states": {
+        "morefood:stage": [0, 1, 2, 3, 4, 5, 6, 7]
+      }
+    },
+    "components": {
+      "tag:non_full": {},
+      "tag:plant": {},
+      "minecraft:loot": "loot_tables/morefood/blocks/hanging_orange.json",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      }
+    }
+  }
+}

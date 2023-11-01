@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:glowberry_juice"
@@ -18,11 +18,10 @@
                 "item": "minecraft:glow_berries"
             },
             "P": {
-                "item": "morefood:empty_tumbler_glass"
+                "item": "morefood:tumbler_glass"
             },
             "X": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             }
         },
         "result": [
@@ -30,8 +29,18 @@
                 "item": "morefood:glowberry_juice"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:glow_berries"
+            },
+            {
+                "item": "morefood:tumbler_glass"
+            },
+            {
+                "item": "minecraft:water_bucket"
             }
         ]
     }

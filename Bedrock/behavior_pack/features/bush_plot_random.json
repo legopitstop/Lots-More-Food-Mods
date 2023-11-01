@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.220",
+    "format_version": "1.20.30",
     "minecraft:weighted_random_feature": {
         "description": {
             "identifier": "morefood:bush_plot_random"
@@ -39,10 +39,6 @@
             ],
             [
                 "morefood:vanilla_bush",
-                1
-            ],
-            [
-                "morefood:peanut_bush",
                 1
             ],
             [

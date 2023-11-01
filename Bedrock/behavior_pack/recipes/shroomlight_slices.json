@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:shroomlight_slices"
+            "identifier": "morefood:shroomlight_slice"
         },
         "tags": [
             "crafting_table"
@@ -17,8 +17,13 @@
         },
         "result": [
             {
-                "item": "morefood:shroomlight_slices",
+                "item": "morefood:shroomlight_slice",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:shroomlight"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:grape_from_sack"
@@ -20,6 +20,11 @@
             {
                 "item": "morefood:grape",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:grape_sack"
             }
         ]
     }

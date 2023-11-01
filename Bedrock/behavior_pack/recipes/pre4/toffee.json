@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:toffee"
@@ -32,6 +32,20 @@
             },
             {
                 "item": "morefood:bottle"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:cocoa_beans"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:vanilla_extract"
             }
         ]
     }

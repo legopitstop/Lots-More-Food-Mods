@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:pie_pork"
+            "identifier": "morefood:pork_pie"
         },
         "tags": [
             "crafting_table"
@@ -17,11 +17,19 @@
                 "item": "minecraft:cooked_porkchop"
             },
             "P": {
-                "item": "morefood:pie_base"
+                "item": "morefood:pie_crust"
             }
         },
         "result": {
-            "item": "morefood:pie_pork"
-        }
+            "item": "morefood:pork_pie"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cooked_porkchop"
+            },
+            {
+                "item": "morefood:pie_crust"
+            }
+        ]
     }
 }

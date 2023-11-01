@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:wedges_pot"
+            "identifier": "morefood:potato_wedges_pot"
         },
         "tags": [
             "crafting_table"
@@ -14,14 +14,22 @@
         ],
         "key": {
             "#": {
-                "item": "morefood:raw_wedges"
+                "item": "morefood:potato_wedges"
             },
             "P": {
                 "item": "minecraft:flower_pot"
             }
         },
         "result": {
-            "item": "morefood:wedges_pot"
-        }
+            "item": "morefood:potato_wedges_pot"
+        },
+        "unlock": [
+            {
+                "item": "morefood:potato_wedges"
+            },
+            {
+                "item": "minecraft:flower_pot"
+            }
+        ]
     }
 }

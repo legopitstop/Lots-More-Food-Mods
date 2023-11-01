@@ -4,22 +4,22 @@
         "description": "pack.description",
         "name": "pack.name",
         "uuid": "ee649bcf-256c-4013-9068-6a802b89d756",
-        "version": [1, 6, 5],
-        "min_engine_version": [1, 20, 12]
+        "version": [1, 6, 6],
+        "min_engine_version": [1, 20, 31]
     },
     "modules": [
         {
             "description": "pack.description",
             "type": "data",
             "uuid": "586073da-205f-444e-842c-54b748ef2d08",
-            "version": [1, 6, 5]
+            "version": [1, 6, 6]
         }
     ],
     "dependencies": [
         {
             "description": "More Food RP Needed",
             "uuid": "4e098d16-f6b4-11e9-802a-5aa538984bd8",
-            "version": [1, 6, 5]
+            "version": [1, 6, 6]
         },
         {
             "description": "Assets Plus RP",

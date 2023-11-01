@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:peppermint_ring"
@@ -20,6 +20,14 @@
                 "item": "morefood:peppermint_extract"
             }
         },
-        "result": "morefood:peppermint_ring"
+        "result": "morefood:peppermint_ring",
+        "unlock": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:peppermint_extract"
+            }
+        ]
     }
 }

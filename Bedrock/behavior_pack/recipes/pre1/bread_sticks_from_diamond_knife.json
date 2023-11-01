@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:breadsticks_from_diamond_knife"
@@ -13,7 +13,7 @@
         ],
         "key": {
             "B": {
-                "item": "morefood:cut_bread"
+                "item": "morefood:bread_slice"
             },
             "K": {
                 "item": "morefood:knife_diamond"
@@ -23,6 +23,14 @@
             {
                 "item": "morefood:breadsticks",
                 "count": 4
+            },
+            {
+                "item": "morefood:knife_diamond"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:bread_slice"
             },
             {
                 "item": "morefood:knife_diamond"

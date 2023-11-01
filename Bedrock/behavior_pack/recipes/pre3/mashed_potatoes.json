@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:mashed_potatoes"
@@ -19,6 +19,14 @@
                 "item": "morefood:large_bowl"
             }
         },
-        "result": "morefood:mashed_potatoes"
+        "result": "morefood:mashed_potatoes",
+        "unlock": [
+            {
+                "item": "minecraft:potato"
+            },
+            {
+                "item": "morefood:large_bowl"
+            }
+        ]
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:jar"
@@ -18,8 +18,7 @@
                 "item": "minecraft:glass_pane"
             },
             "X": {
-                "item": "minecraft:bucket",
-                "data": 10
+                "item": "minecraft:lava_bucket"
             }
         },
         "result": [
@@ -29,8 +28,15 @@
             },
             {
                 "item": "minecraft:bucket",
-                "count": 1,
-                "data": 0
+                "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:glass_pane"
+            },
+            {
+                "item": "minecraft:lava_bucket"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:cheese_tortellini"
@@ -31,6 +31,26 @@
                 "item": "morefood:onion"
             }
         },
-        "result": "morefood:cheese_tortellini"
+        "result": "morefood:cheese_tortellini",
+        "unlock": [
+            {
+                "item": "morefood:cheese_wedge"
+            },
+            {
+                "item": "morefood:pasta"
+            },
+            {
+                "item": "morefood:spinach"
+            },
+            {
+                "item": "morefood:cooked_bacon"
+            },
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "morefood:onion"
+            }
+        ]
     }
 }

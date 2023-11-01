@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:beef_sub"
+            "identifier": "morefood:beef_submarine_sandwich"
         },
         "tags": [
             "crafting_table"
@@ -10,7 +10,7 @@
         "pattern": [
             "#p",
             "XY",
-            "ZA"
+            " A"
         ],
         "key": {
             "#": {
@@ -25,15 +25,29 @@
             "Y": {
                 "item": "morefood:tomato"
             },
-            "Z": {
-                "item": "morefood:sub_wrapper"
-            },
             "A": {
-                "item": "morefood:sub_bun"
+                "item": "morefood:submarine_sandwich_bun"
             }
         },
         "result": {
-            "item": "morefood:beef_sub"
-        }
+            "item": "morefood:beef_submarine_sandwich"
+        },
+        "unlock": [
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:lettuce"
+            },
+            {
+                "item": "minecraft:cooked_beef"
+            },
+            {
+                "item": "morefood:tomato"
+            },
+            {
+                "item": "morefood:submarine_sandwich_bun"
+            }
+        ]
     }
 }

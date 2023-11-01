@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:tortilla_with_cheese"
@@ -15,6 +15,14 @@
                 "item": "morefood:cheese_wedge"
             }
         ],
-        "result": "morefood:tortilla_with_cheese"
+        "result": "morefood:tortilla_with_cheese",
+        "unlock": [
+            {
+                "item": "morefood:tortilla"
+            },
+            {
+                "item": "morefood:cheese_wedge"
+            }
+        ]
     }
 }

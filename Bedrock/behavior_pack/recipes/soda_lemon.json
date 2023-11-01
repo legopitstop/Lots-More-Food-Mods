@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:soda_lemon"
+            "identifier": "morefood:lemon_soda"
         },
         "tags": [
             "crafting_table"
@@ -18,7 +18,7 @@
                 "item": "morefood:lemon"
             },
             "P": {
-                "item": "morefood:soda_can_empty"
+                "item": "morefood:soda_can"
             },
             "X": {
                 "item": "morefood:sparkling_water_bucket"
@@ -26,11 +26,21 @@
         },
         "result": [
             {
-                "item": "morefood:soda_lemon"
+                "item": "morefood:lemon_soda"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:lemon"
+            },
+            {
+                "item": "morefood:soda_can"
+            },
+            {
+                "item": "morefood:sparkling_water_bucket"
             }
         ]
     }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:squid_from_block"
@@ -17,8 +17,13 @@
         },
         "result": [
             {
-                "item": "morefood:raw_squid",
+                "item": "morefood:squid",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:squid_block"
             }
         ]
     }

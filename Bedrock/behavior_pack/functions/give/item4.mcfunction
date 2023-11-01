@@ -5,13 +5,13 @@ give @s morefood:banana
 give @s morefood:banana_sapling
 give @s morefood:barley_seeds
 give @s morefood:bat_meat
-give @s morefood:beef_sub
-give @s morefood:beer_glass
+give @s morefood:beef_submarine_sandwich
+give @s morefood:beer_mug
 give @s morefood:beverage_cup
 give @s morefood:blue_cupcake
 give @s morefood:bottle
 give @s morefood:bread_loaf
-give @s morefood:breakfast_sub
+give @s morefood:breakfast_submarine_sandwich
 give @s morefood:burger_bun
 give @s morefood:burrito
 give @s morefood:butter
@@ -24,7 +24,7 @@ give @s morefood:chicken_fajita
 give @s morefood:chicken_nugget
 give @s morefood:chicken_select
 give @s morefood:chicken_select_box
-give @s morefood:chicken_sub
+give @s morefood:chicken_submarine_sandwich
 give @s morefood:chocolate_cake
 give @s morefood:coconut
 give @s morefood:coconut_meat

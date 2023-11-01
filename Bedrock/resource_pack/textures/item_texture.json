@@ -3,6 +3,9 @@
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.items",
     "texture_data": {
+        "morefood:legacy": {
+            "textures": "textures/morefood/legacy"
+        },
         "morefood:cake_with_cherries": {
             "textures": "textures/morefood/items/cake_with_cherries"
         },
@@ -198,17 +201,17 @@
         "morefood:sweet_mashed_potatoes": {
             "textures": "textures/supersonic/items/sweet_mashed_potatoes"
         },
-        "morefood:sweet_potato_fries": {
-            "textures": "textures/supersonic/items/sweet_potato_fries"
+        "morefood:sweet_french_fry_pot": {
+            "textures": "textures/supersonic/items/sweet_french_fry_pot"
         },
         "morefood:tortilla_chips": {
             "textures": "textures/supersonic/items/tortilla_chips"
         },
-        "morefood:corn_on_cob": {
-            "textures": "textures/supersonic/items/corn_cob"
+        "morefood:corncob": {
+            "textures": "textures/supersonic/items/corncob"
         },
-        "morefood:cooked_wedges": {
-            "textures": "textures/supersonic/items/cooked_wedges"
+        "morefood:cooked_potato_wedges": {
+            "textures": "textures/supersonic/items/cooked_potato_wedges"
         },
         "morefood:pepper": {
             "textures": "textures/supersonic/items/pepper"
@@ -222,11 +225,8 @@
         "morefood:hoglin_meat": {
             "textures": "textures/supersonic/items/hoglin_meat"
         },
-        "morefood:shroomlight_slices": {
-            "textures": "textures/supersonic/items/shroomlight_slices"
-        },
-        "morefood:sub_wrapper": {
-            "textures": "textures/supersonic/items/sub_wrapper"
+        "morefood:shroomlight_slice": {
+            "textures": "textures/supersonic/items/shroomlight_slice"
         },
         "morefood:sashimi": {
             "textures": "textures/supersonic/items/sashimi"
@@ -243,11 +243,11 @@
         "morefood:cooked_bat_meat": {
             "textures": "textures/supersonic/items/cooked_bat_meat"
         },
-        "morefood:cooked_hotdog_sausage": {
-            "textures": "textures/supersonic/items/cooked_hotdog_sausage"
+        "morefood:cooked_frankfurter_sausage": {
+            "textures": "textures/supersonic/items/cooked_frankfurter_sausage"
         },
-        "morefood:cooked_sausage": {
-            "textures": "textures/supersonic/items/cooked_sausage"
+        "morefood:cooked_breakfast_sausage": {
+            "textures": "textures/supersonic/items/cooked_breakfast_sausage"
         },
         "morefood:fried_egg": {
             "textures": "textures/supersonic/items/fried_egg"
@@ -261,23 +261,23 @@
         "morefood:hops": {
             "textures": "textures/supersonic/items/hops"
         },
-        "morefood:hotdog_sausage": {
-            "textures": "textures/supersonic/items/hotdog_sausage"
+        "morefood:frankfurter_sausage": {
+            "textures": "textures/supersonic/items/frankfurter_sausage"
         },
         "morefood:hamburger_patty": {
             "textures": "textures/supersonic/items/hamburger_patty"
         },
-        "morefood:sausage": {
-            "textures": "textures/supersonic/items/sausage"
+        "morefood:breakfast_sausage": {
+            "textures": "textures/supersonic/items/breakfast_sausage"
         },
         "morefood:squid": {
             "textures": "textures/supersonic/items/squid"
         },
-        "morefood:veganburger_patty": {
-            "textures": "textures/supersonic/items/veganburger_patty"
+        "morefood:veggie_burger_patty": {
+            "textures": "textures/supersonic/items/veggie_burger_patty"
         },
-        "morefood:wedges": {
-            "textures": "textures/supersonic/items/wedges"
+        "morefood:potato_wedges": {
+            "textures": "textures/supersonic/items/potato_wedges"
         },
         "morefood:rice": {
             "textures": "textures/supersonic/items/rice"
@@ -294,8 +294,8 @@
         "morefood:strawberry_jelly": {
             "textures": "textures/supersonic/items/strawberry_jelly"
         },
-        "morefood:sub_bun": {
-            "textures": "textures/supersonic/items/sub_bun"
+        "morefood:submarine_sandwich_bun": {
+            "textures": "textures/supersonic/items/submarine_sandwich_bun"
         },
         "morefood:sushi": {
             "textures": "textures/supersonic/items/sushi"
@@ -324,17 +324,17 @@
         "morefood:vanilla_pod": {
             "textures": "textures/supersonic/items/vanilla_pod"
         },
-        "morefood:veganburger": {
-            "textures": "textures/supersonic/items/veganburger"
+        "morefood:veggie_burger": {
+            "textures": "textures/supersonic/items/veggie_burger"
         },
-        "morefood:cooked_veganburger_patty": {
-            "textures": "textures/supersonic/items/cooked_veganburger_patty"
+        "morefood:cooked_veggie_burger_patty": {
+            "textures": "textures/supersonic/items/cooked_veggie_burger_patty"
         },
         "morefood:waffle": {
             "textures": "textures/supersonic/items/waffle"
         },
-        "morefood:wedges_pot": {
-            "textures": "textures/supersonic/items/wedges_pot"
+        "morefood:potato_wedges_pot": {
+            "textures": "textures/supersonic/items/potato_wedges_pot"
         },
         "morefood:white_chocolate": {
             "textures": "textures/supersonic/items/white_chocolate"
@@ -393,8 +393,8 @@
         "morefood:wooden_knife": {
             "textures": "textures/supersonic/items/wooden_knife"
         },
-        "morefood:soda_can_empty": {
-            "textures": "textures/supersonic/items/soda_can_empty"
+        "morefood:soda_can": {
+            "textures": "textures/supersonic/items/soda_can"
         },
         "morefood:apple_soda": {
             "textures": "textures/supersonic/items/apple_soda"
@@ -423,8 +423,8 @@
         "morefood:pork_pie": {
             "textures": "textures/supersonic/items/pork_pie"
         },
-        "morefood:steak_pie": {
-            "textures": "textures/supersonic/items/steak_pie"
+        "morefood:beef_pie": {
+            "textures": "textures/supersonic/items/beef_pie"
         },
         "morefood:strawberry_pie": {
             "textures": "textures/supersonic/items/strawberry_pie"
@@ -480,8 +480,8 @@
         "morefood:pizza": {
             "textures": "textures/supersonic/items/pizza"
         },
-        "morefood:pizza_base": {
-            "textures": "textures/supersonic/items/pizza_base"
+        "morefood:pizza_crust": {
+            "textures": "textures/supersonic/items/pizza_crust"
         },
         "morefood:pizza_slice": {
             "textures": "textures/supersonic/items/pizza_slice"
@@ -492,8 +492,8 @@
         "morefood:ramen_noodles": {
             "textures": "textures/supersonic/items/ramen_noodles"
         },
-        "morefood:round_cheese": {
-            "textures": "textures/supersonic/items/round_cheese"
+        "morefood:truckle_of_cheese": {
+            "textures": "textures/supersonic/items/truckle_of_cheese"
         },
         "morefood:bottled_red_wine": {
             "textures": "textures/supersonic/items/bottled_red_wine"
@@ -525,8 +525,8 @@
         "morefood:lemon_pie": {
             "textures": "textures/supersonic/items/lemon_pie"
         },
-        "morefood:pie_base": {
-            "textures": "textures/supersonic/items/pie_base"
+        "morefood:pie_crust": {
+            "textures": "textures/supersonic/items/pie_crust"
         },
         "morefood:plum_pie": {
             "textures": "textures/supersonic/items/plum_pie"
@@ -587,9 +587,6 @@
         },
         "morefood:gherkin_seeds": {
             "textures": "textures/morefood/items/gherkin_seeds"
-        },
-        "morefood:ice_bowl": {
-            "textures": "textures/morefood/items/icecream_bowl"
         },
         "morefood:grape_seeds": {
             "textures": "textures/morefood/items/grape_seeds"
@@ -675,56 +672,56 @@
         "morefood:glowberry_juice": {
             "textures": "textures/morefood/items/new/glowberry_juice"
         },
-        "morefood:apple_icecrush": {
-            "textures": "textures/morefood/items/apple_icecrush"
+        "morefood:apple_ice_crush": {
+            "textures": "textures/morefood/items/apple_ice_crush"
         },
-        "morefood:apple_raspberry_icecrush": {
-            "textures": "textures/morefood/items/apple_raspberry_icecrush"
+        "morefood:apple_raspberry_ice_crush": {
+            "textures": "textures/morefood/items/apple_raspberry_ice_crush"
         },
-        "morefood:berry_icecrush": {
-            "textures": "textures/morefood/items/berry_icecrush"
+        "morefood:berry_ice_crush": {
+            "textures": "textures/morefood/items/berry_ice_crush"
         },
-        "morefood:grape_icecrush": {
-            "textures": "textures/morefood/items/grape_icecrush"
+        "morefood:grape_ice_crush": {
+            "textures": "textures/morefood/items/grape_ice_crush"
         },
-        "morefood:lemon_icecrush": {
-            "textures": "textures/morefood/items/lemon_icecrush"
+        "morefood:lemon_ice_crush": {
+            "textures": "textures/morefood/items/lemon_ice_crush"
         },
-        "morefood:melon_icecrush": {
-            "textures": "textures/morefood/items/melon_icecrush"
+        "morefood:melon_ice_crush": {
+            "textures": "textures/morefood/items/melon_ice_crush"
         },
-        "morefood:mixed_fruit_icecrush": {
-            "textures": "textures/morefood/items/mixed_fruit_icecrush"
+        "morefood:mixed_fruit_ice_crush": {
+            "textures": "textures/morefood/items/mixed_fruit_ice_crush"
         },
-        "morefood:orange_icecrush": {
-            "textures": "textures/morefood/items/orange_icecrush"
+        "morefood:orange_ice_crush": {
+            "textures": "textures/morefood/items/orange_ice_crush"
         },
-        "morefood:strawberry_icecrush": {
-            "textures": "textures/morefood/items/strawberry_icecrush"
+        "morefood:strawberry_ice_crush": {
+            "textures": "textures/morefood/items/strawberry_ice_crush"
         },
-        "morefood:glowberry_icecrush": {
-            "textures": "textures/morefood/items/new/glowberry_icecrush"
+        "morefood:glowberry_ice_crush": {
+            "textures": "textures/morefood/items/new/glowberry_ice_crush"
         },
-        "morefood:banana_icecream": {
-            "textures": "textures/morefood/items/banana_icecream"
+        "morefood:banana_ice_cream": {
+            "textures": "textures/morefood/items/banana_ice_cream"
         },
-        "morefood:chocolate_icecream": {
-            "textures": "textures/morefood/items/chocolate_icecream"
+        "morefood:chocolate_ice_cream": {
+            "textures": "textures/morefood/items/chocolate_ice_cream"
         },
-        "morefood:icecream_bowl": {
-            "textures": "textures/morefood/items/icecream_bowl"
+        "morefood:ice_cream_bowl": {
+            "textures": "textures/morefood/items/ice_cream_bowl"
         },
-        "morefood:icecream_cone": {
-            "textures": "textures/morefood/items/icecream_cone"
+        "morefood:ice_cream_cone": {
+            "textures": "textures/morefood/items/ice_cream_cone"
         },
-        "morefood:strawberry_icecream": {
-            "textures": "textures/morefood/items/strawberry_icecream"
+        "morefood:strawberry_ice_cream": {
+            "textures": "textures/morefood/items/strawberry_ice_cream"
         },
-        "morefood:toffee_icecream": {
-            "textures": "textures/morefood/items/toffee_icecream"
+        "morefood:toffee_ice_cream": {
+            "textures": "textures/morefood/items/toffee_ice_cream"
         },
-        "morefood:vanilla_icecream": {
-            "textures": "textures/morefood/items/vanilla_icecream"
+        "morefood:vanilla_ice_cream": {
+            "textures": "textures/morefood/items/vanilla_ice_cream"
         },
         "morefood:banana_milkshake": {
             "textures": "textures/morefood/items/banana_milkshake"
@@ -738,29 +735,29 @@
         "morefood:glowberry_soda": {
             "textures": "textures/morefood/items/new/glowberry_soda"
         },
-        "morefood:chocolate_donut": {
-            "textures": "textures/morefood/items/chocolate_donut"
+        "morefood:chocolate_doughnut": {
+            "textures": "textures/morefood/items/chocolate_doughnut"
         },
-        "morefood:coffee_donut": {
-            "textures": "textures/morefood/items/coffee_donut"
+        "morefood:coffee_doughnut": {
+            "textures": "textures/morefood/items/coffee_doughnut"
         },
-        "morefood:golden_donut": {
-            "textures": "textures/morefood/items/golden_donut"
+        "morefood:golden_doughnut": {
+            "textures": "textures/morefood/items/golden_doughnut"
         },
-        "morefood:iced_donut": {
-            "textures": "textures/morefood/items/iced_donut"
+        "morefood:iced_doughnut": {
+            "textures": "textures/morefood/items/iced_doughnut"
         },
-        "morefood:pink_ice_donut": {
-            "textures": "textures/morefood/items/pink_ice_donut"
+        "morefood:pink_ice_doughnut": {
+            "textures": "textures/morefood/items/pink_ice_doughnut"
         },
-        "morefood:plain_donut": {
-            "textures": "textures/morefood/items/plain_donut"
+        "morefood:plain_doughnut": {
+            "textures": "textures/morefood/items/plain_doughnut"
         },
-        "morefood:strawberry_donut": {
-            "textures": "textures/morefood/items/strawberry_donut"
+        "morefood:strawberry_doughnut": {
+            "textures": "textures/morefood/items/strawberry_doughnut"
         },
-        "morefood:toffee_donut": {
-            "textures": "textures/morefood/items/toffee_donut"
+        "morefood:toffee_doughnut": {
+            "textures": "textures/morefood/items/toffee_doughnut"
         },
         "morefood:golden_apple_pie": {
             "textures": "textures/morefood/items/golden_apple_pie"
@@ -855,26 +852,26 @@
         "morefood:crackers_with_glowberry_jam": {
             "textures": "textures/morefood/items/new/crackers_with_glowberry_jam"
         },
-        "morefood:cut_bread": {
-            "textures": "textures/morefood/items/cut_bread"
+        "morefood:bread_slice": {
+            "textures": "textures/morefood/items/bread_slice"
         },
-        "morefood:cut_bread_with_cheese": {
-            "textures": "textures/morefood/items/new/cut_bread_with_cheese"
+        "morefood:bread_slice_with_cheese": {
+            "textures": "textures/morefood/items/new/bread_slice_with_cheese"
         },
-        "morefood:cut_bread_with_chocolate_peanut_butter": {
-            "textures": "textures/morefood/items/new/cut_bread_with_chocolate_peanut_butter"
+        "morefood:bread_slice_with_chocolate_peanut_butter": {
+            "textures": "textures/morefood/items/new/bread_slice_with_chocolate_peanut_butter"
         },
-        "morefood:cut_bread_with_jalapeno_cheese": {
-            "textures": "textures/morefood/items/new/cut_bread_with_jalapeno_cheese"
+        "morefood:bread_slice_with_jalapeno_cheese": {
+            "textures": "textures/morefood/items/new/bread_slice_with_jalapeno_cheese"
         },
-        "morefood:cut_bread_with_jam": {
-            "textures": "textures/morefood/items/new/cut_bread_with_jam"
+        "morefood:bread_slice_with_jam": {
+            "textures": "textures/morefood/items/new/bread_slice_with_jam"
         },
-        "morefood:cut_bread_with_peanut_butter": {
-            "textures": "textures/morefood/items/new/cut_bread_with_peanut_butter"
+        "morefood:bread_slice_with_peanut_butter": {
+            "textures": "textures/morefood/items/new/bread_slice_with_peanut_butter"
         },
-        "morefood:cut_bread_with_glowberry_jam": {
-            "textures": "textures/morefood/items/new/cut_bread_with_glowberry_jam"
+        "morefood:bread_slice_with_glowberry_jam": {
+            "textures": "textures/morefood/items/new/bread_slice_with_glowberry_jam"
         },
         "morefood:breadsticks": {
             "textures": "textures/morefood/items/new/breadsticks"
@@ -963,8 +960,8 @@
         "morefood:jalapeno_cheese_wedge": {
             "textures": "textures/morefood/items/new/jalapeno_cheese_wedge"
         },
-        "morefood:jalapeno_round_cheese": {
-            "textures": "textures/morefood/items/new/jalapeno_round_cheese"
+        "morefood:truckle_of_jalapeno_cheese": {
+            "textures": "textures/morefood/items/new/truckle_of_jalapeno_cheese"
         },
         "morefood:burnt_marshmallow_on_a_stick": {
             "textures": "textures/morefood/items/new/burnt_marshmallow_on_a_stick"
@@ -975,8 +972,8 @@
         "morefood:marshmallow_on_a_stick": {
             "textures": "textures/morefood/items/new/marshmallow_on_a_stick"
         },
-        "morefood:applesauce": {
-            "textures": "textures/morefood/items/new/applesauce"
+        "morefood:apple_sauce": {
+            "textures": "textures/morefood/items/new/apple_sauce"
         },
         "morefood:baked_sweet_potato": {
             "textures": "textures/morefood/items/new/baked_sweet_potato"
@@ -1059,8 +1056,8 @@
         "morefood:bacon_egg_sandwich": {
             "textures": "textures/morefood/items/bacon_egg_sandwich"
         },
-        "morefood:beef_sub": {
-            "textures": "textures/morefood/items/beef_sub"
+        "morefood:beef_submarine_sandwich": {
+            "textures": "textures/morefood/items/beef_submarine_sandwich"
         },
         "morefood:blue_cupcake": {
             "textures": "textures/morefood/items/blue_cupcake"
@@ -1068,8 +1065,8 @@
         "morefood:bread_loaf": {
             "textures": "textures/morefood/items/bread_loaf"
         },
-        "morefood:breakfast_sub": {
-            "textures": "textures/morefood/items/breakfast_sub"
+        "morefood:breakfast_submarine_sandwich": {
+            "textures": "textures/morefood/items/breakfast_submarine_sandwich"
         },
         "morefood:burger_bun": {
             "textures": "textures/morefood/items/burger_bun"
@@ -1095,8 +1092,8 @@
         "morefood:chicken_select": {
             "textures": "textures/morefood/items/chicken_select"
         },
-        "morefood:chicken_sub": {
-            "textures": "textures/morefood/items/chicken_sub"
+        "morefood:chicken_submarine_sandwich": {
+            "textures": "textures/morefood/items/chicken_submarine_sandwich"
         },
         "morefood:coconut_meat": {
             "textures": "textures/morefood/items/coconut_meat"
@@ -1104,8 +1101,8 @@
         "morefood:coconut_milk": {
             "textures": "textures/morefood/items/coconut_milk"
         },
-        "morefood:cornflour": {
-            "textures": "textures/morefood/items/cornflour"
+        "morefood:corn_flour": {
+            "textures": "textures/morefood/items/corn_flour"
         },
         "morefood:cream_carton": {
             "textures": "textures/morefood/items/cream_carton"
@@ -1113,8 +1110,8 @@
         "morefood:custard": {
             "textures": "textures/morefood/items/custard"
         },
-        "morefood:cut_fries": {
-            "textures": "textures/morefood/items/cut_fries"
+        "morefood:french_fries": {
+            "textures": "textures/morefood/items/french_fries"
         },
         "morefood:dark_chocolate": {
             "textures": "textures/morefood/items/dark_chocolate"
@@ -1125,8 +1122,8 @@
         "morefood:flour": {
             "textures": "textures/morefood/items/flour"
         },
-        "morefood:fries": {
-            "textures": "textures/morefood/items/fries"
+        "morefood:french_fry_pot": {
+            "textures": "textures/morefood/items/french_fry_pot"
         },
         "morefood:gelatin": {
             "textures": "textures/morefood/items/gelatin"
@@ -1134,11 +1131,11 @@
         "morefood:hamburger": {
             "textures": "textures/morefood/items/hamburger"
         },
-        "morefood:hotdog": {
-            "textures": "textures/morefood/items/hotdog"
+        "morefood:hot_dog": {
+            "textures": "textures/morefood/items/hot_dog"
         },
-        "morefood:hotdog_bun": {
-            "textures": "textures/morefood/items/hotdog_bun"
+        "morefood:hot_dog_bun": {
+            "textures": "textures/morefood/items/hot_dog_bun"
         },
         "morefood:jam": {
             "textures": "textures/morefood/items/jam"
@@ -1185,8 +1182,8 @@
         "morefood:white_wine": {
             "textures": "textures/morefood/items/white_wine"
         },
-        "morefood:beer_glass": {
-            "textures": "textures/morefood/items/beer_glass"
+        "morefood:beer_mug": {
+            "textures": "textures/morefood/items/beer_mug"
         },
         "morefood:beverage_cup": {
             "textures": "textures/morefood/items/beverage_cup"
@@ -1200,11 +1197,11 @@
         "morefood:chicken_select_box": {
             "textures": "textures/morefood/items/chicken_select_box"
         },
-        "morefood:empty_icecrush_glass": {
-            "textures": "textures/morefood/items/empty_icecrush_glass"
+        "morefood:ice_crush_glass": {
+            "textures": "textures/morefood/items/ice_crush_glass"
         },
-        "morefood:empty_tumbler_glass": {
-            "textures": "textures/morefood/items/empty_tumbler_glass"
+        "morefood:tumbler_glass": {
+            "textures": "textures/morefood/items/tumbler_glass"
         },
         "morefood:fry_wrapper": {
             "textures": "textures/morefood/items/fry_wrapper"
@@ -1284,8 +1281,8 @@
         "morefood:black_candy": {
             "textures": "textures/morefood/items/black_candy"
         },
-        "morefood:empty_large_pumpkin_pale": {
-            "textures": "textures/morefood/items/empty_large_pumpkin_pale"
+        "morefood:large_pumpkin_pale": {
+            "textures": "textures/morefood/items/large_pumpkin_pale"
         },
         "morefood:large_pumpkin_pale1": {
             "textures": "textures/morefood/items/large_pumpkin_pale1"
@@ -1302,8 +1299,8 @@
         "morefood:large_pumpkin_pale5": {
             "textures": "textures/morefood/items/large_pumpkin_pale5"
         },
-        "morefood:empty_small_pumpkin_pale": {
-            "textures": "textures/morefood/items/empty_small_pumpkin_pale"
+        "morefood:small_pumpkin_pale": {
+            "textures": "textures/morefood/items/small_pumpkin_pale"
         },
         "morefood:small_pumpkin_pale1": {
             "textures": "textures/morefood/items/small_pumpkin_pale1"

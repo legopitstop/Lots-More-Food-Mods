@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pitta_bread"
@@ -26,8 +26,7 @@
                 "item": "minecraft:sugar"
             },
             "Z": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             },
             "A": {
                 "item": "morefood:salt"
@@ -38,8 +37,27 @@
                 "item": "morefood:pitta_bread"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "morefood:oil"
+            },
+            {
+                "item": "morefood:yeast"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:water_bucket"
+            },
+            {
+                "item": "morefood:salt"
             }
         ]
     }

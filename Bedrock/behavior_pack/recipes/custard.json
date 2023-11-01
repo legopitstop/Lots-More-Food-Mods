@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:custard"
@@ -23,7 +23,7 @@
                 "item": "morefood:cream_carton"
             },
             "Y": {
-                "item": "morefood:cornflour"
+                "item": "morefood:corn_flour"
             },
             "A": {
                 "item": "morefood:milk_carton"
@@ -42,6 +42,29 @@
             {
                 "item": "morefood:carton",
                 "count": 2
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:cream_carton"
+            },
+            {
+                "item": "morefood:corn_flour"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "minecraft:sugar"
             }
         ]
     }

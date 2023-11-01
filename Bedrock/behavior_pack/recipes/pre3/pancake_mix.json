@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pancake_mix"
@@ -35,6 +35,29 @@
                 "item": "minecraft:sugar"
             }
         },
-        "result": "morefood:pancake_mix"
+        "result": "morefood:pancake_mix",
+        "unlock": [
+            {
+                "item": "minecraft:egg"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "morefood:salt"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "minecraft:sugar"
+            }
+        ]
     }
 }

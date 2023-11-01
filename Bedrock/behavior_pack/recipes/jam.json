@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:jam"
@@ -28,6 +28,20 @@
         },
         "result": {
             "item": "morefood:jam"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:lemon"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:sweet_berries"
+            },
+            {
+                "item": "morefood:jar"
+            }
+        ]
     }
 }

@@ -1,14 +1,14 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:bat_meat",
+            "menu_category": {
+                "group": "itemGroup.name.rawFood",
                 "category": "nature"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.rawFood"
-            },
             "minecraft:icon": {
                 "texture": "morefood:bat_meat"
             },

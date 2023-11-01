@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:peppermint_seeds_from_peppermint"
@@ -15,6 +15,11 @@
                 "item": "morefood:peppermint"
             }
         },
-        "result": "morefood:peppermint_seeds"
+        "result": "morefood:peppermint_seeds",
+        "unlock": [
+            {
+                "item": "morefood:peppermint"
+            }
+        ]
     }
 }

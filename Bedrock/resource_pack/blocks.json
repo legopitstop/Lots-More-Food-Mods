@@ -4,6 +4,9 @@
     "morefood:fertile_soil": {
         "sound": "gravel"
     },
+    "morefood:cherry_sack": {
+        "sound": "cloth"
+    },
     "morefood:almond_sack": {
         "sound": "cloth"
     },

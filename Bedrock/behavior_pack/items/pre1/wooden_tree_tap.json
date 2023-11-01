@@ -1,14 +1,14 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:wooden_tree_tap.item",
-            "category": "items"
+            "menu_category": {
+                "group": "itemGroup.search",
+                "category": "items"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
             "minecraft:display_name": {
                 "value": "tile.morefood:wooden_tree_tap.name"
             },

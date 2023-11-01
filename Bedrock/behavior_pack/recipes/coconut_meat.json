@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:coconut_meat"
@@ -18,6 +18,11 @@
         "result": [
             {
                 "item": "morefood:coconut_meat"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:coconut"
             }
         ]
     }

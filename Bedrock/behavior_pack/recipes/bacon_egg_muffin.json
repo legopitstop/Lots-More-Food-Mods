@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:bacon_egg_muffin"
@@ -26,6 +26,17 @@
         },
         "result": {
             "item": "morefood:bacon_egg_muffin"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:muffin_bun"
+            },
+            {
+                "item": "morefood:fried_egg"
+            },
+            {
+                "item": "morefood:cooked_bacon"
+            }
+        ]
     }
 }

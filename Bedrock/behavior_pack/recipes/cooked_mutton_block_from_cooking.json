@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_furnace": {
         "description": {
             "identifier": "morefood:cooked_mutton_block_from_cooking"

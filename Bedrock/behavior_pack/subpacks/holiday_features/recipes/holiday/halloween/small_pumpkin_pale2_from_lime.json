@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:small_pumpkin_pale2_from_lime_candy"
@@ -24,6 +24,14 @@
             {
                 "item": "morefood:small_pumpkin_pale2",
                 "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:lime_candy"
+            },
+            {
+                "item": "morefood:small_pumpkin_pale1"
             }
         ]
     }

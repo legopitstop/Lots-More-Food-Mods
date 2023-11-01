@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:cake_with_cherries"
@@ -19,6 +19,14 @@
                 "item": "minecraft:cake"
             }
         },
-        "result": "morefood:cake_with_cherries"
+        "result": "morefood:cake_with_cherries",
+        "unlock": [
+            {
+                "item": "morefood:cherries"
+            },
+            {
+                "item": "minecraft:cake"
+            }
+        ]
     }
 }

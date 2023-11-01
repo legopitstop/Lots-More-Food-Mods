@@ -1,6 +1,6 @@
 give @s morefood:almonds
 give @s morefood:almond_sapling
-give @s morefood:applesauce
+give @s morefood:apple_sauce
 give @s morefood:avocado
 give @s morefood:avocado_sapling
 give @s morefood:beans

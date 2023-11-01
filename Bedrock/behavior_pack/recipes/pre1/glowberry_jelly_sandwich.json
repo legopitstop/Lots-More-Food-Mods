@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:glowberry_jelly_sandwich"
@@ -17,7 +17,7 @@
                 "item": "morefood:butter"
             },
             "P": {
-                "item": "morefood:cut_bread"
+                "item": "morefood:bread_slice"
             },
             "X": {
                 "item": "morefood:glowberry_jam"
@@ -25,6 +25,17 @@
         },
         "result": {
             "item": "morefood:glowberry_jelly_sandwich"
-        }
+        },
+        "unlock": [
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:bread_slice"
+            },
+            {
+                "item": "morefood:glowberry_jam"
+            }
+        ]
     }
 }

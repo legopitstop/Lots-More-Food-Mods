@@ -21,7 +21,7 @@ give @s morefood:strawberry_syrup
 give @s morefood:sugar_cookie
 give @s morefood:sweet_mashed_potatoes
 give @s morefood:sweet_potato
-give @s morefood:sweet_potato_fries
+give @s morefood:sweet_french_fry_pot
 give @s morefood:tortilla_chips
 give @s morefood:tortilla_with_cheese
 give @s morefood:tortilla_with_jalapeno_cheese

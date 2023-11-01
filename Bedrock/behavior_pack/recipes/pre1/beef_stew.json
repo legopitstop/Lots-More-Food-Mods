@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:beef_stew"
@@ -29,6 +29,23 @@
                 "item": "morefood:large_bowl"
             }
         },
-        "result": "morefood:beef_stew"
+        "result": "morefood:beef_stew",
+        "unlock": [
+            {
+                "item": "minecraft:cooked_beef"
+            },
+            {
+                "item": "minecraft:baked_potato"
+            },
+            {
+                "item": "morefood:onion"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "morefood:large_bowl"
+            }
+        ]
     }
 }

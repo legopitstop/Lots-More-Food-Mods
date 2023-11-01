@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:crackers_with_jalapeno_cheese"
@@ -15,6 +15,14 @@
                 "item": "morefood:jalapeno_cheese_spread"
             }
         ],
-        "result": "morefood:crackers_with_jalapeno_cheese"
+        "result": "morefood:crackers_with_jalapeno_cheese",
+        "unlock": [
+            {
+                "item": "morefood:crackers"
+            },
+            {
+                "item": "morefood:jalapeno_cheese_spread"
+            }
+        ]
     }
 }

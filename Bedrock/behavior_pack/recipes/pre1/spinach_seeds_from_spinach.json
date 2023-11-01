@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:spinach_seeds_from_spinach"
@@ -15,6 +15,11 @@
                 "item": "morefood:spinach"
             }
         },
-        "result": "morefood:spinach_seeds"
+        "result": "morefood:spinach_seeds",
+        "unlock": [
+            {
+                "item": "morefood:spinach"
+            }
+        ]
     }
 }

@@ -6,7 +6,7 @@ give @s morefood:jalapeno_cheese_pie
 give @s morefood:jalapeno_cheese_spread
 give @s morefood:jalapeno_cheese_toastie
 give @s morefood:jalapeno_cheese_wedge
-give @s morefood:jalapeno_round_cheese
+give @s morefood:truckle_of_jalapeno_cheese
 give @s morefood:large_bowl
 give @s morefood:lemon_lime_beverage_powder
 give @s morefood:maple_muffin

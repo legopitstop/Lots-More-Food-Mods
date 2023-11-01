@@ -3,9 +3,6 @@
 #
 # Called By: tick.json
 
-# legacy
-# clear @a morefood:peanut_bush
-
 # Remove command output
 # gamerule sendcommandfeedback false
 gamerule commandblockoutput false

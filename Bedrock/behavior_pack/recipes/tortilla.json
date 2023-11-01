@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:tortilla"
@@ -20,8 +20,7 @@
                 "item": "morefood:salt"
             },
             "X": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             }
         },
         "result": [
@@ -29,8 +28,18 @@
                 "item": "morefood:tortilla"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "morefood:salt"
+            },
+            {
+                "item": "minecraft:water_bucket"
             }
         ]
     }

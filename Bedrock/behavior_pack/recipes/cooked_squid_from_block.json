@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:cooked_squid_from_block"
@@ -20,6 +20,11 @@
             {
                 "item": "morefood:fried_squid",
                 "count": 9
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:cooked_squid_block"
             }
         ]
     }

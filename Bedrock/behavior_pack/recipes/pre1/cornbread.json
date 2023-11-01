@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:cornbread"
@@ -17,7 +17,7 @@
                 "item": "morefood:dough"
             },
             "C": {
-                "item": "morefood:corn_on_cob"
+                "item": "morefood:corncob"
             },
             "P": {
                 "item": "morefood:flour"
@@ -26,6 +26,17 @@
         "result": [
             {
                 "item": "morefood:cornbread"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:dough"
+            },
+            {
+                "item": "morefood:corncob"
+            },
+            {
+                "item": "morefood:flour"
             }
         ]
     }

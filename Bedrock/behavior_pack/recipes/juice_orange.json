@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:juice_orange"
+            "identifier": "morefood:orange_juice"
         },
         "tags": [
             "crafting_table"
@@ -18,20 +18,29 @@
                 "item": "morefood:orange"
             },
             "P": {
-                "item": "morefood:empty_tumbler_glass"
+                "item": "morefood:tumbler_glass"
             },
             "X": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             }
         },
         "result": [
             {
-                "item": "morefood:juice_orange"
+                "item": "morefood:orange_juice"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:orange"
+            },
+            {
+                "item": "morefood:tumbler_glass"
+            },
+            {
+                "item": "minecraft:water_bucket"
             }
         ]
     }

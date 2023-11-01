@@ -1,9 +1,9 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:block": {
         "description": {
             "identifier": "morefood:plum_sapling_block",
-            "properties": {
+            "states": {
                 "morefood:stage": [
                     0,
                     1
@@ -86,14 +86,14 @@
             "event:increase_stage": {
                 "sequence": [
                     {
-                        "condition": "q.block_property('morefood:stage') == 1",
+                        "condition": "q.block_state('morefood:stage') == 1",
                         "trigger": {
                             "event": "event:place_tree"
                         }
                     },
                     {
-                        "condition": "q.block_property('morefood:stage') == 0",
-                        "set_block_property": {
+                        "condition": "q.block_state('morefood:stage') == 0",
+                        "set_block_state": {
                             "morefood:stage": "1"
                         }
                     }

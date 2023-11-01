@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:large_pumpkin_pale1_from_gray_candy"
@@ -18,13 +18,21 @@
                 "item": "morefood:gray_candy"
             },
             "X": {
-                "item": "morefood:empty_large_pumpkin_pale"
+                "item": "morefood:large_pumpkin_pale"
             }
         },
         "result": [
             {
                 "item": "morefood:large_pumpkin_pale1",
                 "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:gray_candy"
+            },
+            {
+                "item": "morefood:large_pumpkin_pale"
             }
         ]
     }

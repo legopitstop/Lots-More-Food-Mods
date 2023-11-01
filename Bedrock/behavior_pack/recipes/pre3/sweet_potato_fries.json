@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:sweet_potato_fries"
+            "identifier": "morefood:sweet_french_fry_pot"
         },
         "tags": [
             "crafting_table"
@@ -19,6 +19,14 @@
                 "item": "morefood:fry_wrapper"
             }
         },
-        "result": "morefood:sweet_potato_fries"
+        "result": "morefood:sweet_french_fry_pot",
+        "unlock": [
+            {
+                "item": "morefood:cut_sweet_potato"
+            },
+            {
+                "item": "morefood:fry_wrapper"
+            }
+        ]
     }
 }

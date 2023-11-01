@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:pulp_from_chicken_select_box"
@@ -15,6 +15,11 @@
                 "item": "morefood:chicken_select_box"
             }
         },
-        "result": "morefood:pulp"
+        "result": "morefood:pulp",
+        "unlock": [
+            {
+                "item": "morefood:chicken_select_box"
+            }
+        ]
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:oil"
@@ -23,6 +23,14 @@
         "result": [
             {
                 "item": "morefood:oil"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:olives"
+            },
+            {
+                "item": "morefood:bottle"
             }
         ]
     }

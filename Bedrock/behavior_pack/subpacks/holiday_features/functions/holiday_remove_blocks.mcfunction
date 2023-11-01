@@ -3,8 +3,8 @@
 # Called By: tick.json
 
 # pumpkin pale
-clear @a morefood:empty_large_pumpkin_pale_block
-clear @a morefood:empty_small_pumpkin_pale_block
+clear @a morefood:large_pumpkin_pale_block
+clear @a morefood:small_pumpkin_pale_block
 
 clear @a morefood:small_pumpkin_pale1_block
 clear @a morefood:small_pumpkin_pale2_block

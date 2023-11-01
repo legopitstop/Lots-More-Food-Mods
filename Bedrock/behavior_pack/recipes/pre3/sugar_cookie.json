@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:sugar_cookie"
@@ -28,6 +28,23 @@
                 "item": "minecraft:egg"
             }
         },
-        "result": "morefood:sugar_cookie"
+        "result": "morefood:sugar_cookie",
+        "unlock": [
+            {
+                "item": "morefood:vanilla_extract"
+            },
+            {
+                "item": "morefood:milk_carton"
+            },
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "morefood:flour"
+            },
+            {
+                "item": "minecraft:egg"
+            }
+        ]
     }
 }

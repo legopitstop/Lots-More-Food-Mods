@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "morefood:marshmallow_on_a_stick"
@@ -15,6 +15,14 @@
                 "item": "minecraft:stick"
             }
         ],
-        "result": "morefood:marshmallow_on_a_stick"
+        "result": "morefood:marshmallow_on_a_stick",
+        "unlock": [
+            {
+                "item": "morefood:marshmallow"
+            },
+            {
+                "item": "minecraft:stick"
+            }
+        ]
     }
 }

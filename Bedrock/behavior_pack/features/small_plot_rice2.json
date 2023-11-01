@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.220",
+    "format_version": "1.20.30",
     "minecraft:structure_template_feature": {
         "description": {
             "identifier": "morefood:small_plot_rice2"

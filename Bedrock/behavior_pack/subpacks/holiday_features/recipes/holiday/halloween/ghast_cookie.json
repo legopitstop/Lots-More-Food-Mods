@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:ghast_cookie"
@@ -27,6 +27,17 @@
             {
                 "item": "morefood:ghast_cookie",
                 "count": 8
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:wheat"
+            },
+            {
+                "item": "minecraft:ghast_tear"
+            },
+            {
+                "item": "morefood:icing"
             }
         ]
     }

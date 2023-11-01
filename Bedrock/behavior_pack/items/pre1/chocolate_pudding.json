@@ -1,14 +1,14 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:chocolate_pudding",
-            "category": "equipment"
+            "menu_category": {
+                "group": "itemGroup.name.miscFood",
+                "category": "equipment"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.miscFood"
-            },
             "minecraft:icon": {
                 "texture": "morefood:chocolate_pudding"
             },
@@ -18,7 +18,8 @@
                 "nutrition": 6,
                 "saturation_modifier": 6.0,
                 "using_converts_to": "morefood:large_bowl"
-            }
+            },
+            "minecraft:use_animation": "eat"
         }
     }
 }

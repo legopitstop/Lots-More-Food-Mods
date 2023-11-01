@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.100",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:oat_seeds_from_oats"
@@ -15,6 +15,11 @@
                 "item": "morefood:oats"
             }
         },
-        "result": "morefood:oat_seeds"
+        "result": "morefood:oat_seeds",
+        "unlock": [
+            {
+                "item": "morefood:oats"
+            }
+        ]
     }
 }

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:strawberry_jelly"
@@ -22,8 +22,7 @@
                 "item": "minecraft:ice"
             },
             "Z": {
-                "item": "minecraft:bucket",
-                "data": 8
+                "item": "minecraft:water_bucket"
             }
         },
         "result": [
@@ -31,8 +30,21 @@
                 "item": "morefood:strawberry_jelly"
             },
             {
-                "item": "minecraft:bucket",
-                "data": 0
+                "item": "minecraft:bucket"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:strawberry"
+            },
+            {
+                "item": "morefood:gelatin"
+            },
+            {
+                "item": "minecraft:ice"
+            },
+            {
+                "item": "minecraft:water_bucket"
             }
         ]
     }

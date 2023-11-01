@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:paper_from_pulp"
@@ -16,6 +16,11 @@
                 "item": "morefood:pulp"
             }
         },
-        "result": "minecraft:paper"
+        "result": "minecraft:paper",
+        "unlock": [
+            {
+                "item": "morefood:pulp"
+            }
+        ]
     }
 }

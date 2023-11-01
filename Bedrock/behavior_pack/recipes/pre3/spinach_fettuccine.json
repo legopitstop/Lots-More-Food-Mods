@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:spinach_fettuccine"
@@ -22,6 +22,17 @@
                 "item": "morefood:large_bowl"
             }
         },
-        "result": "morefood:spinach_fettuccine"
+        "result": "morefood:spinach_fettuccine",
+        "unlock": [
+            {
+                "item": "morefood:spinach"
+            },
+            {
+                "item": "morefood:pasta"
+            },
+            {
+                "item": "morefood:large_bowl"
+            }
+        ]
     }
 }

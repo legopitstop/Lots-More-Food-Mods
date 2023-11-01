@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:peanut_butter_jelly_sandwich"
@@ -14,7 +14,7 @@
         ],
         "key": {
             "C": {
-                "item": "morefood:cut_bread"
+                "item": "morefood:bread_slice"
             },
             "J": {
                 "item": "morefood:jam"
@@ -26,6 +26,20 @@
                 "item": "morefood:peanut_butter"
             }
         },
-        "result": "morefood:peanut_butter_jelly_sandwich"
+        "result": "morefood:peanut_butter_jelly_sandwich",
+        "unlock": [
+            {
+                "item": "morefood:bread_slice"
+            },
+            {
+                "item": "morefood:jam"
+            },
+            {
+                "item": "morefood:butter"
+            },
+            {
+                "item": "morefood:peanut_butter"
+            }
+        ]
     }
 }

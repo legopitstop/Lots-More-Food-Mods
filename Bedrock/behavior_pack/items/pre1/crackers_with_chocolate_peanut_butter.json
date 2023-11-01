@@ -1,14 +1,14 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:crackers_with_chocolate_peanut_butter",
-            "category": "equipment"
+            "menu_category": {
+                "group": "itemGroup.name.miscFood",
+                "category": "equipment"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.name.miscFood"
-            },
             "minecraft:icon": {
                 "texture": "morefood:crackers_with_chocolate_peanut_butter"
             },
@@ -16,7 +16,8 @@
             "minecraft:food": {
                 "nutrition": 5,
                 "saturation_modifier": 6.0
-            }
+            },
+            "minecraft:use_animation": "eat"
         }
     }
 }

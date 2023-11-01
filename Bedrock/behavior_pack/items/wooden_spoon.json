@@ -1,14 +1,14 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "morefood:wooden_spoon",
-            "category": "equipment"
+            "menu_category": {
+                "group": "itemGroup.search",
+                "category": "equipment"
+            }
         },
         "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
             "minecraft:icon": {
                 "texture": "morefood:wooden_spoon"
             },
@@ -18,7 +18,6 @@
             "minecraft:hand_equipped": true,
             "minecraft:max_stack_size": 1,
             "minecraft:damage": 1,
-            "minecraft:mining_speed": 2,
             "minecraft:durability": {
                 "max_durability": 59
             },
@@ -85,7 +84,7 @@
                 "damage": {
                     "amount": 1,
                     "type": "durability",
-                    "target":"self"
+                    "target": "self"
                 }
             }
         }

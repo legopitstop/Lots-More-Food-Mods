@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "morefood:pie_chocolate"
+            "identifier": "morefood:chocolate_pie"
         },
         "tags": [
             "crafting_table"
@@ -14,15 +14,22 @@
         ],
         "key": {
             "###": {
-                "item": "minecraft:dye",
-                "data": 3
+                "item": "minecraft:cocoa_beans"
             },
             "P": {
-                "item": "morefood:pie_base"
+                "item": "morefood:pie_crust"
             }
         },
         "result": {
-            "item": "morefood:pie_chocolate"
-        }
+            "item": "morefood:chocolate_pie"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:cocoa_beans"
+            },
+            {
+                "item": "morefood:pie_crust"
+            }
+        ]
     }
 }

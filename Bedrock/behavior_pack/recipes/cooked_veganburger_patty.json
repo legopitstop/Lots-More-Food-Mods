@@ -1,8 +1,8 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "morefood:veganburger_patty_from_cooking"
+            "identifier": "morefood:veggie_burger_patty_from_cooking"
         },
         "tags": [
             "furnace",
@@ -10,7 +10,7 @@
             "campfire",
             "soul_campfire"
         ],
-        "input": "morefood:raw_veganburger_patty",
-        "output": "morefood:veganburger_patty"
+        "input": "morefood:veggie_burger_patty",
+        "output": "morefood:veggie_burger_patty"
     }
 }

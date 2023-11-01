@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:netherwart_chicken_soup"
@@ -24,6 +24,17 @@
         "result": [
             {
                 "item": "morefood:netherwart_chicken_soup"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "minecraft:nether_wart"
+            },
+            {
+                "item": "minecraft:cooked_chicken"
             }
         ]
     }

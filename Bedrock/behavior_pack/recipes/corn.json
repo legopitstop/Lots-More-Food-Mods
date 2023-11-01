@@ -1,5 +1,5 @@
 {
-    "format_version": "1.17.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:corn"
@@ -12,12 +12,17 @@
         ],
         "key": {
             "#": {
-                "item": "morefood:corn_on_cob"
+                "item": "morefood:corncob"
             }
         },
         "result": [
             {
                 "item": "morefood:corn"
+            }
+        ],
+        "unlock": [
+            {
+                "item": "morefood:corncob"
             }
         ]
     }

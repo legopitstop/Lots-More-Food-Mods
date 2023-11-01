@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.1",
+    "format_version": "1.20.30",
     "minecraft:recipe_shaped": {
         "description": {
             "identifier": "morefood:candy_corn"
@@ -41,6 +41,26 @@
             {
                 "item": "minecraft:glass_bottle",
                 "count": 1
+            }
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:white_dye"
+            },
+            {
+                "item": "minecraft:orange_dye"
+            },
+            {
+                "item": "minecraft:yellow_dye"
+            },
+            {
+                "item": "minecraft:honey_bottle"
+            },
+            {
+                "item": "morefood:starch"
+            },
+            {
+                "item": "minecraft:sugar"
             }
         ]
     }
