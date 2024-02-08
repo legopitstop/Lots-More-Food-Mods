@@ -4,26 +4,142 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.0-rc1] (1.6.8) - 1/29/2024
+If no issues arise this will be 1.7.0
+
+### General
+- Updated for Assets+ 1.6.0
+- Reverted shroomlight and warped wart block changes from previous previews.
+
+### Fixes
+- #89 Sweet Corn Plants Unknown Blocks
+- Poison berries now use the bush placing and breaking sounds
+- Picking any hanging crop will give the player a sapling when in creative.
+- Fixed cake with cherries having an invisible texture.
+- MRE will now use a loot table instead of pre-defined meals.
+- Fixed pancake and waffle recipes.
+- You can now craft Sweet Corn Sacks using Sweet Corn.
+
+### Added/Changes
+- Added Cherry Leaves to Cherries recipe.
+- Sweet Corn Crop is now 2 blocks tall.
+- Fertile soil will now drop dirt when broken.
+- The pancake mix recipe now gives 8 pancake mix.
+- You can now get fried eggs from cooking turtle eggs.
+- Changed knife recipes to match the new textures. Uses one stick instead of 2 black concrete.
+- You can now craft stone knifes using blackstone and cobbled deepslate
+
+## [1.7.0-pre7] (1.6.7) - 12/22/2023
+
+Hello, Hope you all have a great Christmas and New Year! This is the last preview for 1.7.0 which will be released in early 2024 🎆🎆🎆. 
+
+### General
+- Added more textures by SuperSonic
+  - Noodles
+  - Oat Seeds
+  - Oatmeal
+  - Oatmeal Cookie
+  - Olive Sapling
+  - Onigiri
+- Renamed more item ID's
+   - corn -> sweet_corn
+   - cut_sweet_fries -> sweet_french_fries
+   - corn_flour -> corn_starch
+   - milk_carton -> milk_bottle
+   - cream_carton -> cream_bottle
+- Added Pancake recipe
+- Beverage recipes now only accept Water bottles instead of all potions.
+- Jam and Glowberry Jam is no longer eatable and can't be stacked
+
+### Items
+- Removed Carton
+- Added Smoothie Cup
+
+### Recipes
+Tweaked recipes: See Wiki for new recipes
+* Waffle
+* Jelly Sandwich
+* Glowberry Jelly Sandwich
+* Pasta
+* Americano
+* Beef Ravioli
+* Beef Stew
+* Beef Submarine Sandwich
+* Bottled Beer
+* Bottled White Wine
+* Bottled Cider
+* Breakfast Submarine Sandwich
+* Burrito
+* Cappuccino
+* Cheese Tortellini
+* Chicken Fajita
+* Box of Chicken
+* Chicken Soup
+* Chicken Sub
+* Vanilla Pudding
+* Chocolate Pudding
+* Sweet Corn
+* Dark Chocolate
+* Milk Chocolate
+* White Chocolate
+* Dough
+* Milk Bottle
+* Cream Bottle
+* French Fry Pot
+* Sweet French Fry Pot
+* Ice Crush
+* Pie
+* Tumbler Glass
+* Jar
+* Wine Glass
+* Beer Mug
+* Ice Crush Glass
+* Hot Cocoa
+* Hot Coffee
+* Hot Tea
+* Ice Cream
+* Macchiato
+* Marshmallow
+* Milkshake
+* Mocha
+* Onion Rings
+* Jelly
+* Pitta Bread
+* Pretzel
+* Ramen Noodles
+* Round Cheese
+* Salt
+* Sausage Egg Muffin
+* Sausage Egg Sandwich
+* Toffee Latte
+* Vanilla Latte
+* Tortilla
+* Trail Mix
+* Wedges Pot
+* Yeast
+* Soda
+
+
 ## [1.7.0-pre6] (1.6.6) - 10/31/2023
 
 ### Before Updating
-- Make sure to create a backup of your world before updaing. This update renames some block and item IDs which could be lost.
+- Make sure to create a backup of your world before updating. This update renames some block and item IDs that could be lost.
 
 ### General
 - Updated for 1.20.40
 - Add unlock data to recipes.
 - Squids should now only drop one squid item.
 - Glow Squids will now drop squid
-- Hanging crops can now be placed on mangrove and cherry leaves (won't pop off when updated).
+- Hanging crops can now be placed on mangroves and cherry leaves (won't pop off when updated).
 - Wooden Tree Tap can now be placed on mangrove and cherry logs.
-- #81 update block and item IDs.
+- #81 Update block and item IDs.
 - Outdated items will show up as dirt with "legacy"
 
 ### Fixed
 - Fixed a handful of food items that are not using the eating animation.
-- World gen is now working and does'nt require "Creation of Custom Biomes"
+- World gen is now working and doesn't require "Creation of Custom Biomes"
 - #78 Saplings Disappearing
-- #72 Chicken Soup does'nt return a bucket.
+- #72 Chicken Soup doesn't return a bucket.
 
 ### Added
 - Cherry Sack
@@ -36,9 +152,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [1.7.0-pre5] (1.6.5) - 7-21-2023
 
 ### Known Issues
-The following are issues with Minecraft and cannot be fixed.
-
-- Diamond knife cannot be placed inside the smithing table to upgrade to netherite.
+The following are issues with Minecraft that cannot be fixed.
+- Diamond knives cannot be placed inside the smithing table to upgrade to netherite.
 - The wooden tree tap has shading issues.
 - To fill a cauldron using a maple sap bucket you will need to SNEAK + CLICK on the empty cauldron.
 
@@ -57,14 +172,14 @@ The following are issues with Minecraft and cannot be fixed.
 
 ### Fixes/Removed
 - MRE will now work when you click while holding it.
-- Fixed text issues with the behavior, resrouce pack, and holiday features showing an `A`
+- Fixed text issues with the behavior, resource pack, and holiday features showing an `A`
 - Covered apples now show the eating animation.
 - Saplings will now fail to grow trees if a block is directly above the sapling.
 - Saplings will now break blocks that are in the way instead of replacing them.
 - Removed test "diamond" tree.
-- Removed the farm house until jigsaws are working [MCPE-155321](https://bugs.mojang.com/browse/MCPE-155321)
+- Removed the farmhouse until jigsaws are working [MCPE-155321](https://bugs.mojang.com/browse/MCPE-155321)
 - Removed the cherry on the Minecraft cake
-- Removed legacy textures toggle from the resrouce pack
+- Removed legacy textures toggle from the resource pack
 - Wooden Tree Taps can now only be placed on logs and will break when the log has been broken.
 
 ### New Items
@@ -85,18 +200,18 @@ The following are issues with Minecraft and cannot be fixed.
 
 - #42 Palm Tree Leaves Disappearing
 - #39 Wooden Tree Tap Not Working
-- #56 Vanilla extract consumes bottle when used
+- #56 Vanilla extract consumes a bottle when used
 - #40 Missing or broken recipes
 - The wooden spoon should now properly break shovel-like blocks
 - The wooden spoon should get damaged when it breaks blocks
 - Wooden Tree Tap should now properly give the player a maple sap bucket when collected.
 - Fixed large bowl recipe.
-- Macchiato recipe now matches wiki
+- The Macchiato recipe now matches the wiki
 - Added eating animation for some items
 
 ### Changes
 
-- The wooden tree tap will now only increase its sap level when it is on a 2-log high tree
+- The wooden tree tap will now only increase its sap level when it is on a 2-log-high tree
 - Adjusted after consumed item to better match the texture.
   - Hoglin Meat -> Bone
   - Cooked Hoglin Meat -> Bone
@@ -148,7 +263,7 @@ Lot's More Food 1.7.0 for 1.18.3 is just around the corner! This update introduc
 - All crops, bushes, and hanging plants now have 7 total stages but have the same number of visual stages. Check the wiki for more info
 - Lighting a candle cake will now damage it.
 - You can now light a candle cake with a fire charge.
-- You can place any morefood crops on Fertile Soil to prevent them from popping off when re-logging.
+- You can place any more food crops on Fertile Soil to prevent them from popping off when re-logging.
 - Saplings can now be placed on dirt with roots (Rooted Dirt)
 - Removed give functions, You can obtain all items, and blocks through /give or through creative inventory.
 - Fixed an issue that when Holiday features are off console will print errors.
