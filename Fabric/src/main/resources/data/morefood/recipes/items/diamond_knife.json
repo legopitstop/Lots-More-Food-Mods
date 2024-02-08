@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "M",
     "#",
-    "#"
+    "S"
   ],
   "key": {
-    "M": {
-      "tag": "forge:gems/diamond"
-    },
     "#": {
-      "item": "minecraft:black_concrete"
+      "tag": "c:diamonds"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "result": {

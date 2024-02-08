@@ -22,7 +22,7 @@ public class SmallPaleBlockEntity extends LootableContainerBlockEntity {
     @Override
     protected void writeNbt(NbtCompound nbt) {
         super.writeNbt(nbt);
-        if (!this.serializeLootTable(nbt)) {
+        if (!this.writeLootTable(nbt)) {
             Inventories.writeNbt(nbt, this.inventory);
         }
     }
@@ -41,13 +41,13 @@ public class SmallPaleBlockEntity extends LootableContainerBlockEntity {
     public void readNbt(NbtCompound nbt) {
         super.readNbt(nbt);
         this.inventory = DefaultedList.ofSize(this.size(), ItemStack.EMPTY);
-        if (!this.deserializeLootTable(nbt)) {
+        if (!this.readLootTable(nbt)) {
             Inventories.readNbt(nbt, this.inventory);
         }
     }
 
     @Override
-    protected DefaultedList<ItemStack> getInvStackList() {
+    protected DefaultedList<ItemStack> method_11282() {
         return this.inventory;
     }
 

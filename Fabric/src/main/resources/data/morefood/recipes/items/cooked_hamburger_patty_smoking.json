@@ -5,5 +5,5 @@
   "ingredient": {
     "item": "morefood:hamburger_patty"
   },
-  "result": "morefood:hamburger_patty"
+  "result": "morefood:cooked_hamburger_patty"
 }

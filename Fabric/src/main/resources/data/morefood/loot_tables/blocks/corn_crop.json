@@ -30,6 +30,16 @@
     },
     {
       "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "morefood:corn_crop",
+          "properties": {
+            "age": "7",
+            "half": "lower"
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -45,15 +55,6 @@
             }
           ],
           "name": "morefood:corn"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:block_state_property",
-          "block": "morefood:corn_crop",
-          "properties": {
-            "age": "7"
-          }
         }
       ]
     }

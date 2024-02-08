@@ -2,6 +2,7 @@ package com.legopitstop.morefood.block;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SweetBerryBushBlock;
+import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldView;
 import net.minecraft.world.event.GameEvent;
 
 public class MoreFoodBushBlock extends SweetBerryBushBlock {
@@ -34,7 +36,7 @@ public class MoreFoodBushBlock extends SweetBerryBushBlock {
     }
 
     @Override
-    public ItemStack getPickStack(BlockView world, BlockPos pos, BlockState state) {
+    public ItemStack getPickStack(WorldView world, BlockPos pos, BlockState state) {
         return new ItemStack(this);
     }
 
@@ -59,4 +61,8 @@ public class MoreFoodBushBlock extends SweetBerryBushBlock {
         }
     }
 
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type) {
+        return false;
+    }
 }

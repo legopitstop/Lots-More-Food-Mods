@@ -2,21 +2,18 @@ package com.legopitstop.morefood.registry;
 
 import com.legopitstop.morefood.MoreFood;
 import com.legopitstop.morefood.block.*;
-import com.legopitstop.morefood.world.tree.*;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
-import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.blockpredicate.SolidBlockPredicate;
 
 public class MoreFoodBlocks {
     // MISC
-    public static Block WATERMINT = new FernBlock(FabricBlockSettings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY));
-    public static Block SPEARMINT = new FernBlock(FabricBlockSettings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY));
+    public static Block WATERMINT = new ShortPlantBlock(FabricBlockSettings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY));
+    public static Block SPEARMINT = new ShortPlantBlock(FabricBlockSettings.create().mapColor(MapColor.DARK_GREEN).replaceable().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offset(AbstractBlock.OffsetType.XYZ).burnable().pistonBehavior(PistonBehavior.DESTROY));
 
     // SACKS
     public static Block ALMOND_SACK = createSack(MapColor.STONE_GRAY);
@@ -91,15 +88,15 @@ public class MoreFoodBlocks {
     public static Block SMALL_PUMPKIN_PALE = new SmallPaleBlock(FabricBlockSettings.create().mapColor(MapColor.ORANGE).strength(2.0f, 3.0f).ticksRandomly().sounds(BlockSoundGroup.STONE).pistonBehavior(PistonBehavior.DESTROY));
 
     // SAPLING
-    public static final Block AVOCADO_SAPLING = createSapling(new AvocadoSaplingGenerator());
-    public static final Block ALMOND_SAPLING = createSapling(new AlmondSaplingGenerator());
-    public static final Block PLUM_SAPLING = createSapling(new PlumSaplingGenerator());
-    public static final Block BANANA_SAPLING = createSapling(new BananaSaplingGenerator());
-    public static final Block LEMON_SAPLING = createSapling(new LemonSaplingGenerator());
-    public static final Block PALM_SAPLING = createSapling(new PalmSaplingGenerator());
-    public static final Block OLIVE_SAPLING = createSapling(new OliveSaplingGenerator());
-    public static final Block ORANGE_SAPLING = createSapling(new OrangeSaplingGenerator());
-    public static final Block APPLE_SAPLING = createSapling(new AppleSaplingGenerator());
+    public static final Block AVOCADO_SAPLING = createSapling(MoreFoodSaplingGenerator.AVOCADO);
+    public static final Block ALMOND_SAPLING = createSapling(MoreFoodSaplingGenerator.ALMOND);
+    public static final Block PLUM_SAPLING = createSapling(MoreFoodSaplingGenerator.PLUM);
+    public static final Block BANANA_SAPLING = createSapling(MoreFoodSaplingGenerator.BANANA);
+    public static final Block LEMON_SAPLING = createSapling(MoreFoodSaplingGenerator.LEMON);
+    public static final Block PALM_SAPLING = createSapling(MoreFoodSaplingGenerator.PALM);
+    public static final Block OLIVE_SAPLING = createSapling(MoreFoodSaplingGenerator.OLIVE);
+    public static final Block ORANGE_SAPLING = createSapling(MoreFoodSaplingGenerator.ORANGE);
+    public static final Block APPLE_SAPLING = createSapling(MoreFoodSaplingGenerator.APPLE);
 
     // HANGING
     public static final Block HANGING_CHERRY = createHangingCrop("morefood:cherries", Blocks.CHERRY_SAPLING);
@@ -228,7 +225,7 @@ public class MoreFoodBlocks {
     // BUSH
     public static final Block BEAN_BUSH = createBush("morefood:beans");
     public static final Block BLUEBERRY_BUSH = createBush("morefood:blueberries");
-    public static final Block COFFEE_BUSH = createBush("morefood:coffee_beans.json");
+    public static final Block COFFEE_BUSH = createBush("morefood:coffee_beans");
     public static final Block CRANBERRY_BUSH = createBush("morefood:cranberries");
     public static final Block EGGPLANT_BUSH = createBush("morefood:eggplant");
     public static final Block GHERKIN_BUSH = createBush("morefood:gherkin");
@@ -245,7 +242,7 @@ public class MoreFoodBlocks {
 
     // CROP
     public static final Block BARLEY_CROP = createCrop();
-    public static final Block CORN_CROP = createCrop();
+    public static final Block CORN_CROP = createTallCrop();
     public static final Block HOPS_CROP = createCrop();
     public static final Block OAT_CROP = createCrop();
     public static final Block BUCKWHEAT_CROP = createCrop();
@@ -266,6 +263,10 @@ public class MoreFoodBlocks {
 
     public static Block createCrop() {
         return new MoreFoodCropBlock(FabricBlockSettings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY));
+    }
+
+    public static Block createTallCrop() {
+        return new TallCropBlock(FabricBlockSettings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY));
     }
 
     public static Block createCandleCake(Block cake, Block candle) {
